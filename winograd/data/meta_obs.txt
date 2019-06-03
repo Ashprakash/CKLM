@@ -1,0 +1,15 @@
+I	he	1
+I	she	1
+I	i	1
+I	mine	1
+I	myself	1
+I	my	1
+he	his	1
+he	him	1
+he	himself	1
+she	her	1
+she	herself	1
+I	you	1
+I	yourself	1
+I	your	1
+we	us	1

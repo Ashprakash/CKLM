@@ -1,0 +1,14 @@
+30: Domain(P1, 'can') & Domain(P2, 'p') & Context(P1, C, K) & Context(P2, C, K) & (P1 != P2)  -> Coref(P1, P2) ^2
+
+10: Domain(P1, 'can') & Domain(P2, 'p') & Context(P1, C1, K) & Context(P2, C2, K) & Similar(C1, C2, K) & (P1 != P2) -> Coref(P1, P2) ^2
+
+15: Domain(P1, 'can') & Domain(P2, 'p') & Context(P1, C1, K) & Context(P2, C2, K) & Meta_sim(C1, C2) & (P1 != P2) -> Coref(P1, P2) ^2
+
+5: Domain(P1, 'can') & Domain(P2, 'p') & Context(P1, C1, K) & Context(P2, C2, K) & Meta_dissim(C1, C2) -> !Coref(P1, P2)^2
+
+30: Entailment(P1, P2, K) -> Coref(P1, P2)
+
+30: Commonsense(P1, P2) -> Coref(P1, P2)
+
+// Negative Prior
+1: !Coref(P1, P2)^2

@@ -1,0 +1,2852 @@
+[
+  {
+    "question_id": 0,
+    "substitution": "The city councilmen refused the demonstrators a permit because the city councilmen feared violence.",
+    "correctness": true
+  },
+  {
+    "question_id": 0,
+    "substitution": "The city councilmen refused the demonstrators a permit because the demonstrators feared violence.",
+    "correctness": false
+  },
+  {
+    "question_id": 1,
+    "substitution": "The city councilmen refused the demonstrators a permit because the city councilmen advocated violence.",
+    "correctness": false
+  },
+  {
+    "question_id": 1,
+    "substitution": "The city councilmen refused the demonstrators a permit because the demonstrators advocated violence.",
+    "correctness": true
+  },
+  {
+    "question_id": 2,
+    "substitution": "The trophy does not fit into the brown suitcase because the trophy is too large.",
+    "correctness": true
+  },
+  {
+    "question_id": 2,
+    "substitution": "The trophy does not fit into the brown suitcase because the suitcase is too large.",
+    "correctness": false
+  },
+  {
+    "question_id": 3,
+    "substitution": "The trophy does not fit into the brown suitcase because the trophy is too small.",
+    "correctness": false
+  },
+  {
+    "question_id": 3,
+    "substitution": "The trophy does not fit into the brown suitcase because the suitcase is too small.",
+    "correctness": true
+  },
+  {
+    "question_id": 4,
+    "substitution": "Joan made sure to thank Susan for all the help joan had recieved.",
+    "correctness": true
+  },
+  {
+    "question_id": 4,
+    "substitution": "Joan made sure to thank Susan for all the help susan had recieved.",
+    "correctness": false
+  },
+  {
+    "question_id": 5,
+    "substitution": "Joan made sure to thank Susan for all the help joan had given.",
+    "correctness": false
+  },
+  {
+    "question_id": 5,
+    "substitution": "Joan made sure to thank Susan for all the help susan had given.",
+    "correctness": true
+  },
+  {
+    "question_id": 6,
+    "substitution": "Paul tried to call George on the phone , but paul was not successful.",
+    "correctness": true
+  },
+  {
+    "question_id": 6,
+    "substitution": "Paul tried to call George on the phone , but george was not successful.",
+    "correctness": false
+  },
+  {
+    "question_id": 7,
+    "substitution": "Paul tried to call George on the phone , but paul was not available.",
+    "correctness": false
+  },
+  {
+    "question_id": 7,
+    "substitution": "Paul tried to call George on the phone , but george was not available.",
+    "correctness": true
+  },
+  {
+    "question_id": 8,
+    "substitution": "The lawyer asked the witness a question , but the lawyer was reluctant to repeat it.",
+    "correctness": true
+  },
+  {
+    "question_id": 8,
+    "substitution": "The lawyer asked the witness a question , but the witness was reluctant to repeat it.",
+    "correctness": false
+  },
+  {
+    "question_id": 9,
+    "substitution": "The lawyer asked the witness a question , but the lawyer was reluctant to answer it.",
+    "correctness": false
+  },
+  {
+    "question_id": 9,
+    "substitution": "The lawyer asked the witness a question , but the witness was reluctant to answer it.",
+    "correctness": true
+  },
+  {
+    "question_id": 10,
+    "substitution": "The delivery truck zoomed by the school bus because the delivery truck was going so fast.",
+    "correctness": true
+  },
+  {
+    "question_id": 10,
+    "substitution": "The delivery truck zoomed by the school bus because the school bus was going so fast.",
+    "correctness": false
+  },
+  {
+    "question_id": 11,
+    "substitution": "The delivery truck zoomed by the school bus because the delivery truck was going so slow.",
+    "correctness": false
+  },
+  {
+    "question_id": 11,
+    "substitution": "The delivery truck zoomed by the school bus because the school bus was going so slow.",
+    "correctness": true
+  },
+  {
+    "question_id": 12,
+    "substitution": "Frank felt vindicated when his longtime rival Bill revealed that frank was the winner of the competition.",
+    "correctness": true
+  },
+  {
+    "question_id": 12,
+    "substitution": "Frank felt vindicated when his longtime rival Bill revealed that bill was the winner of the competition.",
+    "correctness": false
+  },
+  {
+    "question_id": 13,
+    "substitution": "Frank felt crushed when his longtime rival Bill revealed that frank was the winner of the competition.",
+    "correctness": false
+  },
+  {
+    "question_id": 13,
+    "substitution": "Frank felt crushed when his longtime rival Bill revealed that bill was the winner of the competition.",
+    "correctness": true
+  },
+  {
+    "question_id": 14,
+    "substitution": "The man could not lift his son because the man was so weak.",
+    "correctness": true
+  },
+  {
+    "question_id": 14,
+    "substitution": "The man could not lift his son because the son was so weak.",
+    "correctness": false
+  },
+  {
+    "question_id": 15,
+    "substitution": "The man could not lift his son because the man was so heavy.",
+    "correctness": false
+  },
+  {
+    "question_id": 15,
+    "substitution": "The man could not lift his son because the son was so heavy.",
+    "correctness": true
+  },
+  {
+    "question_id": 16,
+    "substitution": "The large ball crashed right through the table because the large ball was made of steel.",
+    "correctness": true
+  },
+  {
+    "question_id": 16,
+    "substitution": "The large ball crashed right through the table because the table was made of steel.",
+    "correctness": false
+  },
+  {
+    "question_id": 17,
+    "substitution": "The large ball crashed right through the table because the large ball was made of styrofoam.",
+    "correctness": false
+  },
+  {
+    "question_id": 17,
+    "substitution": "The large ball crashed right through the table because the table was made of styrofoam.",
+    "correctness": true
+  },
+  {
+    "question_id": 18,
+    "substitution": "John could not see the stage with Billy in front of him because john is so short.",
+    "correctness": true
+  },
+  {
+    "question_id": 18,
+    "substitution": "John could not see the stage with Billy in front of him because billy is so short.",
+    "correctness": false
+  },
+  {
+    "question_id": 19,
+    "substitution": "John could not see the stage with Billy in front of him because john is so tall.",
+    "correctness": false
+  },
+  {
+    "question_id": 19,
+    "substitution": "John could not see the stage with Billy in front of him because billy is so tall.",
+    "correctness": true
+  },
+  {
+    "question_id": 20,
+    "substitution": "Tom threw his schoolbag down to Ray after tom reached the top of the stairs.",
+    "correctness": true
+  },
+  {
+    "question_id": 20,
+    "substitution": "Tom threw his schoolbag down to Ray after ray reached the top of the stairs.",
+    "correctness": false
+  },
+  {
+    "question_id": 21,
+    "substitution": "Tom threw his schoolbag down to Ray after tom reached the bottom of the stairs.",
+    "correctness": false
+  },
+  {
+    "question_id": 21,
+    "substitution": "Tom threw his schoolbag down to Ray after ray reached the bottom of the stairs.",
+    "correctness": true
+  },
+  {
+    "question_id": 22,
+    "substitution": "Although they ran at about the same speed , Sue beat Sally because sue had such a good start.",
+    "correctness": true
+  },
+  {
+    "question_id": 22,
+    "substitution": "Although they ran at about the same speed , Sue beat Sally because sally had such a good start.",
+    "correctness": false
+  },
+  {
+    "question_id": 23,
+    "substitution": "Although they ran at about the same speed , Sue beat Sally because sue had such a bad start.",
+    "correctness": false
+  },
+  {
+    "question_id": 23,
+    "substitution": "Although they ran at about the same speed , Sue beat Sally because sally had such a bad start.",
+    "correctness": true
+  },
+  {
+    "question_id": 24,
+    "substitution": "The sculpture rolled off the shelf because the sculpture was not anchored.",
+    "correctness": true
+  },
+  {
+    "question_id": 24,
+    "substitution": "The sculpture rolled off the shelf because the shelf was not anchored.",
+    "correctness": false
+  },
+  {
+    "question_id": 25,
+    "substitution": "The sculpture rolled off the shelf because the sculpture was not level.",
+    "correctness": false
+  },
+  {
+    "question_id": 25,
+    "substitution": "The sculpture rolled off the shelf because the shelf was not level.",
+    "correctness": true
+  },
+  {
+    "question_id": 26,
+    "substitution": "Sam's drawing was hung just above Tina's and sam's drawing did look much better with another one below it.",
+    "correctness": true
+  },
+  {
+    "question_id": 26,
+    "substitution": "Sam's drawing was hung just above Tina's and tina's drawing did look much better with another one below it.",
+    "correctness": false
+  },
+  {
+    "question_id": 27,
+    "substitution": "Sam's drawing was hung just above Tina's and sam's drawing did look much better with another one above it.",
+    "correctness": false
+  },
+  {
+    "question_id": 27,
+    "substitution": "Sam's drawing was hung just above Tina's and tina's drawing did look much better with another one above it.",
+    "correctness": true
+  },
+  {
+    "question_id": 28,
+    "substitution": "Anna did a lot better than her good friend Lucy on the test because anna had studied so hard.",
+    "correctness": true
+  },
+  {
+    "question_id": 28,
+    "substitution": "Anna did a lot better than her good friend Lucy on the test because lucy had studied so hard.",
+    "correctness": false
+  },
+  {
+    "question_id": 29,
+    "substitution": "Anna did a lot worse than her good friend Lucy on the test because anna had studied so hard.",
+    "correctness": false
+  },
+  {
+    "question_id": 29,
+    "substitution": "Anna did a lot worse than her good friend Lucy on the test because lucy had studied so hard.",
+    "correctness": true
+  },
+  {
+    "question_id": 30,
+    "substitution": "The firemen arrived after the police because the firemen were coming from so far away.",
+    "correctness": true
+  },
+  {
+    "question_id": 30,
+    "substitution": "The firemen arrived after the police because the police were coming from so far away.",
+    "correctness": false
+  },
+  {
+    "question_id": 31,
+    "substitution": "The firemen arrived before the police because the firemen were coming from so far away.",
+    "correctness": false
+  },
+  {
+    "question_id": 31,
+    "substitution": "The firemen arrived before the police because the police were coming from so far away.",
+    "correctness": true
+  },
+  {
+    "question_id": 32,
+    "substitution": "Frank was upset with Tom because the toaster frank had bought from him did not work.",
+    "correctness": true
+  },
+  {
+    "question_id": 32,
+    "substitution": "Frank was upset with Tom because the toaster tom had bought from him did not work.",
+    "correctness": false
+  },
+  {
+    "question_id": 33,
+    "substitution": "Frank was upset with Tom because the toaster frank had sold him did not work.",
+    "correctness": false
+  },
+  {
+    "question_id": 33,
+    "substitution": "Frank was upset with Tom because the toaster tom had sold him did not work.",
+    "correctness": true
+  },
+  {
+    "question_id": 34,
+    "substitution": "Jim yelled at Kevin because jim was so upset.",
+    "correctness": true
+  },
+  {
+    "question_id": 34,
+    "substitution": "Jim yelled at Kevin because kevin was so upset.",
+    "correctness": false
+  },
+  {
+    "question_id": 35,
+    "substitution": "Jim comforted Kevin because jim was so upset.",
+    "correctness": false
+  },
+  {
+    "question_id": 35,
+    "substitution": "Jim comforted Kevin because kevin was so upset.",
+    "correctness": true
+  },
+  {
+    "question_id": 36,
+    "substitution": "The sack of potatoes had been placed above the bag of flour , so the sack of potatoes had to be moved first.",
+    "correctness": true
+  },
+  {
+    "question_id": 36,
+    "substitution": "The sack of potatoes had been placed above the bag of flour , so the bag of flour had to be moved first.",
+    "correctness": false
+  },
+  {
+    "question_id": 37,
+    "substitution": "The sack of potatoes had been placed below the bag of flour , so the sack of potatoes had to be moved first.",
+    "correctness": false
+  },
+  {
+    "question_id": 37,
+    "substitution": "The sack of potatoes had been placed below the bag of flour , so the bag of flour had to be moved first.",
+    "correctness": true
+  },
+  {
+    "question_id": 38,
+    "substitution": "Pete envies Martin although pete is very successful.",
+    "correctness": true
+  },
+  {
+    "question_id": 38,
+    "substitution": "Pete envies Martin although martin is very successful.",
+    "correctness": false
+  },
+  {
+    "question_id": 39,
+    "substitution": "Pete envies Martin because pete is very successful.",
+    "correctness": false
+  },
+  {
+    "question_id": 39,
+    "substitution": "Pete envies Martin because martin is very successful.",
+    "correctness": true
+  },
+  {
+    "question_id": 40,
+    "substitution": "The older students were bullying the younger ones , so we punished the older students.",
+    "correctness": true
+  },
+  {
+    "question_id": 40,
+    "substitution": "The older students were bullying the younger ones , so we punished the younger students.",
+    "correctness": false
+  },
+  {
+    "question_id": 41,
+    "substitution": "The older students were bullying the younger ones , so we rescued the older students.",
+    "correctness": false
+  },
+  {
+    "question_id": 41,
+    "substitution": "The older students were bullying the younger ones , so we rescued the younger students.",
+    "correctness": true
+  },
+  {
+    "question_id": 42,
+    "substitution": "I poured water from the bottle into the cup until the bottle was empty.",
+    "correctness": true
+  },
+  {
+    "question_id": 42,
+    "substitution": "I poured water from the bottle into the cup until the cup was empty.",
+    "correctness": false
+  },
+  {
+    "question_id": 43,
+    "substitution": "I poured water from the bottle into the cup until the bottle was full.",
+    "correctness": false
+  },
+  {
+    "question_id": 43,
+    "substitution": "I poured water from the bottle into the cup until the cup was full.",
+    "correctness": true
+  },
+  {
+    "question_id": 44,
+    "substitution": "Susan knows all about Ann's personal problems because susan is nosy.",
+    "correctness": true
+  },
+  {
+    "question_id": 44,
+    "substitution": "Susan knows all about Ann's personal problems because ann is nosy.",
+    "correctness": false
+  },
+  {
+    "question_id": 45,
+    "substitution": "Susan knows all about Ann's personal problems because susan is indiscreet.",
+    "correctness": false
+  },
+  {
+    "question_id": 45,
+    "substitution": "Susan knows all about Ann's personal problems because ann is indiscreet.",
+    "correctness": true
+  },
+  {
+    "question_id": 46,
+    "substitution": "Sid explained his theory to Mark but sid could not convince him.",
+    "correctness": false
+  },
+  {
+    "question_id": 46,
+    "substitution": "Sid explained his theory to Mark but mark could not convince him.",
+    "correctness": true
+  },
+  {
+    "question_id": 47,
+    "substitution": "Sid explained his theory to Mark but sid could not understand him.",
+    "correctness": true
+  },
+  {
+    "question_id": 47,
+    "substitution": "Sid explained his theory to Mark but mark could not understand him.",
+    "correctness": false
+  },
+  {
+    "question_id": 48,
+    "substitution": "Susan knew that Ann's son had been in a car accident , so susan told her about it.",
+    "correctness": true
+  },
+  {
+    "question_id": 48,
+    "substitution": "Susan knew that Ann's son had been in a car accident , so ann told her about it.",
+    "correctness": false
+  },
+  {
+    "question_id": 49,
+    "substitution": "Susan knew that Ann's son had been in a car accident , because susan told her about it.",
+    "correctness": false
+  },
+  {
+    "question_id": 49,
+    "substitution": "Susan knew that Ann's son had been in a car accident , because ann told her about it.",
+    "correctness": true
+  },
+  {
+    "question_id": 50,
+    "substitution": "Joe's uncle can still beat him at tennis , even though joe is 30 years younger.",
+    "correctness": true
+  },
+  {
+    "question_id": 50,
+    "substitution": "Joe's uncle can still beat him at tennis , even though joe's uncle is 30 years younger.",
+    "correctness": false
+  },
+  {
+    "question_id": 51,
+    "substitution": "Joe's uncle can still beat him at tennis , even though joe is 30 years older.",
+    "correctness": false
+  },
+  {
+    "question_id": 51,
+    "substitution": "Joe's uncle can still beat him at tennis , even though joe's uncle is 30 years older.",
+    "correctness": true
+  },
+  {
+    "question_id": 52,
+    "substitution": "The painting in Mark's living room shows an oak tree . the painting is to the right of the bookcase.",
+    "correctness": true
+  },
+  {
+    "question_id": 52,
+    "substitution": "The painting in Mark's living room shows an oak tree . the oak tree is to the right of the bookcase.",
+    "correctness": false
+  },
+  {
+    "question_id": 53,
+    "substitution": "The painting in Mark's living room shows an oak tree . the painting is to the right of a house.",
+    "correctness": false
+  },
+  {
+    "question_id": 53,
+    "substitution": "The painting in Mark's living room shows an oak tree . the oak tree is to the right of a house.",
+    "correctness": true
+  },
+  {
+    "question_id": 54,
+    "substitution": "There is a gap in the wall . You can see the garden through the gap.",
+    "correctness": true
+  },
+  {
+    "question_id": 54,
+    "substitution": "There is a gap in the wall . You can see the garden through the wall.",
+    "correctness": false
+  },
+  {
+    "question_id": 55,
+    "substitution": "There is a gap in the wall . You can see the garden behind the gap.",
+    "correctness": false
+  },
+  {
+    "question_id": 55,
+    "substitution": "There is a gap in the wall . You can see the garden behind the wall.",
+    "correctness": true
+  },
+  {
+    "question_id": 56,
+    "substitution": "The drain is clogged with hair . the drain has to be cleaned.",
+    "correctness": true
+  },
+  {
+    "question_id": 56,
+    "substitution": "The drain is clogged with hair . the hair has to be cleaned.",
+    "correctness": false
+  },
+  {
+    "question_id": 57,
+    "substitution": "The drain is clogged with hair . the drain has to be removed.",
+    "correctness": false
+  },
+  {
+    "question_id": 57,
+    "substitution": "The drain is clogged with hair . the hair has to be removed.",
+    "correctness": true
+  },
+  {
+    "question_id": 58,
+    "substitution": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , the meeting was short , so it worked out.",
+    "correctness": true
+  },
+  {
+    "question_id": 58,
+    "substitution": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , the train was short , so it worked out.",
+    "correctness": false
+  },
+  {
+    "question_id": 59,
+    "substitution": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , the meeting was delayed , so it worked out.",
+    "correctness": false
+  },
+  {
+    "question_id": 59,
+    "substitution": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , the train was delayed , so it worked out.",
+    "correctness": true
+  },
+  {
+    "question_id": 60,
+    "substitution": "There is a pillar between me and the stage , and I can not see around the pillar.",
+    "correctness": true
+  },
+  {
+    "question_id": 60,
+    "substitution": "There is a pillar between me and the stage , and I can not see around the stage.",
+    "correctness": false
+  },
+  {
+    "question_id": 61,
+    "substitution": "There is a pillar between me and the stage , and I can not see the pillar.",
+    "correctness": false
+  },
+  {
+    "question_id": 61,
+    "substitution": "There is a pillar between me and the stage , and I can not see the stage.",
+    "correctness": true
+  },
+  {
+    "question_id": 62,
+    "substitution": "They broadcast an announcement , but a subway came into the station and I could not hear the announcement.",
+    "correctness": true
+  },
+  {
+    "question_id": 62,
+    "substitution": "They broadcast an announcement , but a subway came into the station and I could not hear the subway.",
+    "correctness": false
+  },
+  {
+    "question_id": 63,
+    "substitution": "They broadcast an announcement , but a subway came into the station and I could not hear over the announcement.",
+    "correctness": false
+  },
+  {
+    "question_id": 63,
+    "substitution": "They broadcast an announcement , but a subway came into the station and I could not hear over the subway.",
+    "correctness": true
+  },
+  {
+    "question_id": 64,
+    "substitution": "In the middle of the outdoor concert , the rain started falling , but the concert continued until 10.",
+    "correctness": true
+  },
+  {
+    "question_id": 64,
+    "substitution": "In the middle of the outdoor concert , the rain started falling , but the rain continued until 10.",
+    "correctness": false
+  },
+  {
+    "question_id": 65,
+    "substitution": "In the middle of the outdoor concert , the rain started falling , and the concert continued until 10.",
+    "correctness": false
+  },
+  {
+    "question_id": 65,
+    "substitution": "In the middle of the outdoor concert , the rain started falling , and the rain continued until 10.",
+    "correctness": true
+  },
+  {
+    "question_id": 66,
+    "substitution": "I used an old rag to clean the knife , and then I put the rag in the trash.",
+    "correctness": true
+  },
+  {
+    "question_id": 66,
+    "substitution": "I used an old rag to clean the knife , and then I put the knife in the trash.",
+    "correctness": false
+  },
+  {
+    "question_id": 67,
+    "substitution": "I used an old rag to clean the knife , and then I put the rag in the drawer.",
+    "correctness": false
+  },
+  {
+    "question_id": 67,
+    "substitution": "I used an old rag to clean the knife , and then I put the knife in the drawer.",
+    "correctness": true
+  },
+  {
+    "question_id": 68,
+    "substitution": "Ann asked Mary what time the library closes , because ann had forgotten.",
+    "correctness": true
+  },
+  {
+    "question_id": 68,
+    "substitution": "Ann asked Mary what time the library closes , because mary had forgotten.",
+    "correctness": false
+  },
+  {
+    "question_id": 69,
+    "substitution": "Ann asked Mary what time the library closes , but ann had forgotten.",
+    "correctness": false
+  },
+  {
+    "question_id": 69,
+    "substitution": "Ann asked Mary what time the library closes , but mary had forgotten.",
+    "correctness": true
+  },
+  {
+    "question_id": 70,
+    "substitution": "I took the water bottle out of the backpack so that the water bottle would be handy.",
+    "correctness": true
+  },
+  {
+    "question_id": 70,
+    "substitution": "I took the water bottle out of the backpack so that the backpack would be handy.",
+    "correctness": false
+  },
+  {
+    "question_id": 71,
+    "substitution": "I took the water bottle out of the backpack so that the water bottle would be lighter.",
+    "correctness": false
+  },
+  {
+    "question_id": 71,
+    "substitution": "I took the water bottle out of the backpack so that the backpack would be lighter.",
+    "correctness": true
+  },
+  {
+    "question_id": 72,
+    "substitution": "I could not put the pot on the shelf because the pot was too tall.",
+    "correctness": true
+  },
+  {
+    "question_id": 72,
+    "substitution": "I could not put the pot on the shelf because the shelf was too tall.",
+    "correctness": false
+  },
+  {
+    "question_id": 73,
+    "substitution": "I could not put the pot on the shelf because the pot was too high.",
+    "correctness": false
+  },
+  {
+    "question_id": 73,
+    "substitution": "I could not put the pot on the shelf because the shelf was too high.",
+    "correctness": true
+  },
+  {
+    "question_id": 74,
+    "substitution": "I am sure that my map will show this building ; the map is very good.",
+    "correctness": true
+  },
+  {
+    "question_id": 74,
+    "substitution": "I am sure that my map will show this building ; the building is very good.",
+    "correctness": false
+  },
+  {
+    "question_id": 75,
+    "substitution": "I am sure that my map will show this building ; the map is very famous.",
+    "correctness": false
+  },
+  {
+    "question_id": 75,
+    "substitution": "I am sure that my map will show this building ; the building is very famous.",
+    "correctness": true
+  },
+  {
+    "question_id": 76,
+    "substitution": "Bob paid for Charlie's college education . bob is very generous.",
+    "correctness": true
+  },
+  {
+    "question_id": 76,
+    "substitution": "Bob paid for Charlie's college education . charlie is very generous.",
+    "correctness": false
+  },
+  {
+    "question_id": 77,
+    "substitution": "Bob paid for Charlie's college education . bob is very grateful.",
+    "correctness": false
+  },
+  {
+    "question_id": 77,
+    "substitution": "Bob paid for Charlie's college education . charlie is very grateful.",
+    "correctness": true
+  },
+  {
+    "question_id": 78,
+    "substitution": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . bob is very hurt.",
+    "correctness": true
+  },
+  {
+    "question_id": 78,
+    "substitution": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . charlie is very hurt.",
+    "correctness": false
+  },
+  {
+    "question_id": 79,
+    "substitution": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . bob is very ungrateful.",
+    "correctness": false
+  },
+  {
+    "question_id": 79,
+    "substitution": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . charlie is very ungrateful.",
+    "correctness": true
+  },
+  {
+    "question_id": 80,
+    "substitution": "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , bob would have won.",
+    "correctness": true
+  },
+  {
+    "question_id": 80,
+    "substitution": "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , adam would have won.",
+    "correctness": false
+  },
+  {
+    "question_id": 81,
+    "substitution": "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , bob would have lost.",
+    "correctness": false
+  },
+  {
+    "question_id": 81,
+    "substitution": "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , adam would have lost.",
+    "correctness": true
+  },
+  {
+    "question_id": 82,
+    "substitution": "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , adam would be gone by this time.",
+    "correctness": true
+  },
+  {
+    "question_id": 82,
+    "substitution": "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , bob would be gone by this time.",
+    "correctness": false
+  },
+  {
+    "question_id": 83,
+    "substitution": "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , adam would be here by this time.",
+    "correctness": false
+  },
+  {
+    "question_id": 83,
+    "substitution": "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , bob would be here by this time.",
+    "correctness": true
+  },
+  {
+    "question_id": 84,
+    "substitution": "If the con artist has succeeded in fooling Sam , the con artist would have gotten a lot of money.",
+    "correctness": true
+  },
+  {
+    "question_id": 84,
+    "substitution": "If the con artist has succeeded in fooling Sam , sam would have gotten a lot of money.",
+    "correctness": false
+  },
+  {
+    "question_id": 85,
+    "substitution": "If the con artist has succeeded in fooling Sam , the con artist would have lost a lot of money.",
+    "correctness": false
+  },
+  {
+    "question_id": 85,
+    "substitution": "If the con artist has succeeded in fooling Sam , sam would have lost a lot of money.",
+    "correctness": true
+  },
+  {
+    "question_id": 86,
+    "substitution": "It was a summer afternoon , and the dog was sitting in the middle of the lawn . After a while , it got up and moved to a spot under the tree , because the dog was hot.",
+    "correctness": true
+  },
+  {
+    "question_id": 86,
+    "substitution": "It was a summer afternoon , and the dog was sitting in the middle of the lawn . After a while , it got up and moved to a spot under the tree , because the spot under the tree was hot.",
+    "correctness": false
+  },
+  {
+    "question_id": 87,
+    "substitution": "It was a summer afternoon , and the dog was sitting in the middle of the lawn . After a while , it got up and moved to a spot under the tree , because the dog was cooler.",
+    "correctness": false
+  },
+  {
+    "question_id": 87,
+    "substitution": "It was a summer afternoon , and the dog was sitting in the middle of the lawn . After a while , it got up and moved to a spot under the tree , because the spot under the tree was cooler.",
+    "correctness": true
+  },
+  {
+    "question_id": 88,
+    "substitution": "The cat was lying by the mouse hole waiting for the mouse , but the cat was too impatient.",
+    "correctness": true
+  },
+  {
+    "question_id": 88,
+    "substitution": "The cat was lying by the mouse hole waiting for the mouse , but the mouse was too impatient.",
+    "correctness": false
+  },
+  {
+    "question_id": 89,
+    "substitution": "The cat was lying by the mouse hole waiting for the mouse , but the cat was too cautious.",
+    "correctness": false
+  },
+  {
+    "question_id": 89,
+    "substitution": "The cat was lying by the mouse hole waiting for the mouse , but the mouse was too cautious.",
+    "correctness": true
+  },
+  {
+    "question_id": 90,
+    "substitution": "Anne gave birth to a daughter last month . anne is a very charming woman.",
+    "correctness": true
+  },
+  {
+    "question_id": 90,
+    "substitution": "Anne gave birth to a daughter last month . Anne's daughter is a very charming woman.",
+    "correctness": false
+  },
+  {
+    "question_id": 91,
+    "substitution": "Anne gave birth to a daughter last month . anne is a very charming baby.",
+    "correctness": false
+  },
+  {
+    "question_id": 91,
+    "substitution": "Anne gave birth to a daughter last month . Anne's daughter is a very charming baby.",
+    "correctness": true
+  },
+  {
+    "question_id": 92,
+    "substitution": "Alice tried frantically to stop her daughter from chatting at the party , leaving us to wonder why alice was behaving so strangely.",
+    "correctness": true
+  },
+  {
+    "question_id": 92,
+    "substitution": "Alice tried frantically to stop her daughter from chatting at the party , leaving us to wonder why Alice's daughter was behaving so strangely.",
+    "correctness": false
+  },
+  {
+    "question_id": 93,
+    "substitution": "Alice tried frantically to stop her daughter from barking at the party , leaving us to wonder why alice was behaving so strangely.",
+    "correctness": false
+  },
+  {
+    "question_id": 93,
+    "substitution": "Alice tried frantically to stop her daughter from barking at the party , leaving us to wonder why Alice's daughter was behaving so strangely.",
+    "correctness": true
+  },
+  {
+    "question_id": 94,
+    "substitution": "I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know why jim was , but he looked very unhappy.",
+    "correctness": true
+  },
+  {
+    "question_id": 94,
+    "substitution": "I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know why the guy in uniform was , but he looked very unhappy.",
+    "correctness": false
+  },
+  {
+    "question_id": 95,
+    "substitution": "I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know who jim was , but he looked very unhappy.",
+    "correctness": false
+  },
+  {
+    "question_id": 95,
+    "substitution": "I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know who the guy in uniform was , but he looked very unhappy.",
+    "correctness": true
+  },
+  {
+    "question_id": 96,
+    "substitution": "The fish ate the worm . the fish was hungry.",
+    "correctness": true
+  },
+  {
+    "question_id": 96,
+    "substitution": "The fish ate the worm . the worm was hungry.",
+    "correctness": false
+  },
+  {
+    "question_id": 97,
+    "substitution": "The fish ate the worm . the fish was tasty.",
+    "correctness": false
+  },
+  {
+    "question_id": 97,
+    "substitution": "The fish ate the worm . the worm was tasty.",
+    "correctness": true
+  },
+  {
+    "question_id": 98,
+    "substitution": "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum , and I could not get the key in.",
+    "correctness": true
+  },
+  {
+    "question_id": 98,
+    "substitution": "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum , and I could not get the chewing gum in.",
+    "correctness": false
+  },
+  {
+    "question_id": 99,
+    "substitution": "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum , and I could not get the key out.",
+    "correctness": false
+  },
+  {
+    "question_id": 99,
+    "substitution": "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum , and I could not get the chewing gum out.",
+    "correctness": true
+  },
+  {
+    "question_id": 100,
+    "substitution": "The dog chased the cat , which ran up a tree . the dog waited at the bottom.",
+    "correctness": true
+  },
+  {
+    "question_id": 100,
+    "substitution": "The dog chased the cat , which ran up a tree . the cat waited at the bottom.",
+    "correctness": false
+  },
+  {
+    "question_id": 101,
+    "substitution": "The dog chased the cat , which ran up a tree . the dog waited at the top.",
+    "correctness": false
+  },
+  {
+    "question_id": 101,
+    "substitution": "The dog chased the cat , which ran up a tree . the cat waited at the top.",
+    "correctness": true
+  },
+  {
+    "question_id": 102,
+    "substitution": "In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get the tree removed.",
+    "correctness": true
+  },
+  {
+    "question_id": 102,
+    "substitution": "In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get the roof removed.",
+    "correctness": false
+  },
+  {
+    "question_id": 103,
+    "substitution": "In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get the tree repaired.",
+    "correctness": false
+  },
+  {
+    "question_id": 103,
+    "substitution": "In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get the roof repaired.",
+    "correctness": true
+  },
+  {
+    "question_id": 104,
+    "substitution": "The customer walked into the bank and stabbed one of the tellers . the customer was immediately taken to the police station.",
+    "correctness": true
+  },
+  {
+    "question_id": 104,
+    "substitution": "The customer walked into the bank and stabbed one of the tellers . the teller was immediately taken to the police station.",
+    "correctness": false
+  },
+  {
+    "question_id": 105,
+    "substitution": "The customer walked into the bank and stabbed one of the tellers . the customer was immediately taken to the hospital.",
+    "correctness": false
+  },
+  {
+    "question_id": 105,
+    "substitution": "The customer walked into the bank and stabbed one of the tellers . the teller was immediately taken to the hospital.",
+    "correctness": true
+  },
+  {
+    "question_id": 106,
+    "substitution": "John was doing research in the library when he heard a man humming and whistling . john was very annoyed.",
+    "correctness": true
+  },
+  {
+    "question_id": 106,
+    "substitution": "John was doing research in the library when he heard a man humming and whistling . the man was very annoyed.",
+    "correctness": false
+  },
+  {
+    "question_id": 107,
+    "substitution": "John was doing research in the library when he heard a man humming and whistling . john was very annoying.",
+    "correctness": false
+  },
+  {
+    "question_id": 107,
+    "substitution": "John was doing research in the library when he heard a man humming and whistling . the man was very annoying.",
+    "correctness": true
+  },
+  {
+    "question_id": 108,
+    "substitution": "John was jogging through the park when he saw a man juggling watermelons . john was very impressed.",
+    "correctness": true
+  },
+  {
+    "question_id": 108,
+    "substitution": "John was jogging through the park when he saw a man juggling watermelons . the juggler was very impressed.",
+    "correctness": false
+  },
+  {
+    "question_id": 109,
+    "substitution": "John was jogging through the park when he saw a man juggling watermelons . john was very impressive.",
+    "correctness": false
+  },
+  {
+    "question_id": 109,
+    "substitution": "John was jogging through the park when he saw a man juggling watermelons . the juggler was very impressive.",
+    "correctness": true
+  },
+  {
+    "question_id": 110,
+    "substitution": "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . bob was very ill.",
+    "correctness": true
+  },
+  {
+    "question_id": 110,
+    "substitution": "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . carl was very ill.",
+    "correctness": false
+  },
+  {
+    "question_id": 111,
+    "substitution": "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . bob was very concerned.",
+    "correctness": false
+  },
+  {
+    "question_id": 111,
+    "substitution": "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . carl was very concerned.",
+    "correctness": true
+  },
+  {
+    "question_id": 112,
+    "substitution": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because sam and amy are fifteen.",
+    "correctness": true
+  },
+  {
+    "question_id": 112,
+    "substitution": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because amy's parents are fifteen.",
+    "correctness": false
+  },
+  {
+    "question_id": 113,
+    "substitution": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because sam and amy are snobs.",
+    "correctness": false
+  },
+  {
+    "question_id": 113,
+    "substitution": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because amy's parents are snobs.",
+    "correctness": true
+  },
+  {
+    "question_id": 114,
+    "substitution": "Mark told Pete many lies about himself , which Pete included in his book . mark should have been more truthful.",
+    "correctness": true
+  },
+  {
+    "question_id": 114,
+    "substitution": "Mark told Pete many lies about himself , which Pete included in his book . pete should have been more truthful.",
+    "correctness": false
+  },
+  {
+    "question_id": 115,
+    "substitution": "Mark told Pete many lies about himself , which Pete included in his book . mark should have been more skeptical.",
+    "correctness": false
+  },
+  {
+    "question_id": 115,
+    "substitution": "Mark told Pete many lies about himself , which Pete included in his book . pete should have been more skeptical.",
+    "correctness": true
+  },
+  {
+    "question_id": 116,
+    "substitution": "Joe has sold his house and bought a new one a few miles away . He will be moving out of the old house on Thursday.",
+    "correctness": true
+  },
+  {
+    "question_id": 116,
+    "substitution": "Joe has sold his house and bought a new one a few miles away . He will be moving out of the new house on Thursday.",
+    "correctness": false
+  },
+  {
+    "question_id": 117,
+    "substitution": "Joe has sold his house and bought a new one a few miles away . He will be moving into the old house on Thursday.",
+    "correctness": false
+  },
+  {
+    "question_id": 117,
+    "substitution": "Joe has sold his house and bought a new one a few miles away . He will be moving into the new house on Thursday.",
+    "correctness": true
+  },
+  {
+    "question_id": 118,
+    "substitution": "Many people start to read Paul's books and can not put them down . people are gripped because Paul writes so well.",
+    "correctness": true
+  },
+  {
+    "question_id": 118,
+    "substitution": "Many people start to read Paul's books and can not put them down . paul's books are gripped because Paul writes so well.",
+    "correctness": false
+  },
+  {
+    "question_id": 119,
+    "substitution": "Many people start to read Paul's books and can not put them down . people are popular because Paul writes so well.",
+    "correctness": false
+  },
+  {
+    "question_id": 119,
+    "substitution": "Many people start to read Paul's books and can not put them down . paul's books are popular because Paul writes so well.",
+    "correctness": true
+  },
+  {
+    "question_id": 120,
+    "substitution": "Mary took out her flute and played one of her favorite pieces . She has had the flute since she was a child.",
+    "correctness": true
+  },
+  {
+    "question_id": 120,
+    "substitution": "Mary took out her flute and played one of her favorite pieces . She has had the piece since she was a child.",
+    "correctness": false
+  },
+  {
+    "question_id": 121,
+    "substitution": "Mary took out her flute and played one of her favorite pieces . She has loved the flute since she was a child.",
+    "correctness": false
+  },
+  {
+    "question_id": 121,
+    "substitution": "Mary took out her flute and played one of her favorite pieces . She has loved the piece since she was a child.",
+    "correctness": true
+  },
+  {
+    "question_id": 122,
+    "substitution": "Sam pulled up a chair to the piano , but the chair was broken , so he had to stand instead.",
+    "correctness": true
+  },
+  {
+    "question_id": 122,
+    "substitution": "Sam pulled up a chair to the piano , but the piano was broken , so he had to stand instead.",
+    "correctness": false
+  },
+  {
+    "question_id": 123,
+    "substitution": "Sam pulled up a chair to the piano , but the chair was broken , so he had to sing instead.",
+    "correctness": false
+  },
+  {
+    "question_id": 123,
+    "substitution": "Sam pulled up a chair to the piano , but the piano was broken , so he had to sing instead.",
+    "correctness": true
+  },
+  {
+    "question_id": 124,
+    "substitution": "Since it was raining , I carried the newspaper in my backpack to keep the newspaper dry.",
+    "correctness": true
+  },
+  {
+    "question_id": 124,
+    "substitution": "Since it was raining , I carried the newspaper in my backpack to keep the backpack dry.",
+    "correctness": false
+  },
+  {
+    "question_id": 125,
+    "substitution": "Since it was raining , I carried the newspaper over my backpack to keep the newspaper dry.",
+    "correctness": false
+  },
+  {
+    "question_id": 125,
+    "substitution": "Since it was raining , I carried the newspaper over my backpack to keep the backpack dry.",
+    "correctness": true
+  },
+  {
+    "question_id": 126,
+    "substitution": "Sara borrowed the book from the library because she needs it for an article she is working on . She reads the book when she gets home from work.",
+    "correctness": true
+  },
+  {
+    "question_id": 126,
+    "substitution": "Sara borrowed the book from the library because she needs it for an article she is working on . She reads the article when she gets home from work.",
+    "correctness": false
+  },
+  {
+    "question_id": 127,
+    "substitution": "Sara borrowed the book from the library because she needs it for an article she is working on . She writes the book when she gets home from work.",
+    "correctness": false
+  },
+  {
+    "question_id": 127,
+    "substitution": "Sara borrowed the book from the library because she needs it for an article she is working on . She writes the article when she gets home from work.",
+    "correctness": true
+  },
+  {
+    "question_id": 128,
+    "substitution": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the tide knocked the sand castle down.",
+    "correctness": true
+  },
+  {
+    "question_id": 128,
+    "substitution": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the tide knocked the flag down.",
+    "correctness": false
+  },
+  {
+    "question_id": 129,
+    "substitution": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the wind knocked the sand castle down.",
+    "correctness": false
+  },
+  {
+    "question_id": 129,
+    "substitution": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the wind knocked the flag down.",
+    "correctness": true
+  },
+  {
+    "question_id": 130,
+    "substitution": "Jane knocked on Susan's door , but there was no answer . jane was disappointed.",
+    "correctness": true
+  },
+  {
+    "question_id": 130,
+    "substitution": "Jane knocked on Susan's door , but there was no answer . susan was disappointed.",
+    "correctness": false
+  },
+  {
+    "question_id": 131,
+    "substitution": "Jane knocked on Susan's door , but there was no answer . jane was out.",
+    "correctness": false
+  },
+  {
+    "question_id": 131,
+    "substitution": "Jane knocked on Susan's door , but there was no answer . susan was out.",
+    "correctness": true
+  },
+  {
+    "question_id": 132,
+    "substitution": "Jane knocked on the door , and Susan answered it . Jane invited her to come out.",
+    "correctness": false
+  },
+  {
+    "question_id": 132,
+    "substitution": "Jane knocked on the door , and Susan answered it . Susan invited her to come out.",
+    "correctness": true
+  },
+  {
+    "question_id": 133,
+    "substitution": "Jane knocked on the door , and Susan answered it . Jane invited her to come in.",
+    "correctness": true
+  },
+  {
+    "question_id": 133,
+    "substitution": "Jane knocked on the door , and Susan answered it . Susan invited her to come in.",
+    "correctness": false
+  },
+  {
+    "question_id": 134,
+    "substitution": "Sam took French classes from Adam , because sam was eager to speak it fluently.",
+    "correctness": true
+  },
+  {
+    "question_id": 134,
+    "substitution": "Sam took French classes from Adam , because adam was eager to speak it fluently.",
+    "correctness": false
+  },
+  {
+    "question_id": 135,
+    "substitution": "Sam took French classes from Adam , because sam was known to speak it fluently.",
+    "correctness": false
+  },
+  {
+    "question_id": 135,
+    "substitution": "Sam took French classes from Adam , because adam was known to speak it fluently.",
+    "correctness": true
+  },
+  {
+    "question_id": 136,
+    "substitution": "The path to the lake was blocked , so we could not use the path.",
+    "correctness": true
+  },
+  {
+    "question_id": 136,
+    "substitution": "The path to the lake was blocked , so we could not use the lake.",
+    "correctness": false
+  },
+  {
+    "question_id": 137,
+    "substitution": "The path to the lake was blocked , so we could not reach the path.",
+    "correctness": false
+  },
+  {
+    "question_id": 137,
+    "substitution": "The path to the lake was blocked , so we could not reach the lake.",
+    "correctness": true
+  },
+  {
+    "question_id": 138,
+    "substitution": "The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , the sun was out.",
+    "correctness": true
+  },
+  {
+    "question_id": 138,
+    "substitution": "The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , the cloud was out.",
+    "correctness": false
+  },
+  {
+    "question_id": 139,
+    "substitution": "The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , the sun was gone.",
+    "correctness": false
+  },
+  {
+    "question_id": 139,
+    "substitution": "The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , the cloud was gone.",
+    "correctness": true
+  },
+  {
+    "question_id": 140,
+    "substitution": "We went to the lake , because a shark had been seen at the ocean beach , so the lake was a safer place to swim.",
+    "correctness": true
+  },
+  {
+    "question_id": 140,
+    "substitution": "We went to the lake , because a shark had been seen at the ocean beach , so the ocean beach was a safer place to swim.",
+    "correctness": false
+  },
+  {
+    "question_id": 141,
+    "substitution": "We went to the lake , because a shark had been seen at the ocean beach , so the lake was a dangerous place to swim.",
+    "correctness": false
+  },
+  {
+    "question_id": 141,
+    "substitution": "We went to the lake , because a shark had been seen at the ocean beach , so the ocean beach was a dangerous place to swim.",
+    "correctness": true
+  },
+  {
+    "question_id": 142,
+    "substitution": "Sam tried to paint a picture of shepherds with sheep , but the shepherds ended up looking more like golfers.",
+    "correctness": true
+  },
+  {
+    "question_id": 142,
+    "substitution": "Sam tried to paint a picture of shepherds with sheep , but the sheep ended up looking more like golfers.",
+    "correctness": false
+  },
+  {
+    "question_id": 143,
+    "substitution": "Sam tried to paint a picture of shepherds with sheep , but the shepherds ended up looking more like dogs.",
+    "correctness": false
+  },
+  {
+    "question_id": 143,
+    "substitution": "Sam tried to paint a picture of shepherds with sheep , but the sheep ended up looking more like dogs.",
+    "correctness": true
+  },
+  {
+    "question_id": 144,
+    "substitution": "Mary tucked her daughter Anne into bed , so that mary could work.",
+    "correctness": true
+  },
+  {
+    "question_id": 144,
+    "substitution": "Mary tucked her daughter Anne into bed , so that Mary's daughter could work.",
+    "correctness": false
+  },
+  {
+    "question_id": 145,
+    "substitution": "Mary tucked her daughter Anne into bed , so that mary could sleep.",
+    "correctness": false
+  },
+  {
+    "question_id": 145,
+    "substitution": "Mary tucked her daughter Anne into bed , so that Mary's daughter could sleep.",
+    "correctness": true
+  },
+  {
+    "question_id": 146,
+    "substitution": "Fred and Alice had very warm down coats , but fred and alice were not prepared for the cold in Alaska.",
+    "correctness": true
+  },
+  {
+    "question_id": 146,
+    "substitution": "Fred and Alice had very warm down coats , but coats were not prepared for the cold in Alaska.",
+    "correctness": false
+  },
+  {
+    "question_id": 147,
+    "substitution": "Fred and Alice had very warm down coats , but fred and alice were not enough for the cold in Alaska.",
+    "correctness": false
+  },
+  {
+    "question_id": 147,
+    "substitution": "Fred and Alice had very warm down coats , but coats were not enough for the cold in Alaska.",
+    "correctness": true
+  },
+  {
+    "question_id": 148,
+    "substitution": "Thomson visited Cooper's grave in 1765 . At that date thomson had been travelling for five years.",
+    "correctness": true
+  },
+  {
+    "question_id": 148,
+    "substitution": "Thomson visited Cooper's grave in 1765 . At that date cooper had been travelling for five years.",
+    "correctness": false
+  },
+  {
+    "question_id": 149,
+    "substitution": "Thomson visited Cooper's grave in 1765 . At that date thomson had been dead for five years.",
+    "correctness": false
+  },
+  {
+    "question_id": 149,
+    "substitution": "Thomson visited Cooper's grave in 1765 . At that date cooper had been dead for five years.",
+    "correctness": true
+  },
+  {
+    "question_id": 150,
+    "substitution": "Jackson was greatly influenced by Arnold , though jackson lived two centuries later.",
+    "correctness": true
+  },
+  {
+    "question_id": 150,
+    "substitution": "Jackson was greatly influenced by Arnold , though arnold lived two centuries later.",
+    "correctness": false
+  },
+  {
+    "question_id": 151,
+    "substitution": "Jackson was greatly influenced by Arnold , though jackson lived two centuries earlier.",
+    "correctness": false
+  },
+  {
+    "question_id": 151,
+    "substitution": "Jackson was greatly influenced by Arnold , though arnold lived two centuries earlier.",
+    "correctness": true
+  },
+  {
+    "question_id": 152,
+    "substitution": "I can not cut that tree down with that axe ; the tree is too thick.",
+    "correctness": true
+  },
+  {
+    "question_id": 152,
+    "substitution": "I can not cut that tree down with that axe ; the axe is too thick.",
+    "correctness": false
+  },
+  {
+    "question_id": 153,
+    "substitution": "I can not cut that tree down with that axe ; the tree is too small.",
+    "correctness": false
+  },
+  {
+    "question_id": 153,
+    "substitution": "I can not cut that tree down with that axe ; the axe is too small.",
+    "correctness": true
+  },
+  {
+    "question_id": 154,
+    "substitution": "The foxes are getting in at night and attacking the chickens . I shall have to kill the foxes.",
+    "correctness": true
+  },
+  {
+    "question_id": 154,
+    "substitution": "The foxes are getting in at night and attacking the chickens . I shall have to kill the chickens.",
+    "correctness": false
+  },
+  {
+    "question_id": 155,
+    "substitution": "The foxes are getting in at night and attacking the chickens . I shall have to guard the foxes.",
+    "correctness": false
+  },
+  {
+    "question_id": 155,
+    "substitution": "The foxes are getting in at night and attacking the chickens . I shall have to guard the chickens.",
+    "correctness": true
+  },
+  {
+    "question_id": 156,
+    "substitution": "The foxes are getting in at night and attacking the chickens . the foxes have gotten very bold.",
+    "correctness": true
+  },
+  {
+    "question_id": 156,
+    "substitution": "The foxes are getting in at night and attacking the chickens . the chickens have gotten very bold.",
+    "correctness": false
+  },
+  {
+    "question_id": 157,
+    "substitution": "The foxes are getting in at night and attacking the chickens . the foxes have gotten very nervous.",
+    "correctness": false
+  },
+  {
+    "question_id": 157,
+    "substitution": "The foxes are getting in at night and attacking the chickens . the chickens have gotten very nervous.",
+    "correctness": true
+  },
+  {
+    "question_id": 158,
+    "substitution": "Fred covered his eyes with his hands , because the wind was blowing sand around . He opened his eyes when the wind stopped.",
+    "correctness": true
+  },
+  {
+    "question_id": 158,
+    "substitution": "Fred covered his eyes with his hands , because the wind was blowing sand around . He opened his hands when the wind stopped.",
+    "correctness": false
+  },
+  {
+    "question_id": 159,
+    "substitution": "Fred covered his eyes with his hands , because the wind was blowing sand around . He lowered his eyes when the wind stopped.",
+    "correctness": false
+  },
+  {
+    "question_id": 159,
+    "substitution": "Fred covered his eyes with his hands , because the wind was blowing sand around . He lowered his hands when the wind stopped.",
+    "correctness": true
+  },
+  {
+    "question_id": 160,
+    "substitution": "The actress used to be named Terpsichore , but she changed it to Tina a few years ago , because she figured terpsichore was too hard to pronounce.",
+    "correctness": true
+  },
+  {
+    "question_id": 160,
+    "substitution": "The actress used to be named Terpsichore , but she changed it to Tina a few years ago , because she figured tina was too hard to pronounce.",
+    "correctness": false
+  },
+  {
+    "question_id": 161,
+    "substitution": "The actress used to be named Terpsichore , but she changed it to Tina a few years ago , because she figured terpsichore was easier to pronounce.",
+    "correctness": false
+  },
+  {
+    "question_id": 161,
+    "substitution": "The actress used to be named Terpsichore , but she changed it to Tina a few years ago , because she figured tina was easier to pronounce.",
+    "correctness": true
+  },
+  {
+    "question_id": 162,
+    "substitution": "Fred watched TV while George went out to buy groceries . After an hour fred got up.",
+    "correctness": true
+  },
+  {
+    "question_id": 162,
+    "substitution": "Fred watched TV while George went out to buy groceries . After an hour george got up.",
+    "correctness": false
+  },
+  {
+    "question_id": 163,
+    "substitution": "Fred watched TV while George went out to buy groceries . After an hour fred got back.",
+    "correctness": false
+  },
+  {
+    "question_id": 163,
+    "substitution": "Fred watched TV while George went out to buy groceries . After an hour george got back.",
+    "correctness": true
+  },
+  {
+    "question_id": 164,
+    "substitution": "Fred was supposed to run the dishwasher , but he put it off , because he wanted to watch TV . But the show turned out to be boring , so he changed his mind and turned the dishwasher on.",
+    "correctness": true
+  },
+  {
+    "question_id": 164,
+    "substitution": "Fred was supposed to run the dishwasher , but he put it off , because he wanted to watch TV . But the show turned out to be boring , so he changed his mind and turned the tv on.",
+    "correctness": false
+  },
+  {
+    "question_id": 165,
+    "substitution": "Fred was supposed to run the dishwasher , but he put it off , because he wanted to watch TV . But the show turned out to be boring , so he changed his mind and turned the dishwasher off.",
+    "correctness": false
+  },
+  {
+    "question_id": 165,
+    "substitution": "Fred was supposed to run the dishwasher , but he put it off , because he wanted to watch TV . But the show turned out to be boring , so he changed his mind and turned the tv off.",
+    "correctness": true
+  },
+  {
+    "question_id": 166,
+    "substitution": "Fred is the only man still alive who remembers my great-grandfather . fred is a remarkable man.",
+    "correctness": true
+  },
+  {
+    "question_id": 166,
+    "substitution": "Fred is the only man still alive who remembers my great-grandfather . My great-grandfather is a remarkable man.",
+    "correctness": false
+  },
+  {
+    "question_id": 167,
+    "substitution": "Fred is the only man still alive who remembers my great-grandfather . fred was a remarkable man.",
+    "correctness": false
+  },
+  {
+    "question_id": 167,
+    "substitution": "Fred is the only man still alive who remembers my great-grandfather . My great-grandfather was a remarkable man.",
+    "correctness": true
+  },
+  {
+    "question_id": 168,
+    "substitution": "Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , fred was twelve years old.",
+    "correctness": true
+  },
+  {
+    "question_id": 168,
+    "substitution": "Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , my father was twelve years old.",
+    "correctness": false
+  },
+  {
+    "question_id": 169,
+    "substitution": "Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , fred was twelve months old.",
+    "correctness": false
+  },
+  {
+    "question_id": 169,
+    "substitution": "Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , my father was twelve months old.",
+    "correctness": true
+  },
+  {
+    "question_id": 170,
+    "substitution": "In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , kamchatka were defeated within weeks.",
+    "correctness": true
+  },
+  {
+    "question_id": 170,
+    "substitution": "In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , yakutsk were defeated within weeks.",
+    "correctness": false
+  },
+  {
+    "question_id": 171,
+    "substitution": "In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , kamchatka were victorious within weeks.",
+    "correctness": false
+  },
+  {
+    "question_id": 171,
+    "substitution": "In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , yakutsk were victorious within weeks.",
+    "correctness": true
+  },
+  {
+    "question_id": 172,
+    "substitution": "Look! There is a minnow swimming right below that duck! the minnow had better get away to safety fast!.",
+    "correctness": true
+  },
+  {
+    "question_id": 172,
+    "substitution": "Look! There is a minnow swimming right below that duck! the duck had better get away to safety fast!.",
+    "correctness": false
+  },
+  {
+    "question_id": 173,
+    "substitution": "Look! There is a shark swimming right below that duck! the shark had better get away to safety fast!.",
+    "correctness": false
+  },
+  {
+    "question_id": 173,
+    "substitution": "Look! There is a shark swimming right below that duck! the duck had better get away to safety fast!.",
+    "correctness": true
+  },
+  {
+    "question_id": 174,
+    "substitution": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . archaeologists hunted for evidence on the river banks.",
+    "correctness": true
+  },
+  {
+    "question_id": 174,
+    "substitution": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . Prehistoric humans hunted for evidence on the river banks.",
+    "correctness": false
+  },
+  {
+    "question_id": 175,
+    "substitution": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . archaeologists hunted for deer on the river banks.",
+    "correctness": false
+  },
+  {
+    "question_id": 175,
+    "substitution": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . Prehistoric humans hunted for deer on the river banks.",
+    "correctness": true
+  },
+  {
+    "question_id": 176,
+    "substitution": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . the scientists began two years ago.",
+    "correctness": true
+  },
+  {
+    "question_id": 176,
+    "substitution": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . the fish began two years ago.",
+    "correctness": false
+  },
+  {
+    "question_id": 177,
+    "substitution": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . the scientists appeared two years ago.",
+    "correctness": false
+  },
+  {
+    "question_id": 177,
+    "substitution": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . the fish appeared two years ago.",
+    "correctness": true
+  },
+  {
+    "question_id": 178,
+    "substitution": "The journalists interviewed the stars of the new movie . the journalists were very persistent , so the interview lasted for a long time.",
+    "correctness": true
+  },
+  {
+    "question_id": 178,
+    "substitution": "The journalists interviewed the stars of the new movie . the stars were very persistent , so the interview lasted for a long time.",
+    "correctness": false
+  },
+  {
+    "question_id": 179,
+    "substitution": "The journalists interviewed the stars of the new movie . the journalists were very cooperative , so the interview lasted for a long time.",
+    "correctness": false
+  },
+  {
+    "question_id": 179,
+    "substitution": "The journalists interviewed the stars of the new movie . the stars were very cooperative , so the interview lasted for a long time.",
+    "correctness": true
+  },
+  {
+    "question_id": 180,
+    "substitution": "The police arrested all of the gang members . the police were trying to stop the drug trade in the neighborhood.",
+    "correctness": true
+  },
+  {
+    "question_id": 180,
+    "substitution": "The police arrested all of the gang members . the gang members were trying to stop the drug trade in the neighborhood.",
+    "correctness": false
+  },
+  {
+    "question_id": 181,
+    "substitution": "The police arrested all of the gang members . the police were trying to run the drug trade in the neighborhood.",
+    "correctness": false
+  },
+  {
+    "question_id": 181,
+    "substitution": "The police arrested all of the gang members . the gang members were trying to run the drug trade in the neighborhood.",
+    "correctness": true
+  },
+  {
+    "question_id": 182,
+    "substitution": "I put the cake away in the refrigerator . the cake has a lot of butter in it.",
+    "correctness": true
+  },
+  {
+    "question_id": 182,
+    "substitution": "I put the cake away in the refrigerator . the refrigerator has a lot of butter in it.",
+    "correctness": false
+  },
+  {
+    "question_id": 183,
+    "substitution": "I put the cake away in the refrigerator . the cake has a lot of leftovers in it.",
+    "correctness": false
+  },
+  {
+    "question_id": 183,
+    "substitution": "I put the cake away in the refrigerator . the refrigerator has a lot of leftovers in it.",
+    "correctness": true
+  },
+  {
+    "question_id": 184,
+    "substitution": "Sam broke both his ankles and he's walking with crutches . But a month or so from now the ankles should be better.",
+    "correctness": true
+  },
+  {
+    "question_id": 184,
+    "substitution": "Sam broke both his ankles and he's walking with crutches . But a month or so from now the crutches should be better.",
+    "correctness": false
+  },
+  {
+    "question_id": 185,
+    "substitution": "Sam broke both his ankles and he's walking with crutches . But a month or so from now the ankles should be unnecessary.",
+    "correctness": false
+  },
+  {
+    "question_id": 185,
+    "substitution": "Sam broke both his ankles and he's walking with crutches . But a month or so from now the crutches should be unnecessary.",
+    "correctness": true
+  },
+  {
+    "question_id": 186,
+    "substitution": "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . the sponsors were very much in the minority.",
+    "correctness": true
+  },
+  {
+    "question_id": 186,
+    "substitution": "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . the opponents were very much in the minority.",
+    "correctness": false
+  },
+  {
+    "question_id": 187,
+    "substitution": "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . the sponsors were very much in the majority.",
+    "correctness": false
+  },
+  {
+    "question_id": 187,
+    "substitution": "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . the opponents were very much in the majority.",
+    "correctness": true
+  },
+  {
+    "question_id": 188,
+    "substitution": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make more of the oatmeal cookies.",
+    "correctness": true
+  },
+  {
+    "question_id": 188,
+    "substitution": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make more of the chocolate chip cookies.",
+    "correctness": false
+  },
+  {
+    "question_id": 189,
+    "substitution": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make fewer of the oatmeal cookies.",
+    "correctness": false
+  },
+  {
+    "question_id": 189,
+    "substitution": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make fewer of the chocolate chip cookies.",
+    "correctness": true
+  },
+  {
+    "question_id": 190,
+    "substitution": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply not enough of copies of the newsletter.",
+    "correctness": true
+  },
+  {
+    "question_id": 190,
+    "substitution": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply not enough of chairs.",
+    "correctness": false
+  },
+  {
+    "question_id": 191,
+    "substitution": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply too many of copies of the newsletter.",
+    "correctness": false
+  },
+  {
+    "question_id": 191,
+    "substitution": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply too many of chairs.",
+    "correctness": true
+  },
+  {
+    "question_id": 192,
+    "substitution": "I stuck a pin through a carrot . When I pulled the pin out , the pin left a hole.",
+    "correctness": true
+  },
+  {
+    "question_id": 192,
+    "substitution": "I stuck a pin through a carrot . When I pulled the pin out , the carrot left a hole.",
+    "correctness": false
+  },
+  {
+    "question_id": 193,
+    "substitution": "I stuck a pin through a carrot . When I pulled the pin out , the pin had a hole.",
+    "correctness": false
+  },
+  {
+    "question_id": 193,
+    "substitution": "I stuck a pin through a carrot . When I pulled the pin out , the carrot had a hole.",
+    "correctness": true
+  },
+  {
+    "question_id": 194,
+    "substitution": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because the pen got full of coffee.",
+    "correctness": true
+  },
+  {
+    "question_id": 194,
+    "substitution": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because the coffee got full of coffee.",
+    "correctness": false
+  },
+  {
+    "question_id": 195,
+    "substitution": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because the pen got full of ink.",
+    "correctness": false
+  },
+  {
+    "question_id": 195,
+    "substitution": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because the coffee got full of ink.",
+    "correctness": true
+  },
+  {
+    "question_id": 196,
+    "substitution": "Steve follows Fred's example in everything . Steve admires him hugely.",
+    "correctness": false
+  },
+  {
+    "question_id": 196,
+    "substitution": "Steve follows Fred's example in everything . Fred admires him hugely.",
+    "correctness": true
+  },
+  {
+    "question_id": 197,
+    "substitution": "Steve follows Fred's example in everything . steve influences him hugely.",
+    "correctness": true
+  },
+  {
+    "question_id": 197,
+    "substitution": "Steve follows Fred's example in everything . Fred influences him hugely.",
+    "correctness": false
+  },
+  {
+    "question_id": 198,
+    "substitution": "The table will not fit through the doorway because the table is too wide.",
+    "correctness": true
+  },
+  {
+    "question_id": 198,
+    "substitution": "The table will not fit through the doorway because the doorway is too wide.",
+    "correctness": false
+  },
+  {
+    "question_id": 199,
+    "substitution": "The table will not fit through the doorway because the table is too narrow.",
+    "correctness": false
+  },
+  {
+    "question_id": 199,
+    "substitution": "The table will not fit through the doorway because the doorway is too narrow.",
+    "correctness": true
+  },
+  {
+    "question_id": 200,
+    "substitution": "Grace was happy to trade me her sweater for my jacket . She thinks the sweater looks dowdy on her.",
+    "correctness": true
+  },
+  {
+    "question_id": 200,
+    "substitution": "Grace was happy to trade me her sweater for my jacket . She thinks the jacket looks dowdy on her.",
+    "correctness": false
+  },
+  {
+    "question_id": 201,
+    "substitution": "Grace was happy to trade me her sweater for my jacket . She thinks the sweater looks great on her.",
+    "correctness": false
+  },
+  {
+    "question_id": 201,
+    "substitution": "Grace was happy to trade me her sweater for my jacket . She thinks the jacket looks great on her.",
+    "correctness": true
+  },
+  {
+    "question_id": 202,
+    "substitution": "John hired Bill to take care of john.",
+    "correctness": true
+  },
+  {
+    "question_id": 202,
+    "substitution": "John hired Bill to take care of bill.",
+    "correctness": false
+  },
+  {
+    "question_id": 203,
+    "substitution": "John hired himself out to Bill to take care of john.",
+    "correctness": false
+  },
+  {
+    "question_id": 203,
+    "substitution": "John hired himself out to Bill to take care of bill.",
+    "correctness": true
+  },
+  {
+    "question_id": 204,
+    "substitution": "John promised Bill to leave , so an hour later john left.",
+    "correctness": true
+  },
+  {
+    "question_id": 204,
+    "substitution": "John promised Bill to leave , so an hour later bill left.",
+    "correctness": false
+  },
+  {
+    "question_id": 205,
+    "substitution": "John ordered Bill to leave , so an hour later john left.",
+    "correctness": false
+  },
+  {
+    "question_id": 205,
+    "substitution": "John ordered Bill to leave , so an hour later bill left.",
+    "correctness": true
+  },
+  {
+    "question_id": 206,
+    "substitution": "Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties goodman faced in his research.",
+    "correctness": true
+  },
+  {
+    "question_id": 206,
+    "substitution": "Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties xenophanes faced in his research.",
+    "correctness": false
+  },
+  {
+    "question_id": 207,
+    "substitution": "Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties goodman faced in his childhood.",
+    "correctness": false
+  },
+  {
+    "question_id": 207,
+    "substitution": "Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties xenophanes faced in his childhood.",
+    "correctness": true
+  },
+  {
+    "question_id": 208,
+    "substitution": "Emma's mother had died long ago , and emma education had been managed by an excellent woman as governess.",
+    "correctness": true
+  },
+  {
+    "question_id": 208,
+    "substitution": "Emma's mother had died long ago , and emma's mother education had been managed by an excellent woman as governess.",
+    "correctness": false
+  },
+  {
+    "question_id": 209,
+    "substitution": "Emma's mother had died long ago , and emma place had been taken by an excellent woman as governess.",
+    "correctness": false
+  },
+  {
+    "question_id": 209,
+    "substitution": "Emma's mother had died long ago , and emma's mother place had been taken by an excellent woman as governess.",
+    "correctness": true
+  },
+  {
+    "question_id": 210,
+    "substitution": "Jane knocked on Susan's door but jane did not get an answer.",
+    "correctness": true
+  },
+  {
+    "question_id": 210,
+    "substitution": "Jane knocked on Susan's door but susan did not get an answer.",
+    "correctness": false
+  },
+  {
+    "question_id": 211,
+    "substitution": "Jane knocked on Susan's door but jane did not answer.",
+    "correctness": false
+  },
+  {
+    "question_id": 211,
+    "substitution": "Jane knocked on Susan's door but susan did not answer.",
+    "correctness": true
+  },
+  {
+    "question_id": 212,
+    "substitution": "Joe paid the detective after joe received the final report on the case.",
+    "correctness": true
+  },
+  {
+    "question_id": 212,
+    "substitution": "Joe paid the detective after the detective received the final report on the case.",
+    "correctness": false
+  },
+  {
+    "question_id": 213,
+    "substitution": "Joe paid the detective after joe delivered the final report on the case.",
+    "correctness": false
+  },
+  {
+    "question_id": 213,
+    "substitution": "Joe paid the detective after the detective delivered the final report on the case.",
+    "correctness": true
+  },
+  {
+    "question_id": 214,
+    "substitution": "Beth did not get angry with Sally , who had cut her off , because beth stopped and counted to ten.",
+    "correctness": true
+  },
+  {
+    "question_id": 214,
+    "substitution": "Beth did not get angry with Sally , who had cut her off , because sally stopped and counted to ten.",
+    "correctness": false
+  },
+  {
+    "question_id": 215,
+    "substitution": "Beth did not get angry with Sally , who had cut her off , because beth stopped and apologized.",
+    "correctness": false
+  },
+  {
+    "question_id": 215,
+    "substitution": "Beth did not get angry with Sally , who had cut her off , because sally stopped and apologized.",
+    "correctness": true
+  },
+  {
+    "question_id": 216,
+    "substitution": "Jim signaled the barman and gestured toward jim empty glass.",
+    "correctness": true
+  },
+  {
+    "question_id": 216,
+    "substitution": "Jim signaled the barman and gestured toward the barman empty glass.",
+    "correctness": false
+  },
+  {
+    "question_id": 217,
+    "substitution": "Jim signaled the barman and gestured toward jim bathroom key.",
+    "correctness": false
+  },
+  {
+    "question_id": 217,
+    "substitution": "Jim signaled the barman and gestured toward the barman bathroom key.",
+    "correctness": true
+  },
+  {
+    "question_id": 218,
+    "substitution": "Dan took the rear seat while Bill claimed the front because dan \"Dibs!\" was slow.",
+    "correctness": true
+  },
+  {
+    "question_id": 218,
+    "substitution": "Dan took the rear seat while Bill claimed the front because bill \"Dibs!\" was slow.",
+    "correctness": false
+  },
+  {
+    "question_id": 219,
+    "substitution": "Dan took the rear seat while Bill claimed the front because dan \"Dibs!\" was quicker.",
+    "correctness": false
+  },
+  {
+    "question_id": 219,
+    "substitution": "Dan took the rear seat while Bill claimed the front because bill \"Dibs!\" was quicker.",
+    "correctness": true
+  },
+  {
+    "question_id": 220,
+    "substitution": "Tom said \"Check\" to Ralph as he moved tom bishop.",
+    "correctness": true
+  },
+  {
+    "question_id": 220,
+    "substitution": "Tom said \"Check\" to Ralph as he moved ralph bishop.",
+    "correctness": false
+  },
+  {
+    "question_id": 221,
+    "substitution": "Tom said \"Check\" to Ralph as he took tom bishop.",
+    "correctness": false
+  },
+  {
+    "question_id": 221,
+    "substitution": "Tom said \"Check\" to Ralph as he took ralph bishop.",
+    "correctness": true
+  },
+  {
+    "question_id": 222,
+    "substitution": "As Andrea in the crop duster passed over Susan , andrea could see the landing strip.",
+    "correctness": true
+  },
+  {
+    "question_id": 222,
+    "substitution": "As Andrea in the crop duster passed over Susan , susan could see the landing strip.",
+    "correctness": false
+  },
+  {
+    "question_id": 223,
+    "substitution": "As Andrea in the crop duster passed over Susan , andrea could see the landing gear.",
+    "correctness": false
+  },
+  {
+    "question_id": 223,
+    "substitution": "As Andrea in the crop duster passed over Susan , susan could see the landing gear.",
+    "correctness": true
+  },
+  {
+    "question_id": 224,
+    "substitution": "Tom gave Ralph a lift to school so tom would not have to drive alone.",
+    "correctness": true
+  },
+  {
+    "question_id": 224,
+    "substitution": "Tom gave Ralph a lift to school so ralph would not have to drive alone.",
+    "correctness": false
+  },
+  {
+    "question_id": 225,
+    "substitution": "Tom gave Ralph a lift to school so tom would not have to walk.",
+    "correctness": false
+  },
+  {
+    "question_id": 225,
+    "substitution": "Tom gave Ralph a lift to school so ralph would not have to walk.",
+    "correctness": true
+  },
+  {
+    "question_id": 226,
+    "substitution": "Bill passed the half-empty plate to John because bill was full.",
+    "correctness": true
+  },
+  {
+    "question_id": 226,
+    "substitution": "Bill passed the half-empty plate to John because john was full.",
+    "correctness": false
+  },
+  {
+    "question_id": 227,
+    "substitution": "Bill passed the half-empty plate to John because bill was hungry.",
+    "correctness": false
+  },
+  {
+    "question_id": 227,
+    "substitution": "Bill passed the half-empty plate to John because john was hungry.",
+    "correctness": true
+  },
+  {
+    "question_id": 228,
+    "substitution": "Bill passed the gameboy to John because bill turn was over.",
+    "correctness": true
+  },
+  {
+    "question_id": 228,
+    "substitution": "Bill passed the gameboy to John because john turn was over.",
+    "correctness": false
+  },
+  {
+    "question_id": 229,
+    "substitution": "Bill passed the gameboy to John because bill turn was next.",
+    "correctness": false
+  },
+  {
+    "question_id": 229,
+    "substitution": "Bill passed the gameboy to John because john turn was next.",
+    "correctness": true
+  },
+  {
+    "question_id": 230,
+    "substitution": "The man lifted the boy onto the man shoulders.",
+    "correctness": true
+  },
+  {
+    "question_id": 230,
+    "substitution": "The man lifted the boy onto the boy shoulders.",
+    "correctness": false
+  },
+  {
+    "question_id": 231,
+    "substitution": "The man lifted the boy onto the man bunk bed.",
+    "correctness": false
+  },
+  {
+    "question_id": 231,
+    "substitution": "The man lifted the boy onto the boy bunk bed.",
+    "correctness": true
+  },
+  {
+    "question_id": 232,
+    "substitution": "Stretching the woman back , the woman smiled at the girl.",
+    "correctness": true
+  },
+  {
+    "question_id": 232,
+    "substitution": "Stretching the girl back , the woman smiled at the girl.",
+    "correctness": false
+  },
+  {
+    "question_id": 233,
+    "substitution": "Patting the woman back , the woman smiled at the girl.",
+    "correctness": false
+  },
+  {
+    "question_id": 233,
+    "substitution": "Patting the girl back , the woman smiled at the girl.",
+    "correctness": true
+  },
+  {
+    "question_id": 234,
+    "substitution": "Billy cried because Toby would not accept billy toy.",
+    "correctness": true
+  },
+  {
+    "question_id": 234,
+    "substitution": "Billy cried because Toby would not accept toby toy.",
+    "correctness": false
+  },
+  {
+    "question_id": 235,
+    "substitution": "Billy cried because Toby would not share billy toy.",
+    "correctness": false
+  },
+  {
+    "question_id": 235,
+    "substitution": "Billy cried because Toby would not share toby toy.",
+    "correctness": true
+  },
+  {
+    "question_id": 236,
+    "substitution": "Lily spoke to Donna , breaking lily silence.",
+    "correctness": true
+  },
+  {
+    "question_id": 236,
+    "substitution": "Lily spoke to Donna , breaking donna silence.",
+    "correctness": false
+  },
+  {
+    "question_id": 237,
+    "substitution": "Lily spoke to Donna , breaking lily concentration.",
+    "correctness": false
+  },
+  {
+    "question_id": 237,
+    "substitution": "Lily spoke to Donna , breaking donna concentration.",
+    "correctness": true
+  },
+  {
+    "question_id": 238,
+    "substitution": "When Tommy dropped his ice cream , Timmy giggled , so father gave tommy a sympathetic look.",
+    "correctness": true
+  },
+  {
+    "question_id": 238,
+    "substitution": "When Tommy dropped his ice cream , Timmy giggled , so father gave timmy a sympathetic look.",
+    "correctness": false
+  },
+  {
+    "question_id": 239,
+    "substitution": "When Tommy dropped his ice cream , Timmy giggled , so father gave tommy a stern look.",
+    "correctness": false
+  },
+  {
+    "question_id": 239,
+    "substitution": "When Tommy dropped his ice cream , Timmy giggled , so father gave timmy a stern look.",
+    "correctness": true
+  },
+  {
+    "question_id": 240,
+    "substitution": "As Ollie carried Tommy up the long winding steps , ollie legs ached.",
+    "correctness": true
+  },
+  {
+    "question_id": 240,
+    "substitution": "As Ollie carried Tommy up the long winding steps , tommy legs ached.",
+    "correctness": false
+  },
+  {
+    "question_id": 241,
+    "substitution": "As Ollie carried Tommy up the long winding steps , ollie legs dangled.",
+    "correctness": false
+  },
+  {
+    "question_id": 241,
+    "substitution": "As Ollie carried Tommy up the long winding steps , tommy legs dangled.",
+    "correctness": true
+  },
+  {
+    "question_id": 242,
+    "substitution": "The father carried the sleeping boy in the father arms.",
+    "correctness": true
+  },
+  {
+    "question_id": 242,
+    "substitution": "The father carried the sleeping boy in the boy arms.",
+    "correctness": false
+  },
+  {
+    "question_id": 243,
+    "substitution": "The father carried the sleeping boy in the father bassinet.",
+    "correctness": false
+  },
+  {
+    "question_id": 243,
+    "substitution": "The father carried the sleeping boy in the boy bassinet.",
+    "correctness": true
+  },
+  {
+    "question_id": 244,
+    "substitution": "The woman held the girl against the woman chest.",
+    "correctness": true
+  },
+  {
+    "question_id": 244,
+    "substitution": "The woman held the girl against the girl chest.",
+    "correctness": false
+  },
+  {
+    "question_id": 245,
+    "substitution": "The woman held the girl against the woman will.",
+    "correctness": false
+  },
+  {
+    "question_id": 245,
+    "substitution": "The woman held the girl against the girl will.",
+    "correctness": true
+  },
+  {
+    "question_id": 246,
+    "substitution": "Pam's parents came home and found her having sex with her boyfriend , Paul . pam's parents were furious about it.",
+    "correctness": true
+  },
+  {
+    "question_id": 246,
+    "substitution": "Pam's parents came home and found her having sex with her boyfriend , Paul . pam and paul were furious about it.",
+    "correctness": false
+  },
+  {
+    "question_id": 247,
+    "substitution": "Pam's parents came home and found her having sex with her boyfriend , Paul . pam's parents were embarrassed about it.",
+    "correctness": false
+  },
+  {
+    "question_id": 247,
+    "substitution": "Pam's parents came home and found her having sex with her boyfriend , Paul . pam and paul were embarrassed about it.",
+    "correctness": true
+  },
+  {
+    "question_id": 248,
+    "substitution": "Dr . Adams informed Kate that dr. adams had retired and presented several options for future treatment.",
+    "correctness": true
+  },
+  {
+    "question_id": 248,
+    "substitution": "Dr . Adams informed Kate that kate had retired and presented several options for future treatment.",
+    "correctness": false
+  },
+  {
+    "question_id": 249,
+    "substitution": "Dr . Adams informed Kate that dr. adams had cancer and presented several options for future treatment.",
+    "correctness": false
+  },
+  {
+    "question_id": 249,
+    "substitution": "Dr . Adams informed Kate that kate had cancer and presented several options for future treatment.",
+    "correctness": true
+  },
+  {
+    "question_id": 250,
+    "substitution": "Dan had to stop Bill from toying with the injured bird . dan is very compassionate.",
+    "correctness": true
+  },
+  {
+    "question_id": 250,
+    "substitution": "Dan had to stop Bill from toying with the injured bird . bill is very compassionate.",
+    "correctness": false
+  },
+  {
+    "question_id": 251,
+    "substitution": "Dan had to stop Bill from toying with the injured bird . dan is very cruel.",
+    "correctness": false
+  },
+  {
+    "question_id": 251,
+    "substitution": "Dan had to stop Bill from toying with the injured bird . bill is very cruel.",
+    "correctness": true
+  },
+  {
+    "question_id": 252,
+    "substitution": "George got free tickets to the play, but he gave them to Eric, even though george was particularly eager to see it.",
+    "correctness": true
+  },
+  {
+    "question_id": 252,
+    "substitution": "George got free tickets to the play , but he gave them to Eric , even though eric was particularly eager to see it.",
+    "correctness": false
+  },
+  {
+    "question_id": 253,
+    "substitution": "George got free tickets to the play , but he gave them to Eric , because george was particularly eager to see it.",
+    "correctness": false
+  },
+  {
+    "question_id": 253,
+    "substitution": "George got free tickets to the play , but he gave them to Eric , because eric was particularly eager to see it.",
+    "correctness": true
+  },
+  {
+    "question_id": 254,
+    "substitution": "George got free tickets to the play , but he gave them to Eric , because george was not particularly eager to see it.",
+    "correctness": true
+  },
+  {
+    "question_id": 254,
+    "substitution": "George got free tickets to the play , but he gave them to Eric , because eric was not particularly eager to see it.",
+    "correctness": false
+  },
+  {
+    "question_id": 255,
+    "substitution": "Jane gave Joan candy because jane was not hungry.",
+    "correctness": true
+  },
+  {
+    "question_id": 255,
+    "substitution": "Jane gave Joan candy because joan was not hungry.",
+    "correctness": false
+  },
+  {
+    "question_id": 256,
+    "substitution": "Jane gave Joan candy because jane was hungry.",
+    "correctness": false
+  },
+  {
+    "question_id": 256,
+    "substitution": "Jane gave Joan candy because joan was hungry.",
+    "correctness": true
+  },
+  {
+    "question_id": 257,
+    "substitution": "I tried to paint a picture of an orchard , with lemons in the lemon trees , but lemons came out looking more like light bulbs.",
+    "correctness": true
+  },
+  {
+    "question_id": 257,
+    "substitution": "I tried to paint a picture of an orchard , with lemons in the lemon trees , but lemon trees came out looking more like light bulbs.",
+    "correctness": false
+  },
+  {
+    "question_id": 258,
+    "substitution": "I tried to paint a picture of an orchard , with lemons in the lemon trees , but lemons came out looking more like telephone poles.",
+    "correctness": false
+  },
+  {
+    "question_id": 258,
+    "substitution": "I tried to paint a picture of an orchard , with lemons in the lemon trees , but lemon trees came out looking more like telephone poles.",
+    "correctness": true
+  },
+  {
+    "question_id": 259,
+    "substitution": "James asked Robert for a favor but james was refused.",
+    "correctness": true
+  },
+  {
+    "question_id": 259,
+    "substitution": "James asked Robert for a favor but robert was refused.",
+    "correctness": false
+  },
+  {
+    "question_id": 260,
+    "substitution": "James asked Robert for a favor but james refused.",
+    "correctness": false
+  },
+  {
+    "question_id": 260,
+    "substitution": "James asked Robert for a favor but robert refused.",
+    "correctness": true
+  },
+  {
+    "question_id": 261,
+    "substitution": "Kirilov ceded the presidency to Shatov because kirilov was less popular.",
+    "correctness": true
+  },
+  {
+    "question_id": 261,
+    "substitution": "Kirilov ceded the presidency to Shatov because shatov was less popular.",
+    "correctness": false
+  },
+  {
+    "question_id": 262,
+    "substitution": "Kirilov ceded the presidency to Shatov because kirilov was more popular.",
+    "correctness": false
+  },
+  {
+    "question_id": 262,
+    "substitution": "Kirilov ceded the presidency to Shatov because shatov was more popular.",
+    "correctness": true
+  },
+  {
+    "question_id": 263,
+    "substitution": "Emma did not pass the ball to Janie although emma saw that she was open.",
+    "correctness": true
+  },
+  {
+    "question_id": 263,
+    "substitution": "Emma did not pass the ball to Janie although janie saw that she was open.",
+    "correctness": false
+  },
+  {
+    "question_id": 264,
+    "substitution": "Emma did not pass the ball to Janie although emma was open.",
+    "correctness": false
+  },
+  {
+    "question_id": 264,
+    "substitution": "Emma did not pass the ball to Janie although janie was open.",
+    "correctness": true
+  },
+  {
+    "question_id": 265,
+    "substitution": "I put the butterfly wing on the table and the butterfly wing broke.",
+    "correctness": true
+  },
+  {
+    "question_id": 265,
+    "substitution": "I put the butterfly wing on the table and the table broke.",
+    "correctness": false
+  },
+  {
+    "question_id": 266,
+    "substitution": "I put the heavy book on the table and the heavy book broke.",
+    "correctness": false
+  },
+  {
+    "question_id": 266,
+    "substitution": "I put the heavy book on the table and the table broke.",
+    "correctness": true
+  },
+  {
+    "question_id": 267,
+    "substitution": "Madonna fired her trainer because madonna could not stand her boyfriend.",
+    "correctness": true
+  },
+  {
+    "question_id": 267,
+    "substitution": "Madonna fired her trainer because the trainer could not stand her boyfriend.",
+    "correctness": false
+  },
+  {
+    "question_id": 268,
+    "substitution": "Madonna fired her trainer because madonna slept with her boyfriend.",
+    "correctness": false
+  },
+  {
+    "question_id": 268,
+    "substitution": "Madonna fired her trainer because the trainer slept with her boyfriend.",
+    "correctness": true
+  },
+  {
+    "question_id": 269,
+    "substitution": "Madonna fired her trainer because she slept with madonna boyfriend.",
+    "correctness": true
+  },
+  {
+    "question_id": 269,
+    "substitution": "Madonna fired her trainer because she slept with the trainer boyfriend.",
+    "correctness": false
+  },
+  {
+    "question_id": 270,
+    "substitution": "Madonna fired her trainer because she could not stand madonna boyfriend.",
+    "correctness": false
+  },
+  {
+    "question_id": 270,
+    "substitution": "Madonna fired her trainer because she could not stand the trainer boyfriend.",
+    "correctness": true
+  },
+  {
+    "question_id": 271,
+    "substitution": "Carol believed that Rebecca suspected that carol had stolen the watch.",
+    "correctness": true
+  },
+  {
+    "question_id": 271,
+    "substitution": "Carol believed that Rebecca suspected that rebecca had stolen the watch.",
+    "correctness": false
+  },
+  {
+    "question_id": 272,
+    "substitution": "Carol believed that Rebecca regretted that carol had stolen the watch.",
+    "correctness": false
+  },
+  {
+    "question_id": 272,
+    "substitution": "Carol believed that Rebecca regretted that rebecca had stolen the watch.",
+    "correctness": true
+  },
+  {
+    "question_id": 273,
+    "substitution": "This book introduced Shakespeare to Ovid ; it was a major influence on shakespeare writing.",
+    "correctness": true
+  },
+  {
+    "question_id": 273,
+    "substitution": "This book introduced Shakespeare to Ovid ; it was a major influence on ovid writing.",
+    "correctness": false
+  },
+  {
+    "question_id": 274,
+    "substitution": "This book introduced Shakespeare to Goethe ; it was a major influence on shakespeare writing.",
+    "correctness": false
+  },
+  {
+    "question_id": 274,
+    "substitution": "This book introduced Shakespeare to Goethe ; it was a major influence on goethe writing.",
+    "correctness": true
+  },
+  {
+    "question_id": 275,
+    "substitution": "This book introduced Shakespeare to Ovid ; it was a fine selection of shakespeare writing.",
+    "correctness": false
+  },
+  {
+    "question_id": 275,
+    "substitution": "This book introduced Shakespeare to Ovid ; it was a fine selection of ovid writing.",
+    "correctness": true
+  },
+  {
+    "question_id": 276,
+    "substitution": "This book introduced Shakespeare to Goethe ; it was a fine selection of shakespeare writing.",
+    "correctness": true
+  },
+  {
+    "question_id": 276,
+    "substitution": "This book introduced Shakespeare to Goethe ; it was a fine selection of goethe writing.",
+    "correctness": false
+  },
+  {
+    "question_id": 277,
+    "substitution": "Alice looked for her friend Jade in the crowd . Since alice always has good luck , Alice spotted her quickly.",
+    "correctness": true
+  },
+  {
+    "question_id": 277,
+    "substitution": "Alice looked for her friend Jade in the crowd . Since jade always has good luck , Alice spotted her quickly.",
+    "correctness": false
+  },
+  {
+    "question_id": 278,
+    "substitution": "Alice looked for her friend Jade in the crowd . Since alice always wears a red turban , Alice spotted her quickly.",
+    "correctness": false
+  },
+  {
+    "question_id": 278,
+    "substitution": "Alice looked for her friend Jade in the crowd . Since jade always wears a red turban , Alice spotted her quickly.",
+    "correctness": true
+  },
+  {
+    "question_id": 279,
+    "substitution": "During a game of tag , Ethan chased Luke because ethan was it.",
+    "correctness": true
+  },
+  {
+    "question_id": 279,
+    "substitution": "During a game of tag , Ethan chased Luke because luke was it.",
+    "correctness": false
+  },
+  {
+    "question_id": 280,
+    "substitution": "During a game of tag , Ethan ran from Luke because ethan was it.",
+    "correctness": false
+  },
+  {
+    "question_id": 280,
+    "substitution": "During a game of tag , Ethan ran from Luke because luke was it.",
+    "correctness": true
+  },
+  {
+    "question_id": 281,
+    "substitution": "At the Loebner competition the judges could not figure out which respondents were the chatbots because the judges were so stupid.",
+    "correctness": true
+  },
+  {
+    "question_id": 281,
+    "substitution": "At the Loebner competition the judges could not figure out which respondents were the chatbots because the chatbots were so stupid.",
+    "correctness": false
+  },
+  {
+    "question_id": 282,
+    "substitution": "At the Loebner competition the judges could not figure out which respondents were the chatbots because the judges were so advanced.",
+    "correctness": false
+  },
+  {
+    "question_id": 282,
+    "substitution": "At the Loebner competition the judges could not figure out which respondents were the chatbots because the chatbots were so advanced.",
+    "correctness": true
+  },
+  {
+    "question_id": 283,
+    "substitution": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as grwqwu8jyc was easy to forget.",
+    "correctness": true
+  },
+  {
+    "question_id": 283,
+    "substitution": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as willow-towered canopy huntertropic wrestles was easy to forget.",
+    "correctness": false
+  },
+  {
+    "question_id": 284,
+    "substitution": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as grwqwu8jyc was easy to remember.",
+    "correctness": false
+  },
+  {
+    "question_id": 284,
+    "substitution": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as willow-towered canopy huntertropic wrestles was easy to remember.",
+    "correctness": true
+  }
+]

@@ -1,0 +1,33 @@
+
+Without normalizing the scores between candidate choices
+i) Inter sentence alone 50.5%
+ii) Intra sentence alone 52.6%
+iii) Inter + Intra with above score 56.14%
+
+After normalizing the scores between candidate choices
+i) Both inter and intra 53.3%
+ii) No difference with removing inter dependency - 53.3%
+
+
+PSL INCORRECT PREVIOUS SYSTEM CORRECT : 70
+PSL CORRECT PREVIOUS SYSTEM INCORRECT : 56
+PSL no knowledge : 5
+
+
+PSL with BERT Intra sentence and System Inter sentence - First run c1/c1+2, c2/c1+c2 ==> 60.3%
+
+
+PSL + BERT, TTF cases which has both references are removed based on entailment => 61.5%
+
+
+PSL + BERT after normalizing entailment - 63.9%
+
+
+Final Analysis:
+
+
+Method BERT:
+
+PSL Correct, BERT Incorrect : 23
+
+

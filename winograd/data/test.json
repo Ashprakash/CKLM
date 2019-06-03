@@ -1,0 +1,60 @@
+[
+   {
+    "ws_sent": "Madonna fired her trainer because she slept with her boyfriend .",
+    "ans": "Madonna",
+    "pronoun": "her",
+    "domain": [
+      "Madonna",
+      "The trainer",
+      "her"
+    ],
+    "coref_target": [
+      "Madonna$$her",
+      "The trainer$$her",
+      "her$$Madonna",
+      "her$$The trainer"
+    ],
+    "coref_target_truth": [
+      "Madonna$$her$$1",
+      "The trainer$$her$$0",
+      "her$$Madonna$$1",
+      "her$$The trainer$$0"
+    ],
+    "scr_score": [
+      "Madonna$$her$$6.407440753924302e-26",
+      "The trainer$$her$$1.9071324513936526e-25"
+    ],
+    "context": [
+      "Madonna$$you$$K1",
+      "her$$I$$K1",
+      "her$$you$$K1",
+      "Madonna$$I$$K1"
+    ],
+    "case": [
+      "TFT$$K1",
+      "TFT$$K1",
+      "TFT$$K1"
+    ],
+    "entailment": [],
+    "similarity": [
+      "I$$me$$K1$$0.9428533911705017",
+      "you$$me$$K1$$0.9043710827827454",
+      "I$$because I slept with your ex-wife$$K1$$0.8292405605316162",
+      "you$$because I slept with your ex-wife$$K1$$0.7410324811935425",
+      "I$$your ex-wife$$K1$$0.7369025349617004",
+      "you$$your ex-wife$$K1$$0.6978129744529724",
+      "Madonna$$her$$K1$$0.5901488065719604",
+      "Madonna$$her$$K4$$0.5153453946113586",
+      "Madonna$$her$$K5$$0.5153453946113586",
+      "Madonna$$her$$K6$$0.5153454542160034"
+    ],
+    "bert_choice1": 4.381396770477295,
+    "psl_score2": "0.4084218442440033",
+    "psl_score1": "0.5905792713165283",
+    "bert_choice2": 3.0297436714172363,
+    "scr_scaled_score": [
+      0.6268350748725038,
+      0.06629965633408133
+    ]
+  }
+]

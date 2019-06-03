@@ -1,0 +1,3422 @@
+[
+  {
+    "substitution": "The city councilmen refused the demonstrators a permit because The city councilmen feared violence .",
+    "correctness": true,
+    "question_id": 0,
+    "score": 2.5163934867761314e-41
+  },
+  {
+    "substitution": "The city councilmen refused the demonstrators a permit because The demonstrators feared violence .",
+    "correctness": false,
+    "question_id": 0,
+    "score": 4.5244257916400475e-38
+  },
+  {
+    "substitution": "The city councilmen refused the demonstrators a permit because The city councilmen advocated violence .",
+    "correctness": false,
+    "question_id": 1,
+    "score": 9.49316789710133e-43
+  },
+  {
+    "substitution": "The city councilmen refused the demonstrators a permit because The demonstrators advocated violence .",
+    "correctness": true,
+    "question_id": 1,
+    "score": 7.357226981659099e-39
+  },
+  {
+    "substitution": "The trophy does not fthe trophy into the brown suthe trophycase because the trophy is too large .",
+    "correctness": true,
+    "question_id": 2,
+    "score": 3.9361647540902265e-42
+  },
+  {
+    "substitution": "The trophy does not fthe suitcase into the brown suthe suitcasecase because the suitcase is too large .",
+    "correctness": false,
+    "question_id": 2,
+    "score": 2.004012373208907e-44
+  },
+  {
+    "substitution": "The trophy does not fthe trophy into the brown suthe trophycase because the trophy is too small .",
+    "correctness": false,
+    "question_id": 3,
+    "score": 9.941644927237426e-42
+  },
+  {
+    "substitution": "The trophy does not fthe brown suitcase into the brown suthe brown suitcasecase because the brown suitcase is too small .",
+    "correctness": true,
+    "question_id": 3,
+    "score": 1.6625541638151276e-50
+  },
+  {
+    "substitution": "Joan made sure to thank Susan for all the help Joan had received .",
+    "correctness": true,
+    "question_id": 4,
+    "score": 2.131339074035979e-28
+  },
+  {
+    "substitution": "Joan made sure to thank Susan for all the help Susan had received .",
+    "correctness": false,
+    "question_id": 4,
+    "score": 5.246143936193018e-28
+  },
+  {
+    "substitution": "Joan made sure to thank Susan for all the help Joan had given .",
+    "correctness": false,
+    "question_id": 5,
+    "score": 2.537041877930983e-28
+  },
+  {
+    "substitution": "Joan made sure to thank Susan for all the help Susan had given .",
+    "correctness": true,
+    "question_id": 5,
+    "score": 5.600492500049645e-28
+  },
+  {
+    "substitution": "Paul tried to call George on tPaul phone , but Paul was not successful .",
+    "correctness": true,
+    "question_id": 6,
+    "score": 8.62337246712168e-30
+  },
+  {
+    "substitution": "Paul tried to call George on tGeorge phone , but George was not successful .",
+    "correctness": false,
+    "question_id": 6,
+    "score": 7.427023378821426e-30
+  },
+  {
+    "substitution": "Paul tried to call George on tPaul phone , but Paul was not available .",
+    "correctness": false,
+    "question_id": 7,
+    "score": 4.080766009148005e-29
+  },
+  {
+    "substitution": "Paul tried to call George on tGeorge phone , but George was not available .",
+    "correctness": true,
+    "question_id": 7,
+    "score": 3.5538684262305626e-29
+  },
+  {
+    "substitution": "Tthe lawyer lawyer asked tthe lawyer witness a question , but the lawyer was reluctant to repeat it .",
+    "correctness": true,
+    "question_id": 8,
+    "score": 2.218207659350699e-47
+  },
+  {
+    "substitution": "Tthe witness lawyer asked tthe witness witness a question , but the witness was reluctant to repeat it .",
+    "correctness": false,
+    "question_id": 8,
+    "score": 4.752135565065744e-47
+  },
+  {
+    "substitution": "Tthe lawyer lawyer asked tthe lawyer witness a question , but the lawyer was reluctant to answer it .",
+    "correctness": false,
+    "question_id": 9,
+    "score": 1.2024961827364983e-45
+  },
+  {
+    "substitution": "Tthe witness lawyer asked tthe witness witness a question , but the witness was reluctant to answer it .",
+    "correctness": true,
+    "question_id": 9,
+    "score": 1.2419808416574804e-45
+  },
+  {
+    "substitution": "The delivery truck zoomed by the school bus because the delivery truck was going so fast .",
+    "correctness": true,
+    "question_id": 10,
+    "score": 1.0188169641728563e-31
+  },
+  {
+    "substitution": "The delivery truck zoomed by the school bus because the school bus was going so fast .",
+    "correctness": false,
+    "question_id": 10,
+    "score": 1.3607061989085763e-29
+  },
+  {
+    "substitution": "The delivery truck zoomed by the school bus because the delivery truck was going so slow .",
+    "correctness": false,
+    "question_id": 11,
+    "score": 1.0732630626792566e-32
+  },
+  {
+    "substitution": "The delivery truck zoomed by the school bus because the school bus was going so slow .",
+    "correctness": true,
+    "question_id": 11,
+    "score": 1.7456839007208815e-30
+  },
+  {
+    "substitution": "Frank felt vindicated wFrankn his longtime rival Bill revealed that Frank was tFrank winner of tFrank competition .",
+    "correctness": true,
+    "question_id": 12,
+    "score": 5.786665720342708e-50
+  },
+  {
+    "substitution": "Frank felt vindicated wBilln his longtime rival Bill revealed that Bill was tBill winner of tBill competition .",
+    "correctness": false,
+    "question_id": 12,
+    "score": 1.8419793122954617e-50
+  },
+  {
+    "substitution": "Frank felt crusFrankd wFrankn his longtime rival Bill revealed that Frank was tFrank winner of tFrank competition .",
+    "correctness": false,
+    "question_id": 13,
+    "score": 4.854359892656049e-48
+  },
+  {
+    "substitution": "Frank felt crusBilld wBilln his longtime rival Bill revealed that Bill was tBill winner of tBill competition .",
+    "correctness": true,
+    "question_id": 13,
+    "score": 2.0363728082900267e-48
+  },
+  {
+    "substitution": "TThe man man could not lift his son because The man was so weak .",
+    "correctness": true,
+    "question_id": 14,
+    "score": 4.852556745949582e-38
+  },
+  {
+    "substitution": "TThe son man could not lift his son because The son was so weak .",
+    "correctness": false,
+    "question_id": 14,
+    "score": 1.6925343645887817e-39
+  },
+  {
+    "substitution": "TThe man man could not lift his son because The man was so The manavy .",
+    "correctness": false,
+    "question_id": 15,
+    "score": 1.55539535596435e-42
+  },
+  {
+    "substitution": "This son man could not lift his son because his son was so his sonavy .",
+    "correctness": true,
+    "question_id": 15,
+    "score": 2.615717116820705e-34
+  },
+  {
+    "substitution": "The large ball crashed right through the table because The large ball was made of steel .",
+    "correctness": true,
+    "question_id": 16,
+    "score": 6.995886226165273e-37
+  },
+  {
+    "substitution": "The large ball crashed right through the table because The table was made of steel .",
+    "correctness": false,
+    "question_id": 16,
+    "score": 5.6168597608245236e-33
+  },
+  {
+    "substitution": "The large ball crashed right through the table because The large ball was made of styrofoam .",
+    "correctness": false,
+    "question_id": 17,
+    "score": 2.5674910186683196e-38
+  },
+  {
+    "substitution": "The large ball crashed right through the table because The table was made of styrofoam .",
+    "correctness": true,
+    "question_id": 17,
+    "score": 1.5322380745658978e-34
+  },
+  {
+    "substitution": "John could not see tJohn stage with Billy in front of him because John is so short .",
+    "correctness": true,
+    "question_id": 18,
+    "score": 4.025882798818619e-37
+  },
+  {
+    "substitution": "John could not see tBilly stage with Billy in front of him because Billy is so short .",
+    "correctness": false,
+    "question_id": 18,
+    "score": 1.1537373220012112e-37
+  },
+  {
+    "substitution": "John could not see tJohn stage with Billy in front of him because John is so tall .",
+    "correctness": false,
+    "question_id": 19,
+    "score": 2.1084630691841356e-36
+  },
+  {
+    "substitution": "John could not see tBilly stage with Billy in front of him because Billy is so tall .",
+    "correctness": true,
+    "question_id": 19,
+    "score": 5.32299040924276e-37
+  },
+  {
+    "substitution": "Tom threw his schoolbag down to Ray after Tom reacTomd tTom top of tTom stairs .",
+    "correctness": true,
+    "question_id": 20,
+    "score": 1.8255610523916014e-44
+  },
+  {
+    "substitution": "Tom threw his schoolbag down to Ray after Ray reacRayd tRay top of tRay stairs .",
+    "correctness": false,
+    "question_id": 20,
+    "score": 2.7876611929037596e-52
+  },
+  {
+    "substitution": "Tom threw his schoolbag down to Ray after Tom reacTomd tTom bottom of tTom stairs .",
+    "correctness": false,
+    "question_id": 21,
+    "score": 8.247629825088268e-45
+  },
+  {
+    "substitution": "Tom threw his schoolbag down to Ray after Ray reacRayd tRay bottom of tRay stairs .",
+    "correctness": true,
+    "question_id": 21,
+    "score": 2.258188711601284e-52
+  },
+  {
+    "substitution": "Although they ran at about the same speed , Sue beat Sally because Sue had such a good start .",
+    "correctness": true,
+    "question_id": 22,
+    "score": 6.396802266200338e-43
+  },
+  {
+    "substitution": "Although they ran at about the same speed , Sue beat Sally because Sally had such a good start .",
+    "correctness": false,
+    "question_id": 22,
+    "score": 9.176736108368383e-43
+  },
+  {
+    "substitution": "Although they ran at about the same speed , Sue beat Sally because Sue had such a bad start .",
+    "correctness": false,
+    "question_id": 23,
+    "score": 2.891535456203785e-43
+  },
+  {
+    "substitution": "Although they ran at about the same speed , Sue beat Sally because Sally had such a bad start .",
+    "correctness": true,
+    "question_id": 23,
+    "score": 6.0684477344199915e-43
+  },
+  {
+    "substitution": "The sculpture rolled off the shelf because The sculpture was not anchored .",
+    "correctness": true,
+    "question_id": 24,
+    "score": 1.1661854649352755e-32
+  },
+  {
+    "substitution": "The sculpture rolled off the shelf because The shelf was not anchored .",
+    "correctness": false,
+    "question_id": 24,
+    "score": 2.622482523351486e-33
+  },
+  {
+    "substitution": "The sculpture rolled off the shelf because The sculpture was not level .",
+    "correctness": false,
+    "question_id": 25,
+    "score": 5.311914448238325e-32
+  },
+  {
+    "substitution": "The sculpture rolled off the shelf because The shelf was not level .",
+    "correctness": true,
+    "question_id": 25,
+    "score": 8.47212101282472e-33
+  },
+  {
+    "substitution": "Sam's drawing was hung just above Tina's and Sam's drawing did look much better wSam's drawingh another one below Sam's drawing .",
+    "correctness": true,
+    "question_id": 26,
+    "score": 4.000750496178355e-64
+  },
+  {
+    "substitution": "Sam's drawing was hung just above Tina's and Tina's did look much better wTina'sh another one below Tina's .",
+    "correctness": false,
+    "question_id": 26,
+    "score": 3.1635569767513714e-56
+  },
+  {
+    "substitution": "Sam's drawing was hung just above Tina's and Sam's drawing did look much better wSam's drawingh another one above Sam's drawing .",
+    "correctness": false,
+    "question_id": 27,
+    "score": 3.9680246287166324e-64
+  },
+  {
+    "substitution": "Sam's drawing was hung just above Tina's and Tina's did look much better wTina'sh another one above Tina's .",
+    "correctness": true,
+    "question_id": 27,
+    "score": 3.776888206163233e-56
+  },
+  {
+    "substitution": "Anna did a lot better than her good friend Lucy on the test because Anna had studied so hard .",
+    "correctness": true,
+    "question_id": 28,
+    "score": 1.97952571106858e-41
+  },
+  {
+    "substitution": "Anna did a lot better than her good friend Lucy on the test because Lucy had studied so hard .",
+    "correctness": false,
+    "question_id": 28,
+    "score": 3.13908665305382e-41
+  },
+  {
+    "substitution": "Anna did a lot worse than her good friend Lucy on the test because Anna had studied so hard .",
+    "correctness": false,
+    "question_id": 29,
+    "score": 3.654162227637113e-43
+  },
+  {
+    "substitution": "Anna did a lot worse than her good friend Lucy on the test because Lucy had studied so hard .",
+    "correctness": true,
+    "question_id": 29,
+    "score": 5.683187391036208e-43
+  },
+  {
+    "substitution": "The firemen arrived after the police because The firemen were coming from so far away .",
+    "correctness": true,
+    "question_id": 30,
+    "score": 6.845706400124945e-33
+  },
+  {
+    "substitution": "The firemen arrived after the police because The police were coming from so far away .",
+    "correctness": false,
+    "question_id": 30,
+    "score": 4.689320518433883e-33
+  },
+  {
+    "substitution": "The firemen arrived before the police because The firemen were coming from so far away .",
+    "correctness": false,
+    "question_id": 31,
+    "score": 4.216073545436913e-32
+  },
+  {
+    "substitution": "The firemen arrived before the police because The police were coming from so far away .",
+    "correctness": true,
+    "question_id": 31,
+    "score": 2.4474725164918467e-32
+  },
+  {
+    "substitution": "Frank was upset with Tom because tFrank toaster Frank had bought from him did not work .",
+    "correctness": true,
+    "question_id": 32,
+    "score": 2.2535191024543244e-43
+  },
+  {
+    "substitution": "Frank was upset with Tom because tTom toaster Tom had bought from him did not work .",
+    "correctness": false,
+    "question_id": 32,
+    "score": 8.313285653770987e-43
+  },
+  {
+    "substitution": "Frank was upset with Tom because tFrank toaster Frank had sold him did not work .",
+    "correctness": false,
+    "question_id": 33,
+    "score": 2.183219083791062e-43
+  },
+  {
+    "substitution": "Frank was upset with Tom because tTom toaster Tom had sold him did not work .",
+    "correctness": true,
+    "question_id": 33,
+    "score": 5.541235039311971e-43
+  },
+  {
+    "substitution": "Jim yelled at Kevin because Jim was so upset .",
+    "correctness": true,
+    "question_id": 34,
+    "score": 3.208481330603797e-24
+  },
+  {
+    "substitution": "Jim yelled at Kevin because Kevin was so upset .",
+    "correctness": false,
+    "question_id": 34,
+    "score": 8.10498563320029e-24
+  },
+  {
+    "substitution": "Jim comforted Kevin because Jim was so upset .",
+    "correctness": false,
+    "question_id": 35,
+    "score": 2.7086480312697343e-25
+  },
+  {
+    "substitution": "Jim comforted Kevin because Kevin was so upset .",
+    "correctness": true,
+    "question_id": 35,
+    "score": 8.39639767592993e-25
+  },
+  {
+    "substitution": "The sack of potatoes had been placed above the bag of flour , so The sack of potatoes had to be moved first .",
+    "correctness": true,
+    "question_id": 36,
+    "score": 9.165378313509186e-40
+  },
+  {
+    "substitution": "The sack of potatoes had been placed above the bag of flour , so The bag of flour had to be moved first .",
+    "correctness": false,
+    "question_id": 36,
+    "score": 5.135923301609863e-39
+  },
+  {
+    "substitution": "The sack of potatoes had been placed below the bag of flour , so The sack of potatoes had to be moved first .",
+    "correctness": false,
+    "question_id": 37,
+    "score": 2.766181804536328e-40
+  },
+  {
+    "substitution": "The sack of potatoes had been placed below the bag of flour , so The bag of flour had to be moved first .",
+    "correctness": true,
+    "question_id": 37,
+    "score": 1.2365905662464003e-39
+  },
+  {
+    "substitution": "Pete envies Martin although Pete is very successful .",
+    "correctness": true,
+    "question_id": 38,
+    "score": 5.372348838328005e-29
+  },
+  {
+    "substitution": "Pete envies Martin although Martin is very successful .",
+    "correctness": false,
+    "question_id": 38,
+    "score": 4.140190363608164e-28
+  },
+  {
+    "substitution": "Pete envies Martin because Pete is very successful .",
+    "correctness": false,
+    "question_id": 39,
+    "score": 5.656041180843554e-27
+  },
+  {
+    "substitution": "Pete envies Martin because Martin is very successful .",
+    "correctness": true,
+    "question_id": 39,
+    "score": 2.1953090258043742e-26
+  },
+  {
+    "substitution": "The older students were bullying the younger ones , so we punished The older students  .",
+    "correctness": true,
+    "question_id": 40,
+    "score": 3.506919123808781e-31
+  },
+  {
+    "substitution": "The older students were bullying the younger ones , so we punished The younger ones  .",
+    "correctness": false,
+    "question_id": 40,
+    "score": 6.295200855187408e-31
+  },
+  {
+    "substitution": "The older students were bullying the younger ones , so we rescued The older students  .",
+    "correctness": false,
+    "question_id": 41,
+    "score": 3.250388655980361e-32
+  },
+  {
+    "substitution": "The older students were bullying the younger ones , so we rescued The younger ones  .",
+    "correctness": true,
+    "question_id": 41,
+    "score": 7.693654263853701e-32
+  },
+  {
+    "substitution": "I poured water from the bottle into the cup until the bottle was empty .",
+    "correctness": true,
+    "question_id": 42,
+    "score": 9.443620509837025e-21
+  },
+  {
+    "substitution": "I poured water from the bottle into the cup until the cup was empty .",
+    "correctness": false,
+    "question_id": 42,
+    "score": 4.103959041722922e-20
+  },
+  {
+    "substitution": "I poured water from the bottle into the cup until the bottle was full .",
+    "correctness": false,
+    "question_id": 43,
+    "score": 1.906262093015881e-21
+  },
+  {
+    "substitution": "I poured water from the bottle into the cup until the cup was full .",
+    "correctness": true,
+    "question_id": 43,
+    "score": 1.7891644633008233e-20
+  },
+  {
+    "substitution": "Susan knows all about Ann's personal problems because Susan is nosy .",
+    "correctness": true,
+    "question_id": 44,
+    "score": 1.7012109731493457e-31
+  },
+  {
+    "substitution": "Susan knows all about Ann's personal problems because Ann is nosy .",
+    "correctness": false,
+    "question_id": 44,
+    "score": 6.097401557220194e-32
+  },
+  {
+    "substitution": "Susan knows all about Ann's personal problems because Susan is indiscreet .",
+    "correctness": false,
+    "question_id": 45,
+    "score": 3.078534390313099e-33
+  },
+  {
+    "substitution": "Susan knows all about Ann's personal problems because Ann is indiscreet .",
+    "correctness": true,
+    "question_id": 45,
+    "score": 2.1027862388720553e-33
+  },
+  {
+    "substitution": "Sid explained his theory to Mark but he could not convince Sid .",
+    "correctness": false,
+    "question_id": 46,
+    "score": 4.9101924471645445e-30
+  },
+  {
+    "substitution": "Sid explained his theory to Mark but he could not convince Mark .",
+    "correctness": true,
+    "question_id": 46,
+    "score": 1.0659716921031573e-28
+  },
+  {
+    "substitution": "Sid explained his theory to Mark but he could not understand Sid .",
+    "correctness": true,
+    "question_id": 47,
+    "score": 1.6089491971318047e-29
+  },
+  {
+    "substitution": "Sid explained his theory to Mark but he could not understand Mark .",
+    "correctness": false,
+    "question_id": 47,
+    "score": 2.5303911820960345e-28
+  },
+  {
+    "substitution": "Susan knew that Ann's son had been in a car accident , so Susan told her about it .",
+    "correctness": true,
+    "question_id": 48,
+    "score": 9.132524616178414e-34
+  },
+  {
+    "substitution": "Susan knew that Ann's son had been in a car accident , so Ann told her about it .",
+    "correctness": false,
+    "question_id": 48,
+    "score": 1.028801345803971e-33
+  },
+  {
+    "substitution": "Susan knew that Ann's son had been in a car accident , because Susan told her about it .",
+    "correctness": false,
+    "question_id": 49,
+    "score": 5.543249783798841e-35
+  },
+  {
+    "substitution": "Susan knew that Ann's son had been in a car accident , because Ann told her about it .",
+    "correctness": true,
+    "question_id": 49,
+    "score": 4.180493299159532e-35
+  },
+  {
+    "substitution": "Joe's uncle can still beat him at tennis , even though Joe is 30 years younger .",
+    "correctness": true,
+    "question_id": 50,
+    "score": 3.755141167289236e-35
+  },
+  {
+    "substitution": "Joe's uncle can still beat him at tennis , even though Joe's uncle is 30 years younger .",
+    "correctness": false,
+    "question_id": 50,
+    "score": 1.3670058968222122e-38
+  },
+  {
+    "substitution": "Joe's uncle can still beat him at tennis , even though Joe is 30 years older .",
+    "correctness": false,
+    "question_id": 51,
+    "score": 3.630606604894091e-35
+  },
+  {
+    "substitution": "Joe's uncle can still beat him at tennis , even though Joe's uncle is 30 years older .",
+    "correctness": true,
+    "question_id": 51,
+    "score": 1.3462968299635875e-38
+  },
+  {
+    "substitution": "The painting in Mark's living room shows an oak tree . The painting is to the right of the bookcase .",
+    "correctness": true,
+    "question_id": 52,
+    "score": 1.1592613579482954e-36
+  },
+  {
+    "substitution": "The painting in Mark's living room shows an oak tree . The oak tree is to the right of the bookcase .",
+    "correctness": false,
+    "question_id": 52,
+    "score": 7.200091810045831e-38
+  },
+  {
+    "substitution": "The painting in Mark's living room shows an oak tree . The painting is to the right of a house .",
+    "correctness": false,
+    "question_id": 53,
+    "score": 8.655256568036921e-38
+  },
+  {
+    "substitution": "The painting in Mark's living room shows an oak tree . The oak tree is to the right of a house .",
+    "correctness": true,
+    "question_id": 53,
+    "score": 3.9473312802164737e-38
+  },
+  {
+    "substitution": "There is a gap in the wall . You can see the garden through The gap  .",
+    "correctness": true,
+    "question_id": 54,
+    "score": 3.070096212982323e-31
+  },
+  {
+    "substitution": "There is a gap in the wall . You can see the garden through The wall  .",
+    "correctness": false,
+    "question_id": 54,
+    "score": 2.948972744180203e-30
+  },
+  {
+    "substitution": "There is a gap in the wall . You can see the garden behind The gap  .",
+    "correctness": false,
+    "question_id": 55,
+    "score": 5.615361139840304e-32
+  },
+  {
+    "substitution": "There is a gap in the wall . You can see the garden behind The wall  .",
+    "correctness": true,
+    "question_id": 55,
+    "score": 5.609744423214368e-30
+  },
+  {
+    "substitution": "The drain is clogged with hair . The drain has to be cleaned .",
+    "correctness": true,
+    "question_id": 56,
+    "score": 1.60650842604949e-26
+  },
+  {
+    "substitution": "The drain is clogged with hair . The hair has to be cleaned .",
+    "correctness": false,
+    "question_id": 56,
+    "score": 1.7480977442328429e-25
+  },
+  {
+    "substitution": "The drain is clogged with hair . The drain has to be removed .",
+    "correctness": false,
+    "question_id": 57,
+    "score": 9.466602927399203e-26
+  },
+  {
+    "substitution": "The drain is clogged with hair . The hair has to be removed .",
+    "correctness": true,
+    "question_id": 57,
+    "score": 1.6395770639326969e-24
+  },
+  {
+    "substitution": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , The meeting was short , so The meeting worked out .",
+    "correctness": true,
+    "question_id": 58,
+    "score": 1.3450118819498825e-60
+  },
+  {
+    "substitution": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , The train was short , so The train worked out .",
+    "correctness": false,
+    "question_id": 58,
+    "score": 8.98180109345224e-58
+  },
+  {
+    "substitution": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , The meeting was delayed , so The meeting worked out .",
+    "correctness": false,
+    "question_id": 59,
+    "score": 8.127186681963113e-61
+  },
+  {
+    "substitution": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , The train was delayed , so The train worked out .",
+    "correctness": true,
+    "question_id": 59,
+    "score": 1.8976223841449827e-56
+  },
+  {
+    "substitution": "There is a pillar between me and the stage , and I can not see around The pillar  .",
+    "correctness": true,
+    "question_id": 60,
+    "score": 2.4392751988375862e-33
+  },
+  {
+    "substitution": "There is a pillar between me and the stage , and I can not see around The stage  .",
+    "correctness": false,
+    "question_id": 60,
+    "score": 2.507889390520446e-31
+  },
+  {
+    "substitution": "There is a pillar between me and the stage , and I can not see The pillar  .",
+    "correctness": false,
+    "question_id": 61,
+    "score": 2.6700255495823728e-30
+  },
+  {
+    "substitution": "There is a pillar between me and the stage , and I can not see The stage  .",
+    "correctness": true,
+    "question_id": 61,
+    "score": 2.227701552774879e-28
+  },
+  {
+    "substitution": "They broadcast an announcement , but a subway came into the station and I could not hear The announcement  .",
+    "correctness": true,
+    "question_id": 62,
+    "score": 9.478114715765355e-39
+  },
+  {
+    "substitution": "They broadcast an announcement , but a subway came into the station and I could not hear The subway  .",
+    "correctness": false,
+    "question_id": 62,
+    "score": 5.119393839654796e-38
+  },
+  {
+    "substitution": "They broadcast an announcement , but a subway came into the station and I could not hear over The announcement  .",
+    "correctness": false,
+    "question_id": 63,
+    "score": 9.273121359147267e-42
+  },
+  {
+    "substitution": "They broadcast an announcement , but a subway came into the station and I could not hear over The subway  .",
+    "correctness": true,
+    "question_id": 63,
+    "score": 6.182440508109891e-41
+  },
+  {
+    "substitution": "In the middle of the outdoor concert , the rain started falling , but The concert continued until 10 .",
+    "correctness": true,
+    "question_id": 64,
+    "score": 2.7581962119801788e-33
+  },
+  {
+    "substitution": "In the middle of the outdoor concert , the rain started falling , but The rain continued until 10 .",
+    "correctness": false,
+    "question_id": 64,
+    "score": 5.24824277285548e-33
+  },
+  {
+    "substitution": "In the middle of the outdoor concert , the rain started falling , and The concert continued until 10 .",
+    "correctness": false,
+    "question_id": 65,
+    "score": 1.0185171091460505e-32
+  },
+  {
+    "substitution": "In the middle of the outdoor concert , the rain started falling , and The rain continued until 10 .",
+    "correctness": true,
+    "question_id": 65,
+    "score": 2.1052973491460407e-32
+  },
+  {
+    "substitution": "I used an old rag to clean the knife , and then I put The rag in the trash .",
+    "correctness": true,
+    "question_id": 66,
+    "score": 4.812307209083331e-33
+  },
+  {
+    "substitution": "I used an old rag to clean the knife , and then I put The knife in the trash .",
+    "correctness": false,
+    "question_id": 66,
+    "score": 1.8301405639850507e-31
+  },
+  {
+    "substitution": "I used an old rag to clean the knife , and then I put The rag in the drawer .",
+    "correctness": false,
+    "question_id": 67,
+    "score": 1.6695476843974615e-33
+  },
+  {
+    "substitution": "I used an old rag to clean the knife , and then I put The knife in the drawer .",
+    "correctness": true,
+    "question_id": 67,
+    "score": 4.618223194541228e-31
+  },
+  {
+    "substitution": "Ann asked Mary what time the library closes , because Ann had forgotten .",
+    "correctness": true,
+    "question_id": 68,
+    "score": 8.077979435660807e-33
+  },
+  {
+    "substitution": "Ann asked Mary what time the library closes , because Mary had forgotten .",
+    "correctness": false,
+    "question_id": 68,
+    "score": 1.0774798601154129e-31
+  },
+  {
+    "substitution": "Ann asked Mary what time the library closes , but Ann had forgotten .",
+    "correctness": false,
+    "question_id": 69,
+    "score": 8.679388990235032e-32
+  },
+  {
+    "substitution": "Ann asked Mary what time the library closes , but Mary had forgotten .",
+    "correctness": true,
+    "question_id": 69,
+    "score": 6.527945034900336e-31
+  },
+  {
+    "substitution": "I took the water bottle out of the backpack so that The water bottle would be handy .",
+    "correctness": true,
+    "question_id": 70,
+    "score": 1.7400108138303458e-28
+  },
+  {
+    "substitution": "I took the water bottle out of the backpack so that The backpack would be handy .",
+    "correctness": false,
+    "question_id": 70,
+    "score": 7.921236214651285e-29
+  },
+  {
+    "substitution": "I took the water bottle out of the backpack so that The water bottle would be lighter .",
+    "correctness": false,
+    "question_id": 71,
+    "score": 2.3403848003911045e-29
+  },
+  {
+    "substitution": "I took the water bottle out of the backpack so that The backpack would be lighter .",
+    "correctness": true,
+    "question_id": 71,
+    "score": 2.765777593857332e-29
+  },
+  {
+    "substitution": "I could not put the pot on the shelf because The pot was too tall .",
+    "correctness": true,
+    "question_id": 72,
+    "score": 8.441392030473573e-28
+  },
+  {
+    "substitution": "I could not put the pot on the shelf because The shelf was too tall .",
+    "correctness": false,
+    "question_id": 72,
+    "score": 2.2043378908874428e-28
+  },
+  {
+    "substitution": "I could not put the pot on the shelf because The pot was too high .",
+    "correctness": false,
+    "question_id": 73,
+    "score": 2.2069802485666632e-27
+  },
+  {
+    "substitution": "I could not put the pot on the shelf because The shelf was too high .",
+    "correctness": true,
+    "question_id": 73,
+    "score": 7.07659232042445e-28
+  },
+  {
+    "substitution": "I am sure that my map will show this building ; The map is very good .",
+    "correctness": true,
+    "question_id": 74,
+    "score": 1.8676248527154103e-30
+  },
+  {
+    "substitution": "I am sure that my map will show this building ; The building is very good .",
+    "correctness": false,
+    "question_id": 74,
+    "score": 2.1982214019380715e-30
+  },
+  {
+    "substitution": "I am sure that my map will show this building ; The map is very famous .",
+    "correctness": false,
+    "question_id": 75,
+    "score": 2.0117032672505378e-32
+  },
+  {
+    "substitution": "I am sure that my map will show this building ; The building is very famous .",
+    "correctness": true,
+    "question_id": 75,
+    "score": 1.8542669730366238e-31
+  },
+  {
+    "substitution": "Bob paid for Charlie's college education . Bob is very generous .",
+    "correctness": true,
+    "question_id": 76,
+    "score": 8.587417305802002e-31
+  },
+  {
+    "substitution": "Bob paid for Charlie's college education . Charlie is very generous .",
+    "correctness": false,
+    "question_id": 76,
+    "score": 5.839473461801796e-31
+  },
+  {
+    "substitution": "Bob paid for Charlie's college education . Bob is very grateful .",
+    "correctness": false,
+    "question_id": 77,
+    "score": 3.0433430454569738e-31
+  },
+  {
+    "substitution": "Bob paid for Charlie's college education . Charlie is very grateful .",
+    "correctness": true,
+    "question_id": 77,
+    "score": 3.0872772608576185e-31
+  },
+  {
+    "substitution": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . Bob is very hurt .",
+    "correctness": true,
+    "question_id": 78,
+    "score": 6.527224702904176e-50
+  },
+  {
+    "substitution": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . Charlie is very hurt .",
+    "correctness": false,
+    "question_id": 78,
+    "score": 7.390987352850566e-49
+  },
+  {
+    "substitution": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . Bob is very ungrateful .",
+    "correctness": false,
+    "question_id": 79,
+    "score": 2.1762793649157983e-50
+  },
+  {
+    "substitution": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . Charlie is very ungrateful .",
+    "correctness": true,
+    "question_id": 79,
+    "score": 2.4992369339776067e-49
+  },
+  {
+    "substitution": "Bob was playing cards with Adam and was way aBobad . If Adam had not had a sudden run of good luck , Bob would have won .",
+    "correctness": true,
+    "question_id": 80,
+    "score": 1.96651908718575e-54
+  },
+  {
+    "substitution": "Bob was playing cards with Adam and was way aAdamad . If Adam had not had a sudden run of good luck , Adam would have won .",
+    "correctness": false,
+    "question_id": 80,
+    "score": 2.0311217531920141e-53
+  },
+  {
+    "substitution": "Bob was playing cards with Adam and was way aBobad . If Adam had not had a sudden run of good luck , Bob would have lost .",
+    "correctness": false,
+    "question_id": 81,
+    "score": 4.967341616157096e-56
+  },
+  {
+    "substitution": "Bob was playing cards with Adam and was way aAdamad . If Adam had not had a sudden run of good luck , Adam would have lost .",
+    "correctness": true,
+    "question_id": 81,
+    "score": 5.437479602601677e-55
+  },
+  {
+    "substitution": "Adam can not leave work Adamre until Bob arrives to replace him . If Bob had left home for work on time , Adam would be gone by this time .",
+    "correctness": true,
+    "question_id": 82,
+    "score": 1.0263552631812519e-59
+  },
+  {
+    "substitution": "Adam can not leave work Bobre until Bob arrives to replace him . If Bob had left home for work on time , Bob would be gone by this time .",
+    "correctness": false,
+    "question_id": 82,
+    "score": 5.0784941363592685e-59
+  },
+  {
+    "substitution": "Adam can not leave work Adamre until Bob arrives to replace him . If Bob had left home for work on time , Adam would be Adamre by this time .",
+    "correctness": false,
+    "question_id": 83,
+    "score": 2.2217549663779377e-61
+  },
+  {
+    "substitution": "Adam can not leave work Bobre until Bob arrives to replace him . If Bob had left home for work on time , Bob would be Bobre by this time .",
+    "correctness": true,
+    "question_id": 83,
+    "score": 1.0847958880646854e-60
+  },
+  {
+    "substitution": "If tThe con artist con artist has succeeded in fooling Sam , The con artist would have gotten a lot of money .",
+    "correctness": true,
+    "question_id": 84,
+    "score": 1.3003658520382253e-52
+  },
+  {
+    "substitution": "If tSam con artist has succeeded in fooling Sam , Sam would have gotten a lot of money .",
+    "correctness": false,
+    "question_id": 84,
+    "score": 3.7908989621819856e-41
+  },
+  {
+    "substitution": "If tThe con artist con artist has succeeded in fooling Sam , The con artist would have lost a lot of money .",
+    "correctness": false,
+    "question_id": 85,
+    "score": 6.388759075244079e-52
+  },
+  {
+    "substitution": "If tSam con artist has succeeded in fooling Sam , Sam would have lost a lot of money .",
+    "correctness": true,
+    "question_id": 85,
+    "score": 5.659019823719808e-40
+  },
+  {
+    "substitution": "It was a summer afternoon , and the dog was sThe dogting in the middle of the lawn . After a while , The dog got up and moved to a spot under the tree , because The dog was hot .",
+    "correctness": true,
+    "question_id": 86,
+    "score": 2.3491588089395577e-65
+  },
+  {
+    "substitution": "It was a summer afternoon , and the dog was sThe spot under the treeting in the middle of the lawn . After a while , The spot under the tree got up and moved to a spot under the tree , because The spot under the tree was hot .",
+    "correctness": false,
+    "question_id": 86,
+    "score": 1.90668690455504e-84
+  },
+  {
+    "substitution": "It was a summer afternoon , and the dog was sThe dogting in the middle of the lawn . After a while , The dog got up and moved to a spot under the tree , because The dog was cooler .",
+    "correctness": false,
+    "question_id": 87,
+    "score": 1.3217531139122047e-66
+  },
+  {
+    "substitution": "It was a summer afternoon , and the dog was sThe spot under the treeting in the middle of the lawn . After a while , The spot under the tree got up and moved to a spot under the tree , because The spot under the tree was cooler .",
+    "correctness": true,
+    "question_id": 87,
+    "score": 1.992859408250925e-85
+  },
+  {
+    "substitution": "The cat was lying by the mouse hole waThe cating for the mouse , but The cat was too impatient .",
+    "correctness": true,
+    "question_id": 88,
+    "score": 2.7547005374882396e-41
+  },
+  {
+    "substitution": "The cat was lying by the mouse hole waThe mouseing for the mouse , but The mouse was too impatient .",
+    "correctness": false,
+    "question_id": 88,
+    "score": 6.636346538243523e-41
+  },
+  {
+    "substitution": "The cat was lying by the mouse hole waThe cating for the mouse , but The cat was too cautious .",
+    "correctness": false,
+    "question_id": 89,
+    "score": 1.2112172723041368e-41
+  },
+  {
+    "substitution": "The cat was lying by the mouse hole waThe mouseing for the mouse , but The mouse was too cautious .",
+    "correctness": true,
+    "question_id": 89,
+    "score": 4.2306706823812085e-41
+  },
+  {
+    "substitution": "Anne gave birth to a daughter last month . Anne is a very charming woman .",
+    "correctness": true,
+    "question_id": 90,
+    "score": 3.1811403155262265e-29
+  },
+  {
+    "substitution": "Anne gave birth to a daughter last month . daughter is a very charming woman .",
+    "correctness": false,
+    "question_id": 90,
+    "score": 9.735793824015219e-31
+  },
+  {
+    "substitution": "Anne gave birth to a daughter last month . Anne is a very charming baby .",
+    "correctness": false,
+    "question_id": 91,
+    "score": 8.41374750136017e-30
+  },
+  {
+    "substitution": "Anne gave birth to a daughter last month . daughter is a very charming baby .",
+    "correctness": true,
+    "question_id": 91,
+    "score": 4.914506251472922e-31
+  },
+  {
+    "substitution": "Alice tried frantically to stop her daughter from chatting at the party , leaving us to wonder why Alice was behaving so strangely .",
+    "correctness": true,
+    "question_id": 92,
+    "score": 1.3582326773383476e-45
+  },
+  {
+    "substitution": "Alice tried frantically to stop her daughter from chatting at the party , leaving us to wonder why daughter was behaving so strangely .",
+    "correctness": false,
+    "question_id": 92,
+    "score": 1.147080191990474e-47
+  },
+  {
+    "substitution": "Alice tried frantically to stop her daughter from barking at the party , leaving us to wonder why Alice was behaving so strangely .",
+    "correctness": false,
+    "question_id": 93,
+    "score": 1.2034703418173014e-44
+  },
+  {
+    "substitution": "Alice tried frantically to stop her daughter from barking at the party , leaving us to wonder why daughter was behaving so strangely .",
+    "correctness": true,
+    "question_id": 93,
+    "score": 1.1941187232499551e-46
+  },
+  {
+    "substitution": "I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know why Jim was , but Jim looked very unhappy .",
+    "correctness": true,
+    "question_id": 94,
+    "score": 2.743628379230862e-57
+  },
+  {
+    "substitution": "I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know why the guy was , but the guy looked very unhappy .",
+    "correctness": false,
+    "question_id": 94,
+    "score": 4.83536626676038e-55
+  },
+  {
+    "substitution": "I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know who Jim was , but Jim looked very unhappy .",
+    "correctness": false,
+    "question_id": 95,
+    "score": 7.370331891752857e-56
+  },
+  {
+    "substitution": "I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know who the guy was , but the guy looked very unhappy .",
+    "correctness": true,
+    "question_id": 95,
+    "score": 2.3504603891653688e-52
+  },
+  {
+    "substitution": "The fish ate the worm . The fish was hungry .",
+    "correctness": true,
+    "question_id": 96,
+    "score": 2.0558764215818385e-21
+  },
+  {
+    "substitution": "The fish ate the worm . The worm was hungry .",
+    "correctness": false,
+    "question_id": 96,
+    "score": 9.882737687499166e-23
+  },
+  {
+    "substitution": "The fish ate the worm . The fish was tasty .",
+    "correctness": false,
+    "question_id": 97,
+    "score": 3.1430810600410956e-22
+  },
+  {
+    "substitution": "The fish ate the worm . The worm was tasty .",
+    "correctness": true,
+    "question_id": 97,
+    "score": 4.7741402759222376e-24
+  },
+  {
+    "substitution": "I was trying to open the lock wThe keyh the key , but someone had filled the keyhole wThe keyh chewing gum , and I could not get The key in .",
+    "correctness": true,
+    "question_id": 98,
+    "score": 1.0490505582551814e-55
+  },
+  {
+    "substitution": "I was trying to open the lock wThe chewing gumh the key , but someone had filled the keyhole wThe chewing gumh chewing gum , and I could not get The chewing gum in .",
+    "correctness": false,
+    "question_id": 98,
+    "score": 2.692672667022885e-66
+  },
+  {
+    "substitution": "I was trying to open the lock wThe keyh the key , but someone had filled the keyhole wThe keyh chewing gum , and I could not get The key out .",
+    "correctness": false,
+    "question_id": 99,
+    "score": 3.647368769538917e-55
+  },
+  {
+    "substitution": "I was trying to open the lock wThe chewing gumh the key , but someone had filled the keyhole wThe chewing gumh chewing gum , and I could not get The chewing gum out .",
+    "correctness": true,
+    "question_id": 99,
+    "score": 2.3043568815736783e-65
+  },
+  {
+    "substitution": "The dog chased the cat , which ran up a tree . The dog waited at the bottom .",
+    "correctness": true,
+    "question_id": 100,
+    "score": 4.768901114294663e-33
+  },
+  {
+    "substitution": "The dog chased the cat , which ran up a tree . The cat waited at the bottom .",
+    "correctness": false,
+    "question_id": 100,
+    "score": 1.4546091017453379e-33
+  },
+  {
+    "substitution": "The dog chased the cat , which ran up a tree . The dog waited at the top .",
+    "correctness": false,
+    "question_id": 101,
+    "score": 3.307148030231441e-33
+  },
+  {
+    "substitution": "The dog chased the cat , which ran up a tree . The cat waited at the top .",
+    "correctness": true,
+    "question_id": 101,
+    "score": 1.200673613539915e-33
+  },
+  {
+    "substitution": "In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get The tree removed .",
+    "correctness": true,
+    "question_id": 102,
+    "score": 9.501032793592582e-43
+  },
+  {
+    "substitution": "In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get The roof removed .",
+    "correctness": false,
+    "question_id": 102,
+    "score": 3.704786892343939e-43
+  },
+  {
+    "substitution": "In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get The tree repaired .",
+    "correctness": false,
+    "question_id": 103,
+    "score": 3.969034860721979e-43
+  },
+  {
+    "substitution": "In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get The roof repaired .",
+    "correctness": true,
+    "question_id": 103,
+    "score": 1.1348593174342966e-42
+  },
+  {
+    "substitution": "The customer walked into the bank and stabbed one of the tellers . The customer was immediately taken to the police station .",
+    "correctness": true,
+    "question_id": 104,
+    "score": 1.3281406471620426e-36
+  },
+  {
+    "substitution": "The customer walked into the bank and stabbed one of the tellers . The teller was immediately taken to the police station .",
+    "correctness": false,
+    "question_id": 104,
+    "score": 1.1844790978308201e-36
+  },
+  {
+    "substitution": "The customer walked into the bank and stabbed one of the tellers . The customer was immediately taken to the hospital .",
+    "correctness": false,
+    "question_id": 105,
+    "score": 3.086917439008296e-36
+  },
+  {
+    "substitution": "The customer walked into the bank and stabbed one of the tellers . one of the tellers was immediately taken to the hospital .",
+    "correctness": true,
+    "question_id": 105,
+    "score": 7.895361748493656e-40
+  },
+  {
+    "substitution": "John was doing research in the library when he heard a man humming and whistling . John was very annoyed .",
+    "correctness": true,
+    "question_id": 106,
+    "score": 7.42980171112066e-40
+  },
+  {
+    "substitution": "John was doing research in the library when he heard a man humming and whistling . The man was very annoyed .",
+    "correctness": false,
+    "question_id": 106,
+    "score": 4.462965902997883e-39
+  },
+  {
+    "substitution": "John was doing research in the library when he heard a man humming and whistling . John was very annoying .",
+    "correctness": false,
+    "question_id": 107,
+    "score": 1.6021411019690124e-40
+  },
+  {
+    "substitution": "John was doing research in the library when he heard a man humming and whistling . The man was very annoying .",
+    "correctness": true,
+    "question_id": 107,
+    "score": 3.168396943187595e-39
+  },
+  {
+    "substitution": "John was jogging through the park when he saw a man juggling watermelons . John was very impressed .",
+    "correctness": true,
+    "question_id": 108,
+    "score": 5.18016899078826e-39
+  },
+  {
+    "substitution": "John was jogging through the park when he saw a man juggling watermelons . The juggler was very impressed .",
+    "correctness": false,
+    "question_id": 108,
+    "score": 5.804679268142617e-42
+  },
+  {
+    "substitution": "John was jogging through the park when he saw a man juggling watermelons . John was very impressive .",
+    "correctness": false,
+    "question_id": 109,
+    "score": 3.6394995702354828e-40
+  },
+  {
+    "substitution": "John was jogging through the park when he saw a man juggling watermelons . The juggler was very impressive .",
+    "correctness": true,
+    "question_id": 109,
+    "score": 2.111294574957746e-42
+  },
+  {
+    "substitution": "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . Bob was very ill .",
+    "correctness": true,
+    "question_id": 110,
+    "score": 4.663552037638468e-43
+  },
+  {
+    "substitution": "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . Carl was very ill .",
+    "correctness": false,
+    "question_id": 110,
+    "score": 1.475974241438808e-43
+  },
+  {
+    "substitution": "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . Bob was very concerned .",
+    "correctness": false,
+    "question_id": 111,
+    "score": 3.2506100873941613e-43
+  },
+  {
+    "substitution": "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . Carl was very concerned .",
+    "correctness": true,
+    "question_id": 111,
+    "score": 1.1240971452313598e-43
+  },
+  {
+    "substitution": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because Sam and Amy are fifteen .",
+    "correctness": true,
+    "question_id": 112,
+    "score": 1.2310227922310787e-43
+  },
+  {
+    "substitution": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because Amy's parents are fifteen .",
+    "correctness": false,
+    "question_id": 112,
+    "score": 3.598664893072727e-43
+  },
+  {
+    "substitution": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because Sam and Amy are snobs .",
+    "correctness": false,
+    "question_id": 113,
+    "score": 3.370697615716653e-43
+  },
+  {
+    "substitution": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because Amy's parents are snobs .",
+    "correctness": true,
+    "question_id": 113,
+    "score": 8.544698834303302e-42
+  },
+  {
+    "substitution": "Mark told Pete many lies about himself , which Pete included in his book . Mark should have been more truthful .",
+    "correctness": true,
+    "question_id": 114,
+    "score": 1.1321364624690498e-47
+  },
+  {
+    "substitution": "Mark told Pete many lies about himself , which Pete included in his book . Pete should have been more truthful .",
+    "correctness": false,
+    "question_id": 114,
+    "score": 4.892942029386426e-48
+  },
+  {
+    "substitution": "Mark told Pete many lies about himself , which Pete included in his book . Mark should have been more skeptical .",
+    "correctness": false,
+    "question_id": 115,
+    "score": 1.7760107399086362e-48
+  },
+  {
+    "substitution": "Mark told Pete many lies about himself , which Pete included in his book . Pete should have been more skeptical .",
+    "correctness": true,
+    "question_id": 115,
+    "score": 8.057113702308689e-49
+  },
+  {
+    "substitution": "Joe has sold his house and bought a new one a few miles away . He will be moving out of The old house on Thursday .",
+    "correctness": true,
+    "question_id": 116,
+    "score": 1.2163851552547246e-42
+  },
+  {
+    "substitution": "Joe has sold his house and bought a new one a few miles away . He will be moving out of The new house on Thursday .",
+    "correctness": false,
+    "question_id": 116,
+    "score": 1.6613158153843784e-42
+  },
+  {
+    "substitution": "Joe has sold his house and bought a new one a few miles away . He will be moving into The old house on Thursday .",
+    "correctness": false,
+    "question_id": 117,
+    "score": 2.3693078412605623e-42
+  },
+  {
+    "substitution": "Joe has sold his house and bought a new one a few miles away . He will be moving into The new house on Thursday .",
+    "correctness": true,
+    "question_id": 117,
+    "score": 1.5870571151648064e-41
+  },
+  {
+    "substitution": "Many people start to read Paul's books and can not put them down . People are gripped because Paul writes so well .",
+    "correctness": true,
+    "question_id": 118,
+    "score": 4.677444004472493e-48
+  },
+  {
+    "substitution": "Many people start to read Paul's books and can not put them down . Paul's books are gripped because Paul writes so well .",
+    "correctness": false,
+    "question_id": 118,
+    "score": 3.5165415277107483e-50
+  },
+  {
+    "substitution": "Many people start to read Paul's books and can not put them down . People are popular because Paul writes so well .",
+    "correctness": false,
+    "question_id": 119,
+    "score": 1.7809169904320062e-45
+  },
+  {
+    "substitution": "Many people start to read Paul's books and can not put them down . Paul's books are popular because Paul writes so well .",
+    "correctness": true,
+    "question_id": 119,
+    "score": 2.883319246297516e-46
+  },
+  {
+    "substitution": "Mary took out her flute and played one of her favorThe flutee pieces . She has had The flute since she was a child .",
+    "correctness": true,
+    "question_id": 120,
+    "score": 1.4180995398741e-41
+  },
+  {
+    "substitution": "Mary took out her flute and played one of her favorThe piecee pieces . She has had The piece since she was a child .",
+    "correctness": false,
+    "question_id": 120,
+    "score": 8.766867079001614e-43
+  },
+  {
+    "substitution": "Mary took out her flute and played one of her favorThe flutee pieces . She has loved The flute since she was a child .",
+    "correctness": false,
+    "question_id": 121,
+    "score": 1.1419077552462251e-41
+  },
+  {
+    "substitution": "Mary took out her flute and played one of her favorThe piecee pieces . She has loved The piece since she was a child .",
+    "correctness": true,
+    "question_id": 121,
+    "score": 6.690532985140571e-43
+  },
+  {
+    "substitution": "Sam pulled up a chair to the piano , but The chair was broken , so he had to stand instead .",
+    "correctness": true,
+    "question_id": 122,
+    "score": 9.20114159973061e-38
+  },
+  {
+    "substitution": "Sam pulled up a chair to the piano , but The piano was broken , so he had to stand instead .",
+    "correctness": false,
+    "question_id": 122,
+    "score": 2.4496642124034926e-37
+  },
+  {
+    "substitution": "Sam pulled up a chair to the piano , but The chair was broken , so he had to sing instead .",
+    "correctness": false,
+    "question_id": 123,
+    "score": 9.054642619046118e-38
+  },
+  {
+    "substitution": "Sam pulled up a chair to the piano , but The piano was broken , so he had to sing instead .",
+    "correctness": true,
+    "question_id": 123,
+    "score": 1.4641571233680862e-36
+  },
+  {
+    "substitution": "Since The newspaper was raining , I carried the newspaper in my backpack to keep The newspaper dry .",
+    "correctness": true,
+    "question_id": 124,
+    "score": 8.709724110939349e-40
+  },
+  {
+    "substitution": "Since The backpack was raining , I carried the newspaper in my backpack to keep The backpack dry .",
+    "correctness": false,
+    "question_id": 124,
+    "score": 4.473988463298171e-40
+  },
+  {
+    "substitution": "Since The newspaper was raining , I carried the newspaper over my backpack to keep The newspaper dry .",
+    "correctness": false,
+    "question_id": 125,
+    "score": 3.7448735160433294e-42
+  },
+  {
+    "substitution": "Since The backpack was raining , I carried the newspaper over my backpack to keep The backpack dry .",
+    "correctness": true,
+    "question_id": 125,
+    "score": 2.807937623272127e-42
+  },
+  {
+    "substitution": "Sara borrowed the book from the library because she needs The book for an article she is working on . She reads The book when she gets home from work .",
+    "correctness": true,
+    "question_id": 126,
+    "score": 4.6521436955194655e-53
+  },
+  {
+    "substitution": "Sara borrowed the book from the library because she needs The article for an article she is working on . She reads The article when she gets home from work .",
+    "correctness": false,
+    "question_id": 126,
+    "score": 2.2303433324686113e-55
+  },
+  {
+    "substitution": "Sara borrowed the book from the library because she needs The book for an article she is working on . She wrThe bookes The book when she gets home from work .",
+    "correctness": false,
+    "question_id": 127,
+    "score": 1.3283772210824208e-55
+  },
+  {
+    "substitution": "Sara borrowed the book from the library because she needs The article for an article she is working on . She wrThe articlees The article when she gets home from work .",
+    "correctness": true,
+    "question_id": 127,
+    "score": 1.2635516084276312e-58
+  },
+  {
+    "substitution": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the tide knocked The sand castle down .",
+    "correctness": true,
+    "question_id": 128,
+    "score": 8.220794054068537e-62
+  },
+  {
+    "substitution": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the tide knocked The flag down .",
+    "correctness": false,
+    "question_id": 128,
+    "score": 4.521584581186947e-61
+  },
+  {
+    "substitution": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the wind knocked The sand castle down .",
+    "correctness": false,
+    "question_id": 129,
+    "score": 1.0619266653971444e-60
+  },
+  {
+    "substitution": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the wind knocked The flag down .",
+    "correctness": true,
+    "question_id": 129,
+    "score": 3.111144377106979e-59
+  },
+  {
+    "substitution": "Jane knocked on Susan's door , but there was no answer . Jane was disappointed .",
+    "correctness": true,
+    "question_id": 130,
+    "score": 5.477454463939582e-31
+  },
+  {
+    "substitution": "Jane knocked on Susan's door , but there was no answer . Susan was disappointed .",
+    "correctness": false,
+    "question_id": 130,
+    "score": 1.3739353478530335e-31
+  },
+  {
+    "substitution": "Jane knocked on Susan's door , but there was no answer . Jane was out .",
+    "correctness": false,
+    "question_id": 131,
+    "score": 4.5916247220899655e-31
+  },
+  {
+    "substitution": "Jane knocked on Susan's door , but there was no answer . Susan was out .",
+    "correctness": true,
+    "question_id": 131,
+    "score": 1.3092610146928912e-31
+  },
+  {
+    "substitution": "Jane knocked on the door , and Susan answered it . She invited Jane to come out .",
+    "correctness": false,
+    "question_id": 132,
+    "score": 2.200984203099923e-33
+  },
+  {
+    "substitution": "Jane knocked on the door , and Susan answered it . She invited Susan to come out .",
+    "correctness": true,
+    "question_id": 132,
+    "score": 1.0658855878990383e-33
+  },
+  {
+    "substitution": "Jane knocked on the door , and Susan answered it . She invited Jane to come in .",
+    "correctness": true,
+    "question_id": 133,
+    "score": 1.4517588129697603e-32
+  },
+  {
+    "substitution": "Jane knocked on the door , and Susan answered it . She invited Susan to come in .",
+    "correctness": false,
+    "question_id": 133,
+    "score": 7.140653153874716e-33
+  },
+  {
+    "substitution": "Sam took French classes from Adam , because Sam was eager to speak it fluently .",
+    "correctness": true,
+    "question_id": 134,
+    "score": 1.3704678523058256e-39
+  },
+  {
+    "substitution": "Sam took French classes from Adam , because Adam was eager to speak it fluently .",
+    "correctness": false,
+    "question_id": 134,
+    "score": 4.0503755327501755e-39
+  },
+  {
+    "substitution": "Sam took French classes from Adam , because Sam was known to speak it fluently .",
+    "correctness": false,
+    "question_id": 135,
+    "score": 6.09911488882696e-39
+  },
+  {
+    "substitution": "Sam took French classes from Adam , because Adam was known to speak it fluently .",
+    "correctness": true,
+    "question_id": 135,
+    "score": 4.6828026945835343e-38
+  },
+  {
+    "substitution": "The path to the lake was blocked , so we could not use The path  .",
+    "correctness": true,
+    "question_id": 136,
+    "score": 1.7398045115173158e-27
+  },
+  {
+    "substitution": "The path to the lake was blocked , so we could not use The lake  .",
+    "correctness": false,
+    "question_id": 136,
+    "score": 5.001683906921505e-27
+  },
+  {
+    "substitution": "The path to the lake was blocked , so we could not reach The path  .",
+    "correctness": false,
+    "question_id": 137,
+    "score": 4.328079390535662e-27
+  },
+  {
+    "substitution": "The path to the lake was blocked , so we could not reach The lake  .",
+    "correctness": true,
+    "question_id": 137,
+    "score": 9.77461012281067e-26
+  },
+  {
+    "substitution": "The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , The sun was out .",
+    "correctness": true,
+    "question_id": 138,
+    "score": 6.570653773911807e-39
+  },
+  {
+    "substitution": "The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , The cloud was out .",
+    "correctness": false,
+    "question_id": 138,
+    "score": 2.352982711898626e-42
+  },
+  {
+    "substitution": "The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , The sun was gone .",
+    "correctness": false,
+    "question_id": 139,
+    "score": 1.8568338287556563e-40
+  },
+  {
+    "substitution": "The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , The cloud was gone .",
+    "correctness": true,
+    "question_id": 139,
+    "score": 1.813107386273244e-41
+  },
+  {
+    "substitution": "We went to the lake , because a shark had been seen at the ocean beach , so The lake was a safer place to swim .",
+    "correctness": true,
+    "question_id": 140,
+    "score": 7.693686586468168e-44
+  },
+  {
+    "substitution": "We went to the lake , because a shark had been seen at the ocean beach , so The ocean beach was a safer place to swim .",
+    "correctness": false,
+    "question_id": 140,
+    "score": 5.0544016790342074e-48
+  },
+  {
+    "substitution": "We went to the lake , because a shark had been seen at the ocean beach , so The lake was a dangerous place to swim .",
+    "correctness": false,
+    "question_id": 141,
+    "score": 6.5638847358269655e-43
+  },
+  {
+    "substitution": "We went to the lake , because a shark had been seen at the ocean beach , so The ocean beach was a dangerous place to swim .",
+    "correctness": true,
+    "question_id": 141,
+    "score": 4.492944650018366e-47
+  },
+  {
+    "substitution": "Sam tried to paint a picture of shepherds with sheep , but The shepherds ended up looking more like golfers .",
+    "correctness": true,
+    "question_id": 142,
+    "score": 1.1089431451209099e-42
+  },
+  {
+    "substitution": "Sam tried to paint a picture of shepherds with sheep , but The sheep ended up looking more like golfers .",
+    "correctness": false,
+    "question_id": 142,
+    "score": 8.860759197996883e-43
+  },
+  {
+    "substitution": "Sam tried to paint a picture of shepherds with sheep , but The shepherds ended up looking more like dogs .",
+    "correctness": false,
+    "question_id": 143,
+    "score": 3.565736323409489e-39
+  },
+  {
+    "substitution": "Sam tried to paint a picture of shepherds with sheep , but The sheep ended up looking more like dogs .",
+    "correctness": true,
+    "question_id": 143,
+    "score": 4.482231146356625e-39
+  },
+  {
+    "substitution": "Mary tucked her daughter Anne into bed , so that Mary could work .",
+    "correctness": true,
+    "question_id": 144,
+    "score": 3.0482009876455995e-26
+  },
+  {
+    "substitution": "Mary tucked her daughter Anne into bed , so that daughter could work .",
+    "correctness": false,
+    "question_id": 144,
+    "score": 3.128189582831299e-28
+  },
+  {
+    "substitution": "Mary tucked her daughter Anne into bed , so that Mary could sleep .",
+    "correctness": false,
+    "question_id": 145,
+    "score": 9.816439895011395e-25
+  },
+  {
+    "substitution": "Mary tucked her daughter Anne into bed , so that daughter could sleep .",
+    "correctness": true,
+    "question_id": 145,
+    "score": 1.4931377401574024e-26
+  },
+  {
+    "substitution": "Fred and Alice had very warm down coats , but Fred and Alice were not prepared for the cold in Alaska .",
+    "correctness": true,
+    "question_id": 146,
+    "score": 2.615138705992403e-42
+  },
+  {
+    "substitution": "Fred and Alice had very warm down coats , but coats were not prepared for the cold in Alaska .",
+    "correctness": false,
+    "question_id": 146,
+    "score": 1.2290305269638635e-40
+  },
+  {
+    "substitution": "Fred and Alice had very warm down coats , but Fred and Alice were not enough for the cold in Alaska .",
+    "correctness": false,
+    "question_id": 147,
+    "score": 8.180023186845837e-45
+  },
+  {
+    "substitution": "Fred and Alice had very warm down coats , but coats were not enough for the cold in Alaska .",
+    "correctness": true,
+    "question_id": 147,
+    "score": 4.755243021863077e-41
+  },
+  {
+    "substitution": "Thomson visited Cooper's grave in 1765 . At that date Thomson had been travelling for five years .",
+    "correctness": true,
+    "question_id": 148,
+    "score": 9.540063105806345e-49
+  },
+  {
+    "substitution": "Thomson visited Cooper's grave in 1765 . At that date Cooper had been travelling for five years .",
+    "correctness": false,
+    "question_id": 148,
+    "score": 9.623258212738084e-48
+  },
+  {
+    "substitution": "Thomson visited Cooper's grave in 1765 . At that date Thomson had been dead for five years .",
+    "correctness": false,
+    "question_id": 149,
+    "score": 5.853418398811194e-46
+  },
+  {
+    "substitution": "Thomson visited Cooper's grave in 1765 . At that date Cooper had been dead for five years .",
+    "correctness": true,
+    "question_id": 149,
+    "score": 1.2498486138157079e-44
+  },
+  {
+    "substitution": "Jackson was greatly influenced by Arnold , though Jackson lived two centuries later .",
+    "correctness": true,
+    "question_id": 150,
+    "score": 1.305008809129016e-33
+  },
+  {
+    "substitution": "Jackson was greatly influenced by Arnold , though Arnold lived two centuries later .",
+    "correctness": false,
+    "question_id": 150,
+    "score": 1.6822717027125074e-33
+  },
+  {
+    "substitution": "Jackson was greatly influenced by Arnold , though Jackson lived two centuries earlier .",
+    "correctness": false,
+    "question_id": 151,
+    "score": 5.846336880973996e-34
+  },
+  {
+    "substitution": "Jackson was greatly influenced by Arnold , though Arnold lived two centuries earlier .",
+    "correctness": true,
+    "question_id": 151,
+    "score": 7.027443604726487e-34
+  },
+  {
+    "substitution": "I can not cut that tree down wThe treeh that axe ; The tree is too thick .",
+    "correctness": true,
+    "question_id": 152,
+    "score": 1.2102045393360677e-36
+  },
+  {
+    "substitution": "I can not cut that tree down wThe axeh that axe ; The axe is too thick .",
+    "correctness": false,
+    "question_id": 152,
+    "score": 4.248252014568514e-37
+  },
+  {
+    "substitution": "I can not cut that tree down wThe treeh that axe ; The tree is too small .",
+    "correctness": false,
+    "question_id": 153,
+    "score": 1.6642529359316877e-35
+  },
+  {
+    "substitution": "I can not cut that tree down wThe axeh that axe ; The axe is too small .",
+    "correctness": true,
+    "question_id": 153,
+    "score": 3.201995994767517e-36
+  },
+  {
+    "substitution": "The foxes are getting in at night and attacking the chickens . I shall have to kill The foxes  .",
+    "correctness": true,
+    "question_id": 154,
+    "score": 3.859598262786605e-38
+  },
+  {
+    "substitution": "The foxes are getting in at night and attacking the chickens . I shall have to kill The chickens  .",
+    "correctness": false,
+    "question_id": 154,
+    "score": 6.93406006183118e-38
+  },
+  {
+    "substitution": "The foxes are getting in at night and attacking the chickens . I shall have to guard The foxes  .",
+    "correctness": false,
+    "question_id": 155,
+    "score": 9.030339175405471e-41
+  },
+  {
+    "substitution": "The foxes are getting in at night and attacking the chickens . I shall have to guard The chickens  .",
+    "correctness": true,
+    "question_id": 155,
+    "score": 1.8989965645031577e-39
+  },
+  {
+    "substitution": "The foxes are getting in at night and attacking the chickens . The foxes have gotten very bold .",
+    "correctness": true,
+    "question_id": 156,
+    "score": 4.5258595433352324e-36
+  },
+  {
+    "substitution": "The foxes are getting in at night and attacking the chickens . The chickens have gotten very bold .",
+    "correctness": false,
+    "question_id": 156,
+    "score": 1.0088310419791843e-35
+  },
+  {
+    "substitution": "The foxes are getting in at night and attacking the chickens . The foxes have gotten very nervous .",
+    "correctness": false,
+    "question_id": 157,
+    "score": 1.002019641375896e-35
+  },
+  {
+    "substitution": "The foxes are getting in at night and attacking the chickens . The chickens have gotten very nervous .",
+    "correctness": true,
+    "question_id": 157,
+    "score": 5.071331985792195e-35
+  },
+  {
+    "substitution": "Fred covered his eyes with his hands , because the wind was blowing sand around . He opened His eyes when the wind stopped .",
+    "correctness": true,
+    "question_id": 158,
+    "score": 2.4340884615816775e-47
+  },
+  {
+    "substitution": "Fred covered his eyes with his hands , because the wind was blowing sand around . He opened His hands when the wind stopped .",
+    "correctness": false,
+    "question_id": 158,
+    "score": 4.103157581568452e-49
+  },
+  {
+    "substitution": "Fred covered his eyes with his hands , because the wind was blowing sand around . He lowered His eyes when the wind stopped .",
+    "correctness": false,
+    "question_id": 159,
+    "score": 4.3395067622971435e-49
+  },
+  {
+    "substitution": "Fred covered his eyes with his hands , because the wind was blowing sand around . He lowered His hands when the wind stopped .",
+    "correctness": true,
+    "question_id": 159,
+    "score": 2.2187860485357763e-49
+  },
+  {
+    "substitution": "The actress used to be named Terpsichore , but she changed Terpsichore to Tina a few years ago , because she figured Terpsichore was too hard to pronounce .",
+    "correctness": true,
+    "question_id": 160,
+    "score": 4.435871488516392e-59
+  },
+  {
+    "substitution": "The actress used to be named Terpsichore , but she changed Tina to Tina a few years ago , because she figured Tina was too hard to pronounce .",
+    "correctness": false,
+    "question_id": 160,
+    "score": 1.0987707637353918e-54
+  },
+  {
+    "substitution": "The actress used to be named Terpsichore , but she changed Terpsichore to Tina a few years ago , because she figured Terpsichore was easier to pronounce .",
+    "correctness": false,
+    "question_id": 161,
+    "score": 1.1051126401987452e-58
+  },
+  {
+    "substitution": "The actress used to be named Terpsichore , but she changed Tina to Tina a few years ago , because she figured Tina was easier to pronounce .",
+    "correctness": true,
+    "question_id": 161,
+    "score": 2.6245960477508904e-54
+  },
+  {
+    "substitution": "Fred watcFredd TV while George went out to buy groceries . After an hour Fred got up .",
+    "correctness": true,
+    "question_id": 162,
+    "score": 8.559978029111188e-43
+  },
+  {
+    "substitution": "Fred watcGeorged TV while George went out to buy groceries . After an hour George got up .",
+    "correctness": false,
+    "question_id": 162,
+    "score": 2.819038072087725e-42
+  },
+  {
+    "substitution": "Fred watcFredd TV while George went out to buy groceries . After an hour Fred got back .",
+    "correctness": false,
+    "question_id": 163,
+    "score": 1.7865918752766506e-43
+  },
+  {
+    "substitution": "Fred watcGeorged TV while George went out to buy groceries . After an hour George got back .",
+    "correctness": true,
+    "question_id": 163,
+    "score": 4.452070750673114e-43
+  },
+  {
+    "substitution": "Fred was supposed to run the dishwasher , but he put The dishwasher off , because he wanted to watch TV . But the show turned out to be boring , so he changed his mind and turned The dishwasher on .",
+    "correctness": true,
+    "question_id": 164,
+    "score": 4.29194195205648e-68
+  },
+  {
+    "substitution": "Fred was supposed to run the dishwasher , but he put The TV off , because he wanted to watch TV . But the show turned out to be boring , so he changed his mind and turned The TV on .",
+    "correctness": false,
+    "question_id": 164,
+    "score": 1.1992129463995093e-65
+  },
+  {
+    "substitution": "Fred was supposed to run the dishwasher , but he put The dishwasher off , because he wanted to watch TV . But the show turned out to be boring , so he changed his mind and turned The dishwasher off .",
+    "correctness": false,
+    "question_id": 165,
+    "score": 3.462481388415143e-68
+  },
+  {
+    "substitution": "Fred was supposed to run the dishwasher , but he put The TV off , because he wanted to watch TV . But the show turned out to be boring , so he changed his mind and turned The TV off .",
+    "correctness": true,
+    "question_id": 165,
+    "score": 9.608634237902036e-66
+  },
+  {
+    "substitution": "Fred is the only man still alive who remembers my great-grandfather . Fred is a remarkable man .",
+    "correctness": true,
+    "question_id": 166,
+    "score": 6.265628844509436e-36
+  },
+  {
+    "substitution": "Fred is the only man still alive who remembers my great-grandfather . great-grandfather is a remarkable man .",
+    "correctness": false,
+    "question_id": 166,
+    "score": 2.228311483527448e-40
+  },
+  {
+    "substitution": "Fred is the only man still alive who remembers my great-grandfather . Fred was a remarkable man .",
+    "correctness": false,
+    "question_id": 167,
+    "score": 2.6240522838318086e-36
+  },
+  {
+    "substitution": "Fred is the only man still alive who remembers my great-grandfather . great-grandfather was a remarkable man .",
+    "correctness": true,
+    "question_id": 167,
+    "score": 2.437587128407945e-40
+  },
+  {
+    "substitution": "Fred is tFred only man alive who still remembers my fatFredr as an infant . WFredn Fred first saw my fatFredr , Fred was twelve years old .",
+    "correctness": true,
+    "question_id": 168,
+    "score": 4.146534337094973e-60
+  },
+  {
+    "substitution": "Fred is tMy father only man alive who still remembers my fatMy fatherr as an infant . WMy fathern Fred first saw my fatMy fatherr , My father was twelve years old .",
+    "correctness": false,
+    "question_id": 168,
+    "score": 3.863813507119983e-69
+  },
+  {
+    "substitution": "Fred is tFred only man alive who still remembers my fatFredr as an infant . WFredn Fred first saw my fatFredr , Fred was twelve months old .",
+    "correctness": false,
+    "question_id": 169,
+    "score": 2.891161957006615e-61
+  },
+  {
+    "substitution": "Fred is tMy father only man alive who still remembers my fatMy fatherr as an infant . WMy fathern Fred first saw my fatMy fatherr , My father was twelve months old .",
+    "correctness": true,
+    "question_id": 169,
+    "score": 1.1840804534245564e-70
+  },
+  {
+    "substitution": "In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , Kamchatka were defeated within weeks .",
+    "correctness": true,
+    "question_id": 170,
+    "score": 1.842362161075549e-66
+  },
+  {
+    "substitution": "In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , Yakutsk were defeated within weeks .",
+    "correctness": false,
+    "question_id": 170,
+    "score": 2.962753120995968e-66
+  },
+  {
+    "substitution": "In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , Kamchatka were victorious within weeks .",
+    "correctness": false,
+    "question_id": 171,
+    "score": 3.326995179602742e-67
+  },
+  {
+    "substitution": "In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , Yakutsk were victorious within weeks .",
+    "correctness": true,
+    "question_id": 171,
+    "score": 5.0567515722228696e-67
+  },
+  {
+    "substitution": "Look! There is a minnow swimming right below that duck! The minnow had better get away to safety fast! .",
+    "correctness": true,
+    "question_id": 172,
+    "score": 2.122196491195041e-52
+  },
+  {
+    "substitution": "Look! There is a minnow swimming right below that duck! The duck had better get away to safety fast! .",
+    "correctness": false,
+    "question_id": 172,
+    "score": 9.254444608886206e-51
+  },
+  {
+    "substitution": "Look! There is a shark swimming right below that duck! The shark had better get away to safety fast! .",
+    "correctness": false,
+    "question_id": 173,
+    "score": 9.910297637311865e-49
+  },
+  {
+    "substitution": "Look! There is a shark swimming right below that duck! The duck had better get away to safety fast! .",
+    "correctness": true,
+    "question_id": 173,
+    "score": 6.431729921503615e-50
+  },
+  {
+    "substitution": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . Archaeologists hunted for evidence on the river banks .",
+    "correctness": true,
+    "question_id": 174,
+    "score": 5.939536463111063e-47
+  },
+  {
+    "substitution": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . humans hunted for evidence on the river banks .",
+    "correctness": false,
+    "question_id": 174,
+    "score": 9.867944361392262e-47
+  },
+  {
+    "substitution": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . Archaeologists hunted for deer on the river banks .",
+    "correctness": false,
+    "question_id": 175,
+    "score": 9.611770672335716e-48
+  },
+  {
+    "substitution": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . humans hunted for deer on the river banks .",
+    "correctness": true,
+    "question_id": 175,
+    "score": 1.4526065132155273e-45
+  },
+  {
+    "substitution": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . The scientists began two years ago .",
+    "correctness": true,
+    "question_id": 176,
+    "score": 9.62421239644585e-44
+  },
+  {
+    "substitution": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . The fish began two years ago .",
+    "correctness": false,
+    "question_id": 176,
+    "score": 5.419120874480346e-43
+  },
+  {
+    "substitution": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . The scientists appeared two years ago .",
+    "correctness": false,
+    "question_id": 177,
+    "score": 3.240841022523102e-45
+  },
+  {
+    "substitution": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . three species of fish appeared two years ago .",
+    "correctness": true,
+    "question_id": 177,
+    "score": 1.0622801004937895e-47
+  },
+  {
+    "substitution": "The journalists interviewed the stars of the new movie . The journalists were very persistent , so the interview lasted for a long time .",
+    "correctness": true,
+    "question_id": 178,
+    "score": 5.7407973280636275e-46
+  },
+  {
+    "substitution": "The journalists interviewed the stars of the new movie . The stars were very persistent , so the interview lasted for a long time .",
+    "correctness": false,
+    "question_id": 178,
+    "score": 1.0766492635403282e-45
+  },
+  {
+    "substitution": "The journalists interviewed the stars of the new movie . The journalists were very cooperative , so the interview lasted for a long time .",
+    "correctness": false,
+    "question_id": 179,
+    "score": 2.7654772940503208e-45
+  },
+  {
+    "substitution": "The journalists interviewed the stars of the new movie . The stars were very cooperative , so the interview lasted for a long time .",
+    "correctness": true,
+    "question_id": 179,
+    "score": 5.982682701595926e-45
+  },
+  {
+    "substitution": "The police arrested all of the gang members . The police were trying to stop the drug trade in the neighborhood .",
+    "correctness": true,
+    "question_id": 180,
+    "score": 1.4873289648582014e-33
+  },
+  {
+    "substitution": "The police arrested all of the gang members . all of the gang members were trying to stop the drug trade in the neighborhood .",
+    "correctness": false,
+    "question_id": 180,
+    "score": 1.7763641751341642e-37
+  },
+  {
+    "substitution": "The police arrested all of the gang members . The police were trying to run the drug trade in the neighborhood .",
+    "correctness": false,
+    "question_id": 181,
+    "score": 5.0924427077908296e-36
+  },
+  {
+    "substitution": "The police arrested all of the gang members . all of the gang members were trying to run the drug trade in the neighborhood .",
+    "correctness": true,
+    "question_id": 181,
+    "score": 4.838686112480936e-39
+  },
+  {
+    "substitution": "I put the cake away in the refrigerator . The cake has a lot of butter in it .",
+    "correctness": true,
+    "question_id": 182,
+    "score": 3.1434614471357913e-26
+  },
+  {
+    "substitution": "I put the cake away in the refrigerator . The refrigerator has a lot of butter in it .",
+    "correctness": false,
+    "question_id": 182,
+    "score": 1.7346205376727923e-28
+  },
+  {
+    "substitution": "I put the cake away in the refrigerator . The cake has a lot of leftovers in it .",
+    "correctness": false,
+    "question_id": 183,
+    "score": 1.9109262500270796e-28
+  },
+  {
+    "substitution": "I put the cake away in the refrigerator . The refrigerator has a lot of leftovers in it .",
+    "correctness": true,
+    "question_id": 183,
+    "score": 1.2538108817901874e-29
+  },
+  {
+    "substitution": "Sam broke both his ankles and he is walking with crutches . But a month or so from now The ankles should be better .",
+    "correctness": true,
+    "question_id": 184,
+    "score": 9.75702010272973e-50
+  },
+  {
+    "substitution": "Sam broke both his ankles and he is walking with crutches . But a month or so from now The crutches should be better .",
+    "correctness": false,
+    "question_id": 184,
+    "score": 9.454386929746084e-48
+  },
+  {
+    "substitution": "Sam broke both his ankles and he is walking with crutches . But a month or so from now The ankles should be unnecessary .",
+    "correctness": false,
+    "question_id": 185,
+    "score": 3.3709925186742203e-53
+  },
+  {
+    "substitution": "Sam broke both his ankles and he is walking with crutches . But a month or so from now The crutches should be unnecessary .",
+    "correctness": true,
+    "question_id": 185,
+    "score": 2.490467917585933e-50
+  },
+  {
+    "substitution": "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . The sponsors were very much in the minority .",
+    "correctness": true,
+    "question_id": 186,
+    "score": 1.5885340372536048e-51
+  },
+  {
+    "substitution": "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . The opponents were very much in the minority .",
+    "correctness": false,
+    "question_id": 186,
+    "score": 8.722498441633114e-51
+  },
+  {
+    "substitution": "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . The sponsors were very much in the majority .",
+    "correctness": false,
+    "question_id": 187,
+    "score": 3.1471604134167793e-52
+  },
+  {
+    "substitution": "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . The opponents were very much in the majority .",
+    "correctness": true,
+    "question_id": 187,
+    "score": 2.3927270615719525e-51
+  },
+  {
+    "substitution": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make more of The oatmeal cookies  .",
+    "correctness": true,
+    "question_id": 188,
+    "score": 7.120344664160341e-51
+  },
+  {
+    "substitution": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make more of The chocolate chip cookies  .",
+    "correctness": false,
+    "question_id": 188,
+    "score": 8.072818337585617e-51
+  },
+  {
+    "substitution": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make fewer of The oatmeal cookies  .",
+    "correctness": false,
+    "question_id": 189,
+    "score": 9.854031528361115e-54
+  },
+  {
+    "substitution": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make fewer of The chocolate chip cookies  .",
+    "correctness": true,
+    "question_id": 189,
+    "score": 8.257121520540707e-54
+  },
+  {
+    "substitution": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply not enough of copies of the newsletter  .",
+    "correctness": true,
+    "question_id": 190,
+    "score": 1.0085442041085517e-46
+  },
+  {
+    "substitution": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply not enough of chairs  .",
+    "correctness": false,
+    "question_id": 190,
+    "score": 1.8623605434482825e-41
+  },
+  {
+    "substitution": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply too many of copies of the newsletter  .",
+    "correctness": false,
+    "question_id": 191,
+    "score": 4.033551712421947e-46
+  },
+  {
+    "substitution": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply too many of chairs  .",
+    "correctness": true,
+    "question_id": 191,
+    "score": 3.350034990658834e-41
+  },
+  {
+    "substitution": "I stuck a pin through a carrot . When I pulled the pin out , The pin left a hole .",
+    "correctness": true,
+    "question_id": 192,
+    "score": 1.5896672988202017e-39
+  },
+  {
+    "substitution": "I stuck a pin through a carrot . When I pulled the pin out , The carrot left a hole .",
+    "correctness": false,
+    "question_id": 192,
+    "score": 3.095915759242062e-40
+  },
+  {
+    "substitution": "I stuck a pin through a carrot . When I pulled the pin out , The pin had a hole .",
+    "correctness": false,
+    "question_id": 193,
+    "score": 2.1607291743490374e-39
+  },
+  {
+    "substitution": "I stuck a pin through a carrot . When I pulled the pin out , The carrot had a hole .",
+    "correctness": true,
+    "question_id": 193,
+    "score": 6.186707613015694e-40
+  },
+  {
+    "substitution": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because The pen got full of coffee .",
+    "correctness": true,
+    "question_id": 194,
+    "score": 9.2399582245569e-55
+  },
+  {
+    "substitution": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because The coffee got full of coffee .",
+    "correctness": false,
+    "question_id": 194,
+    "score": 2.0260861651918733e-54
+  },
+  {
+    "substitution": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because The pen got full of ink .",
+    "correctness": false,
+    "question_id": 195,
+    "score": 9.201449023445892e-54
+  },
+  {
+    "substitution": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because The coffee got full of ink .",
+    "correctness": true,
+    "question_id": 195,
+    "score": 2.6960147130399344e-55
+  },
+  {
+    "substitution": "Steve follows Fred's example in everything . He admires Steve hugely .",
+    "correctness": false,
+    "question_id": 196,
+    "score": 1.0970661938226955e-36
+  },
+  {
+    "substitution": "Steve follows Fred's example in everything . He admires Fred hugely .",
+    "correctness": true,
+    "question_id": 196,
+    "score": 2.3458433092225814e-37
+  },
+  {
+    "substitution": "Steve follows Fred's example in everything . He influences Steve hugely .",
+    "correctness": true,
+    "question_id": 197,
+    "score": 6.158915931148685e-38
+  },
+  {
+    "substitution": "Steve follows Fred's example in everything . He influences Fred hugely .",
+    "correctness": false,
+    "question_id": 197,
+    "score": 1.7803541337987813e-38
+  },
+  {
+    "substitution": "The table will not fThe table through the doorway because The table is too wide .",
+    "correctness": true,
+    "question_id": 198,
+    "score": 2.3071006213325348e-38
+  },
+  {
+    "substitution": "The table will not fThe doorway through the doorway because The doorway is too wide .",
+    "correctness": false,
+    "question_id": 198,
+    "score": 4.813899463047489e-40
+  },
+  {
+    "substitution": "The table will not fThe table through the doorway because The table is too narrow .",
+    "correctness": false,
+    "question_id": 199,
+    "score": 5.017746498348225e-38
+  },
+  {
+    "substitution": "The table will not fThe doorway through the doorway because The doorway is too narrow .",
+    "correctness": true,
+    "question_id": 199,
+    "score": 1.367562806953936e-39
+  },
+  {
+    "substitution": "Grace was happy to trade me her sweater for my jacket . She thinks The sweater looks dowdy on her .",
+    "correctness": true,
+    "question_id": 200,
+    "score": 8.64270210043222e-47
+  },
+  {
+    "substitution": "Grace was happy to trade me her sweater for my jacket . She thinks The jacket looks dowdy on her .",
+    "correctness": false,
+    "question_id": 200,
+    "score": 2.1207702445824367e-47
+  },
+  {
+    "substitution": "Grace was happy to trade me her sweater for my jacket . She thinks The sweater looks great on her .",
+    "correctness": false,
+    "question_id": 201,
+    "score": 1.4933973979111498e-42
+  },
+  {
+    "substitution": "Grace was happy to trade me her sweater for my jacket . She thinks The jacket looks great on her .",
+    "correctness": true,
+    "question_id": 201,
+    "score": 4.740734985241748e-43
+  },
+  {
+    "substitution": "John hired Bill to take care of John  .",
+    "correctness": true,
+    "question_id": 202,
+    "score": 8.466366629922892e-19
+  },
+  {
+    "substitution": "John hired Bill to take care of Bill  .",
+    "correctness": false,
+    "question_id": 202,
+    "score": 2.1429012398867945e-19
+  },
+  {
+    "substitution": "John hired Johnself out to Bill to take care of John  .",
+    "correctness": false,
+    "question_id": 203,
+    "score": 6.699198277523747e-27
+  },
+  {
+    "substitution": "John hired Billself out to Bill to take care of Bill  .",
+    "correctness": true,
+    "question_id": 203,
+    "score": 2.455073302024413e-27
+  },
+  {
+    "substitution": "John promised Bill to leave , so an hour later John left .",
+    "correctness": true,
+    "question_id": 204,
+    "score": 1.2717969143569273e-30
+  },
+  {
+    "substitution": "John promised Bill to leave , so an hour later Bill left .",
+    "correctness": false,
+    "question_id": 204,
+    "score": 6.076564260949731e-31
+  },
+  {
+    "substitution": "John ordered Bill to leave , so an hour later John left .",
+    "correctness": false,
+    "question_id": 205,
+    "score": 1.9867672473988374e-28
+  },
+  {
+    "substitution": "John ordered Bill to leave , so an hour later Bill left .",
+    "correctness": true,
+    "question_id": 205,
+    "score": 9.009505344247719e-29
+  },
+  {
+    "substitution": "Sam Goodman's biography of tGoodman Spartan general Xenophanes conveys a vivid sense of tGoodman difficulties Goodman faced in his research .",
+    "correctness": true,
+    "question_id": 206,
+    "score": 2.1672114908816058e-54
+  },
+  {
+    "substitution": "Sam Goodman's biography of tXenophanes Spartan general Xenophanes conveys a vivid sense of tXenophanes difficulties Xenophanes faced in his research .",
+    "correctness": false,
+    "question_id": 206,
+    "score": 1.1042364313397267e-52
+  },
+  {
+    "substitution": "Sam Goodman's biography of tGoodman Spartan general Xenophanes conveys a vivid sense of tGoodman difficulties Goodman faced in his childhood .",
+    "correctness": false,
+    "question_id": 207,
+    "score": 7.87672603589872e-54
+  },
+  {
+    "substitution": "Sam Goodman's biography of tXenophanes Spartan general Xenophanes conveys a vivid sense of tXenophanes difficulties Xenophanes faced in his childhood .",
+    "correctness": true,
+    "question_id": 207,
+    "score": 1.1580036644646985e-51
+  },
+  {
+    "substitution": "Emma's motEmma had died long ago , and Emma education had been managed by an excellent woman as governess .",
+    "correctness": true,
+    "question_id": 208,
+    "score": 1.2800791102122207e-44
+  },
+  {
+    "substitution": "Emma's motEmma's mother had died long ago , and Emma's mother education had been managed by an excellent woman as governess .",
+    "correctness": false,
+    "question_id": 208,
+    "score": 1.7317458474920434e-46
+  },
+  {
+    "substitution": "Emma's motEmma had died long ago , and Emma place had been taken by an excellent woman as governess .",
+    "correctness": false,
+    "question_id": 209,
+    "score": 2.333380351743448e-44
+  },
+  {
+    "substitution": "Emma's motEmma's mother had died long ago , and Emma's mother place had been taken by an excellent woman as governess .",
+    "correctness": true,
+    "question_id": 209,
+    "score": 1.6122150427860756e-46
+  },
+  {
+    "substitution": "Jane knocked on Susan's door but Jane did not get an answer .",
+    "correctness": true,
+    "question_id": 210,
+    "score": 5.173483805465377e-27
+  },
+  {
+    "substitution": "Jane knocked on Susan's door but Susan did not get an answer .",
+    "correctness": false,
+    "question_id": 210,
+    "score": 1.3964458709373974e-27
+  },
+  {
+    "substitution": "Jane knocked on Susan's door but Jane did not answer .",
+    "correctness": false,
+    "question_id": 211,
+    "score": 1.5135623038996366e-23
+  },
+  {
+    "substitution": "Jane knocked on Susan's door but Susan did not answer .",
+    "correctness": true,
+    "question_id": 211,
+    "score": 4.689953238811899e-24
+  },
+  {
+    "substitution": "Joe paid tJoe detective after Joe received tJoe final report on tJoe case .",
+    "correctness": true,
+    "question_id": 212,
+    "score": 9.943315691028664e-42
+  },
+  {
+    "substitution": "Joe paid tthe detective detective after the detective received tthe detective final report on tthe detective case .",
+    "correctness": false,
+    "question_id": 212,
+    "score": 8.651811546399644e-62
+  },
+  {
+    "substitution": "Joe paid tJoe detective after Joe delivered tJoe final report on tJoe case .",
+    "correctness": false,
+    "question_id": 213,
+    "score": 9.18885532490447e-43
+  },
+  {
+    "substitution": "Joe paid tthe detective detective after the detective delivered tthe detective final report on tthe detective case .",
+    "correctness": true,
+    "question_id": 213,
+    "score": 2.5382082478091105e-62
+  },
+  {
+    "substitution": "Beth did not get angry with Sally , who had cut her off , because Beth stopped and counted to ten .",
+    "correctness": true,
+    "question_id": 214,
+    "score": 1.6820884705993996e-43
+  },
+  {
+    "substitution": "Beth did not get angry with Sally , who had cut her off , because Sally stopped and counted to ten .",
+    "correctness": false,
+    "question_id": 214,
+    "score": 1.347968737208201e-43
+  },
+  {
+    "substitution": "Beth did not get angry with Sally , who had cut her off , because Beth stopped and apologized .",
+    "correctness": false,
+    "question_id": 215,
+    "score": 5.005259080140237e-41
+  },
+  {
+    "substitution": "Beth did not get angry with Sally , who had cut her off , because Sally stopped and apologized .",
+    "correctness": true,
+    "question_id": 215,
+    "score": 2.902208839088052e-41
+  },
+  {
+    "substitution": "Jim signaled the barman and gestured toward Jim empty glass .",
+    "correctness": true,
+    "question_id": 216,
+    "score": 3.689199010608839e-32
+  },
+  {
+    "substitution": "Jim signaled the barman and gestured toward The barman empty glass .",
+    "correctness": false,
+    "question_id": 216,
+    "score": 1.7992568277492008e-35
+  },
+  {
+    "substitution": "Jim signaled the barman and gestured toward Jim bathroom key .",
+    "correctness": false,
+    "question_id": 217,
+    "score": 3.228238061817793e-35
+  },
+  {
+    "substitution": "Jim signaled the barman and gestured toward The barman bathroom key .",
+    "correctness": true,
+    "question_id": 217,
+    "score": 1.5036251001280548e-38
+  },
+  {
+    "substitution": "Dan took the rear seat while Bill claimed the front because Dan Dibs was slow .",
+    "correctness": true,
+    "question_id": 218,
+    "score": 6.0746362726811e-44
+  },
+  {
+    "substitution": "Dan took the rear seat while Bill claimed the front because Bill Dibs was slow .",
+    "correctness": false,
+    "question_id": 218,
+    "score": 1.4685233886185764e-43
+  },
+  {
+    "substitution": "Dan took the rear seat while Bill claimed the front because Dan Dibs was quicker .",
+    "correctness": false,
+    "question_id": 219,
+    "score": 7.725708842605793e-45
+  },
+  {
+    "substitution": "Dan took the rear seat while Bill claimed the front because Bill Dibs was quicker .",
+    "correctness": true,
+    "question_id": 219,
+    "score": 1.6613712504694043e-44
+  },
+  {
+    "substitution": "Tom said Check to Ralph as he moved Tom bishop .",
+    "correctness": true,
+    "question_id": 220,
+    "score": 4.797732842672771e-37
+  },
+  {
+    "substitution": "Tom said Check to Ralph as he moved Ralph bishop .",
+    "correctness": false,
+    "question_id": 220,
+    "score": 1.0421007197924587e-37
+  },
+  {
+    "substitution": "Tom said Check to Ralph as he took Tom bishop .",
+    "correctness": false,
+    "question_id": 221,
+    "score": 2.4284843104409823e-36
+  },
+  {
+    "substitution": "Tom said Check to Ralph as he took Ralph bishop .",
+    "correctness": true,
+    "question_id": 221,
+    "score": 2.778276418058408e-36
+  },
+  {
+    "substitution": "As Andrea in the crop duster passed over Susan , Andrea could see the landing strip .",
+    "correctness": true,
+    "question_id": 222,
+    "score": 5.1576431728061706e-42
+  },
+  {
+    "substitution": "As Andrea in the crop duster passed over Susan , Susan could see the landing strip .",
+    "correctness": false,
+    "question_id": 222,
+    "score": 1.263846017932307e-41
+  },
+  {
+    "substitution": "As Andrea in the crop duster passed over Susan , Andrea could see the landing gear .",
+    "correctness": false,
+    "question_id": 223,
+    "score": 4.6959905276265386e-42
+  },
+  {
+    "substitution": "As Andrea in the crop duster passed over Susan , Susan could see the landing gear .",
+    "correctness": true,
+    "question_id": 223,
+    "score": 1.1617274390391033e-41
+  },
+  {
+    "substitution": "Tom gave Ralph a lift to school so Tom would not have to drive alone .",
+    "correctness": true,
+    "question_id": 224,
+    "score": 4.832352318927325e-32
+  },
+  {
+    "substitution": "Tom gave Ralph a lift to school so Ralph would not have to drive alone .",
+    "correctness": false,
+    "question_id": 224,
+    "score": 1.99712376117817e-32
+  },
+  {
+    "substitution": "Tom gave Ralph a lift to school so Tom would not have to walk .",
+    "correctness": false,
+    "question_id": 225,
+    "score": 4.0041108273242325e-30
+  },
+  {
+    "substitution": "Tom gave Ralph a lift to school so Ralph would not have to walk .",
+    "correctness": true,
+    "question_id": 225,
+    "score": 1.757892954198418e-30
+  },
+  {
+    "substitution": "Bill passed tBill half-empty plate to John because Bill was full .",
+    "correctness": true,
+    "question_id": 226,
+    "score": 3.7861726351474526e-39
+  },
+  {
+    "substitution": "Bill passed tJohn half-empty plate to John because John was full .",
+    "correctness": false,
+    "question_id": 226,
+    "score": 2.3638435340142595e-38
+  },
+  {
+    "substitution": "Bill passed tBill half-empty plate to John because Bill was hungry .",
+    "correctness": false,
+    "question_id": 227,
+    "score": 5.124676853811045e-38
+  },
+  {
+    "substitution": "Bill passed tJohn half-empty plate to John because John was hungry .",
+    "correctness": true,
+    "question_id": 227,
+    "score": 3.937192102229011e-37
+  },
+  {
+    "substitution": "Bill passed the gameboy to John because Bill turn was over .",
+    "correctness": true,
+    "question_id": 228,
+    "score": 3.181735184864948e-32
+  },
+  {
+    "substitution": "Bill passed the gameboy to John because John turn was over .",
+    "correctness": false,
+    "question_id": 228,
+    "score": 5.208339944789831e-32
+  },
+  {
+    "substitution": "Bill passed the gameboy to John because Bill turn was next .",
+    "correctness": false,
+    "question_id": 229,
+    "score": 8.226325821043298e-34
+  },
+  {
+    "substitution": "Bill passed the gameboy to John because John turn was next .",
+    "correctness": true,
+    "question_id": 229,
+    "score": 1.8434483280691492e-33
+  },
+  {
+    "substitution": "The man lifted the boy onto The man shoulders .",
+    "correctness": true,
+    "question_id": 230,
+    "score": 2.2293983428162053e-24
+  },
+  {
+    "substitution": "The man lifted the boy onto The boy shoulders .",
+    "correctness": false,
+    "question_id": 230,
+    "score": 2.6833446224151246e-24
+  },
+  {
+    "substitution": "The man lifted the boy onto The man bunk bed .",
+    "correctness": false,
+    "question_id": 231,
+    "score": 6.15382661186559e-27
+  },
+  {
+    "substitution": "The man lifted the boy onto The boy bunk bed .",
+    "correctness": true,
+    "question_id": 231,
+    "score": 3.496170571328227e-26
+  },
+  {
+    "substitution": "Stretching The woman back , the woman smiled at the girl .",
+    "correctness": true,
+    "question_id": 232,
+    "score": 8.652668898251061e-27
+  },
+  {
+    "substitution": "Stretching The girl back , the woman smiled at the girl .",
+    "correctness": false,
+    "question_id": 232,
+    "score": 1.4235345464167786e-26
+  },
+  {
+    "substitution": "Patting The woman back , the woman smiled at the girl .",
+    "correctness": false,
+    "question_id": 233,
+    "score": 1.175083831774876e-25
+  },
+  {
+    "substitution": "Patting The girl back , the woman smiled at the girl .",
+    "correctness": true,
+    "question_id": 233,
+    "score": 5.435770170679873e-26
+  },
+  {
+    "substitution": "Billy cried because Toby would not accept Billy toy .",
+    "correctness": true,
+    "question_id": 234,
+    "score": 1.6283587797431386e-31
+  },
+  {
+    "substitution": "Billy cried because Toby would not accept Toby toy .",
+    "correctness": false,
+    "question_id": 234,
+    "score": 3.016175879082858e-31
+  },
+  {
+    "substitution": "Billy cried because Toby would not share Billy toy .",
+    "correctness": false,
+    "question_id": 235,
+    "score": 3.5824657327679764e-32
+  },
+  {
+    "substitution": "Billy cried because Toby would not share Toby toy .",
+    "correctness": true,
+    "question_id": 235,
+    "score": 2.0392859047645e-32
+  },
+  {
+    "substitution": "Lily spoke to Donna , breaking Lily silence .",
+    "correctness": true,
+    "question_id": 236,
+    "score": 8.825852160765386e-28
+  },
+  {
+    "substitution": "Lily spoke to Donna , breaking Donna silence .",
+    "correctness": false,
+    "question_id": 236,
+    "score": 6.07850334010435e-28
+  },
+  {
+    "substitution": "Lily spoke to Donna , breaking Lily concentration .",
+    "correctness": false,
+    "question_id": 237,
+    "score": 1.828185391380432e-28
+  },
+  {
+    "substitution": "Lily spoke to Donna , breaking Donna concentration .",
+    "correctness": true,
+    "question_id": 237,
+    "score": 2.4885808196077804e-29
+  },
+  {
+    "substitution": "When Tommy dropped his ice cream , Timmy giggled , so father gave Tommy a sympathetic look .",
+    "correctness": true,
+    "question_id": 238,
+    "score": 5.065099532085812e-44
+  },
+  {
+    "substitution": "When Tommy dropped his ice cream , Timmy giggled , so father gave Timmy a sympathetic look .",
+    "correctness": false,
+    "question_id": 238,
+    "score": 1.015207376664519e-44
+  },
+  {
+    "substitution": "When Tommy dropped his ice cream , Timmy giggled , so father gave Tommy a stern look .",
+    "correctness": false,
+    "question_id": 239,
+    "score": 2.7322346032162043e-43
+  },
+  {
+    "substitution": "When Tommy dropped his ice cream , Timmy giggled , so father gave Timmy a stern look .",
+    "correctness": true,
+    "question_id": 239,
+    "score": 5.83039291180253e-44
+  },
+  {
+    "substitution": "As Ollie carried Tommy up the long winding steps , Ollie legs ached .",
+    "correctness": true,
+    "question_id": 240,
+    "score": 3.727950674919858e-40
+  },
+  {
+    "substitution": "As Ollie carried Tommy up the long winding steps , Tommy legs ached .",
+    "correctness": false,
+    "question_id": 240,
+    "score": 5.8725392573009e-39
+  },
+  {
+    "substitution": "As Ollie carried Tommy up the long winding steps , Ollie legs dangled .",
+    "correctness": false,
+    "question_id": 241,
+    "score": 1.6824477479894348e-39
+  },
+  {
+    "substitution": "As Ollie carried Tommy up the long winding steps , Tommy legs dangled .",
+    "correctness": true,
+    "question_id": 241,
+    "score": 4.709027885426766e-38
+  },
+  {
+    "substitution": "The father carried the sleeping boy in The father arms .",
+    "correctness": true,
+    "question_id": 242,
+    "score": 5.5104381292934164e-27
+  },
+  {
+    "substitution": "The father carried the sleeping boy in The boy arms .",
+    "correctness": false,
+    "question_id": 242,
+    "score": 2.966680965973574e-27
+  },
+  {
+    "substitution": "The father carried the sleeping boy in The father bassinet .",
+    "correctness": false,
+    "question_id": 243,
+    "score": 9.369156699566851e-29
+  },
+  {
+    "substitution": "The father carried the sleeping boy in The boy bassinet .",
+    "correctness": true,
+    "question_id": 243,
+    "score": 2.1744136139548136e-28
+  },
+  {
+    "substitution": "The woman held the girl against The woman chest .",
+    "correctness": true,
+    "question_id": 244,
+    "score": 8.028368234203303e-25
+  },
+  {
+    "substitution": "The woman held the girl against The girl chest .",
+    "correctness": false,
+    "question_id": 244,
+    "score": 2.7195644023966654e-25
+  },
+  {
+    "substitution": "The woman held the girl against The woman will .",
+    "correctness": false,
+    "question_id": 245,
+    "score": 1.0186127513029911e-23
+  },
+  {
+    "substitution": "The woman held the girl against The girl will .",
+    "correctness": true,
+    "question_id": 245,
+    "score": 5.060445885627587e-24
+  },
+  {
+    "substitution": "Pam's parents came home and found her having sex with her boyfriend , Paul . Pam's parents were furious about it .",
+    "correctness": true,
+    "question_id": 246,
+    "score": 1.0409650120260595e-44
+  },
+  {
+    "substitution": "Pam's parents came home and found her having sex with her boyfriend , Paul . Pam and Paul were furious about it .",
+    "correctness": false,
+    "question_id": 246,
+    "score": 8.854183107595662e-46
+  },
+  {
+    "substitution": "Pam's parents came home and found her having sex with her boyfriend , Paul . Pam's parents were embarrassed about it .",
+    "correctness": false,
+    "question_id": 247,
+    "score": 1.071783340158421e-45
+  },
+  {
+    "substitution": "Pam's parents came home and found her having sex with her boyfriend , Paul . Pam and Paul were embarrassed about it .",
+    "correctness": true,
+    "question_id": 247,
+    "score": 1.3419161333791099e-46
+  },
+  {
+    "substitution": "Dr . Adams informed Kate that Dr. Adams had retired and presented several options for future treatment .",
+    "correctness": true,
+    "question_id": 248,
+    "score": 3.008241194133727e-41
+  },
+  {
+    "substitution": "Dr . Adams informed Kate that Kate had retired and presented several options for future treatment .",
+    "correctness": false,
+    "question_id": 248,
+    "score": 2.1305903143189135e-39
+  },
+  {
+    "substitution": "Dr . Adams informed Kate that Dr. Adams had cancer and presented several options for future treatment .",
+    "correctness": false,
+    "question_id": 249,
+    "score": 1.8319760010319866e-39
+  },
+  {
+    "substitution": "Dr . Adams informed Kate that Kate had cancer and presented several options for future treatment .",
+    "correctness": true,
+    "question_id": 249,
+    "score": 9.405012692828921e-37
+  },
+  {
+    "substitution": "Dan had to stop Bill from toying with the injured bird . Dan is very compassionate .",
+    "correctness": true,
+    "question_id": 250,
+    "score": 2.6462176379887545e-41
+  },
+  {
+    "substitution": "Dan had to stop Bill from toying with the injured bird . Bill is very compassionate .",
+    "correctness": false,
+    "question_id": 250,
+    "score": 5.163605456959742e-41
+  },
+  {
+    "substitution": "Dan had to stop Bill from toying with the injured bird . Dan is very cruel .",
+    "correctness": false,
+    "question_id": 251,
+    "score": 1.598024551377397e-41
+  },
+  {
+    "substitution": "Dan had to stop Bill from toying with the injured bird . Bill is very cruel .",
+    "correctness": true,
+    "question_id": 251,
+    "score": 3.668885506707339e-41
+  },
+  {
+    "substitution": "George got free tickets to tGeorge play , but George gave tGeorgem to Eric , even though George was not particularly eager to see it .",
+    "correctness": true,
+    "question_id": 252,
+    "score": 7.642293389181504e-51
+  },
+  {
+    "substitution": "George got free tickets to tEric play , but Eric gave tEricm to Eric , even though Eric was not particularly eager to see it .",
+    "correctness": false,
+    "question_id": 252,
+    "score": 1.2464642102606145e-50
+  },
+  {
+    "substitution": "George got free tickets to tGeorge play , but George gave tGeorgem to Eric , because George was particularly eager to see it .",
+    "correctness": false,
+    "question_id": 253,
+    "score": 3.911382859054567e-50
+  },
+  {
+    "substitution": "George got free tickets to tEric play , but Eric gave tEricm to Eric , because Eric was particularly eager to see it .",
+    "correctness": true,
+    "question_id": 253,
+    "score": 9.83289576298203e-50
+  },
+  {
+    "substitution": "George got free tickets to tGeorge play , but George gave tGeorgem to Eric , because George was not particularly eager to see it .",
+    "correctness": true,
+    "question_id": 254,
+    "score": 9.284458141141755e-51
+  },
+  {
+    "substitution": "George got free tickets to tEric play , but Eric gave tEricm to Eric , because Eric was not particularly eager to see it .",
+    "correctness": false,
+    "question_id": 254,
+    "score": 1.9485921279944974e-50
+  },
+  {
+    "substitution": "Jane gave Joan candy because Jane was not hungry .",
+    "correctness": true,
+    "question_id": 255,
+    "score": 6.809909398764733e-29
+  },
+  {
+    "substitution": "Jane gave Joan candy because Joan was not hungry .",
+    "correctness": false,
+    "question_id": 255,
+    "score": 6.408148359414645e-30
+  },
+  {
+    "substitution": "Jane gave Joan candy because Jane was hungry .",
+    "correctness": false,
+    "question_id": 256,
+    "score": 1.9424638849189317e-27
+  },
+  {
+    "substitution": "Jane gave Joan candy because Joan was hungry .",
+    "correctness": true,
+    "question_id": 256,
+    "score": 2.171482622890557e-28
+  },
+  {
+    "substitution": "I tried to paint a picture of an orchard , with lemons in the lemon trees , but lemons came out looking more like light bulbs .",
+    "correctness": true,
+    "question_id": 257,
+    "score": 8.608669829462831e-47
+  },
+  {
+    "substitution": "I tried to paint a picture of an orchard , with lemons in the lemon trees , but lemon trees came out looking more like light bulbs .",
+    "correctness": false,
+    "question_id": 257,
+    "score": 7.887866337239522e-48
+  },
+  {
+    "substitution": "I tried to paint a picture of an orchard , with lemons in the lemon trees , but lemons came out looking more like telephone poles .",
+    "correctness": false,
+    "question_id": 258,
+    "score": 2.2650746985116133e-48
+  },
+  {
+    "substitution": "I tried to paint a picture of an orchard , with lemons in the lemon trees , but lemon trees came out looking more like telephone poles .",
+    "correctness": true,
+    "question_id": 258,
+    "score": 5.94253044711175e-49
+  },
+  {
+    "substitution": "James asked Robert for a favor but James was refused .",
+    "correctness": true,
+    "question_id": 259,
+    "score": 2.0169378981229008e-26
+  },
+  {
+    "substitution": "James asked Robert for a favor but Robert was refused .",
+    "correctness": false,
+    "question_id": 259,
+    "score": 6.1688457866213966e-27
+  },
+  {
+    "substitution": "James asked Robert for a favor but James refused .",
+    "correctness": false,
+    "question_id": 260,
+    "score": 1.5549127563941143e-23
+  },
+  {
+    "substitution": "James asked Robert for a favor but Robert refused .",
+    "correctness": true,
+    "question_id": 260,
+    "score": 3.0779335741086098e-24
+  },
+  {
+    "substitution": "Kirilov ceded tKirilov presidency to Shatov because Kirilov was less popular .",
+    "correctness": true,
+    "question_id": 261,
+    "score": 4.5936165249668704e-42
+  },
+  {
+    "substitution": "Kirilov ceded tShatov presidency to Shatov because Shatov was less popular .",
+    "correctness": false,
+    "question_id": 261,
+    "score": 4.64938069908158e-35
+  },
+  {
+    "substitution": "Kirilov ceded tKirilov presidency to Shatov because Kirilov was more popular .",
+    "correctness": false,
+    "question_id": 262,
+    "score": 1.2709752947032609e-41
+  },
+  {
+    "substitution": "Kirilov ceded tShatov presidency to Shatov because Shatov was more popular .",
+    "correctness": true,
+    "question_id": 262,
+    "score": 1.8019521412167319e-34
+  },
+  {
+    "substitution": "Emma did not pass the ball to Janie although Emma saw that Emma was open .",
+    "correctness": true,
+    "question_id": 263,
+    "score": 1.0029452548079902e-38
+  },
+  {
+    "substitution": "Emma did not pass the ball to Janie although Janie saw that Janie was open .",
+    "correctness": false,
+    "question_id": 263,
+    "score": 2.022588620290468e-42
+  },
+  {
+    "substitution": "Emma did not pass the ball to Janie although Emma was open .",
+    "correctness": false,
+    "question_id": 264,
+    "score": 1.953033494953841e-33
+  },
+  {
+    "substitution": "Emma did not pass the ball to Janie although Janie was open .",
+    "correctness": true,
+    "question_id": 264,
+    "score": 3.9839691040387344e-35
+  },
+  {
+    "substitution": "I put the butterfly wing on the table and The butterfly wing broke .",
+    "correctness": true,
+    "question_id": 265,
+    "score": 1.8069261458622392e-27
+  },
+  {
+    "substitution": "I put the butterfly wing on the table and The table broke .",
+    "correctness": false,
+    "question_id": 265,
+    "score": 9.58062728477689e-26
+  },
+  {
+    "substitution": "I put the heavy book on the table and The book broke .",
+    "correctness": false,
+    "question_id": 266,
+    "score": 4.146872890745985e-25
+  },
+  {
+    "substitution": "I put the heavy book on the table and The table broke .",
+    "correctness": true,
+    "question_id": 266,
+    "score": 1.393956020364389e-25
+  },
+  {
+    "substitution": "Madonna fired her trainer because Madonna could not stand her boyfriend .",
+    "correctness": true,
+    "question_id": 267,
+    "score": 2.5998610848103635e-28
+  },
+  {
+    "substitution": "Madonna fired her trainer because her trainer could not stand her boyfriend .",
+    "correctness": false,
+    "question_id": 267,
+    "score": 1.1035304951095525e-28
+  },
+  {
+    "substitution": "Madonna fired her trainer because Madonna slept with her boyfriend .",
+    "correctness": false,
+    "question_id": 268,
+    "score": 7.239694680701403e-26
+  },
+  {
+    "substitution": "Madonna fired her trainer because her trainer slept with her boyfriend .",
+    "correctness": true,
+    "question_id": 268,
+    "score": 5.7580972809176525e-27
+  },
+  {
+    "substitution": "Madonna fired Madonna trainer because she slept with Madonna boyfriend .",
+    "correctness": true,
+    "question_id": 269,
+    "score": 3.890046610114735e-33
+  },
+  {
+    "substitution": "Madonna fired The trainer trainer because she slept with The trainer boyfriend .",
+    "correctness": false,
+    "question_id": 269,
+    "score": 1.5082638476401852e-40
+  },
+  {
+    "substitution": "Madonna fired Madonna trainer because she could not stand Madonna boyfriend .",
+    "correctness": false,
+    "question_id": 270,
+    "score": 2.1302607400313905e-34
+  },
+  {
+    "substitution": "Madonna fired her trainer trainer because she could not stand her trainer boyfriend .",
+    "correctness": true,
+    "question_id": 270,
+    "score": 4.839484224937748e-32
+  },
+  {
+    "substitution": "Carol believed that Rebecca suspected that Carol had stolen the watch .",
+    "correctness": true,
+    "question_id": 271,
+    "score": 1.2341700637781526e-31
+  },
+  {
+    "substitution": "Carol believed that Rebecca suspected that Rebecca had stolen the watch .",
+    "correctness": false,
+    "question_id": 271,
+    "score": 1.7231488443035163e-31
+  },
+  {
+    "substitution": "Carol believed that Rebecca regretted that Carol had stolen the watch .",
+    "correctness": false,
+    "question_id": 272,
+    "score": 3.955528428002829e-34
+  },
+  {
+    "substitution": "Carol believed that Rebecca regretted that Rebecca had stolen the watch .",
+    "correctness": true,
+    "question_id": 272,
+    "score": 9.411497711416635e-34
+  },
+  {
+    "substitution": "TShakespeare book introduced Shakespeare to Ovid ; it was a major influence on Shakespeare writing .",
+    "correctness": true,
+    "question_id": 273,
+    "score": 7.897720681866663e-35
+  },
+  {
+    "substitution": "TOvid book introduced Shakespeare to Ovid ; it was a major influence on Ovid writing .",
+    "correctness": false,
+    "question_id": 273,
+    "score": 2.1820936421601283e-36
+  },
+  {
+    "substitution": "TShakespeare book introduced Shakespeare to Goethe ; it was a major influence on Shakespeare writing .",
+    "correctness": false,
+    "question_id": 274,
+    "score": 5.483778195065089e-35
+  },
+  {
+    "substitution": "TGoethe book introduced Shakespeare to Goethe ; it was a major influence on Goethe writing .",
+    "correctness": true,
+    "question_id": 274,
+    "score": 2.135256074484321e-34
+  },
+  {
+    "substitution": "TShakespeare book introduced Shakespeare to Ovid ; it was a fine selection of Shakespeare writing .",
+    "correctness": false,
+    "question_id": 275,
+    "score": 3.6859981951349585e-37
+  },
+  {
+    "substitution": "TOvid book introduced Shakespeare to Ovid ; it was a fine selection of Ovid writing .",
+    "correctness": true,
+    "question_id": 275,
+    "score": 5.6999962342191246e-39
+  },
+  {
+    "substitution": "TShakespeare book introduced Shakespeare to Goethe ; it was a fine selection of Shakespeare writing .",
+    "correctness": true,
+    "question_id": 276,
+    "score": 3.1260067480768408e-37
+  },
+  {
+    "substitution": "TGoethe book introduced Shakespeare to Goethe ; it was a fine selection of Goethe writing .",
+    "correctness": false,
+    "question_id": 276,
+    "score": 5.028006240128661e-38
+  },
+  {
+    "substitution": "Alice looked for her friend Jade in the crowd . Since Alice always has good luck , Alice spotted her quickly .",
+    "correctness": true,
+    "question_id": 277,
+    "score": 1.04699048236917e-51
+  },
+  {
+    "substitution": "Alice looked for her friend Jade in the crowd . Since Jade always has good luck , Alice spotted her quickly .",
+    "correctness": false,
+    "question_id": 277,
+    "score": 6.189928023084242e-52
+  },
+  {
+    "substitution": "Alice looked for her friend Jade in the crowd . Since Alice always wears a red turban , Alice spotted her quickly .",
+    "correctness": false,
+    "question_id": 278,
+    "score": 3.092708950684521e-54
+  },
+  {
+    "substitution": "Alice looked for her friend Jade in the crowd . Since Jade always wears a red turban , Alice spotted her quickly .",
+    "correctness": true,
+    "question_id": 278,
+    "score": 2.5964290900394526e-54
+  },
+  {
+    "substitution": "During a game of tag , Ethan chased Luke because Ethan was it .",
+    "correctness": true,
+    "question_id": 279,
+    "score": 4.3993718723588335e-32
+  },
+  {
+    "substitution": "During a game of tag , Ethan chased Luke because Luke was it .",
+    "correctness": false,
+    "question_id": 279,
+    "score": 6.057975870063031e-32
+  },
+  {
+    "substitution": "During a game of tag , Ethan ran from Luke because Ethan was it .",
+    "correctness": false,
+    "question_id": 280,
+    "score": 5.228652002534022e-34
+  },
+  {
+    "substitution": "During a game of tag , Ethan ran from Luke because Luke was it .",
+    "correctness": true,
+    "question_id": 280,
+    "score": 1.9320416719197317e-33
+  },
+  {
+    "substitution": "At the Loebner competition the judges could not figure out which respondents were the chatbots because the judges were so stupid .",
+    "correctness": true,
+    "question_id": 281,
+    "score": 1.0400663081138014e-43
+  },
+  {
+    "substitution": "At the Loebner competition the judges could not figure out which respondents were the chatbots because the chatbots were so stupid .",
+    "correctness": false,
+    "question_id": 281,
+    "score": 8.133632367434259e-44
+  },
+  {
+    "substitution": "At the Loebner competition the judges could not figure out which respondents were the chatbots because the judges were so advanced .",
+    "correctness": false,
+    "question_id": 282,
+    "score": 6.403272041664737e-45
+  },
+  {
+    "substitution": "At the Loebner competition the judges could not figure out which respondents were the chatbots because the chatbots were so advanced .",
+    "correctness": true,
+    "question_id": 282,
+    "score": 1.7463511044906458e-44
+  },
+  {
+    "substitution": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as GrWQWu8JyC was easy to forget .",
+    "correctness": true,
+    "question_id": 283,
+    "score": 2.0167913036150015e-46
+  },
+  {
+    "substitution": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as willow-towered Canopy Huntertropic wrestles was easy to forget .",
+    "correctness": false,
+    "question_id": 283,
+    "score": 3.957979510122655e-60
+  },
+  {
+    "substitution": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as GrWQWu8JyC was easy to remember .",
+    "correctness": false,
+    "question_id": 284,
+    "score": 3.807623185568195e-46
+  },
+  {
+    "substitution": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as willow-towered Canopy Huntertropic wrestles was easy to remember .",
+    "correctness": true,
+    "question_id": 284,
+    "score": 5.259368711180835e-60
+  }
+]

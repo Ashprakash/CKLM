@@ -1,0 +1,1396 @@
+************************************************************
+SENT:  The city councilmen refused the demonstrators a permit because they feared violence .
+PRONOUN they
+Compare 1:    with  because  feared violence
+Compare 1:    with  
+Choice 1:  The city councilmen Average Scores:  [0.2718764543533325, 0.34809160232543945] Avg Score:  0.20665601889292398
+Choice 2:  The demonstrators Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The city councilmen refused the demonstrators a permit because they advocated violence .
+PRONOUN they
+Compare 1:    with  because  advocated violence
+Compare 1:    with  
+Choice 1:  The city councilmen Average Scores:  [0.2889646887779236, 0.3481421172618866] Avg Score:  0.2123689353466034
+Choice 2:  The demonstrators Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The trophy does not fit into the brown suitcase because it is too large .
+PRONOUN it
+Choice 1:  the trophy Average Scores:  [0.0, 0.0] Avg Score:  0.0
+Choice 2:  the suitcase Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The trophy does not fit into the brown suitcase because it is too small .
+PRONOUN it
+Choice 1:  the trophy Average Scores:  [0.0, 0.0] Avg Score:  0.0
+Choice 2:  the suitcase Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Joan made sure to thank Susan for all the help she had received .
+PRONOUN she
+Compare 1:    with  sure to thank Susan for all the help  had received
+Compare 1:    with  sure to thank Susan for all the help I had received
+Compare 2:    with  sure to thank Susan for all the help I had received
+Compare 2:    with  sure to thank Susan for all the help you had received
+Compare 1:    with  for all the help  had received
+Compare 1:    with  for all the help I had received
+Compare 2:    with  for all the help I had received
+Compare 2:    with  for all the help you had received
+Compare 1:    with  all the help  had received
+Compare 1:    with  all the help I had received
+Compare 2:    with  all the help I had received
+Compare 2:    with  all the help you had received
+Compare 1:    with  
+Compare 1:    with  I
+Compare 2:    with  I
+Compare 2:    with  you
+Choice 1:  Joan Average Scores:  [0.2941492299238841, 0.33269627888997394, 0.3304447929064433, 0.4547290603319804] Avg Score:  0.2824038724104564
+Choice 2:  Susan Average Scores:  [0.2383853793144226, 0.3003132939338684, 0.29453322291374207, 0.4301557143529256] Avg Score:  0.2526775221029917
+************************************************************
+************************************************************
+SENT:  Joan made sure to thank Susan for all the help she had given .
+PRONOUN she
+Compare 1:  an account  with  sure to thank Susan for all the help  had given
+Compare 1:  an account  with  sure to thank Susan for all the help I had given
+Compare 2:  an account  with  sure to thank Susan for all the help  had given
+Compare 1:  for all the help you 've given me  with  for all the help  had given
+Compare 1:  for all the help you 've given me  with  for all the help I had given
+Compare 2:  for all the help you 've given me  with  for all the help  had given
+Compare 1:  all the help you 've given me  with  all the help  had given
+Compare 1:  all the help you 've given me  with  all the help I had given
+Compare 2:  all the help you 've given me  with  all the help  had given
+Compare 1:    with  
+Compare 1:    with  I
+Compare 2:    with  
+Choice 1:  Joan Average Scores:  [0.5891836484273275, 0.36465667684872943, 0.27973515788714093, 0.45407138268152875] Avg Score:  0.3375293731689454
+Choice 2:  Susan Average Scores:  [0.4401666224002838, 0.22274696826934814, 0.18582119047641754, 0.3485192060470581] Avg Score:  0.23945079743862152
+************************************************************
+************************************************************
+SENT:  Paul tried to call George on the phone , but he was not successful .
+PRONOUN he
+Compare 1:    with  We
+Compare 2:    with  the Doctors associate
+Choice 1:  Paul Average Scores:  [0.3279134929180145] Avg Score:  0.16395674645900726
+Choice 2:  George Average Scores:  [0.31618908047676086] Avg Score:  0.15809454023838043
+************************************************************
+************************************************************
+SENT:  Paul tried to call George on the phone , but he was not available .
+PRONOUN he
+Compare 1:    with  
+Compare 1:    with  she
+Compare 2:    with  Jack
+Choice 1:  Paul Average Scores:  [0.4574911594390869] Avg Score:  0.22874557971954346
+Choice 2:  George Average Scores:  [0.2509012520313263] Avg Score:  0.12545062601566315
+************************************************************
+************************************************************
+SENT:  The lawyer asked the witness a question , but he was reluctant to repeat it .
+PRONOUN he
+Compare 2:    with  a strange question
+Compare 2:    with  a strange question
+Choice 1:  the lawyer Average Scores:  [0.0, 0.0] Avg Score:  0.0
+Choice 2:  the witness Average Scores:  [0.3063424825668335, 0.305769145488739] Avg Score:  0.2040372093518575
+************************************************************
+************************************************************
+SENT:  The lawyer asked the witness a question , but he was reluctant to answer it .
+PRONOUN he
+Compare 2:    with  
+Compare 2:  I  with  
+Compare 2:    with  
+Compare 2:  I  with  
+Choice 1:  the lawyer Average Scores:  [0.0, 0.0] Avg Score:  0.0
+Choice 2:  the witness Average Scores:  [0.4508078893025716, 0.45111948251724243] Avg Score:  0.3006424572732713
+************************************************************
+************************************************************
+SENT:  The delivery truck zoomed by the school bus because it was going so fast .
+PRONOUN it
+Compare 2:    with  because  was going so fast
+Compare 2:    with  
+Choice 1:  the delivery truck Average Scores:  [0.0, 0.0] Avg Score:  0.0
+Choice 2:  the school bus Average Scores:  [0.2965318262577057, 0.3478318750858307] Avg Score:  0.21478790044784546
+************************************************************
+************************************************************
+SENT:  The delivery truck zoomed by the school bus because it was going so slow .
+PRONOUN it
+Compare 2:    with  because  was going so slow
+Compare 2:  it  with  
+Choice 1:  the delivery truck Average Scores:  [0.0, 0.0] Avg Score:  0.0
+Choice 2:  the school bus Average Scores:  [0.3020414710044861, 0.3285917639732361] Avg Score:  0.21021107832590738
+************************************************************
+************************************************************
+SENT:  Frank felt crushed when his longtime rival Bill revealed that he was the winner of the competition .
+PRONOUN he
+Compare 1:    with  when his longtime rival Bill revealed that  was the winner of the competition
+Compare 2:    with  when his longtime rival Bill revealed that  was the winner of the competition
+Compare 1:    with  that  was the winner of the competition
+Compare 2:    with  that  was the winner of the competition
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Frank Average Scores:  [0.14748543500900269, 0.2618729770183563, 0.34790897369384766] Avg Score:  0.18931684643030167
+Choice 2:  Bill Average Scores:  [0.1480710208415985, 0.26181983947753906, 0.3486064374446869] Avg Score:  0.18962432444095612
+************************************************************
+************************************************************
+SENT:  The man could not lift his son because he was so weak .
+PRONOUN he
+Compare 1:  because she is a weak girl  with  because She was so weak
+Compare 1:    with  She
+Choice 1:  The man Average Scores:  [0.04036952555179596, 0.34023234248161316] Avg Score:  0.1268672893444697
+Choice 2:  The son Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The man could not lift his son because he was so heavy .
+PRONOUN he
+Compare 1:    with  because He was so heavy
+Compare 1:    with  He
+Choice 1:  The man Average Scores:  [0.2054525911808014, 0.3046899139881134] Avg Score:  0.1700475017229716
+Choice 2:  The son Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The large ball crashed right through the table because it was made of steel .
+PRONOUN it
+Compare 1:  April 7 , 2014  with  because steel beams was made of steel
+Compare 1:    with  steel beams
+Choice 1:  The large ball Average Scores:  [0.011372223496437073, 0.2958803176879883] Avg Score:  0.10241751372814178
+Choice 2:  The table Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The large ball crashed right through the table because it was made of styrofoam .
+PRONOUN it
+Compare 1:    with  because  was made of styrofoam
+Compare 1:    with  
+Choice 1:  The large ball Average Scores:  [0.24240529537200928, 0.3478548526763916] Avg Score:  0.1967533826828003
+Choice 2:  The table Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  John could not see the stage with Billy in front of him because he is so tall .
+PRONOUN he
+Compare 1:    with  because  is so tall
+Compare 1:  she  with  
+Choice 1:  John Average Scores:  [0.24660277366638184, 0.29535332322120667] Avg Score:  0.18065203229586282
+Choice 2:  Billy Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Tom threw his schoolbag down to Ray after he reached the top of the stairs .
+PRONOUN he
+Compare 1:    with  after I reached the top of the stairs
+Compare 2:    with  after  reached the top of the stairs
+Compare 1:  I  with  I
+Compare 2:  I  with  
+Choice 1:  Tom Average Scores:  [0.18907777965068817, 0.3989937901496887] Avg Score:  0.19602385660012564
+Choice 2:  Ray Average Scores:  [0.21999865770339966, 0.3262639045715332] Avg Score:  0.18208752075831094
+************************************************************
+************************************************************
+SENT:  Although they ran at about the same speed , Sue beat Sally because she had such a good start .
+PRONOUN she
+Compare 1:    with  because  had such a good start
+Compare 2:    with  because  had such a good start
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Sue Average Scores:  [0.2789505124092102, 0.34808850288391113] Avg Score:  0.20901300509770712
+Choice 2:  Sally Average Scores:  [0.2783677577972412, 0.34862664341926575] Avg Score:  0.20899813373883566
+************************************************************
+************************************************************
+SENT:  Although they ran at about the same speed , Sue beat Sally because she had such a bad start .
+PRONOUN she
+Compare 1:    with  because  had such a bad start
+Compare 2:    with  because  had such a bad start
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Sue Average Scores:  [0.283841997385025, 0.34807246923446655] Avg Score:  0.21063815553983053
+Choice 2:  Sally Average Scores:  [0.28488510847091675, 0.3486265540122986] Avg Score:  0.21117055416107178
+************************************************************
+************************************************************
+SENT:  The sculpture rolled off the shelf because it was not anchored .
+PRONOUN it
+Compare 1:    with  because  was not anchored
+Compare 1:    with  
+Choice 1:  The sculpture Average Scores:  [0.31359750032424927, 0.34811660647392273] Avg Score:  0.220571368932724
+Choice 2:  The shelf Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The sculpture rolled off the shelf because it was not level .
+PRONOUN it
+Compare 1:    with  because The oranges was not level
+Compare 1:    with  The oranges
+Choice 1:  The sculpture Average Scores:  [0.30695921182632446, 0.3522280752658844] Avg Score:  0.21972909569740295
+Choice 2:  The shelf Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Anna did a lot better than her good friend Lucy on the test because she had studied so hard .
+PRONOUN she
+Compare 1:    with  because  had studied so hard
+Compare 1:    with  
+Choice 1:  Anna Average Scores:  [0.25944310426712036, 0.34815073013305664] Avg Score:  0.20253127813339233
+Choice 2:  Lucy Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Anna did a lot worse than her good friend Lucy on the test because she had studied so hard .
+PRONOUN she
+Compare 1:    with  because  had studied so hard
+Compare 1:    with  
+Choice 1:  Anna Average Scores:  [0.25905337929725647, 0.3481528162956238] Avg Score:  0.20240206519762674
+Choice 2:  Lucy Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Frank was upset with Tom because the toaster he had bought from him did not work .
+PRONOUN he
+Compare 1:    with  because the toaster  had bought from him did not work
+Compare 2:    with  because the toaster  had bought from him did not work
+Compare 1:    with  
+Compare 2:    with  
+Compare 1:  products  with  the toaster  had bought from him
+Compare 2:  products  with  the toaster  had bought from him
+Choice 1:  Frank Average Scores:  [0.2778790295124054, 0.3479316830635071, 0.45038294792175293] Avg Score:  0.26904841512441635
+Choice 2:  Tom Average Scores:  [0.27888211607933044, 0.3485899865627289, 0.4517650604248047] Avg Score:  0.269809290766716
+************************************************************
+************************************************************
+SENT:  Frank was upset with Tom because the toaster he had sold him did not work .
+PRONOUN he
+Compare 1:    with  because the toaster  had sold him did not work
+Compare 2:    with  because the toaster  had sold him did not work
+Compare 1:    with  
+Compare 2:    with  
+Compare 1:    with  the toaster  had sold him
+Compare 2:    with  the toaster  had sold him
+Choice 1:  Frank Average Scores:  [0.27862149477005005, 0.34794169664382935, 0.2908678650856018] Avg Score:  0.2293577641248703
+Choice 2:  Tom Average Scores:  [0.2783879339694977, 0.3485906720161438, 0.2906613349914551] Avg Score:  0.22940998524427414
+************************************************************
+************************************************************
+SENT:  Jim yelled at Kevin because he was so upset .
+PRONOUN he
+Compare 1:  because he is in a bad mood  with  because MD was so upset
+Compare 2:  because he is in a bad mood  with  because me was so upset
+Compare 1:    with  MD
+Compare 2:    with  me
+Choice 1:  Jim Average Scores:  [0.13695573806762695, 0.3620959222316742] Avg Score:  0.16635055343310037
+Choice 2:  Kevin Average Scores:  [0.09229442477226257, 0.34013330936431885] Avg Score:  0.14414257804552713
+************************************************************
+************************************************************
+SENT:  Jim comforted Kevin because he was so upset .
+PRONOUN he
+Compare 1:    with  because he was so upset
+Compare 2:    with  because me was so upset
+Compare 1:  I  with  he
+Compare 2:  I  with  me
+Choice 1:  Jim Average Scores:  [0.2075319141149521, 0.38133907318115234] Avg Score:  0.19629032909870148
+Choice 2:  Kevin Average Scores:  [0.22989635169506073, 0.373282790184021] Avg Score:  0.2010597139596939
+************************************************************
+************************************************************
+SENT:  The sack of potatoes had been placed above the bag of flour , so it had to be moved first .
+PRONOUN it
+Compare 1:    with  
+Compare 1:    with  
+Choice 1:  The sack of potatoes Average Scores:  [0.34805357456207275, 0.3486241102218628] Avg Score:  0.23222589492797852
+Choice 2:  The bag of flour Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Pete envies Martin although he is very successful .
+PRONOUN he
+Compare 1:  Ryan  with  Aaron
+Compare 2:  Ryan  with  Ryan
+Choice 1:  Pete Average Scores:  [0.4294608533382416] Avg Score:  0.2147304266691208
+Choice 2:  Martin Average Scores:  [0.43448153138160706] Avg Score:  0.21724076569080353
+************************************************************
+************************************************************
+SENT:  Pete envies Martin because he is very successful .
+PRONOUN he
+Compare 1:    with  because  is very successful
+Compare 2:    with  because  is very successful
+Compare 1:  he  with  
+Compare 2:  he  with  
+Choice 1:  Pete Average Scores:  [0.267336905002594, 0.2803919017314911] Avg Score:  0.1825762689113617
+Choice 2:  Martin Average Scores:  [0.26699167490005493, 0.280470073223114] Avg Score:  0.18248724937438965
+************************************************************
+************************************************************
+SENT:  The older students were bullying the younger ones , so we punished them  .
+PRONOUN them
+Compare 1:  the merchant  with  
+Choice 1:  The older students Average Scores:  [0.20289494097232819] Avg Score:  0.10144747048616409
+Choice 2:  The younger ones Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The older students were bullying the younger ones , so we rescued them  .
+PRONOUN them
+Compare 1:    with  
+Choice 1:  The older students Average Scores:  [0.34936103224754333] Avg Score:  0.17468051612377167
+Choice 2:  The younger ones Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  I poured water from the bottle into the cup until it was empty .
+PRONOUN it
+Compare 1:  until there was not a drop left  with  until 12 paper cup was empty
+Compare 1:    with  12 paper cup
+Choice 1:  the bottle Average Scores:  [0.4250960350036621, 0.3186868131160736] Avg Score:  0.2479276160399119
+Choice 2:  the cup Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  I poured water from the bottle into the cup until it was full .
+PRONOUN it
+Compare 1:  until it was mostly full  with  until  was full
+Compare 1:  it  with  
+Choice 1:  the bottle Average Scores:  [0.385183721780777, 0.3266857862472534] Avg Score:  0.23728983600934347
+Choice 2:  the cup Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Susan knows all about Ann's personal problems because she is nosy .
+PRONOUN she
+Compare 1:    with  because  is nosy
+Compare 1:  she  with  
+Choice 1:  Susan Average Scores:  [0.3131211996078491, 0.2953588366508484] Avg Score:  0.20282667875289917
+Choice 2:  Ann Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Susan knows all about Ann's personal problems because she is indiscreet .
+PRONOUN she
+Compare 1:  because he has chosen to reveal himself  with  because  is indiscreet
+Compare 1:    with  
+Choice 1:  Susan Average Scores:  [0.06460823863744736, 0.34830164909362793] Avg Score:  0.13763662924369177
+Choice 2:  Ann Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Sid explained his theory to Mark but he could not convince him .
+PRONOUN he
+Compare 1:    with  
+Compare 1:    with  I
+Compare 2:    with  
+Choice 1:  Sid Average Scores:  [0.4554397662480672] Avg Score:  0.2277198831240336
+Choice 2:  Mark Average Scores:  [0.34860727190971375] Avg Score:  0.17430363595485687
+************************************************************
+************************************************************
+SENT:  Sid explained his theory to Mark but he could not understand him .
+PRONOUN he
+Compare 1:  I  with  Papa
+Compare 2:  I  with  me
+Choice 1:  Sid Average Scores:  [0.3328961431980133] Avg Score:  0.16644807159900665
+Choice 2:  Mark Average Scores:  [0.3732045888900757] Avg Score:  0.18660229444503784
+************************************************************
+************************************************************
+SENT:  Sid explained his theory to Mark but he could not convince him .
+PRONOUN him
+Compare 1:    with  
+Compare 1:    with  i
+Compare 2:    with  
+Compare 2:    with  i
+Choice 1:  Sid Average Scores:  [0.4477916757265727] Avg Score:  0.22389583786328635
+Choice 2:  Mark Average Scores:  [0.4484024445215861] Avg Score:  0.22420122226079306
+************************************************************
+************************************************************
+SENT:  Sid explained his theory to Mark but he could not understand him .
+PRONOUN him
+Compare 1:    with  
+Compare 1:    with  They
+Compare 2:    with  
+Choice 1:  Sid Average Scores:  [0.46640944480895996] Avg Score:  0.23320472240447998
+Choice 2:  Mark Average Scores:  [0.34850597381591797] Avg Score:  0.17425298690795898
+************************************************************
+************************************************************
+SENT:  Susan knew that Ann's son had been in a car accident , so she told her about it .
+PRONOUN she
+Compare 1:  I  with  
+Compare 1:  I  with  I
+Choice 1:  Susan Average Scores:  [0.4855065147082011] Avg Score:  0.24275325735410055
+Choice 2:  Ann Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Susan knew that Ann's son had been in a car accident , because she told her about it .
+PRONOUN she
+Compare 1:    with  because  told her about it
+Compare 1:    with  because  told her about it
+Compare 1:    with  
+Choice 1:  Susan Average Scores:  [0.29309388995170593, 0.2920677959918976, 0.3478115499019623] Avg Score:  0.23324330896139145
+Choice 2:  Ann Average Scores:  [0.0, 0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  There is a gap in the wall . You can see the garden through it  .
+PRONOUN it
+Choice 1:  The gap Average Scores:  [0.0, 0.0] Avg Score:  0.0
+Choice 2:  The wall Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The drain is clogged with hair . It has to be cleaned .
+PRONOUN It
+Choice 1:  The drain Average Scores:  [0.0, 0.0, 0.0] Avg Score:  0.0
+Choice 2:  The hair Average Scores:  [0.0, 0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The drain is clogged with hair . It has to be removed .
+PRONOUN It
+Choice 1:  The drain Average Scores:  [0.0, 0.0, 0.0] Avg Score:  0.0
+Choice 2:  The hair Average Scores:  [0.0, 0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  In the middle of the outdoor concert , the rain started falling , and it continued until 10 .
+PRONOUN it
+Choice 1:  The concert Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  The rain Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  I used an old rag to clean the knife , and then I put it in the trash .
+PRONOUN it
+Choice 1:  The rag Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  The knife Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  I used an old rag to clean the knife , and then I put it in the drawer .
+PRONOUN it
+Choice 1:  The rag Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  The knife Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Ann asked Mary what time the library closes , because she had forgotten .
+PRONOUN she
+Compare 1:    with  because  had forgotten
+Compare 2:    with  because  had forgotten
+Compare 2:    with  because because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails had forgotten
+Compare 1:  because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails  with  because  had forgotten
+Compare 2:  because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails  with  because  had forgotten
+Compare 2:  because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails  with  because because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails had forgotten
+Compare 1:    with  because  had forgotten
+Compare 2:    with  because  had forgotten
+Compare 2:    with  because because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails had forgotten
+Compare 1:  because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails  with  because  had forgotten
+Compare 2:  because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails  with  because  had forgotten
+Compare 2:  because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails  with  because because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails had forgotten
+Compare 1:    with  
+Compare 2:    with  
+Compare 2:    with  because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails
+Choice 1:  Ann Average Scores:  [0.20086853710624078, 0.20081936389518282, 0.34614649415016174] Avg Score:  0.18695859878789634
+Choice 2:  Mary Average Scores:  [0.36933580236509445, 0.36934445071965455, 0.3437356849511464] Avg Score:  0.2706039845089738
+************************************************************
+************************************************************
+SENT:  I took the water bottle out of the backpack so that it would be handy .
+PRONOUN it
+Choice 1:  The water bottle Average Scores:  [0.0, 0.0] Avg Score:  0.0
+Choice 2:  The backpack Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  I took the water bottle out of the backpack so that it would be lighter .
+PRONOUN it
+Choice 1:  The water bottle Average Scores:  [0.0, 0.0] Avg Score:  0.0
+Choice 2:  The backpack Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  I could not put the pot on the shelf because it was too tall .
+PRONOUN it
+Choice 1:  The pot Average Scores:  [0.0, 0.0] Avg Score:  0.0
+Choice 2:  The shelf Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Bob paid for Charlie's college education . He is very generous .
+PRONOUN He
+Compare 1:    with  
+Choice 1:  Bob Average Scores:  [0.347686231136322] Avg Score:  0.173843115568161
+Choice 2:  Charlie Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Bob paid for Charlie's college education . He is very grateful .
+PRONOUN He
+Compare 1:    with  it
+Choice 1:  Bob Average Scores:  [0.34905076026916504] Avg Score:  0.17452538013458252
+Choice 2:  Charlie Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Bob paid for Charlie's college education , but now Charlie acts as though it never happened . He is very hurt .
+PRONOUN He
+Compare 2:    with  as though it never happened .  is very hurt
+Compare 2:    with  
+Compare 2:    with  
+Choice 1:  Bob Average Scores:  [0.0, 0.0, 0.0] Avg Score:  0.0
+Choice 2:  Charlie Average Scores:  [0.33034634590148926, 0.34802621603012085, 0.3486180007457733] Avg Score:  0.25674764066934586
+************************************************************
+************************************************************
+SENT:  Bob paid for Charlie's college education , but now Charlie acts as though it never happened . He is very ungrateful .
+PRONOUN He
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Bob Average Scores:  [0.34871044754981995] Avg Score:  0.17435522377490997
+Choice 2:  Charlie Average Scores:  [0.34871500730514526] Avg Score:  0.17435750365257263
+************************************************************
+************************************************************
+SENT:  Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , he would have lost .
+PRONOUN he
+Compare 1:    with  
+Compare 2:    with  
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Bob Average Scores:  [0.3487153947353363, 0.34871548414230347] Avg Score:  0.23247695962587991
+Choice 2:  Adam Average Scores:  [0.3487154543399811, 0.34871548414230347] Avg Score:  0.23247697949409485
+************************************************************
+************************************************************
+SENT:  Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , he would be here by this time .
+PRONOUN he
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Adam Average Scores:  [0.34871551394462585] Avg Score:  0.17435775697231293
+Choice 2:  Bob Average Scores:  [0.3487154543399811] Avg Score:  0.17435772716999054
+************************************************************
+************************************************************
+SENT:  If the con artist has succeeded in fooling Sam , he would have gotten a lot of money .
+PRONOUN he
+Compare 2:    with  
+Choice 1:  The con artist Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  Sam Average Scores:  [0.34871548414230347] Avg Score:  0.17435774207115173
+************************************************************
+************************************************************
+SENT:  If the con artist has succeeded in fooling Sam , he would have lost a lot of money .
+PRONOUN he
+Compare 2:    with  
+Choice 1:  The con artist Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  Sam Average Scores:  [0.34871548414230347] Avg Score:  0.17435774207115173
+************************************************************
+************************************************************
+SENT:  It was a summer afternoon , and the dog was sitting in the middle of the lawn . After a while , it got up and moved to a spot under the tree , because it was hot .
+PRONOUN it
+Choice 1:  The dog Average Scores:  [0.0, 0.0, 0.0, 0.0, 0.0] Avg Score:  0.0
+Choice 2:  The spot under the tree Average Scores:  [0.0, 0.0, 0.0, 0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  It was a summer afternoon , and the dog was sitting in the middle of the lawn . After a while , it got up and moved to a spot under the tree , because it was cooler .
+PRONOUN it
+Choice 1:  The dog Average Scores:  [0.0, 0.0, 0.0, 0.0, 0.0] Avg Score:  0.0
+Choice 2:  The spot under the tree Average Scores:  [0.0, 0.0, 0.0, 0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The cat was lying by the mouse hole waiting for the mouse , but it was too impatient .
+PRONOUN it
+Compare 1:    with  
+Choice 1:  The cat Average Scores:  [0.34871548414230347] Avg Score:  0.17435774207115173
+Choice 2:  The mouse Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The cat was lying by the mouse hole waiting for the mouse , but it was too cautious .
+PRONOUN it
+Compare 1:    with  
+Choice 1:  The cat Average Scores:  [0.34871548414230347] Avg Score:  0.17435774207115173
+Choice 2:  The mouse Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Anne gave birth to a daughter last month . She is a very charming woman .
+PRONOUN She
+Compare 1:    with  
+Choice 1:  Anne Average Scores:  [0.34871551394462585] Avg Score:  0.17435775697231293
+Choice 2:  daughter Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Anne gave birth to a daughter last month . She is a very charming baby .
+PRONOUN She
+Compare 1:    with  
+Choice 1:  Anne Average Scores:  [0.3487154543399811] Avg Score:  0.17435772716999054
+Choice 2:  daughter Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The fish ate the worm . It was hungry .
+PRONOUN It
+Compare 1:    with  
+Choice 1:  The fish Average Scores:  [0.34871551394462585] Avg Score:  0.17435775697231293
+Choice 2:  The worm Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The fish ate the worm . It was tasty .
+PRONOUN It
+Compare 1:    with  
+Choice 1:  The fish Average Scores:  [0.34871548414230347] Avg Score:  0.17435774207115173
+Choice 2:  The worm Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum , and I could not get it in .
+PRONOUN it
+Choice 1:  The key Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  The chewing gum Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum , and I could not get it out .
+PRONOUN it
+Choice 1:  The key Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  The chewing gum Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get it removed .
+PRONOUN it
+Choice 1:  The tree Average Scores:  [0.0, 0.0, 0.0, 0.0] Avg Score:  0.0
+Choice 2:  The roof Average Scores:  [0.0, 0.0, 0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  He also refused to give his full name because he feared for his safety .
+PRONOUN it
+Choice 1:  The tree Average Scores:  [] Avg Score:  0.0
+Choice 2:  The roof Average Scores:  [] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The customer walked into the bank and stabbed one of the tellers . He was immediately taken to the police station .
+PRONOUN He
+Compare 1:    with  
+Compare 1:    with  
+Choice 1:  The customer Average Scores:  [0.34871548414230347, 0.34871548414230347] Avg Score:  0.2324769894282023
+Choice 2:  The teller Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The customer walked into the bank and stabbed one of the tellers . He was immediately taken to the hospital .
+PRONOUN He
+Compare 1:    with  
+Compare 1:    with  Brown
+Compare 1:    with  
+Compare 1:    with  Brown
+Choice 1:  The customer Average Scores:  [0.4769854744275411, 0.4765997926394145] Avg Score:  0.31786175568898517
+Choice 2:  The teller Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  John was doing research in the library when he heard a man humming and whistling . He was very annoyed .
+PRONOUN He
+Compare 1:    with  
+Choice 1:  John Average Scores:  [0.3482414782047272] Avg Score:  0.1741207391023636
+Choice 2:  The man Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  John was doing research in the library when he heard a man humming and whistling . He was very annoying .
+PRONOUN He
+Compare 1:    with  
+Choice 1:  John Average Scores:  [0.34866607189178467] Avg Score:  0.17433303594589233
+Choice 2:  The man Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  John was jogging through the park when he saw a man juggling watermelons . He was very impressed .
+PRONOUN He
+Compare 1:    with  
+Choice 1:  John Average Scores:  [0.3487127423286438] Avg Score:  0.1743563711643219
+Choice 2:  The juggler Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  John was jogging through the park when he saw a man juggling watermelons . He was very impressive .
+PRONOUN He
+Compare 1:    with  
+Choice 1:  John Average Scores:  [0.3487150967121124] Avg Score:  0.1743575483560562
+Choice 2:  The juggler Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Bob collapsed on the sidewalk . Soon he saw Carl coming to help . He was very ill .
+PRONOUN He
+Compare 1:  Bruce  with  
+Compare 2:  Bruce  with  
+Choice 1:  Bob Average Scores:  [0.32835298776626587] Avg Score:  0.16417649388313293
+Choice 2:  Carl Average Scores:  [0.3256813883781433] Avg Score:  0.16284069418907166
+************************************************************
+************************************************************
+SENT:  Bob collapsed on the sidewalk . Soon he saw Carl coming to help . He was very concerned .
+PRONOUN He
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Bob Average Scores:  [0.3474794626235962] Avg Score:  0.1737397313117981
+Choice 2:  Carl Average Scores:  [0.3485565483570099] Avg Score:  0.17427827417850494
+************************************************************
+************************************************************
+SENT:  Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are fifteen .
+PRONOUN they
+Compare 1:    with  because  are fifteen
+Compare 1:    with  
+Choice 1:  Sam and Amy Average Scores:  [0.3058420717716217, 0.34822604060173035] Avg Score:  0.21802270412445068
+Choice 2:  Amy's parents Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are snobs .
+PRONOUN they
+Compare 1:    with  because snobs are snobs
+Compare 1:  snobs  with  snobs
+Choice 1:  Sam and Amy Average Scores:  [0.30546003580093384, 0.4269021451473236] Avg Score:  0.24412072698275247
+Choice 2:  Amy's parents Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Joe has sold his house and bought a new one a few miles away . He will be moving out of it on Thursday .
+PRONOUN it
+Choice 1:  The old house Average Scores:  [0.0, 0.0] Avg Score:  0.0
+Choice 2:  The new house Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Joe has sold his house and bought a new one a few miles away . He will be moving into it on Thursday .
+PRONOUN it
+Choice 1:  The old house Average Scores:  [0.0, 0.0] Avg Score:  0.0
+Choice 2:  The new house Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Many people start to read Paul's books and can not put them down . They are gripped because Paul writes so well .
+PRONOUN They
+Choice 1:  People Average Scores:  [0.0, 0.0] Avg Score:  0.0
+Choice 2:  Paul's books Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Many people start to read Paul's books and can not put them down . They are popular because Paul writes so well .
+PRONOUN They
+Choice 1:  People Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  Paul's books Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Since it was raining , I carried the newspaper in my backpack to keep it dry .
+PRONOUN it
+Choice 1:  The newspaper Average Scores:  [0.0, 0.0, 0.0, 0.0] Avg Score:  0.0
+Choice 2:  The backpack Average Scores:  [0.0, 0.0, 0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Since it was raining , I carried the newspaper over my backpack to keep it dry .
+PRONOUN it
+Choice 1:  The newspaper Average Scores:  [0.0, 0.0, 0.0, 0.0] Avg Score:  0.0
+Choice 2:  The backpack Average Scores:  [0.0, 0.0, 0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Sara borrowed the book from the library because she needs it for an article she is working on . She writes it when she gets home from work .
+PRONOUN it
+Choice 1:  The book Average Scores:  [0.0, 0.0, 0.0, 0.0] Avg Score:  0.0
+Choice 2:  The article Average Scores:  [0.0, 0.0, 0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Jane knocked on Susan's door , but there was no answer . She was disappointed .
+PRONOUN She
+Choice 1:  Jane Average Scores:  [0.0, 0.0] Avg Score:  0.0
+Choice 2:  Susan Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Jane knocked on Susan's door , but there was no answer . She was out .
+PRONOUN She
+Compare 1:    with  
+Choice 1:  Jane Average Scores:  [0.3477560877799988] Avg Score:  0.1738780438899994
+Choice 2:  Susan Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Jane knocked on the door , and Susan answered it . She invited her to come out .
+PRONOUN She
+Compare 1:    with  .  invited her to come out
+Compare 2:    with  .  invited her to come out
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Jane Average Scores:  [0.251079261302948, 0.34781530499458313] Avg Score:  0.19963152209917703
+Choice 2:  Susan Average Scores:  [0.24964161217212677, 0.34857094287872314] Avg Score:  0.19940418501694998
+************************************************************
+************************************************************
+SENT:  Jane knocked on the door , and Susan answered it . She invited her to come out .
+PRONOUN her
+Compare 1:    with  . She invited  to come out
+Compare 2:    with  . She invited  to come out
+Compare 1:    with  
+Compare 2:    with  
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Jane Average Scores:  [0.25619885325431824, 0.3477718234062195, 0.34870797395706177] Avg Score:  0.23816966265439987
+Choice 2:  Susan Average Scores:  [0.25580620765686035, 0.34856536984443665, 0.3487149178981781] Avg Score:  0.23827162384986877
+************************************************************
+************************************************************
+SENT:  Jane knocked on the door , and Susan answered it . She invited her to come in .
+PRONOUN She
+Compare 1:  When I knocked  with  .  invited her to come in
+Compare 1:  When I knocked  with  . M invited her to come in
+Compare 2:  When I knocked  with  . M invited her to come in
+Compare 1:    with  
+Compare 1:    with  M
+Compare 2:    with  M
+Choice 1:  Jane Average Scores:  [0.028755787760019302, 0.46800045172373456] Avg Score:  0.16558541316125128
+Choice 2:  Susan Average Scores:  [0.020941294729709625, 0.35421663522720337] Avg Score:  0.125052643318971
+************************************************************
+************************************************************
+SENT:  Jane knocked on the door , and Susan answered it . She invited her to come in .
+PRONOUN her
+Compare 1:  When I knocked  with  . She invited  to come in
+Compare 1:  When I knocked  with  . She invited M to come in
+Compare 2:  When I knocked  with  . She invited M to come in
+Compare 1:    with  
+Compare 1:    with  M
+Compare 2:    with  M
+Compare 1:  me  with  
+Compare 1:  me  with  M
+Compare 2:  me  with  M
+Compare 1:    with  
+Compare 1:    with  M
+Compare 2:    with  M
+Compare 1:  me  with  
+Compare 1:  me  with  M
+Compare 2:  me  with  M
+Choice 1:  Jane Average Scores:  [0.051960172752539315, 0.4893798232078552, 0.4895040273666382] Avg Score:  0.25771100583175816
+Choice 2:  Susan Average Scores:  [0.034158725291490555, 0.41268060604731244, 0.41268080472946167] Avg Score:  0.21488003401706618
+************************************************************
+************************************************************
+SENT:  Sam took French classes from Adam , because he was eager to speak it fluently .
+PRONOUN he
+Compare 1:    with  because  was eager to speak it fluently
+Compare 2:    with  because  was eager to speak it fluently
+Compare 1:    with  
+Compare 2:    with  
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Sam Average Scores:  [0.2016235589981079, 0.34814339876174927, 0.3487122356891632] Avg Score:  0.2246197983622551
+Choice 2:  Adam Average Scores:  [0.20282310247421265, 0.34865298867225647, 0.3487150967121124] Avg Score:  0.22504779696464539
+************************************************************
+************************************************************
+SENT:  Sam took French classes from Adam , because he was known to speak it fluently .
+PRONOUN he
+Compare 1:    with  because  was known to speak it fluently
+Compare 2:    with  because  was known to speak it fluently
+Compare 1:    with  
+Compare 2:    with  
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Sam Average Scores:  [0.2759721577167511, 0.3481302261352539, 0.3487119674682617] Avg Score:  0.24320358783006668
+Choice 2:  Adam Average Scores:  [0.275119811296463, 0.3486453890800476, 0.3487151265144348] Avg Score:  0.24312008172273636
+************************************************************
+************************************************************
+SENT:  The path to the lake was blocked , so we could not use it  .
+PRONOUN it
+Choice 1:  The path Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  The lake Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  We went to the lake , because a shark had been seen at the ocean beach , so it was a safer place to swim .
+PRONOUN it
+Choice 1:  The lake Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  The ocean beach Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Mary tucked her daughter Anne into bed , so that she could sleep .
+PRONOUN she
+Compare 1:    with  so that  could sleep
+Compare 1:    with  
+Choice 1:  Mary Average Scores:  [0.28398972749710083, 0.34794458746910095] Avg Score:  0.2106447716554006
+Choice 2:  daughter Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Thomson visited Cooper's grave in 1765 . At that date he had been travelling for five years .
+PRONOUN he
+Compare 1:    with  
+Compare 1:    with  I
+Compare 1:    with  
+Compare 1:    with  I
+Compare 1:    with  
+Compare 1:    with  I
+Choice 1:  Thomson Average Scores:  [0.45554153124491376, 0.4555629293123881, 0.4555632670720418] Avg Score:  0.34166693190733594
+Choice 2:  Cooper Average Scores:  [0.0, 0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Thomson visited Cooper's grave in 1765 . At that date he had been dead for five years .
+PRONOUN he
+Compare 1:    with  
+Compare 1:    with  
+Choice 1:  Thomson Average Scores:  [0.34861481189727783, 0.3487122058868408] Avg Score:  0.2324423392613729
+Choice 2:  Cooper Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Jackson was greatly influenced by Arnold , though he lived two centuries later .
+PRONOUN he
+Compare 1:  he  with  
+Compare 2:  he  with  
+Choice 1:  Jackson Average Scores:  [0.2812773287296295] Avg Score:  0.14063866436481476
+Choice 2:  Arnold Average Scores:  [0.2806891202926636] Avg Score:  0.1403445601463318
+************************************************************
+************************************************************
+SENT:  Jackson was greatly influenced by Arnold , though he lived two centuries earlier .
+PRONOUN he
+Compare 1:  Pythagoras  with  
+Compare 2:  Pythagoras  with  
+Choice 1:  Jackson Average Scores:  [0.17134732007980347] Avg Score:  0.08567366003990173
+Choice 2:  Arnold Average Scores:  [0.17035724222660065] Avg Score:  0.08517862111330032
+************************************************************
+************************************************************
+SENT:  I can not cut that tree down with that axe ; it is too thick .
+PRONOUN it
+Choice 1:  The tree Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  The axe Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The foxes are getting in at night and attacking the chickens . I shall have to kill them  .
+PRONOUN them
+Compare 1:  to kill them  with  to kill
+Compare 1:  to kill them  with  to kill Terrorists
+Compare 1:  to kill them  with  to kill you
+Compare 1:  kill them  with  kill
+Compare 1:  kill them  with  kill Terrorists
+Compare 1:  kill them  with  kill you
+Compare 1:    with  
+Compare 1:    with  Terrorists
+Compare 1:    with  you
+Choice 1:  The foxes Average Scores:  [0.39513758569955826, 0.4120067209005356, 0.5044414550065994] Avg Score:  0.3278964404016733
+Choice 2:  The chickens Average Scores:  [0.0, 0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The foxes are getting in at night and attacking the chickens . I shall have to guard them  .
+PRONOUN them
+Compare 1:  a right to protect yourself  with  to guard
+Compare 1:    with  guard
+Compare 1:    with  
+Choice 1:  The foxes Average Scores:  [0.2683086097240448, 0.3560440242290497, 0.3473130762577057] Avg Score:  0.24291642755270004
+Choice 2:  The chickens Average Scores:  [0.0, 0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The foxes are getting in at night and attacking the chickens . They have gotten very bold .
+PRONOUN They
+Compare 1:    with  
+Compare 1:    with  
+Choice 1:  The foxes Average Scores:  [0.3484579026699066, 0.3486955761909485] Avg Score:  0.23238449295361838
+Choice 2:  The chickens Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The foxes are getting in at night and attacking the chickens . They have gotten very nervous .
+PRONOUN They
+Compare 1:    with  
+Compare 1:    with  
+Choice 1:  The foxes Average Scores:  [0.3487144708633423, 0.34871533513069153] Avg Score:  0.23247660199801126
+Choice 2:  The chickens Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Fred watched TV while George went out to buy groceries . After an hour he got up .
+PRONOUN he
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Fred Average Scores:  [0.3487154543399811] Avg Score:  0.17435772716999054
+Choice 2:  George Average Scores:  [0.34871548414230347] Avg Score:  0.17435774207115173
+************************************************************
+************************************************************
+SENT:  Fred watched TV while George went out to buy groceries . After an hour he got back .
+PRONOUN he
+Compare 1:  I  with  
+Compare 2:  I  with  
+Compare 2:  I  with  I
+Choice 1:  Fred Average Scores:  [0.32837116718292236] Avg Score:  0.16418558359146118
+Choice 2:  George Average Scores:  [0.4842462142308553] Avg Score:  0.24212310711542764
+************************************************************
+************************************************************
+SENT:  In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were defeated within weeks .
+PRONOUN they
+Choice 1:  Kamchatka Average Scores:  [0.0, 0.0] Avg Score:  0.0
+Choice 2:  Yakutsk Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were victorious within weeks .
+PRONOUN they
+Choice 1:  Kamchatka Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  Yakutsk Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The scientists are studying three species of fish that have recently been found living in the Indian Ocean . They appeared two years ago .
+PRONOUN They
+Compare 1:    with  
+Choice 1:  The scientists Average Scores:  [0.3482038676738739] Avg Score:  0.17410193383693695
+Choice 2:  The fish Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The police arrested all of the gang members . They were trying to stop the drug trade in the neighborhood .
+PRONOUN They
+Compare 1:    with  
+Compare 1:    with  
+Compare 1:    with  
+Choice 1:  The police Average Scores:  [0.34866300225257874, 0.3487139940261841, 0.3487154245376587] Avg Score:  0.2615231052041054
+Choice 2:  The gang members Average Scores:  [0.0, 0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The police arrested all of the gang members . They were trying to run the drug trade in the neighborhood .
+PRONOUN They
+Compare 1:    with  
+Compare 1:    with  
+Compare 1:    with  
+Choice 1:  The police Average Scores:  [0.3487154543399811, 0.34871551394462585, 0.34871548414230347] Avg Score:  0.2615366131067276
+Choice 2:  The gang members Average Scores:  [0.0, 0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  I stuck a pin through a carrot . When I pulled the pin out , it left a hole .
+PRONOUN it
+Choice 1:  The pin Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  The carrot Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  I stuck a pin through a carrot . When I pulled the pin out , it had a hole .
+PRONOUN it
+Choice 1:  The pin Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  The carrot Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Steve follows Fred's example in everything . He admires him hugely .
+PRONOUN He
+Compare 1:    with  
+Choice 1:  Steve Average Scores:  [0.34871551394462585] Avg Score:  0.17435775697231293
+Choice 2:  Fred Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Steve follows Fred's example in everything . He admires him hugely .
+PRONOUN him
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Steve Average Scores:  [0.34871548414230347] Avg Score:  0.17435774207115173
+Choice 2:  Fred Average Scores:  [0.34871548414230347] Avg Score:  0.17435774207115173
+************************************************************
+************************************************************
+SENT:  Steve follows Fred's example in everything . He influences him hugely .
+PRONOUN He
+Compare 1:    with  
+Choice 1:  Steve Average Scores:  [0.34871551394462585] Avg Score:  0.17435775697231293
+Choice 2:  Fred Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The table would not fit through the doorway because it is too wide .
+PRONOUN it
+Compare 1:  because the diameter of the ball is slightly larger than the diameter of the hole  with  because The ball is too wide
+Compare 1:  the diameter of the ball  with  The ball
+Choice 1:  The table Average Scores:  [0.2518833577632904, 0.22797268629074097] Avg Score:  0.15995201468467712
+Choice 2:  The doorway Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The table would not fit through the doorway because it is too narrow .
+PRONOUN it
+Compare 1:  because the width of your furniture piece is wider than that of the door  with  because your sofa is too narrow
+Compare 1:  the width of your furniture piece  with  your sofa
+Choice 1:  The table Average Scores:  [0.091920405626297, 0.13218587636947632] Avg Score:  0.07470209399859111
+Choice 2:  The doorway Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  John hired Bill to take care of him  .
+PRONOUN him
+Compare 1:    with  to take care of
+Compare 2:    with  to take care of
+Compare 1:    with  care of
+Compare 2:    with  care of
+Choice 1:  John Average Scores:  [0.2648722231388092, 0.3214242458343506] Avg Score:  0.1954321563243866
+Choice 2:  Bill Average Scores:  [0.2642762064933777, 0.32170575857162476] Avg Score:  0.19532732168833414
+************************************************************
+************************************************************
+SENT:  Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his childhood .
+PRONOUN he
+Choice 1:  Goodman Average Scores:  [0.0, 0.0] Avg Score:  0.0
+Choice 2:  Xenophanes Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Emma's mother had died long ago , and her place had been taken by an excellent woman as governess .
+PRONOUN her
+Choice 1:  Emma Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  Emma's mother Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Jane knocked on Susan's door but she did not get an answer .
+PRONOUN she
+Compare 1:  you  with  him
+Choice 1:  Jane Average Scores:  [0.38131076097488403] Avg Score:  0.19065538048744202
+Choice 2:  Susan Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Jane knocked on Susan's door but she did not answer .
+PRONOUN she
+Compare 1:    with  
+Choice 1:  Jane Average Scores:  [0.3487286865711212] Avg Score:  0.1743643432855606
+Choice 2:  Susan Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Joe paid the detective after he received the final report on the case .
+PRONOUN he
+Compare 1:    with  after  received the final report on the case
+Compare 2:    with  after  received the final report on the case
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Joe Average Scores:  [0.2703646719455719, 0.34807607531547546] Avg Score:  0.20614691575368246
+Choice 2:  the detective Average Scores:  [0.27107274532318115, 0.348638653755188] Avg Score:  0.2065704663594564
+************************************************************
+************************************************************
+SENT:  Joe paid the detective after he delivered the final report on the case .
+PRONOUN he
+Compare 1:    with  after  delivered the final report on the case
+Compare 2:    with  after  delivered the final report on the case
+Compare 1:  they  with  
+Compare 2:  they  with  
+Choice 1:  Joe Average Scores:  [0.2967941462993622, 0.33026832342147827] Avg Score:  0.20902082324028015
+Choice 2:  the detective Average Scores:  [0.2974883019924164, 0.32947662472724915] Avg Score:  0.20898830890655518
+************************************************************
+************************************************************
+SENT:  Beth did not get angry with Sally , who had cut her off , because she stopped and counted to ten .
+PRONOUN she
+Compare 1:    with  because He stopped and counted to ten
+Compare 2:    with  because  stopped and counted to ten
+Compare 1:    with  He
+Compare 2:    with  
+Compare 1:  He  with  He
+Compare 2:  He  with  
+Compare 1:    with  He
+Compare 2:    with  
+Compare 1:  He  with  He
+Compare 2:  He  with  
+Choice 1:  Beth Average Scores:  [0.2104925513267517, 0.4690019488334656, 0.46935341755549115] Avg Score:  0.2872119794289271
+Choice 2:  Sally Average Scores:  [0.25161924958229065, 0.4192262490590413, 0.4192334810892741] Avg Score:  0.2725197449326515
+************************************************************
+************************************************************
+SENT:  Beth did not get angry with Sally , who had cut her off , because she stopped and apologized .
+PRONOUN she
+Compare 1:    with  because  stopped and apologized
+Compare 2:    with  because  stopped and apologized
+Compare 1:    with  
+Compare 2:    with  
+Compare 1:  I  with  
+Compare 2:  I  with  
+Compare 1:    with  
+Compare 2:    with  
+Compare 1:  I  with  
+Compare 2:  I  with  
+Choice 1:  Beth Average Scores:  [0.2858445346355438, 0.45084546009699505, 0.45111338297526044] Avg Score:  0.29695084442694986
+Choice 2:  Sally Average Scores:  [0.2874975800514221, 0.4501824378967285, 0.4502406318982442] Avg Score:  0.2969801624615987
+************************************************************
+************************************************************
+SENT:  Tom said Check to Ralph as he moved his bishop .
+PRONOUN his
+Compare 1:  checkmate  with  Check to Ralph as he moved  bishop
+Compare 1:  checkmate  with  Check to Ralph as he moved a player bishop
+Compare 2:  checkmate  with  Check to Ralph as he moved  bishop
+Compare 1:    with  as he moved  bishop
+Compare 1:    with  as he moved a player bishop
+Compare 2:    with  as he moved  bishop
+Compare 1:    with  bishop
+Compare 1:    with  a player bishop
+Compare 2:    with  bishop
+Choice 1:  Tom Average Scores:  [0.03586778541405996, 0.3622758388519287, 0.4108690023422241] Avg Score:  0.20225315665205318
+Choice 2:  Ralph Average Scores:  [0.026434333994984627, 0.2848866581916809, 0.3380880653858185] Avg Score:  0.162352264393121
+************************************************************
+************************************************************
+SENT:  Tom said Check to Ralph as he took his bishop .
+PRONOUN his
+Compare 1:    with  Check to Ralph as he took  bishop
+Compare 2:    with  Check to Ralph as he took  bishop
+Compare 1:    with  as he took  bishop
+Compare 2:    with  as he took  bishop
+Compare 1:    with  bishop
+Compare 2:    with  bishop
+Choice 1:  Tom Average Scores:  [0.2752418518066406, 0.2896888554096222, 0.338284969329834] Avg Score:  0.2258039191365242
+Choice 2:  Ralph Average Scores:  [0.27533525228500366, 0.28980234265327454, 0.338167279958725] Avg Score:  0.2258262187242508
+************************************************************
+************************************************************
+SENT:  Tom gave Ralph a lift to school so he would not have to drive alone .
+PRONOUN he
+Compare 1:    with  so  would not have to drive alone
+Compare 2:    with  so  would not have to drive alone
+Compare 1:  I  with  
+Compare 2:  I  with  
+Compare 1:  I  with  
+Compare 2:  I  with  
+Choice 1:  Tom Average Scores:  [0.3132505714893341, 0.3269813060760498, 0.32644739747047424] Avg Score:  0.24166981875896454
+Choice 2:  Ralph Average Scores:  [0.31348100304603577, 0.3263486623764038, 0.3264724910259247] Avg Score:  0.24157553911209106
+************************************************************
+************************************************************
+SENT:  Tom gave Ralph a lift to school so he would not have to walk .
+PRONOUN he
+Compare 1:    with  so  would not have to walk
+Compare 2:    with  so  would not have to walk
+Compare 1:    with  
+Compare 2:    with  
+Compare 1:  we  with  
+Compare 2:  we  with  
+Compare 1:    with  
+Compare 2:    with  
+Compare 1:  we  with  
+Compare 2:  we  with  
+Choice 1:  Tom Average Scores:  [0.3020270764827728, 0.43834930658340454, 0.4382211168607076] Avg Score:  0.2946493749817212
+Choice 2:  Ralph Average Scores:  [0.3025972247123718, 0.43790356318155926, 0.4378725091616313] Avg Score:  0.2945933242638906
+************************************************************
+************************************************************
+SENT:  Bill passed the half-empty plate to John because he was full .
+PRONOUN he
+Compare 1:  because we were full by the end of the meal  with  because  was full
+Compare 2:  because we were full by the end of the meal  with  because  was full
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Bill Average Scores:  [0.00491521880030632, 0.34797024726867676] Avg Score:  0.11762848868966103
+Choice 2:  John Average Scores:  [0.005026866681873798, 0.3484891951084137] Avg Score:  0.11783868726342916
+************************************************************
+************************************************************
+SENT:  Bill passed the half-empty plate to John because he was hungry .
+PRONOUN he
+Compare 1:    with  because  was hungry
+Compare 2:    with  because  was hungry
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Bill Average Scores:  [0.3011854588985443, 0.34822607040405273] Avg Score:  0.21647050976753235
+Choice 2:  John Average Scores:  [0.30058422684669495, 0.34867390990257263] Avg Score:  0.21641937891642252
+************************************************************
+************************************************************
+SENT:  The man lifted the boy onto his shoulders .
+PRONOUN his
+Compare 1:    with  onto  shoulders
+Choice 1:  The man Average Scores:  [0.3147422671318054] Avg Score:  0.1573711335659027
+Choice 2:  The boy Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Lily spoke to Donna , breaking her silence .
+PRONOUN her
+Compare 1:    with  silence
+Compare 2:    with  silence
+Choice 1:  Lily Average Scores:  [0.30416855216026306] Avg Score:  0.15208427608013153
+Choice 2:  Donna Average Scores:  [0.30406174063682556] Avg Score:  0.15203087031841278
+************************************************************
+************************************************************
+SENT:  Lily spoke to Donna , breaking her concentration .
+PRONOUN her
+Compare 1:    with  concentration
+Compare 2:    with  concentration
+Choice 1:  Lily Average Scores:  [0.3586404323577881] Avg Score:  0.17932021617889404
+Choice 2:  Donna Average Scores:  [0.358768492937088] Avg Score:  0.179384246468544
+************************************************************
+************************************************************
+SENT:  As Ollie carried Tommy up the long winding steps , his legs ached .
+PRONOUN his
+Compare 1:    with  legs
+Compare 2:    with  legs
+Choice 1:  Ollie Average Scores:  [0.3533456027507782] Avg Score:  0.1766728013753891
+Choice 2:  Tommy Average Scores:  [0.35332441329956055] Avg Score:  0.17666220664978027
+************************************************************
+************************************************************
+SENT:  As Ollie carried Tommy up the long winding steps , his legs dangled .
+PRONOUN his
+Compare 1:    with  legs
+Compare 2:    with  legs
+Choice 1:  Ollie Average Scores:  [0.3533264696598053] Avg Score:  0.17666323482990265
+Choice 2:  Tommy Average Scores:  [0.35332685708999634] Avg Score:  0.17666342854499817
+************************************************************
+************************************************************
+SENT:  The father carried the sleeping boy in his arms .
+PRONOUN his
+Compare 1:    with  in  arms
+Compare 1:    with  in  arms
+Choice 1:  The father Average Scores:  [0.2969299852848053, 0.2968117594718933] Avg Score:  0.19791391491889954
+Choice 2:  The boy Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The woman held the girl against her chest .
+PRONOUN her
+Compare 1:  against his chest  with  against He chest
+Compare 1:  his chest  with  He chest
+Choice 1:  The woman Average Scores:  [0.46346989274024963, 0.45504921674728394] Avg Score:  0.30617303649584454
+Choice 2:  The girl Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  The woman held the girl against her will .
+PRONOUN her
+Compare 1:  against her will  with  against he will
+Compare 1:  her will  with  he will
+Choice 1:  The woman Average Scores:  [0.23817317187786102, 0.2656962275505066] Avg Score:  0.16795646647612253
+Choice 2:  The girl Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Pam's parents came home and found her having sex with her boyfriend , Paul . They were furious about it .
+PRONOUN They
+Choice 1:  Pam's parents Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  Pam and Paul Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Pam's parents came home and found her having sex with her boyfriend , Paul . They were embarrassed about it .
+PRONOUN They
+Choice 1:  Pam's parents Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  Pam and Paul Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Dan had to stop Bill from toying with the injured bird . He is very compassionate .
+PRONOUN He
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Dan Average Scores:  [0.3482881486415863] Avg Score:  0.17414407432079315
+Choice 2:  Bill Average Scores:  [0.348445862531662] Avg Score:  0.174222931265831
+************************************************************
+************************************************************
+SENT:  Dan had to stop Bill from toying with the injured bird . He is very cruel .
+PRONOUN He
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Dan Average Scores:  [0.3486946225166321] Avg Score:  0.17434731125831604
+Choice 2:  Bill Average Scores:  [0.34871426224708557] Avg Score:  0.17435713112354279
+************************************************************
+************************************************************
+SENT:  Jane gave Joan candy because she was not hungry .
+PRONOUN she
+Compare 1:    with  because  was not hungry
+Compare 2:    with  because  was not hungry
+Compare 1:  I  with  
+Compare 2:  I  with  
+Choice 1:  Jane Average Scores:  [0.31304386258125305, 0.32734233140945435] Avg Score:  0.21346206466356912
+Choice 2:  Joan Average Scores:  [0.31240755319595337, 0.3264269232749939] Avg Score:  0.21294482549031576
+************************************************************
+************************************************************
+SENT:  Jane gave Joan candy because she was hungry .
+PRONOUN she
+Compare 1:  because I looked hungry here at the mall food court  with  because Some kid was hungry
+Compare 2:  because I looked hungry here at the mall food court  with  because because I looked hungry here at the mall food court was hungry
+Compare 1:    with  Some kid
+Compare 2:    with  because I looked hungry here at the mall food court
+Choice 1:  Jane Average Scores:  [0.004219836089760065, 0.3234195113182068] Avg Score:  0.10921311580265562
+Choice 2:  Joan Average Scores:  [0.2138352245092392, 0.11537274718284607] Avg Score:  0.10973599056402843
+************************************************************
+************************************************************
+SENT:  James asked Robert for a favor but he was refused .
+PRONOUN he
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  James Average Scores:  [0.34786567091941833] Avg Score:  0.17393283545970917
+Choice 2:  Robert Average Scores:  [0.3485959768295288] Avg Score:  0.1742979884147644
+************************************************************
+************************************************************
+SENT:  James asked Robert for a favor but he refused .
+PRONOUN he
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  James Average Scores:  [0.34870895743370056] Avg Score:  0.17435447871685028
+Choice 2:  Robert Average Scores:  [0.3487148582935333] Avg Score:  0.17435742914676666
+************************************************************
+************************************************************
+SENT:  Kirilov ceded the presidency to Shatov because he was less popular .
+PRONOUN he
+Compare 1:    with  because  was less popular
+Compare 2:    with  because  was less popular
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Kirilov Average Scores:  [0.31263330578804016, 0.3483452796936035] Avg Score:  0.22032619516054788
+Choice 2:  Shatov Average Scores:  [0.31232550740242004, 0.3486815392971039] Avg Score:  0.22033568223317465
+************************************************************
+************************************************************
+SENT:  Kirilov ceded the presidency to Shatov because he was more popular .
+PRONOUN he
+Compare 1:    with  because  was more popular
+Compare 2:    with  because  was more popular
+Compare 1:    with  
+Compare 2:    with  
+Choice 1:  Kirilov Average Scores:  [0.3061717748641968, 0.3483167886734009] Avg Score:  0.21816285451253256
+Choice 2:  Shatov Average Scores:  [0.3062082529067993, 0.3486765921115875] Avg Score:  0.21829494833946228
+************************************************************
+************************************************************
+SENT:  I put the heavy book on the table and it broke .
+PRONOUN it
+Choice 1:  The book Average Scores:  [0.0] Avg Score:  0.0
+Choice 2:  The table Average Scores:  [0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Madonna fired her trainer because she could not stand her boyfriend .
+PRONOUN she
+Compare 1:  because he hated her  with  because  could not stand her boyfriend
+Compare 1:  because he hated her  with  because He could not stand her boyfriend
+Compare 1:    with  
+Compare 1:    with  He
+Choice 1:  Madonna Average Scores:  [0.11830323934555054, 0.43559157848358154] Avg Score:  0.18463160594304404
+Choice 2:  The trainer Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Madonna fired her trainer because she could not stand her boyfriend .
+PRONOUN her
+Compare 1:  her  with  trainer
+Compare 1:  her  with  He trainer
+Compare 1:  because he hated her  with  because she could not stand  boyfriend
+Compare 1:  because he hated her  with  because she could not stand He boyfriend
+Compare 1:    with  boyfriend
+Compare 1:    with  He boyfriend
+Choice 1:  Madonna Average Scores:  [0.4378790060679118, 0.17186040679613748, 0.43646923700968426] Avg Score:  0.2615521624684334
+Choice 2:  The trainer Average Scores:  [0.0, 0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Madonna fired her trainer because she slept with her boyfriend .
+PRONOUN she
+Compare 1:  because I slept with your ex-wife  with  because you slept with her boyfriend
+Compare 1:  I  with  you
+Choice 1:  Madonna Average Scores:  [0.06475905328989029, 0.3890675902366638] Avg Score:  0.1512755478421847
+Choice 2:  The trainer Average Scores:  [0.0, 0.0] Avg Score:  0.0
+************************************************************
+************************************************************
+SENT:  Madonna fired her trainer because she slept with her boyfriend .
+PRONOUN her
+Compare 1:  me  with  I trainer
+Compare 1:  me  with  you trainer
+Compare 1:  because I slept with your ex-wife  with  because she slept with I boyfriend
+Compare 1:  because I slept with your ex-wife  with  because she slept with you boyfriend
+Compare 1:  your ex-wife  with  I boyfriend
+Compare 1:  your ex-wife  with  you boyfriend
+Choice 1:  Madonna Average Scores:  [0.4808446963628133, 0.07458723336458206, 0.1093565970659256] Avg Score:  0.16619713169833022
+Choice 2:  The trainer Average Scores:  [0.0, 0.0, 0.0] Avg Score:  0.0
+************************************************************
+know sents not parsed:  0
+ws sents not parsed:  0

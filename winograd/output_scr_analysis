@@ -1,0 +1,50 @@
+PSL CORRECT, BERT INCORRECT: The sculpture rolled off the shelf because it was not anchored .
+PSL CORRECT, BERT INCORRECT: I poured water from the bottle into the cup until it was empty .
+PSL CORRECT, BERT INCORRECT: Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , he would have won .
+PSL INCORRECT, BERT CORRECT: Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , he would have lost .
+PSL CORRECT, BERT INCORRECT: Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , he would be here by this time .
+PSL INCORRECT, BERT CORRECT: Anne gave birth to a daughter last month . She is a very charming baby .
+PSL CORRECT, BERT INCORRECT: The fish ate the worm . It was hungry .
+PSL CORRECT, BERT INCORRECT: Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are fifteen .
+PSL INCORRECT, BERT CORRECT: Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are snobs .
+PSL CORRECT, BERT INCORRECT: Mary tucked her daughter Anne into bed , so that she could sleep .
+PSL INCORRECT, BERT CORRECT: The foxes are getting in at night and attacking the chickens . I shall have to kill them  .
+PSL CORRECT, BERT INCORRECT: Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , he was twelve years old .
+PSL INCORRECT, BERT CORRECT: Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , he was twelve months old .
+PSL INCORRECT, BERT CORRECT: In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were defeated within weeks .
+PSL CORRECT, BERT INCORRECT: In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were victorious within weeks .
+PSL CORRECT, BERT INCORRECT: Steve follows Fred's example in everything . He admires him hugely .
+PSL CORRECT, BERT INCORRECT: Jane knocked on Susan's door but she did not answer .
+PSL CORRECT, BERT INCORRECT: Tom said Check to Ralph as he took his bishop .
+PSL INCORRECT, BERT CORRECT: The man lifted the boy onto his shoulders .
+PSL CORRECT, BERT INCORRECT: The woman held the girl against her will .
+PSL CORRECT, BERT INCORRECT: Dr . Adams informed Kate that she had cancer and presented several options for future treatment .
+
+
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: Frank was upset with Tom because the toaster he had sold him did not work .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: The older students were bullying the younger ones , so we rescued them  .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: There is a gap in the wall . You can see the garden through it  .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: There is a pillar between me and the stage , and I can not see around it  .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: Bob paid for Charlie's college education . He is very grateful .
+
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: If the con artist has succeeded in fooling Sam , he would have lost a lot of money .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: The cat was lying by the mouse hole waiting for the mouse , but it was too cautious .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get it removed .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: John was jogging through the park when he saw a man juggling watermelons . He was very impressed .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: Joe has sold his house and bought a new one a few miles away . He will be moving out of it on Thursday .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: Since it was raining , I carried the newspaper in my backpack to keep it dry .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: Jackson was greatly influenced by Arnold , though he lived two centuries later .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: I can not cut that tree down with that axe ; it is too thick .	
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: John ordered Bill to leave , so an hour later he left .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: Emma's mother had died long ago , and her education had been managed by an excellent woman as governess .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: Joe paid the detective after he received the final report on the case .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: Jim signaled the barman and gestured toward his empty glass .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: Pam's parents came home and found her having sex with her boyfriend , Paul . They were embarrassed about it .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: James asked Robert for a favor but he refused .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: Emma did not pass the ball to Janie although she saw that she was open .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: Madonna fired her trainer because she slept with her boyfriend .
+
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: Madonna fired her trainer because she slept with her boyfriend .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: This book introduced Shakespeare to Ovid ; it was a major influence on his writing .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: This book introduced Shakespeare to Goethe ; it was a major influence on his writing .
+Previous correct, PSL INCORRECT, SCR and BERT INCORRECT: During a game of tag , Ethan ran from Luke because he was it .

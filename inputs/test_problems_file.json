@@ -1,0 +1,16 @@
+[
+  {
+    "ans": "all of the gang members",
+    "choice1": "The police",
+    "choice2": "all of the gang members",
+    "know_sent": "Police have arrested a man they say was running a drug-dealing operation and found to be in possession of a stolen firearm.",
+    "know_url": "NA",
+    "pronoun": "They",
+    "search_query": "NA",
+    "ws_sent": "The police arrested all of the gang members . They were trying to run the drug trade in the neighborhood .",
+    "scr_score": {
+      "choice1": 1.911231439126712e-33,
+      "choice2": 1.556247730015909e-32
+    }
+  }
+]

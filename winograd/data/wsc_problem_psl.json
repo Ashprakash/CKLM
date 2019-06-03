@@ -1,0 +1,33 @@
+[
+	{
+		"ws_sent": "Mary tucked her daughter Anne into bed , so that she could sleep.",
+		"coref_target": ["daughter$$she", "mary$$she", "she$$daughter", "she$$mary"],
+		"coref_target_truth": ["daughter$$she$$1", "mary$$she$$0", "she$$daughter$$1", "she$$mary$$0"],
+		"context": ["daughter$$my dog$$K1", "daughter$$tucked$$K1", "my dog$$sleepy$$K1", "she$$my dog$$K1"],
+		"ans": "daughter",
+		"pronoun": "she",
+		"domain":["she", "daughter", "mary"],
+		"cases": ["K1, FTT"]
+	},
+	{
+		"ws_sent": "The table will not fit through the doorway because it is too narrow .",
+		"coref_target": ["the table$$it", "the doorway$$it", "it$$the table", "it$$the doorway"],
+		"coref_target_truth": ["the table$$it$$0", "the doorway$$it$$1", "it$$the table$$0", "it$$the doorway$$1"],
+		"context": ["the doorway$$small, narrow gate$$K1", "the doorway$$narrow$$K1", "it$$small, narrow gate$$K1",
+                		"the table$$stuff$$K1", "stuff$$fit$$K1", "it$$stuff$$K1"],
+		"ans": "The doorway",
+		"domain":["it", "the doorway", "the table"],
+		"pronoun": "it",
+		"cases": ["K1, TTF"]
+	},
+	{
+		"ws_sent": "The fish ate the worm . It was hungry .",
+		"coref_target": ["the fish$$it", "the worm$$it", "it$$the fish", "it$$the worm"],
+		"coref_target_truth": ["the fish$$it$$1", "the worm$$it$$0", "it$$the fish$$1", "it$$the worm$$0"],
+		"context": ["the fish$$I$$K1", "the worm$$something$$K1", "it$$I$$K1"],
+		"ans": "the fish",
+		"pronoun": "it",
+		"domain":["the fish", "the worm", "it"],
+		"cases": ["K1, TTT"]
+	}
+]

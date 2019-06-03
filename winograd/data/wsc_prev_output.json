@@ -1,0 +1,2218 @@
+[
+  {
+    "ws_sent": "The city councilmen refused the demonstrators a permit because they feared violence .",
+    "pronoun": "they",
+    "ans": "The city councilmen",
+    "choice1": "The city councilmen",
+    "choice2": "The demonstrators",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The city councilmen refused the demonstrators a permit because they advocated violence .",
+    "pronoun": "they",
+    "ans": "The demonstrators",
+    "choice1": "The city councilmen",
+    "choice2": "The demonstrators",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The trophy does not fit into the brown suitcase because it is too large .",
+    "pronoun": "it",
+    "ans": "the trophy",
+    "choice1": "the trophy",
+    "choice2": "the suitcase",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The trophy does not fit into the brown suitcase because it is too small .",
+    "pronoun": "it",
+    "ans": "the brown suitcase",
+    "choice1": "the trophy",
+    "choice2": "the brown suitcase",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Joan made sure to thank Susan for all the help she had received .",
+    "pronoun": "she",
+    "ans": "Joan",
+    "choice1": "Joan",
+    "choice2": "Susan",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Joan made sure to thank Susan for all the help she had given .",
+    "pronoun": "she",
+    "ans": "Susan",
+    "choice1": "Joan",
+    "choice2": "Susan",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Paul tried to call George on the phone , but he was not successful .",
+    "pronoun": "he",
+    "ans": "Paul",
+    "choice1": "Paul",
+    "choice2": "George",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Paul tried to call George on the phone , but he was not available .",
+    "pronoun": "he",
+    "ans": "George",
+    "choice1": "Paul",
+    "choice2": "George",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The lawyer asked the witness a question , but he was reluctant to repeat it .",
+    "pronoun": "he",
+    "ans": "the lawyer",
+    "choice1": "the lawyer",
+    "choice2": "the witness",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The lawyer asked the witness a question , but he was reluctant to answer it .",
+    "pronoun": "he",
+    "ans": "the witness",
+    "choice1": "the lawyer",
+    "choice2": "the witness",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The delivery truck zoomed by the school bus because it was going so fast .",
+    "pronoun": "it",
+    "ans": "the delivery truck",
+    "choice1": "the delivery truck",
+    "choice2": "the school bus",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The delivery truck zoomed by the school bus because it was going so slow .",
+    "pronoun": "it",
+    "ans": "the school bus",
+    "choice1": "the delivery truck",
+    "choice2": "the school bus",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Frank felt vindicated when his longtime rival Bill revealed that he was the winner of the competition .",
+    "pronoun": "he",
+    "ans": "Frank",
+    "choice1": "Frank",
+    "choice2": "Bill",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Frank felt crushed when his longtime rival Bill revealed that he was the winner of the competition .",
+    "pronoun": "he",
+    "ans": "Bill",
+    "choice1": "Frank",
+    "choice2": "Bill",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "The man could not lift his son because he was so weak .",
+    "pronoun": "he",
+    "ans": "The man",
+    "choice1": "The man",
+    "choice2": "The son",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The man could not lift his son because he was so heavy .",
+    "pronoun": "he",
+    "ans": "his son",
+    "choice1": "The man",
+    "choice2": "his son",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The large ball crashed right through the table because it was made of steel .",
+    "pronoun": "it",
+    "ans": "The large ball",
+    "choice1": "The large ball",
+    "choice2": "The table",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The large ball crashed right through the table because it was made of styrofoam .",
+    "pronoun": "it",
+    "ans": "The table",
+    "choice1": "The large ball",
+    "choice2": "The table",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "John could not see the stage with Billy in front of him because he is so short .",
+    "pronoun": "he",
+    "ans": "",
+    "choice1": "ANSWER:  John",
+    "choice2": "CHOICE1:  John",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "John could not see the stage with Billy in front of him because he is so tall .",
+    "pronoun": "he",
+    "ans": "Billy",
+    "choice1": "John",
+    "choice2": "Billy",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Tom threw his schoolbag down to Ray after he reached the top of the stairs .",
+    "pronoun": "he",
+    "ans": "Tom",
+    "choice1": "Tom",
+    "choice2": "Ray",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Tom threw his schoolbag down to Ray after he reached the bottom of the stairs .",
+    "pronoun": "he",
+    "ans": "",
+    "choice1": "ANSWER:  Ray",
+    "choice2": "CHOICE1:  Tom",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Although they ran at about the same speed , Sue beat Sally because she had such a good start .",
+    "pronoun": "she",
+    "ans": "Sue",
+    "choice1": "Sue",
+    "choice2": "Sally",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Although they ran at about the same speed , Sue beat Sally because she had such a bad start .",
+    "pronoun": "she",
+    "ans": "Sally",
+    "choice1": "Sue",
+    "choice2": "Sally",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "The sculpture rolled off the shelf because it was not anchored .",
+    "pronoun": "it",
+    "ans": "The sculpture",
+    "choice1": "The sculpture",
+    "choice2": "The shelf",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The sculpture rolled off the shelf because it was not level .",
+    "pronoun": "it",
+    "ans": "The shelf",
+    "choice1": "The sculpture",
+    "choice2": "The shelf",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Sam's drawing was hung just above Tina's and it did look much better with another one below it .",
+    "pronoun": "it",
+    "ans": "",
+    "choice1": "ANSWER:  Sam's drawing",
+    "choice2": "CHOICE1:  Sam's drawing",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Sam's drawing was hung just above Tina's and it did look much better with another one above it .",
+    "pronoun": "it",
+    "ans": "",
+    "choice1": "ANSWER:  Tina's",
+    "choice2": "CHOICE1:  Sam's drawing",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Anna did a lot better than her good friend Lucy on the test because she had studied so hard .",
+    "pronoun": "she",
+    "ans": "Anna",
+    "choice1": "Anna",
+    "choice2": "Lucy",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Anna did a lot worse than her good friend Lucy on the test because she had studied so hard .",
+    "pronoun": "she",
+    "ans": "Lucy",
+    "choice1": "Anna",
+    "choice2": "Lucy",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "The firemen arrived after the police because they were coming from so far away .",
+    "pronoun": "they",
+    "ans": "The firemen",
+    "choice1": "The firemen",
+    "choice2": "The police",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The firemen arrived before the police because they were coming from so far away .",
+    "pronoun": "they",
+    "ans": "",
+    "choice1": "ANSWER:  The police",
+    "choice2": "CHOICE1:  The firemen",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Frank was upset with Tom because the toaster he had bought from him did not work .",
+    "pronoun": "he",
+    "ans": "Frank",
+    "choice1": "Frank",
+    "choice2": "Tom",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Frank was upset with Tom because the toaster he had sold him did not work .",
+    "pronoun": "he",
+    "ans": "Tom",
+    "choice1": "Frank",
+    "choice2": "Tom",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Jim yelled at Kevin because he was so upset .",
+    "pronoun": "he",
+    "ans": "Jim",
+    "choice1": "Jim",
+    "choice2": "Kevin",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Jim comforted Kevin because he was so upset .",
+    "pronoun": "he",
+    "ans": "Kevin",
+    "choice1": "Jim",
+    "choice2": "Kevin",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The sack of potatoes had been placed above the bag of flour , so it had to be moved first .",
+    "pronoun": "it",
+    "ans": "The sack of potatoes",
+    "choice1": "The sack of potatoes",
+    "choice2": "The bag of flour",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The sack of potatoes had been placed below the bag of flour , so it had to be moved first .",
+    "pronoun": "it",
+    "ans": "",
+    "choice1": "ANSWER:  The bag of flour",
+    "choice2": "CHOICE1:  The sack of potatoes",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Pete envies Martin although he is very successful .",
+    "pronoun": "he",
+    "ans": "Pete",
+    "choice1": "Pete",
+    "choice2": "Martin",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Pete envies Martin because he is very successful .",
+    "pronoun": "he",
+    "ans": "Martin",
+    "choice1": "Pete",
+    "choice2": "Martin",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The older students were bullying the younger ones , so we punished them  .",
+    "pronoun": "them",
+    "ans": "The older students",
+    "choice1": "The older students",
+    "choice2": "The younger ones",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The older students were bullying the younger ones , so we rescued them  .",
+    "pronoun": "them",
+    "ans": "The younger ones",
+    "choice1": "The older students",
+    "choice2": "The younger ones",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "I poured water from the bottle into the cup until it was empty .",
+    "pronoun": "it",
+    "ans": "the bottle",
+    "choice1": "the bottle",
+    "choice2": "the cup",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "I poured water from the bottle into the cup until it was full .",
+    "pronoun": "it",
+    "ans": "the cup",
+    "choice1": "the bottle",
+    "choice2": "the cup",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Susan knows all about Ann's personal problems because she is nosy .",
+    "pronoun": "she",
+    "ans": "Susan",
+    "choice1": "Susan",
+    "choice2": "Ann",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Susan knows all about Ann's personal problems because she is indiscreet .",
+    "pronoun": "she",
+    "ans": "Ann",
+    "choice1": "Susan",
+    "choice2": "Ann",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Sid explained his theory to Mark but he could not convince him .",
+    "pronoun": "him",
+    "ans": "Mark",
+    "choice1": "Sid",
+    "choice2": "Mark",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Sid explained his theory to Mark but he could not understand him .",
+    "pronoun": "him",
+    "ans": "Sid",
+    "choice1": "Sid",
+    "choice2": "Mark",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Susan knew that Ann's son had been in a car accident , so she told her about it .",
+    "pronoun": "she",
+    "ans": "Susan",
+    "choice1": "Susan",
+    "choice2": "Ann",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Susan knew that Ann's son had been in a car accident , because she told her about it .",
+    "pronoun": "she",
+    "ans": "Ann",
+    "choice1": "Susan",
+    "choice2": "Ann",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Joe's uncle can still beat him at tennis , even though he is 30 years younger .",
+    "pronoun": "he",
+    "ans": "Joe",
+    "choice1": "Joe",
+    "choice2": "Joe's uncle",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Joe's uncle can still beat him at tennis , even though he is 30 years older .",
+    "pronoun": "he",
+    "ans": "Joe's uncle",
+    "choice1": "Joe",
+    "choice2": "Joe's uncle",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "The painting in Mark's living room shows an oak tree . It is to the right of the bookcase .",
+    "pronoun": "It",
+    "ans": "The painting",
+    "choice1": "The painting",
+    "choice2": "The oak tree",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The painting in Mark's living room shows an oak tree . It is to the right of a house .",
+    "pronoun": "It",
+    "ans": "The oak tree",
+    "choice1": "The painting",
+    "choice2": "The oak tree",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "There is a gap in the wall . You can see the garden through it  .",
+    "pronoun": "it",
+    "ans": "The gap",
+    "choice1": "The gap",
+    "choice2": "The wall",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "There is a gap in the wall . You can see the garden behind it  .",
+    "pronoun": "it",
+    "ans": "The wall",
+    "choice1": "The gap",
+    "choice2": "The wall",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "The drain is clogged with hair . It has to be cleaned .",
+    "pronoun": "It",
+    "ans": "The drain",
+    "choice1": "The drain",
+    "choice2": "The hair",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The drain is clogged with hair . It has to be removed .",
+    "pronoun": "It",
+    "ans": "The hair",
+    "choice1": "The drain",
+    "choice2": "The hair",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , it was short , so it worked out .",
+    "pronoun": "it",
+    "ans": "The meeting",
+    "choice1": "The meeting",
+    "choice2": "The train",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , it was delayed , so it worked out .",
+    "pronoun": "it",
+    "ans": "The train",
+    "choice1": "The meeting",
+    "choice2": "The train",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "There is a pillar between me and the stage , and I can not see around it  .",
+    "pronoun": "it",
+    "ans": "The pillar",
+    "choice1": "The pillar",
+    "choice2": "The stage",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "There is a pillar between me and the stage , and I can not see it  .",
+    "pronoun": "it",
+    "ans": "The stage",
+    "choice1": "The pillar",
+    "choice2": "The stage",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "They broadcast an announcement , but a subway came into the station and I could not hear it  .",
+    "pronoun": "it",
+    "ans": "The announcement",
+    "choice1": "The announcement",
+    "choice2": "The subway",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "They broadcast an announcement , but a subway came into the station and I could not hear over it  .",
+    "pronoun": "it",
+    "ans": "The subway",
+    "choice1": "The announcement",
+    "choice2": "The subway",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "In the middle of the outdoor concert , the rain started falling , but it continued until 10 .",
+    "pronoun": "it",
+    "ans": "",
+    "choice1": "ANSWER:  The concert",
+    "choice2": "CHOICE1:  The concert",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "In the middle of the outdoor concert , the rain started falling , and it continued until 10 .",
+    "pronoun": "it",
+    "ans": "The rain",
+    "choice1": "The concert",
+    "choice2": "The rain",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "I used an old rag to clean the knife , and then I put it in the trash .",
+    "pronoun": "it",
+    "ans": "The rag",
+    "choice1": "The rag",
+    "choice2": "The knife",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "I used an old rag to clean the knife , and then I put it in the drawer .",
+    "pronoun": "it",
+    "ans": "The knife",
+    "choice1": "The rag",
+    "choice2": "The knife",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Ann asked Mary what time the library closes , because she had forgotten .",
+    "pronoun": "she",
+    "ans": "Ann",
+    "choice1": "Ann",
+    "choice2": "Mary",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Ann asked Mary what time the library closes , but she had forgotten .",
+    "pronoun": "she",
+    "ans": "",
+    "choice1": "ANSWER:  Mary",
+    "choice2": "CHOICE1:  Ann",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "I took the water bottle out of the backpack so that it would be handy .",
+    "pronoun": "it",
+    "ans": "The water bottle",
+    "choice1": "The water bottle",
+    "choice2": "The backpack",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "I took the water bottle out of the backpack so that it would be lighter .",
+    "pronoun": "it",
+    "ans": "The backpack",
+    "choice1": "The water bottle",
+    "choice2": "The backpack",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "I could not put the pot on the shelf because it was too tall .",
+    "pronoun": "it",
+    "ans": "The pot",
+    "choice1": "The pot",
+    "choice2": "The shelf",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "I could not put the pot on the shelf because it was too high .",
+    "pronoun": "it",
+    "ans": "",
+    "choice1": "ANSWER:  The shelf",
+    "choice2": "CHOICE1:  The pot",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "I am sure that my map will show this building ; it is very good .",
+    "pronoun": "it",
+    "ans": "",
+    "choice1": "ANSWER:  The map",
+    "choice2": "CHOICE1:  The map",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "I am sure that my map will show this building ; it is very famous .",
+    "pronoun": "it",
+    "ans": "",
+    "choice1": "ANSWER:  The building",
+    "choice2": "CHOICE1:  The map",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Bob paid for Charlie's college education . He is very generous .",
+    "pronoun": "He",
+    "ans": "Bob",
+    "choice1": "Bob",
+    "choice2": "Charlie",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Bob paid for Charlie's college education . He is very grateful .",
+    "pronoun": "He",
+    "ans": "Charlie",
+    "choice1": "Bob",
+    "choice2": "Charlie",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . He is very hurt .",
+    "pronoun": "He",
+    "ans": "Bob",
+    "choice1": "Bob",
+    "choice2": "Charlie",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . He is very ungrateful .",
+    "pronoun": "He",
+    "ans": "Charlie",
+    "choice1": "Bob",
+    "choice2": "Charlie",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , he would have won .",
+    "pronoun": "he",
+    "ans": "Bob",
+    "choice1": "Bob",
+    "choice2": "Adam",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , he would have lost .",
+    "pronoun": "he",
+    "ans": "Adam",
+    "choice1": "Bob",
+    "choice2": "Adam",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , he would be gone by this time .",
+    "pronoun": "he",
+    "ans": "Adam",
+    "choice1": "Adam",
+    "choice2": "Bob",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , he would be here by this time .",
+    "pronoun": "he",
+    "ans": "Bob",
+    "choice1": "Adam",
+    "choice2": "Bob",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "If the con artist has succeeded in fooling Sam , he would have gotten a lot of money .",
+    "pronoun": "he",
+    "ans": "The con artist",
+    "choice1": "The con artist",
+    "choice2": "Sam",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "If the con artist has succeeded in fooling Sam , he would have lost a lot of money .",
+    "pronoun": "he",
+    "ans": "Sam",
+    "choice1": "The con artist",
+    "choice2": "Sam",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "It was a summer afternoon , and the dog was sitting in the middle of the lawn . After a while , it got up and moved to a spot under the tree , because it was hot .",
+    "pronoun": "it",
+    "ans": "The dog",
+    "choice1": "The dog",
+    "choice2": "The spot under the tree",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "It was a summer afternoon , and the dog was sitting in the middle of the lawn . After a while , it got up and moved to a spot under the tree , because it was cooler .",
+    "pronoun": "it",
+    "ans": "The spot under the tree",
+    "choice1": "The dog",
+    "choice2": "The spot under the tree",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The cat was lying by the mouse hole waiting for the mouse , but it was too impatient .",
+    "pronoun": "it",
+    "ans": "The cat",
+    "choice1": "The cat",
+    "choice2": "The mouse",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The cat was lying by the mouse hole waiting for the mouse , but it was too cautious .",
+    "pronoun": "it",
+    "ans": "The mouse",
+    "choice1": "The cat",
+    "choice2": "The mouse",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Anne gave birth to a daughter last month . She is a very charming woman .",
+    "pronoun": "She",
+    "ans": "Anne",
+    "choice1": "Anne",
+    "choice2": "daughter",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Anne gave birth to a daughter last month . She is a very charming baby .",
+    "pronoun": "She",
+    "ans": "daughter",
+    "choice1": "Anne",
+    "choice2": "daughter",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Alice tried frantically to stop her daughter from chatting at the party , leaving us to wonder why she was behaving so strangely .",
+    "pronoun": "she",
+    "ans": "Alice",
+    "choice1": "Alice",
+    "choice2": "daughter",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Alice tried frantically to stop her daughter from barking at the party , leaving us to wonder why she was behaving so strangely .",
+    "pronoun": "she",
+    "ans": "",
+    "choice1": "ANSWER:  daughter",
+    "choice2": "CHOICE1:  Alice",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know why he was , but he looked very unhappy .",
+    "pronoun": "he",
+    "ans": "Jim",
+    "choice1": "Jim",
+    "choice2": "the guy",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know who he was , but he looked very unhappy .",
+    "pronoun": "he",
+    "ans": "the guy",
+    "choice1": "Jim",
+    "choice2": "the guy",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The fish ate the worm . It was hungry .",
+    "pronoun": "It",
+    "ans": "The fish",
+    "choice1": "The fish",
+    "choice2": "The worm",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The fish ate the worm . It was tasty .",
+    "pronoun": "It",
+    "ans": "The worm",
+    "choice1": "The fish",
+    "choice2": "The worm",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum , and I could not get it in .",
+    "pronoun": "it",
+    "ans": "The key",
+    "choice1": "The key",
+    "choice2": "The chewing gum",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum , and I could not get it out .",
+    "pronoun": "it",
+    "ans": "The chewing gum",
+    "choice1": "The key",
+    "choice2": "The chewing gum",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "The dog chased the cat , which ran up a tree . It waited at the bottom .",
+    "pronoun": "It",
+    "ans": "The dog",
+    "choice1": "The dog",
+    "choice2": "The cat",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The dog chased the cat , which ran up a tree . It waited at the top .",
+    "pronoun": "It",
+    "ans": "The cat",
+    "choice1": "The dog",
+    "choice2": "The cat",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get it removed .",
+    "pronoun": "it",
+    "ans": "The tree",
+    "choice1": "The tree",
+    "choice2": "The roof",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get it repaired .",
+    "pronoun": "it",
+    "ans": "",
+    "choice1": "ANSWER:  The roof",
+    "choice2": "CHOICE1:  The tree",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "The customer walked into the bank and stabbed one of the tellers . He was immediately taken to the police station .",
+    "pronoun": "He",
+    "ans": "The customer",
+    "choice1": "The customer",
+    "choice2": "The teller",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The customer walked into the bank and stabbed one of the tellers . He was immediately taken to the hospital .",
+    "pronoun": "He",
+    "ans": "one of the tellers",
+    "choice1": "The customer",
+    "choice2": "one of the tellers",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "John was doing research in the library when he heard a man humming and whistling . He was very annoyed .",
+    "pronoun": "He",
+    "ans": "John",
+    "choice1": "John",
+    "choice2": "The man",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "John was doing research in the library when he heard a man humming and whistling . He was very annoying .",
+    "pronoun": "He",
+    "ans": "The man",
+    "choice1": "John",
+    "choice2": "The man",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "John was jogging through the park when he saw a man juggling watermelons . He was very impressed .",
+    "pronoun": "He",
+    "ans": "John",
+    "choice1": "John",
+    "choice2": "The juggler",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "John was jogging through the park when he saw a man juggling watermelons . He was very impressive .",
+    "pronoun": "He",
+    "ans": "The juggler",
+    "choice1": "John",
+    "choice2": "The juggler",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . He was very ill .",
+    "pronoun": "He",
+    "ans": "Bob",
+    "choice1": "Bob",
+    "choice2": "Carl",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . He was very concerned .",
+    "pronoun": "He",
+    "ans": "Carl",
+    "choice1": "Bob",
+    "choice2": "Carl",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are fifteen .",
+    "pronoun": "they",
+    "ans": "Sam and Amy",
+    "choice1": "Sam and Amy",
+    "choice2": "Amy's parents",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are snobs .",
+    "pronoun": "they",
+    "ans": "Amy's parents",
+    "choice1": "Sam and Amy",
+    "choice2": "Amy's parents",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Mark told Pete many lies about himself , which Pete included in his book . He should have been more truthful .",
+    "pronoun": "He",
+    "ans": "Mark",
+    "choice1": "Mark",
+    "choice2": "Pete",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Mark told Pete many lies about himself , which Pete included in his book . He should have been more skeptical .",
+    "pronoun": "He",
+    "ans": "Pete",
+    "choice1": "Mark",
+    "choice2": "Pete",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Joe has sold his house and bought a new one a few miles away . He will be moving out of it on Thursday .",
+    "pronoun": "it",
+    "ans": "The old house",
+    "choice1": "The old house",
+    "choice2": "The new house",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Joe has sold his house and bought a new one a few miles away . He will be moving into it on Thursday .",
+    "pronoun": "it",
+    "ans": "The new house",
+    "choice1": "The old house",
+    "choice2": "The new house",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Many people start to read Paul's books and can not put them down . They are gripped because Paul writes so well .",
+    "pronoun": "They",
+    "ans": "People",
+    "choice1": "People",
+    "choice2": "Paul's books",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Many people start to read Paul's books and can not put them down . They are popular because Paul writes so well .",
+    "pronoun": "They",
+    "ans": "Paul's books",
+    "choice1": "People",
+    "choice2": "Paul's books",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Mary took out her flute and played one of her favorite pieces . She has had it since she was a child .",
+    "pronoun": "it",
+    "ans": "The flute",
+    "choice1": "The flute",
+    "choice2": "The piece",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Mary took out her flute and played one of her favorite pieces . She has loved it since she was a child .",
+    "pronoun": "it",
+    "ans": "The piece",
+    "choice1": "The flute",
+    "choice2": "The piece",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Sam pulled up a chair to the piano , but it was broken , so he had to stand instead .",
+    "pronoun": "it",
+    "ans": "The chair",
+    "choice1": "The chair",
+    "choice2": "The piano",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Since it was raining , I carried the newspaper in my backpack to keep it dry .",
+    "pronoun": "it",
+    "ans": "The newspaper",
+    "choice1": "The newspaper",
+    "choice2": "The backpack",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Since it was raining , I carried the newspaper over my backpack to keep it dry .",
+    "pronoun": "it",
+    "ans": "The backpack",
+    "choice1": "The newspaper",
+    "choice2": "The backpack",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Sara borrowed the book from the library because she needs it for an article she is working on . She reads it when she gets home from work .",
+    "pronoun": "it",
+    "ans": "The book",
+    "choice1": "The book",
+    "choice2": "The article",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Sara borrowed the book from the library because she needs it for an article she is working on . She writes it when she gets home from work .",
+    "pronoun": "it",
+    "ans": "The article",
+    "choice1": "The book",
+    "choice2": "The article",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the tide knocked it down .",
+    "pronoun": "it",
+    "ans": "The sand castle",
+    "choice1": "The sand castle",
+    "choice2": "The flag",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the wind knocked it down .",
+    "pronoun": "it",
+    "ans": "The flag",
+    "choice1": "The sand castle",
+    "choice2": "The flag",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Jane knocked on Susan's door , but there was no answer . She was disappointed .",
+    "pronoun": "She",
+    "ans": "Jane",
+    "choice1": "Jane",
+    "choice2": "Susan",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Jane knocked on Susan's door , but there was no answer . She was out .",
+    "pronoun": "She",
+    "ans": "Susan",
+    "choice1": "Jane",
+    "choice2": "Susan",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Jane knocked on the door , and Susan answered it . She invited her to come out .",
+    "pronoun": "her",
+    "ans": "Susan",
+    "choice1": "Jane",
+    "choice2": "Susan",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Jane knocked on the door , and Susan answered it . She invited her to come in .",
+    "pronoun": "her",
+    "ans": "Jane",
+    "choice1": "Jane",
+    "choice2": "Susan",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Sam took French classes from Adam , because he was eager to speak it fluently .",
+    "pronoun": "he",
+    "ans": "Sam",
+    "choice1": "Sam",
+    "choice2": "Adam",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Sam took French classes from Adam , because he was known to speak it fluently .",
+    "pronoun": "he",
+    "ans": "Adam",
+    "choice1": "Sam",
+    "choice2": "Adam",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "The path to the lake was blocked , so we could not use it  .",
+    "pronoun": "it",
+    "ans": "The path",
+    "choice1": "The path",
+    "choice2": "The lake",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The path to the lake was blocked , so we could not reach it  .",
+    "pronoun": "it",
+    "ans": "",
+    "choice1": "ANSWER:  The lake",
+    "choice2": "CHOICE1:  The path",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , it was out .",
+    "pronoun": "it",
+    "ans": "The sun",
+    "choice1": "The sun",
+    "choice2": "The cloud",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , it was gone .",
+    "pronoun": "it",
+    "ans": "The cloud",
+    "choice1": "The sun",
+    "choice2": "The cloud",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "We went to the lake , because a shark had been seen at the ocean beach , so it was a safer place to swim .",
+    "pronoun": "it",
+    "ans": "The lake",
+    "choice1": "The lake",
+    "choice2": "The ocean beach",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "We went to the lake , because a shark had been seen at the ocean beach , so it was a dangerous place to swim .",
+    "pronoun": "it",
+    "ans": "",
+    "choice1": "ANSWER:  The ocean beach",
+    "choice2": "CHOICE1:  The lake",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Sam tried to paint a picture of shepherds with sheep , but they ended up looking more like golfers .",
+    "pronoun": "they",
+    "ans": "The shepherds",
+    "choice1": "The shepherds",
+    "choice2": "The sheep",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Sam tried to paint a picture of shepherds with sheep , but they ended up looking more like dogs .",
+    "pronoun": "they",
+    "ans": "The sheep",
+    "choice1": "The shepherds",
+    "choice2": "The sheep",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Mary tucked her daughter Anne into bed , so that she could work .",
+    "pronoun": "she",
+    "ans": "",
+    "choice1": "ANSWER:  Mary",
+    "choice2": "CHOICE1:  Mary",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Mary tucked her daughter Anne into bed , so that she could sleep .",
+    "pronoun": "she",
+    "ans": "daughter",
+    "choice1": "Mary",
+    "choice2": "daughter",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Fred and Alice had very warm down coats , but they were not prepared for the cold in Alaska .",
+    "pronoun": "they",
+    "ans": "Fred and Alice",
+    "choice1": "Fred and Alice",
+    "choice2": "coats",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Fred and Alice had very warm down coats , but they were not enough for the cold in Alaska .",
+    "pronoun": "they",
+    "ans": "coats",
+    "choice1": "Fred and Alice",
+    "choice2": "coats",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Thomson visited Cooper's grave in 1765 . At that date he had been travelling for five years .",
+    "pronoun": "he",
+    "ans": "Thomson",
+    "choice1": "Thomson",
+    "choice2": "Cooper",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Thomson visited Cooper's grave in 1765 . At that date he had been dead for five years .",
+    "pronoun": "he",
+    "ans": "Cooper",
+    "choice1": "Thomson",
+    "choice2": "Cooper",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Jackson was greatly influenced by Arnold , though he lived two centuries later .",
+    "pronoun": "he",
+    "ans": "Jackson",
+    "choice1": "Jackson",
+    "choice2": "Arnold",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Jackson was greatly influenced by Arnold , though he lived two centuries earlier .",
+    "pronoun": "he",
+    "ans": "Arnold",
+    "choice1": "Jackson",
+    "choice2": "Arnold",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "I can not cut that tree down with that axe ; it is too thick .",
+    "pronoun": "it",
+    "ans": "The tree",
+    "choice1": "The tree",
+    "choice2": "The axe",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "I can not cut that tree down with that axe ; it is too small .",
+    "pronoun": "it",
+    "ans": "The axe",
+    "choice1": "The tree",
+    "choice2": "The axe",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The foxes are getting in at night and attacking the chickens . I shall have to kill them  .",
+    "pronoun": "them",
+    "ans": "The foxes",
+    "choice1": "The foxes",
+    "choice2": "The chickens",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The foxes are getting in at night and attacking the chickens . I shall have to guard them  .",
+    "pronoun": "them",
+    "ans": "The chickens",
+    "choice1": "The foxes",
+    "choice2": "The chickens",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The foxes are getting in at night and attacking the chickens . They have gotten very bold .",
+    "pronoun": "They",
+    "ans": "The foxes",
+    "choice1": "The foxes",
+    "choice2": "The chickens",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The foxes are getting in at night and attacking the chickens . They have gotten very nervous .",
+    "pronoun": "They",
+    "ans": "The chickens",
+    "choice1": "The foxes",
+    "choice2": "The chickens",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Fred covered his eyes with his hands , because the wind was blowing sand around . He opened them when the wind stopped .",
+    "pronoun": "them",
+    "ans": "",
+    "choice1": "ANSWER:  His eyes",
+    "choice2": "CHOICE1:  His eyes",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Fred covered his eyes with his hands , because the wind was blowing sand around . He lowered them when the wind stopped .",
+    "pronoun": "them",
+    "ans": "",
+    "choice1": "ANSWER:  His hands",
+    "choice2": "CHOICE1:  His eyes",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The actress used to be named Terpsichore , but she changed it to Tina a few years ago , because she figured it was too hard to pronounce .",
+    "pronoun": "it",
+    "ans": "Terpsichore",
+    "choice1": "Terpsichore",
+    "choice2": "Tina",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "The actress used to be named Terpsichore , but she changed it to Tina a few years ago , because she figured it was easier to pronounce .",
+    "pronoun": "it",
+    "ans": "Tina",
+    "choice1": "Terpsichore",
+    "choice2": "Tina",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Fred watched TV while George went out to buy groceries . After an hour he got up .",
+    "pronoun": "he",
+    "ans": "Fred",
+    "choice1": "Fred",
+    "choice2": "George",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Fred watched TV while George went out to buy groceries . After an hour he got back .",
+    "pronoun": "he",
+    "ans": "George",
+    "choice1": "Fred",
+    "choice2": "George",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Fred was supposed to run the dishwasher , but he put it off , because he wanted to watch TV . But the show turned out to be boring , so he changed his mind and turned it on .",
+    "pronoun": "it",
+    "ans": "The dishwasher",
+    "choice1": "The dishwasher",
+    "choice2": "The TV",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Fred was supposed to run the dishwasher , but he put it off , because he wanted to watch TV . But the show turned out to be boring , so he changed his mind and turned it off .",
+    "pronoun": "it",
+    "ans": "The TV",
+    "choice1": "The dishwasher",
+    "choice2": "The TV",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , he was twelve years old .",
+    "pronoun": "he",
+    "ans": "Fred",
+    "choice1": "Fred",
+    "choice2": "My father",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , he was twelve months old .",
+    "pronoun": "he",
+    "ans": "My father",
+    "choice1": "Fred",
+    "choice2": "My father",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were defeated within weeks .",
+    "pronoun": "they",
+    "ans": "Kamchatka",
+    "choice1": "Kamchatka",
+    "choice2": "Yakutsk",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were victorious within weeks .",
+    "pronoun": "they",
+    "ans": "Yakutsk",
+    "choice1": "Kamchatka",
+    "choice2": "Yakutsk",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . They hunted for evidence on the river banks .",
+    "pronoun": "They",
+    "ans": "Archaeologists",
+    "choice1": "Archaeologists",
+    "choice2": "humans",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . They hunted for deer on the river banks .",
+    "pronoun": "They",
+    "ans": "humans",
+    "choice1": "Archaeologists",
+    "choice2": "humans",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . They began two years ago .",
+    "pronoun": "They",
+    "ans": "The scientists",
+    "choice1": "The scientists",
+    "choice2": "The fish",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . They appeared two years ago .",
+    "pronoun": "They",
+    "ans": "three species of fish",
+    "choice1": "The scientists",
+    "choice2": "three species of fish",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The journalists interviewed the stars of the new movie . They were very cooperative , so the interview lasted for a long time .",
+    "pronoun": "They",
+    "ans": "",
+    "choice1": "ANSWER:  The stars",
+    "choice2": "CHOICE1:  The journalists",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "The police arrested all of the gang members . They were trying to stop the drug trade in the neighborhood .",
+    "pronoun": "They",
+    "ans": "The police",
+    "choice1": "The police",
+    "choice2": "all of the gang members",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The police arrested all of the gang members . They were trying to run the drug trade in the neighborhood .",
+    "pronoun": "They",
+    "ans": "all of the gang members",
+    "choice1": "The police",
+    "choice2": "all of the gang members",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "I put the cake away in the refrigerator . It has a lot of butter in it .",
+    "pronoun": "It",
+    "ans": "The cake",
+    "choice1": "The cake",
+    "choice2": "The refrigerator",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "I put the cake away in the refrigerator . It has a lot of leftovers in it .",
+    "pronoun": "It",
+    "ans": "The refrigerator",
+    "choice1": "The cake",
+    "choice2": "The refrigerator",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Sam broke both his ankles and he is walking with crutches . But a month or so from now they should be better .",
+    "pronoun": "they",
+    "ans": "The ankles",
+    "choice1": "The ankles",
+    "choice2": "The crutches",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Sam broke both his ankles and he is walking with crutches . But a month or so from now they should be unnecessary .",
+    "pronoun": "they",
+    "ans": "The crutches",
+    "choice1": "The ankles",
+    "choice2": "The crutches",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . They were very much in the majority .",
+    "pronoun": "They",
+    "ans": "",
+    "choice1": "ANSWER:  The opponents",
+    "choice2": "CHOICE1:  The sponsors",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make more of them  .",
+    "pronoun": "them",
+    "ans": "The oatmeal cookies",
+    "choice1": "The oatmeal cookies",
+    "choice2": "The chocolate chip cookies",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make fewer of them  .",
+    "pronoun": "them",
+    "ans": "The chocolate chip cookies",
+    "choice1": "The oatmeal cookies",
+    "choice2": "The chocolate chip cookies",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply not enough of them  .",
+    "pronoun": "them",
+    "ans": "copies of the newsletter",
+    "choice1": "copies of the newsletter",
+    "choice2": "chairs",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "I stuck a pin through a carrot . When I pulled the pin out , it left a hole .",
+    "pronoun": "it",
+    "ans": "The pin",
+    "choice1": "The pin",
+    "choice2": "The carrot",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "I stuck a pin through a carrot . When I pulled the pin out , it had a hole .",
+    "pronoun": "it",
+    "ans": "The carrot",
+    "choice1": "The pin",
+    "choice2": "The carrot",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because it got full of coffee .",
+    "pronoun": "it",
+    "ans": "",
+    "choice1": "ANSWER:  The pen",
+    "choice2": "CHOICE1:  The pen",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because it got full of ink .",
+    "pronoun": "it",
+    "ans": "",
+    "choice1": "ANSWER:  The coffee",
+    "choice2": "CHOICE1:  The pen",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Steve follows Fred's example in everything . He admires him hugely .",
+    "pronoun": "him",
+    "ans": "Fred",
+    "choice1": "Steve",
+    "choice2": "Fred",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Steve follows Fred's example in everything . He influences him hugely .",
+    "pronoun": "him",
+    "ans": "Steve",
+    "choice1": "Steve",
+    "choice2": "Fred",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The table will not fit through the doorway because it is too wide .",
+    "pronoun": "it",
+    "ans": "The table",
+    "choice1": "The table",
+    "choice2": "The doorway",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The table will not fit through the doorway because it is too narrow .",
+    "pronoun": "it",
+    "ans": "The doorway",
+    "choice1": "The table",
+    "choice2": "The doorway",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Grace was happy to trade me her sweater for my jacket . She thinks it looks dowdy on her .",
+    "pronoun": "it",
+    "ans": "",
+    "choice1": "ANSWER:  The sweater",
+    "choice2": "CHOICE1:  The sweater",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Grace was happy to trade me her sweater for my jacket . She thinks it looks great on her .",
+    "pronoun": "it",
+    "ans": "",
+    "choice1": "ANSWER:  The jacket",
+    "choice2": "CHOICE1:  The sweater",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "John hired Bill to take care of him  .",
+    "pronoun": "him",
+    "ans": "John",
+    "choice1": "John",
+    "choice2": "Bill",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "John hired himself out to Bill to take care of him  .",
+    "pronoun": "him",
+    "ans": "",
+    "choice1": "ANSWER:  Bill",
+    "choice2": "CHOICE1:  John",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "John promised Bill to leave , so an hour later he left .",
+    "pronoun": "he",
+    "ans": "",
+    "choice1": "ANSWER:  John",
+    "choice2": "CHOICE1:  John",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "John ordered Bill to leave , so an hour later he left .",
+    "pronoun": "he",
+    "ans": "",
+    "choice1": "ANSWER:  Bill",
+    "choice2": "CHOICE1:  John",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his research .",
+    "pronoun": "he",
+    "ans": "Goodman",
+    "choice1": "Goodman",
+    "choice2": "Xenophanes",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his childhood .",
+    "pronoun": "he",
+    "ans": "Xenophanes",
+    "choice1": "Goodman",
+    "choice2": "Xenophanes",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Emma's mother had died long ago , and her education had been managed by an excellent woman as governess .",
+    "pronoun": "her",
+    "ans": "",
+    "choice1": "ANSWER:  Emma",
+    "choice2": "CHOICE1:  Emma",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Emma's mother had died long ago , and her place had been taken by an excellent woman as governess .",
+    "pronoun": "her",
+    "ans": "Emma's mother",
+    "choice1": "Emma",
+    "choice2": "Emma's mother",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Jane knocked on Susan's door but she did not get an answer .",
+    "pronoun": "she",
+    "ans": "Jane",
+    "choice1": "Jane",
+    "choice2": "Susan",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Jane knocked on Susan's door but she did not answer .",
+    "pronoun": "she",
+    "ans": "Susan",
+    "choice1": "Jane",
+    "choice2": "Susan",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Joe paid the detective after he received the final report on the case .",
+    "pronoun": "he",
+    "ans": "Joe",
+    "choice1": "Joe",
+    "choice2": "the detective",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Joe paid the detective after he delivered the final report on the case .",
+    "pronoun": "he",
+    "ans": "the detective",
+    "choice1": "Joe",
+    "choice2": "the detective",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Beth did not get angry with Sally , who had cut her off , because she stopped and counted to ten .",
+    "pronoun": "she",
+    "ans": "Beth",
+    "choice1": "Beth",
+    "choice2": "Sally",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Beth did not get angry with Sally , who had cut her off , because she stopped and apologized .",
+    "pronoun": "she",
+    "ans": "Sally",
+    "choice1": "Beth",
+    "choice2": "Sally",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Jim signaled the barman and gestured toward his empty glass .",
+    "pronoun": "his",
+    "ans": "Jim",
+    "choice1": "Jim",
+    "choice2": "The barman",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Jim signaled the barman and gestured toward his bathroom key .",
+    "pronoun": "his",
+    "ans": "The barman",
+    "choice1": "Jim",
+    "choice2": "The barman",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Dan took the rear seat while Bill claimed the front because his Dibs was slow .",
+    "pronoun": "his",
+    "ans": "",
+    "choice1": "ANSWER:  Dan",
+    "choice2": "CHOICE1:  Dan",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Dan took the rear seat while Bill claimed the front because his Dibs was quicker .",
+    "pronoun": "his",
+    "ans": "",
+    "choice1": "ANSWER:  Bill",
+    "choice2": "CHOICE1:  Dan",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Tom said Check to Ralph as he moved his bishop .",
+    "pronoun": "his",
+    "ans": "Tom",
+    "choice1": "Tom",
+    "choice2": "Ralph",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Tom said Check to Ralph as he took his bishop .",
+    "pronoun": "his",
+    "ans": "Ralph",
+    "choice1": "Tom",
+    "choice2": "Ralph",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "As Andrea in the crop duster passed over Susan , she could see the landing strip .",
+    "pronoun": "she",
+    "ans": "",
+    "choice1": "ANSWER:  Andrea",
+    "choice2": "CHOICE1:  Andrea",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "As Andrea in the crop duster passed over Susan , she could see the landing gear .",
+    "pronoun": "she",
+    "ans": "",
+    "choice1": "ANSWER:  Susan",
+    "choice2": "CHOICE1:  Andrea",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Tom gave Ralph a lift to school so he would not have to drive alone .",
+    "pronoun": "he",
+    "ans": "Tom",
+    "choice1": "Tom",
+    "choice2": "Ralph",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Tom gave Ralph a lift to school so he would not have to walk .",
+    "pronoun": "he",
+    "ans": "Ralph",
+    "choice1": "Tom",
+    "choice2": "Ralph",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Bill passed the half-empty plate to John because he was full .",
+    "pronoun": "he",
+    "ans": "Bill",
+    "choice1": "Bill",
+    "choice2": "John",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Bill passed the half-empty plate to John because he was hungry .",
+    "pronoun": "he",
+    "ans": "John",
+    "choice1": "Bill",
+    "choice2": "John",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Bill passed the gameboy to John because his turn was over .",
+    "pronoun": "his",
+    "ans": "",
+    "choice1": "ANSWER:  Bill",
+    "choice2": "CHOICE1:  Bill",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Bill passed the gameboy to John because his turn was next .",
+    "pronoun": "his",
+    "ans": "John",
+    "choice1": "Bill",
+    "choice2": "John",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "The man lifted the boy onto his shoulders .",
+    "pronoun": "his",
+    "ans": "The man",
+    "choice1": "The man",
+    "choice2": "The boy",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The man lifted the boy onto his bunk bed .",
+    "pronoun": "his",
+    "ans": "The boy",
+    "choice1": "The man",
+    "choice2": "The boy",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Stretching her back , the woman smiled at the girl .",
+    "pronoun": "her",
+    "ans": "The woman",
+    "choice1": "The woman",
+    "choice2": "The girl",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Patting her back , the woman smiled at the girl .",
+    "pronoun": "her",
+    "ans": "The girl",
+    "choice1": "The woman",
+    "choice2": "The girl",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Billy cried because Toby would not accept his toy .",
+    "pronoun": "his",
+    "ans": "Billy",
+    "choice1": "Billy",
+    "choice2": "Toby",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Billy cried because Toby would not share his toy .",
+    "pronoun": "his",
+    "ans": "Toby",
+    "choice1": "Billy",
+    "choice2": "Toby",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Lily spoke to Donna , breaking her silence .",
+    "pronoun": "her",
+    "ans": "Lily",
+    "choice1": "Lily",
+    "choice2": "Donna",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Lily spoke to Donna , breaking her concentration .",
+    "pronoun": "her",
+    "ans": "Donna",
+    "choice1": "Lily",
+    "choice2": "Donna",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "When Tommy dropped his ice cream , Timmy giggled , so father gave him a sympathetic look .",
+    "pronoun": "him",
+    "ans": "",
+    "choice1": "ANSWER:  Tommy",
+    "choice2": "CHOICE1:  Tommy",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "When Tommy dropped his ice cream , Timmy giggled , so father gave him a stern look .",
+    "pronoun": "him",
+    "ans": "",
+    "choice1": "ANSWER:  Timmy",
+    "choice2": "CHOICE1:  Tommy",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "As Ollie carried Tommy up the long winding steps , his legs ached .",
+    "pronoun": "his",
+    "ans": "Ollie",
+    "choice1": "Ollie",
+    "choice2": "Tommy",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "As Ollie carried Tommy up the long winding steps , his legs dangled .",
+    "pronoun": "his",
+    "ans": "Tommy",
+    "choice1": "Ollie",
+    "choice2": "Tommy",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The father carried the sleeping boy in his arms .",
+    "pronoun": "his",
+    "ans": "The father",
+    "choice1": "The father",
+    "choice2": "The boy",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The father carried the sleeping boy in his bassinet .",
+    "pronoun": "his",
+    "ans": "The boy",
+    "choice1": "The father",
+    "choice2": "The boy",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "The woman held the girl against her chest .",
+    "pronoun": "her",
+    "ans": "The woman",
+    "choice1": "The woman",
+    "choice2": "The girl",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The woman held the girl against her will .",
+    "pronoun": "her",
+    "ans": "The girl",
+    "choice1": "The woman",
+    "choice2": "The girl",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Pam's parents came home and found her having sex with her boyfriend , Paul . They were furious about it .",
+    "pronoun": "They",
+    "ans": "Pam's parents",
+    "choice1": "Pam's parents",
+    "choice2": "Pam and Paul",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Pam's parents came home and found her having sex with her boyfriend , Paul . They were embarrassed about it .",
+    "pronoun": "They",
+    "ans": "Pam and Paul",
+    "choice1": "Pam's parents",
+    "choice2": "Pam and Paul",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Dr . Adams informed Kate that she had retired and presented several options for future treatment .",
+    "pronoun": "she",
+    "ans": "Dr. Adams",
+    "choice1": "Dr. Adams",
+    "choice2": "Kate",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Dr . Adams informed Kate that she had cancer and presented several options for future treatment .",
+    "pronoun": "she",
+    "ans": "Kate",
+    "choice1": "Dr. Adams",
+    "choice2": "Kate",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Dan had to stop Bill from toying with the injured bird . He is very compassionate .",
+    "pronoun": "He",
+    "ans": "Dan",
+    "choice1": "Dan",
+    "choice2": "Bill",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Dan had to stop Bill from toying with the injured bird . He is very cruel .",
+    "pronoun": "He",
+    "ans": "Bill",
+    "choice1": "Dan",
+    "choice2": "Bill",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "George got free tickets to the play , but he gave them to Eric , even though he was particularly eager to see it .",
+    "pronoun": "he",
+    "ans": "George",
+    "choice1": "George",
+    "choice2": "Eric",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "George got free tickets to the play , but he gave them to Eric , because he was particularly eager to see it .",
+    "pronoun": "he",
+    "ans": "",
+    "choice1": "ANSWER:  Eric",
+    "choice2": "CHOICE1:  George",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "George got free tickets to the play , but he gave them to Eric , because he was not particularly eager to see it .",
+    "pronoun": "he",
+    "ans": "",
+    "choice1": "ANSWER:  George",
+    "choice2": "CHOICE1:  George",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Jane gave Joan candy because she was not hungry .",
+    "pronoun": "she",
+    "ans": "Jane",
+    "choice1": "Jane",
+    "choice2": "Joan",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Jane gave Joan candy because she was hungry .",
+    "pronoun": "she",
+    "ans": "Joan",
+    "choice1": "Jane",
+    "choice2": "Joan",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "I tried to paint a picture of an orchard , with lemons in the lemon trees , but they came out looking more like light bulbs .",
+    "pronoun": "they",
+    "ans": "lemons",
+    "choice1": "lemons",
+    "choice2": "lemon trees",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "I tried to paint a picture of an orchard , with lemons in the lemon trees , but they came out looking more like telephone poles .",
+    "pronoun": "they",
+    "ans": "lemon trees",
+    "choice1": "lemons",
+    "choice2": "lemon trees",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "James asked Robert for a favor but he was refused .",
+    "pronoun": "he",
+    "ans": "James",
+    "choice1": "James",
+    "choice2": "Robert",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "James asked Robert for a favor but he refused .",
+    "pronoun": "he",
+    "ans": "Robert",
+    "choice1": "James",
+    "choice2": "Robert",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Kirilov ceded the presidency to Shatov because he was less popular .",
+    "pronoun": "he",
+    "ans": "Kirilov",
+    "choice1": "Kirilov",
+    "choice2": "Shatov",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Kirilov ceded the presidency to Shatov because he was more popular .",
+    "pronoun": "he",
+    "ans": "Shatov",
+    "choice1": "Kirilov",
+    "choice2": "Shatov",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Emma did not pass the ball to Janie although she saw that she was open .",
+    "pronoun": "she",
+    "ans": "",
+    "choice1": "ANSWER:  Emma",
+    "choice2": "CHOICE1:  Emma",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Emma did not pass the ball to Janie although she was open .",
+    "pronoun": "she",
+    "ans": "",
+    "choice1": "ANSWER:  Janie",
+    "choice2": "CHOICE1:  Emma",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "I put the butterfly wing on the table and it broke .",
+    "pronoun": "it",
+    "ans": "The butterfly wing",
+    "choice1": "The butterfly wing",
+    "choice2": "The table",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "I put the heavy book on the table and it broke .",
+    "pronoun": "it",
+    "ans": "The table",
+    "choice1": "The book",
+    "choice2": "The table",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Madonna fired her trainer because she could not stand her boyfriend .",
+    "pronoun": "she",
+    "ans": "Madonna",
+    "choice1": "Madonna",
+    "choice2": "her trainer",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Madonna fired her trainer because she slept with her boyfriend .",
+    "pronoun": "she",
+    "ans": "her trainer",
+    "choice1": "Madonna",
+    "choice2": "her trainer",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Madonna fired her trainer because she slept with her boyfriend .",
+    "pronoun": "her",
+    "ans": "Madonna",
+    "choice1": "Madonna",
+    "choice2": "The trainer",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Madonna fired her trainer because she could not stand her boyfriend .",
+    "pronoun": "her",
+    "ans": "her trainer",
+    "choice1": "Madonna",
+    "choice2": "her trainer",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Carol believed that Rebecca suspected that she had stolen the watch .",
+    "pronoun": "she",
+    "ans": "Carol",
+    "choice1": "Carol",
+    "choice2": "Rebecca",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "Carol believed that Rebecca regretted that she had stolen the watch .",
+    "pronoun": "she",
+    "ans": "Rebecca",
+    "choice1": "Carol",
+    "choice2": "Rebecca",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "This book introduced Shakespeare to Ovid ; it was a major influence on his writing .",
+    "pronoun": "his",
+    "ans": "Shakespeare",
+    "choice1": "Shakespeare",
+    "choice2": "Ovid",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "This book introduced Shakespeare to Goethe ; it was a major influence on his writing .",
+    "pronoun": "his",
+    "ans": "Goethe",
+    "choice1": "Shakespeare",
+    "choice2": "Goethe",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "This book introduced Shakespeare to Ovid ; it was a fine selection of his writing .",
+    "pronoun": "his",
+    "ans": "Ovid",
+    "choice1": "Shakespeare",
+    "choice2": "Ovid",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "This book introduced Shakespeare to Goethe ; it was a fine selection of his writing .",
+    "pronoun": "his",
+    "ans": "Shakespeare",
+    "choice1": "Shakespeare",
+    "choice2": "Goethe",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Alice looked for her friend Jade in the crowd . Since she always has good luck , Alice spotted her quickly .",
+    "pronoun": "she",
+    "ans": "Alice",
+    "choice1": "Alice",
+    "choice2": "Jade",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "Alice looked for her friend Jade in the crowd . Since she always wears a red turban , Alice spotted her quickly .",
+    "pronoun": "she",
+    "ans": "Jade",
+    "choice1": "Alice",
+    "choice2": "Jade",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "During a game of tag , Ethan chased Luke because he was it .",
+    "pronoun": "he",
+    "ans": "Ethan",
+    "choice1": "Ethan",
+    "choice2": "Luke",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "During a game of tag , Ethan ran from Luke because he was it .",
+    "pronoun": "he",
+    "ans": "Luke",
+    "choice1": "Ethan",
+    "choice2": "Luke",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "At the Loebner competition the judges could not figure out which respondents were the chatbots because they were so stupid .",
+    "pronoun": "they",
+    "ans": "the judges",
+    "choice1": "the judges",
+    "choice2": "the chatbots",
+    "result": "incorrect"
+  },
+  {
+    "ws_sent": "At the Loebner competition the judges could not figure out which respondents were the chatbots because they were so advanced .",
+    "pronoun": "they",
+    "ans": "the chatbots",
+    "choice1": "the judges",
+    "choice2": "the chatbots",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as it was easy to forget .",
+    "pronoun": "it",
+    "ans": "GrWQWu8JyC",
+    "choice1": "GrWQWu8JyC",
+    "choice2": "willow-towered Canopy Huntertropic wrestles",
+    "result": "correct"
+  },
+  {
+    "ws_sent": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as it was easy to remember .",
+    "pronoun": "it",
+    "ans": "willow-towered Canopy Huntertropic wrestles",
+    "choice1": "GrWQWu8JyC",
+    "choice2": "willow-towered Canopy Huntertropic wrestles",
+    "result": "incorrect"
+  }
+]

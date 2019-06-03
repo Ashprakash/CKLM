@@ -1,0 +1,598 @@
+[apraka23@agave2:~/Winograd/pytorch-pretrained-BERT]$ python bert_sentence.py
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+['the', 'city', 'council', '##men', 'refused', 'the', 'demonstrators', 'a', 'permit', '?', 'because', 'the', 'city', 'council', '##men', 'feared', 'violence', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+['the', 'city', 'council', '##men', 'refused', 'the', 'demonstrators', 'a', 'permit', '?', 'because', 'the', 'demonstrators', 'feared', 'violence', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 4.5700, -4.6179]], grad_fn=<AddmmBackward>)
+tensor([[ 4.5663, -4.3488]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  1
+Incorrect Inside Loop:  0
+0 of  285
+['the', 'city', 'council', '##men', 'refused', 'the', 'demonstrators', 'a', 'permit', '?', 'because', 'the', 'city', 'council', '##men', 'advocated', 'violence', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+['the', 'city', 'council', '##men', 'refused', 'the', 'demonstrators', 'a', 'permit', '?', 'because', 'the', 'demonstrators', 'advocated', 'violence', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 4.2856, -4.4562]], grad_fn=<AddmmBackward>)
+tensor([[ 4.3508, -4.2241]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  2
+Incorrect Inside Loop:  0
+1 of  285
+['the', 'trophy', 'does', 'not', 'ft', '##he', 'trophy', 'into', 'the', 'brown', 'su', '##the', 'trophy', '##case', '?', 'because', 'the', 'trophy', 'is', 'too', 'large', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+['the', 'trophy', 'does', 'not', 'ft', '##he', 'suitcase', 'into', 'the', 'brown', 'su', '##the', 'suitcase', '##case', '?', 'because', 'the', 'suitcase', 'is', 'too', 'large', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 4.1624, -3.3557]], grad_fn=<AddmmBackward>)
+tensor([[ 3.9547, -3.1869]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  3
+Incorrect Inside Loop:  0
+2 of  285
+['the', 'trophy', 'does', 'not', 'ft', '##he', 'trophy', 'into', 'the', 'brown', 'su', '##the', 'trophy', '##case', '?', 'because', 'the', 'trophy', 'is', 'too', 'small', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+['the', 'trophy', 'does', 'not', 'ft', '##he', 'brown', 'suitcase', 'into', 'the', 'brown', 'su', '##the', 'brown', 'suitcase', '##case', '?', 'because', 'the', 'brown', 'suitcase', 'is', 'too', 'small', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 4.1039, -3.3033]], grad_fn=<AddmmBackward>)
+tensor([[ 4.3153, -3.6854]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  4
+Incorrect Inside Loop:  0
+3 of  285
+['joan', 'made', 'sure', 'to', 'thank', 'susan', 'for', 'all', 'the', 'help', '?', 'susan', 'had', 'received', '.']
+tensor([[ 3.0694, -1.9472]], grad_fn=<AddmmBackward>)
+['joan', 'made', 'sure', 'to', 'thank', 'susan', 'for', 'all', 'the', 'help', '?', 'joan', 'had', 'received', '.']
+tensor([[-1.9283,  4.3531]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  5
+Incorrect Inside Loop:  0
+4 of  285
+['joan', 'made', 'sure', 'to', 'thank', 'susan', 'for', 'all', 'the', 'help', '?', 'susan', 'had', 'given', '.']
+tensor([[ 3.6517, -2.7583]], grad_fn=<AddmmBackward>)
+['joan', 'made', 'sure', 'to', 'thank', 'susan', 'for', 'all', 'the', 'help', '?', 'joan', 'had', 'given', '.']
+tensor([[-1.2232,  3.0992]], grad_fn=<AddmmBackward>)
+choice1
+tensor([[ 4.5105, -3.8135]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  6
+Incorrect Inside Loop:  0
+5 of  285
+['paul', 'tried', 'to', 'call', 'george', 'on', 't', '##pa', '##ul', 'phone', '?', 'but', 'paul', 'was', 'not', 'successful', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+['paul', 'tried', 'to', 'call', 'george', 'on', 't', '##ge', '##org', '##e', 'phone', '?', 'but', 'george', 'was', 'not', 'successful', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[0.9047, 0.0682]], grad_fn=<AddmmBackward>)
+tensor([[ 4.0836, -3.5607]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  4
+Incorrect Inside Loop:  3
+6 of  285
+['paul', 'tried', 'to', 'call', 'george', 'on', 't', '##pa', '##ul', 'phone', '?', 'but', 'paul', 'was', 'not', 'available', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+['paul', 'tried', 'to', 'call', 'george', 'on', 't', '##ge', '##org', '##e', 'phone', '?', 'but', 'george', 'was', 'not', 'available', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 2.1431, -1.2567]], grad_fn=<AddmmBackward>)
+tensor([[ 4.1964, -3.4952]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  5
+Incorrect Inside Loop:  3
+7 of  285
+['tt', '##he', 'lawyer', 'lawyer', 'asked', 'tt', '##he', 'lawyer', 'witness', 'a', 'question', '?', 'but', 'the', 'lawyer', 'was', 'reluctant', 'to', 'repeat', 'it', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['tt', '##he', 'witness', 'lawyer', 'asked', 'tt', '##he', 'witness', 'witness', 'a', 'question', '?', 'but', 'the', 'witness', 'was', 'reluctant', 'to', 'repeat', 'it', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 2.9966, -1.8295]], grad_fn=<AddmmBackward>)
+tensor([[ 4.0405, -3.2144]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  5
+Incorrect Inside Loop:  4
+8 of  285
+['tt', '##he', 'lawyer', 'lawyer', 'asked', 'tt', '##he', 'lawyer', 'witness', 'a', 'question', '?', 'but', 'the', 'lawyer', 'was', 'reluctant', 'to', 'answer', 'it', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['tt', '##he', 'witness', 'lawyer', 'asked', 'tt', '##he', 'witness', 'witness', 'a', 'question', '?', 'but', 'the', 'witness', 'was', 'reluctant', 'to', 'answer', 'it', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 3.7180, -2.6830]], grad_fn=<AddmmBackward>)
+tensor([[ 4.3034, -3.6405]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  6
+Incorrect Inside Loop:  4
+
+['the', 'delivery', 'truck', 'zoom', '##ed', 'by', 'the', 'school', 'bus', '?', 'because', 'the', 'delivery', 'truck', 'was', 'going', 'so', 'fast', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['the', 'delivery', 'truck', 'zoom', '##ed', 'by', 'the', 'school', 'bus', '?', 'because', 'the', 'school', 'bus', 'was', 'going', 'so', 'fast', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 2.8423, -3.0788]], grad_fn=<AddmmBackward>)
+tensor([[ 2.8985, -3.2684]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  6
+Incorrect Inside Loop:  5
+10 of  285
+['the', 'delivery', 'truck', 'zoom', '##ed', 'by', 'the', 'school', 'bus', '?', 'because', 'the', 'delivery', 'truck', 'was', 'going', 'so', 'slow', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['the', 'delivery', 'truck', 'zoom', '##ed', 'by', 'the', 'school', 'bus', '?', 'because', 'the', 'school', 'bus', 'was', 'going', 'so', 'slow', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 2.9510, -3.3264]], grad_fn=<AddmmBackward>)
+tensor([[ 3.0484, -3.5063]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  7
+Incorrect Inside Loop:  5
+11 of  285
+['frank', 'felt', 'vin', '##dicated', '?', 'w', '##fra', '##nk', '##n', 'his', 'longtime', 'rival', 'bill', 'revealed', 'that', 'frank', 'was', 't', '##fra', '##nk', 'winner', 'of', 't', '##fra', '##nk', 'competition', '.']
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['frank', 'felt', 'vin', '##dicated', '?', 'wb', '##ill', '##n', 'his', 'longtime', 'rival', 'bill', 'revealed', 'that', 'bill', 'was', 'tb', '##ill', 'winner', 'of', 'tb', '##ill', 'competition', '.']
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[0.9370, 0.4683]], grad_fn=<AddmmBackward>)
+tensor([[-0.1917,  1.5812]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  7
+Incorrect Inside Loop:  6
+12 of  285
+['frank', 'felt', 'cr', '##us', '##fra', '##nk', '##d', '?', 'w', '##fra', '##nk', '##n', 'his', 'longtime', 'rival', 'bill', 'revealed', 'that', 'frank', 'was', 't', '##fra', '##nk', 'winner', 'of', 't', '##fra', '##nk', 'competition', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['frank', 'felt', 'cr', '##us', '##bill', '##d', '?', 'wb', '##ill', '##n', 'his', 'longtime', 'rival', 'bill', 'revealed', 'that', 'bill', 'was', 'tb', '##ill', 'winner', 'of', 'tb', '##ill', 'competition', '.']
+[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 1.7092, -0.3056]], grad_fn=<AddmmBackward>)
+tensor([[-0.6253,  2.0929]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  8
+Incorrect Inside Loop:  6
+13 of  285
+['tt', '##he', 'man', 'man', 'could', 'not', 'lift', 'his', 'son', '?', 'because', 'the', 'man', 'was', 'so', 'weak', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+['tt', '##he', 'son', 'man', 'could', 'not', 'lift', 'his', 'son', '?', 'because', 'the', 'son', 'was', 'so', 'weak', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 3.2878, -2.0383]], grad_fn=<AddmmBackward>)
+tensor([[ 2.3534, -0.8843]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  3
+Incorrect Inside Loop:  2
+14 of  285
+['tt', '##he', 'man', 'man', 'could', 'not', 'lift', 'his', 'son', '?', 'because', 'the', 'man', 'was', 'so', 'the', 'mana', '##vy', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['this', 'son', 'man', 'could', 'not', 'lift', 'his', 'son', '?', 'because', 'his', 'son', 'was', 'so', 'his', 'son', '##av', '##y', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[-0.4505,  2.2061]], grad_fn=<AddmmBackward>)
+tensor([[ 4.3400, -3.4318]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  4
+Incorrect Inside Loop:  2
+15 of  285
+['the', 'large', 'ball', 'crashed', 'right', 'through', 'the', 'table', '?', 'because', 'the', 'large', 'ball', 'was', 'made', 'of', 'steel', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['the', 'large', 'ball', 'crashed', 'right', 'through', 'the', 'table', '?', 'because', 'the', 'table', 'was', 'made', 'of', 'steel', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 3.0512, -2.1567]], grad_fn=<AddmmBackward>)
+tensor([[ 2.7704, -1.7214]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  5
+Incorrect Inside Loop:  2
+16 of  285
+['the', 'large', 'ball', 'crashed', 'right', 'through', 'the', 'table', '?', 'because', 'the', 'large', 'ball', 'was', 'made', 'of', 'st', '##yr', '##of', '##oa', '##m', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['the', 'large', 'ball', 'crashed', 'right', 'through', 'the', 'table', '?', 'because', 'the', 'table', 'was', 'made', 'of', 'st', '##yr', '##of', '##oa', '##m', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 3.5393, -2.7749]], grad_fn=<AddmmBackward>)
+tensor([[ 2.8383, -1.9855]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  5
+Incorrect Inside Loop:  3
+17 of  285
+['john', 'could', 'not', 'see', 't', '##jo', '##hn', 'stage', 'with', 'billy', 'in', 'front', 'of', 'him', '?', 'because', 'john', 'is', 'so', 'short', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+['john', 'could', 'not', 'see', 'tb', '##illy', 'stage', 'with', 'billy', 'in', 'front', 'of', 'him', '?', 'because', 'billy', 'is', 'so', 'short', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 2.5527, -1.1980]], grad_fn=<AddmmBackward>)
+tensor([[ 3.5818, -2.3487]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  5
+Incorrect Inside Loop:  4
+18 of  285
+['john', 'could', 'not', 'see', 't', '##jo', '##hn', 'stage', 'with', 'billy', 'in', 'front', 'of', 'him', '?', 'because', 'john', 'is', 'so', 'tall', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+['john', 'could', 'not', 'see', 'tb', '##illy', 'stage', 'with', 'billy', 'in', 'front', 'of', 'him', '?', 'because', 'billy', 'is', 'so', 'tall', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[0.7106, 0.6584]], grad_fn=<AddmmBackward>)
+tensor([[ 3.3916, -2.1994]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  6
+Incorrect Inside Loop:  4
+19 of  285
+['tom', 'threw', 'his', 'school', '##bag', 'down', 'to', 'ray', 'after', 'tom', 'react', '##om', '##d', 'tt', '##om', 'top', 'of', 'tt', '##om', 'stairs', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+['tom', 'threw', 'his', 'school', '##bag', 'down', 'to', 'ray', 'after', 'ray', 're', '##ac', '##ray', '##d', 'tray', 'top', 'of', 'tray', 'stairs', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+choice2
+tensor([[ 1.9709, -0.5737]], grad_fn=<AddmmBackward>)
+tensor([[ 2.0476, -1.0635]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  6
+Incorrect Inside Loop:  5
+20 of  285
+['tom', 'threw', 'his', 'school', '##bag', 'down', 'to', 'ray', 'after', 'tom', 'react', '##om', '##d', 'tt', '##om', 'bottom', 'of', 'tt', '##om', 'stairs', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+['tom', 'threw', 'his', 'school', '##bag', 'down', 'to', 'ray', 'after', 'ray', 're', '##ac', '##ray', '##d', 'tray', 'bottom', 'of', 'tray', 'stairs', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+choice2
+tensor([[ 1.9055, -0.4878]], grad_fn=<AddmmBackward>)
+tensor([[ 2.2147, -1.1421]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  7
+Incorrect Inside Loop:  5
+21 of  285
+['although', 'they', 'ran', 'at', 'about', 'the', 'same', 'speed', ',', 'sue', 'beat', 'sally', '?', 'because', 'sue', 'had', 'such', 'a', 'good', 'start', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+['although', 'they', 'ran', 'at', 'about', 'the', 'same', 'speed', ',', 'sue', 'beat', 'sally', '?', 'because', 'sally', 'had', 'such', 'a', 'good', 'start', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 3.1042, -1.8495]], grad_fn=<AddmmBackward>)
+tensor([[ 2.7269, -1.4390]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  8
+Incorrect Inside Loop:  5
+22 of  285
+['although', 'they', 'ran', 'at', 'about', 'the', 'same', 'speed', ',', 'sue', 'beat', 'sally', '?', 'because', 'sue', 'had', 'such', 'a', 'bad', 'start', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+['although', 'they', 'ran', 'at', 'about', 'the', 'same', 'speed', ',', 'sue', 'beat', 'sally', '?', 'because', 'sally', 'had', 'such', 'a', 'bad', 'start', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 3.0031, -1.8376]], grad_fn=<AddmmBackward>)
+tensor([[ 2.7998, -1.6353]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  8
+Incorrect Inside Loop:  6
+23 of  285
+['the', 'sculpture', 'rolled', 'off', 'the', 'shelf', '?', 'because', 'the', 'sculpture', 'was', 'not', 'anchored', '.']
+[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+['the', 'sculpture', 'rolled', 'off', 'the', 'shelf', '?', 'because', 'the', 'shelf', 'was', 'not', 'anchored', '.']
+[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 2.4888, -1.7274]], grad_fn=<AddmmBackward>)
+tensor([[ 3.2106, -2.4936]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  8
+Incorrect Inside Loop:  7
+24 of  285
+['the', 'sculpture', 'rolled', 'off', 'the', 'shelf', '?', 'because', 'the', 'sculpture', 'was', 'not', 'level', '.']
+[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+['the', 'sculpture', 'rolled', 'off', 'the', 'shelf', '?', 'because', 'the', 'shelf', 'was', 'not', 'level', '.']
+[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 3.3855, -2.7268]], grad_fn=<AddmmBackward>)
+tensor([[ 3.8145, -2.9047]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  9
+Incorrect Inside Loop:  7
+25 of  285
+['sam', "'", 's', 'drawing', 'was', 'hung', 'just', 'above', 'tina', "'", 's', '?', 'and', 'sam', "'", 's', 'drawing', 'did', 'look', 'much', 'better', 'w', '##sam', "'", 's', 'drawing', '##h', 'another', 'one', 'below', 'sam', "'", 's', 'drawing', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['sam', "'", 's', 'drawing', 'was', 'hung', 'just', 'above', 'tina', "'", 's', '?', 'and', 'tina', "'", 's', 'did', 'look', 'much', 'better', 'w', '##tina', "'", 'sh', 'another', 'one', 'below', 'tina', "'", 's', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 5.5400, -5.0717]], grad_fn=<AddmmBackward>)
+tensor([[ 3.9074, -3.0336]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  10
+Incorrect Inside Loop:  7
+26 of  285
+['sam', "'", 's', 'drawing', 'was', 'hung', 'just', 'above', 'tina', "'", 's', '?', 'and', 'sam', "'", 's', 'drawing', 'did', 'look', 'much', 'better', 'w', '##sam', "'", 's', 'drawing', '##h', 'another', 'one', 'above', 'sam', "'", 's', 'drawing', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['sam', "'", 's', 'drawing', 'was', 'hung', 'just', 'above', 'tina', "'", 's', '?', 'and', 'tina', "'", 's', 'did', 'look', 'much', 'better', 'w', '##tina', "'", 'sh', 'another', 'one', 'above', 'tina', "'", 's', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 5.4326, -4.9279]], grad_fn=<AddmmBackward>)
+tensor([[ 3.9711, -3.1445]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  10
+Incorrect Inside Loop:  8
+27 of  285
+['anna', 'did', 'a', 'lot', 'better', 'than', 'her', 'good', 'friend', 'lucy', 'on', 'the', 'test', '?', 'because', 'anna', 'had', 'studied', 'so', 'hard', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+['anna', 'did', 'a', 'lot', 'better', 'than', 'her', 'good', 'friend', 'lucy', 'on', 'the', 'test', '?', 'because', 'lucy', 'had', 'studied', 'so', 'hard', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[-2.8424,  5.8900]], grad_fn=<AddmmBackward>)
+tensor([[ 3.9604, -3.0805]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  11
+Incorrect Inside Loop:  8
+28 of  285
+['anna', 'did', 'a', 'lot', 'worse', 'than', 'her', 'good', 'friend', 'lucy', 'on', 'the', 'test', '?', 'because', 'anna', 'had', 'studied', 'so', 'hard', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+['anna', 'did', 'a', 'lot', 'worse', 'than', 'her', 'good', 'friend', 'lucy', 'on', 'the', 'test', '?', 'because', 'lucy', 'had', 'studied', 'so', 'hard', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[-2.9961,  6.1639]], grad_fn=<AddmmBackward>)
+tensor([[ 3.8744, -2.8645]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  11
+Incorrect Inside Loop:  9
+
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+['the', 'fire', '##men', 'arrived', 'after', 'the', 'police', '?', 'because', 'the', 'fire', '##men', 'were', 'coming', 'from', 'so', 'far', 'away', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['the', 'fire', '##men', 'arrived', 'after', 'the', 'police', '?', 'because', 'the', 'police', 'were', 'coming', 'from', 'so', 'far', 'away', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 4.1102, -3.6079]], grad_fn=<AddmmBackward>)
+tensor([[ 4.1433, -3.5655]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  0
+Incorrect Inside Loop:  1
+30 of  285
+['the', 'fire', '##men', 'arrived', 'before', 'the', 'police', '?', 'because', 'the', 'fire', '##men', 'were', 'coming', 'from', 'so', 'far', 'away', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['the', 'fire', '##men', 'arrived', 'before', 'the', 'police', '?', 'because', 'the', 'police', 'were', 'coming', 'from', 'so', 'far', 'away', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 4.0586, -3.5008]], grad_fn=<AddmmBackward>)
+tensor([[ 4.2133, -3.6928]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  1
+Incorrect Inside Loop:  1
+31 of  285
+['frank', 'was', 'upset', 'with', 'tom', '?', 'because', 't', '##fra', '##nk', 'toast', '##er', 'frank', 'had', 'bought', 'from', 'him', 'did', 'not', 'work', '.']
+[0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['frank', 'was', 'upset', 'with', 'tom', '?', 'because', 'tt', '##om', 'toast', '##er', 'tom', 'had', 'bought', 'from', 'him', 'did', 'not', 'work', '.']
+[0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 4.6144, -3.6905]], grad_fn=<AddmmBackward>)
+tensor([[ 3.6966, -2.5499]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  2
+Incorrect Inside Loop:  1
+32 of  285
+['frank', 'was', 'upset', 'with', 'tom', '?', 'because', 't', '##fra', '##nk', 'toast', '##er', 'frank', 'had', 'sold', 'him', 'did', 'not', 'work', '.']
+[0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['frank', 'was', 'upset', 'with', 'tom', '?', 'because', 'tt', '##om', 'toast', '##er', 'tom', 'had', 'sold', 'him', 'did', 'not', 'work', '.']
+[0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 3.2663, -2.1795]], grad_fn=<AddmmBackward>)
+tensor([[ 3.1163, -1.8435]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  2
+Incorrect Inside Loop:  2
+33 of  285
+['jim', 'yelled', 'at', 'kevin', '?', 'because', 'jim', 'was', 'so', 'upset', '.']
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+['jim', 'yelled', 'at', 'kevin', '?', 'because', 'kevin', 'was', 'so', 'upset', '.']
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 3.5151, -2.7782]], grad_fn=<AddmmBackward>)
+tensor([[ 3.8313, -2.9035]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  2
+Incorrect Inside Loop:  3
+34 of  285
+['jim', 'comfort', '##ed', 'kevin', '?', 'because', 'jim', 'was', 'so', 'upset', '.']
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+['jim', 'comfort', '##ed', 'kevin', '?', 'because', 'kevin', 'was', 'so', 'upset', '.']
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 3.8328, -3.2112]], grad_fn=<AddmmBackward>)
+tensor([[ 3.9867, -3.1468]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  3
+Incorrect Inside Loop:  3
+35 of  285
+['the', 'sack', 'of', 'potatoes', 'had', 'been', 'placed', 'above', 'the', 'bag', 'of', 'flour', '?', 'so', 'the', 'sack', 'of', 'potatoes', 'had', 'to', 'be', 'moved', 'first', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['the', 'sack', 'of', 'potatoes', 'had', 'been', 'placed', 'above', 'the', 'bag', 'of', 'flour', '?', 'so', 'the', 'bag', 'of', 'flour', 'had', 'to', 'be', 'moved', 'first', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 4.8656, -4.2059]], grad_fn=<AddmmBackward>)
+tensor([[ 4.8894, -4.1471]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  3
+Incorrect Inside Loop:  4
+36 of  285
+['the', 'sack', 'of', 'potatoes', 'had', 'been', 'placed', 'below', 'the', 'bag', 'of', 'flour', '?', 'so', 'the', 'sack', 'of', 'potatoes', 'had', 'to', 'be', 'moved', 'first', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['the', 'sack', 'of', 'potatoes', 'had', 'been', 'placed', 'below', 'the', 'bag', 'of', 'flour', '?', 'so', 'the', 'bag', 'of', 'flour', 'had', 'to', 'be', 'moved', 'first', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 4.8508, -4.1715]], grad_fn=<AddmmBackward>)
+tensor([[ 4.8810, -4.1239]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  4
+Incorrect Inside Loop:  4
+37 of  285
+['pete', 'en', '##vies', 'martin', '?', 'although', 'pete', 'is', 'very', 'successful', '.']
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+['pete', 'en', '##vies', 'martin', '?', 'although', 'martin', 'is', 'very', 'successful', '.']
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 3.4592, -2.4069]], grad_fn=<AddmmBackward>)
+tensor([[ 4.1502, -2.9010]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  4
+Incorrect Inside Loop:  5
+38 of  285
+['pete', 'en', '##vies', 'martin', '?', 'because', 'pete', 'is', 'very', 'successful', '.']
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+['pete', 'en', '##vies', 'martin', '?', 'because', 'martin', 'is', 'very', 'successful', '.']
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[-0.1775,  2.0248]], grad_fn=<AddmmBackward>)
+tensor([[ 3.9870, -2.8361]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  5
+Incorrect Inside Loop:  5
+39 of  285
+['the', 'older', 'students', 'were', 'bullying', 'the', 'younger', 'ones', '?', 'so', 'we', 'punished', 'the', 'older', 'students', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+['the', 'older', 'students', 'were', 'bullying', 'the', 'younger', 'ones', '?', 'so', 'we', 'punished', 'the', 'younger', 'ones', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 4.1445, -3.6563]], grad_fn=<AddmmBackward>)
+tensor([[ 3.9867, -3.5722]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  6
+Incorrect Inside Loop:  5
+40 of  285
+['the', 'older', 'students', 'were', 'bullying', 'the', 'younger', 'ones', '?', 'so', 'we', 'rescued', 'the', 'older', 'students', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+['the', 'older', 'students', 'were', 'bullying', 'the', 'younger', 'ones', '?', 'so', 'we', 'rescued', 'the', 'younger', 'ones', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 3.7337, -3.0228]], grad_fn=<AddmmBackward>)
+tensor([[ 3.6224, -3.0577]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  6
+Incorrect Inside Loop:  6
+41 of  285
+['i', 'poured', 'water', 'from', 'the', 'bottle', 'into', 'the', 'cup', '?', 'until', 'the', 'bottle', 'was', 'empty', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+['i', 'poured', 'water', 'from', 'the', 'bottle', 'into', 'the', 'cup', '?', 'until', 'the', 'cup', 'was', 'empty', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 3.9195, -2.9288]], grad_fn=<AddmmBackward>)
+tensor([[ 3.9499, -3.0456]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  6
+Incorrect Inside Loop:  7
+42 of  285
+['i', 'poured', 'water', 'from', 'the', 'bottle', 'into', 'the', 'cup', '?', 'until', 'the', 'bottle', 'was', 'full', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+['i', 'poured', 'water', 'from', 'the', 'bottle', 'into', 'the', 'cup', '?', 'until', 'the', 'cup', 'was', 'full', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 4.0039, -3.0200]], grad_fn=<AddmmBackward>)
+tensor([[ 3.9859, -2.9814]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  6
+Incorrect Inside Loop:  8
+43 of  285
+['susan', 'knows', 'all', 'about', 'ann', "'", 's', 'personal', 'problems', '?', 'because', 'susan', 'is', 'nos', '##y', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+['susan', 'knows', 'all', 'about', 'ann', "'", 's', 'personal', 'problems', '?', 'because', 'ann', 'is', 'nos', '##y', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 3.7100, -2.9986]], grad_fn=<AddmmBackward>)
+tensor([[ 3.7139, -2.8197]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  6
+Incorrect Inside Loop:  9
+44 of  285
+['susan', 'knows', 'all', 'about', 'ann', "'", 's', 'personal', 'problems', '?', 'because', 'susan', 'is', 'ind', '##is', '##cre', '##et', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+['susan', 'knows', 'all', 'about', 'ann', "'", 's', 'personal', 'problems', '?', 'because', 'ann', 'is', 'ind', '##is', '##cre', '##et', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 3.7425, -3.2682]], grad_fn=<AddmmBackward>)
+tensor([[ 3.4616, -2.8654]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  6
+Incorrect Inside Loop:  10
+45 of  285
+['sid', 'explained', 'his', 'theory', 'to', 'mark', '?', 'but', 'he', 'could', 'not', 'convince', 'sid', '.']
+[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+['sid', 'explained', 'his', 'theory', 'to', 'mark', '?', 'but', 'he', 'could', 'not', 'convince', 'mark', '.']
+[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 4.5387, -3.6671]], grad_fn=<AddmmBackward>)
+tensor([[ 3.6206, -2.8358]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  6
+Incorrect Inside Loop:  11
+46 of  285
+['sid', 'explained', 'his', 'theory', 'to', 'mark', '?', 'but', 'he', 'could', 'not', 'understand', 'sid', '.']
+[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+['sid', 'explained', 'his', 'theory', 'to', 'mark', '?', 'but', 'he', 'could', 'not', 'understand', 'mark', '.']
+[0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 4.5813, -3.5978]], grad_fn=<AddmmBackward>)
+tensor([[ 3.9595, -3.1538]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  7
+Incorrect Inside Loop:  11
+47 of  285
+['susan', 'knew', 'that', 'ann', "'", 's', 'son', 'had', 'been', 'in', 'a', 'car', 'accident', '?', 'so', 'susan', 'told', 'her', 'about', 'it', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+['susan', 'knew', 'that', 'ann', "'", 's', 'son', 'had', 'been', 'in', 'a', 'car', 'accident', '?', 'so', 'ann', 'told', 'her', 'about', 'it', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 4.0772, -3.2043]], grad_fn=<AddmmBackward>)
+tensor([[ 4.3643, -3.5863]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  7
+Incorrect Inside Loop:  12
+48 of  285
+['susan', 'knew', 'that', 'ann', "'", 's', 'son', 'had', 'been', 'in', 'a', 'car', 'accident', '?', 'because', 'susan', 'told', 'her', 'about', 'it', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+['susan', 'knew', 'that', 'ann', "'", 's', 'son', 'had', 'been', 'in', 'a', 'car', 'accident', '?', 'because', 'ann', 'told', 'her', 'about', 'it', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 4.8450, -4.1728]], grad_fn=<AddmmBackward>)
+tensor([[ 4.6862, -3.9812]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  7
+Incorrect Inside Loop:  13
+49 of  285
+['joe', "'", 's', 'uncle', 'can', 'still', 'beat', 'him', 'at', 'tennis', '?', 'even', 'though', 'joe', 'is', '30', 'years', 'younger', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+['joe', "'", 's', 'uncle', 'can', 'still', 'beat', 'him', 'at', 'tennis', '?', 'even', 'though', 'joe', "'", 's', 'uncle', 'is', '30', 'years', 'younger', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 1.5892, -0.1911]], grad_fn=<AddmmBackward>)
+tensor([[ 2.9667, -1.9209]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  7
+Incorrect Inside Loop:  14
+50 of  285
+['joe', "'", 's', 'uncle', 'can', 'still', 'beat', 'him', 'at', 'tennis', '?', 'even', 'though', 'joe', 'is', '30', 'years', 'older', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+['joe', "'", 's', 'uncle', 'can', 'still', 'beat', 'him', 'at', 'tennis', '?', 'even', 'though', 'joe', "'", 's', 'uncle', 'is', '30', 'years', 'older', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[1.2550, 0.1515]], grad_fn=<AddmmBackward>)
+tensor([[ 2.9469, -1.8937]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  8
+Incorrect Inside Loop:  14
+51 of  285
+['the', 'painting', 'in', 'mark', "'", 's', 'living', 'room', 'shows', 'an', 'oak', 'tree', '?', 'the', 'painting', 'is', 'to', 'the', 'right', 'of', 'the', 'book', '##case', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['the', 'painting', 'in', 'mark', "'", 's', 'living', 'room', 'shows', 'an', 'oak', 'tree', '?', 'the', 'oak', 'tree', 'is', 'to', 'the', 'right', 'of', 'the', 'book', '##case', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 2.9807, -2.1544]], grad_fn=<AddmmBackward>)
+tensor([[ 3.3807, -2.7180]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  8
+Incorrect Inside Loop:  15
+52 of  285
+['the', 'painting', 'in', 'mark', "'", 's', 'living', 'room', 'shows', 'an', 'oak', 'tree', '?', 'the', 'painting', 'is', 'to', 'the', 'right', 'of', 'a', 'house', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['the', 'painting', 'in', 'mark', "'", 's', 'living', 'room', 'shows', 'an', 'oak', 'tree', '?', 'the', 'oak', 'tree', 'is', 'to', 'the', 'right', 'of', 'a', 'house', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 2.8639, -2.1221]], grad_fn=<AddmmBackward>)
+tensor([[ 3.6293, -3.1902]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  9
+Incorrect Inside Loop:  15
+53 of  285
+['there', 'is', 'a', 'gap', 'in', 'the', 'wall', '?', 'you', 'can', 'see', 'the', 'garden', 'through', 'the', 'gap', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['there', 'is', 'a', 'gap', 'in', 'the', 'wall', '?', 'you', 'can', 'see', 'the', 'garden', 'through', 'the', 'wall', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 3.6262, -2.3641]], grad_fn=<AddmmBackward>)
+tensor([[ 3.4326, -2.1136]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  10
+Incorrect Inside Loop:  15
+54 of  285
+['there', 'is', 'a', 'gap', 'in', 'the', 'wall', '?', 'you', 'can', 'see', 'the', 'garden', 'behind', 'the', 'gap', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['there', 'is', 'a', 'gap', 'in', 'the', 'wall', '?', 'you', 'can', 'see', 'the', 'garden', 'behind', 'the', 'wall', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 3.5320, -2.1993]], grad_fn=<AddmmBackward>)
+tensor([[ 3.2534, -1.8192]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  10
+Incorrect Inside Loop:  16
+55 of  285
+['the', 'drain', 'is', 'cl', '##og', '##ged', 'with', 'hair', '?', 'the', 'drain', 'has', 'to', 'be', 'cleaned', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+['the', 'drain', 'is', 'cl', '##og', '##ged', 'with', 'hair', '?', 'the', 'hair', 'has', 'to', 'be', 'cleaned', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 3.3321, -2.1791]], grad_fn=<AddmmBackward>)
+tensor([[ 3.2386, -2.1885]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  11
+Incorrect Inside Loop:  16
+56 of  285
+['the', 'drain', 'is', 'cl', '##og', '##ged', 'with', 'hair', '?', 'the', 'drain', 'has', 'to', 'be', 'removed', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+['the', 'drain', 'is', 'cl', '##og', '##ged', 'with', 'hair', '?', 'the', 'hair', 'has', 'to', 'be', 'removed', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+choice1
+tensor([[ 3.7684, -2.7642]], grad_fn=<AddmmBackward>)
+tensor([[ 3.6044, -2.6500]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  11
+Incorrect Inside Loop:  17
+57 of  285
+['my', 'meeting', 'started', 'at', '4', ':', '00', 'and', 'i', 'needed', 'to', 'catch', 'the', 'train', 'at', '4', ':', '30', ',', 'so', 'there', 'was', 'not', 'much', 'time', '.', '?', 'luckily', ',', 'the', 'meeting', 'was', 'short', ',', 'so', 'the', 'meeting', 'worked', 'out', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['my', 'meeting', 'started', 'at', '4', ':', '00', 'and', 'i', 'needed', 'to', 'catch', 'the', 'train', 'at', '4', ':', '30', ',', 'so', 'there', 'was', 'not', 'much', 'time', '.', '?', 'luckily', ',', 'the', 'train', 'was', 'short', ',', 'so', 'the', 'train', 'worked', 'out', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 4.5740, -3.5745]], grad_fn=<AddmmBackward>)
+tensor([[ 4.9106, -3.9722]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  11
+Incorrect Inside Loop:  18
+58 of  285
+['my', 'meeting', 'started', 'at', '4', ':', '00', 'and', 'i', 'needed', 'to', 'catch', 'the', 'train', 'at', '4', ':', '30', ',', 'so', 'there', 'was', 'not', 'much', 'time', '.', '?', 'luckily', ',', 'the', 'meeting', 'was', 'delayed', ',', 'so', 'the', 'meeting', 'worked', 'out', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+['my', 'meeting', 'started', 'at', '4', ':', '00', 'and', 'i', 'needed', 'to', 'catch', 'the', 'train', 'at', '4', ':', '30', ',', 'so', 'there', 'was', 'not', 'much', 'time', '.', '?', 'luckily', ',', 'the', 'train', 'was', 'delayed', ',', 'so', 'the', 'train', 'worked', 'out', '.']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+choice2
+tensor([[ 4.9031, -4.0169]], grad_fn=<AddmmBackward>)
+tensor([[ 5.1487, -4.3174]], grad_fn=<AddmmBackward>)
+Correct Inside Loop:  12
+Incorrect Inside Loop:  18

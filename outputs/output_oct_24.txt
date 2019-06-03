@@ -1,0 +1,1520 @@
+************************************************************
+SENT:  The city councilmen refused the demonstrators a permit because they feared violence .
+PRONOUN they
+KNOW SENT He also refused to give his full name because he feared for his safety .
+{'Who V someone something ?': 'Who V to do something ?', 'Who did someone V something ?': '', 'What did someone V someone ?': 'What did someone V to do ?', 'Why did someone V someone ?': 'Why did someone V to do something ?', 'Who V something ?': 'Who V for something ?', 'What did someone V ?': 'What did someone V for ?'}
+{'The city councilmen': {'He'}, 'the demonstrators': {''}, 'a permit': {'give his full name'}, 'because they feared violence': {'because he feared for his safety'}, 'they': {'he'}, 'violence': {'his safety'}}
+Compare 1:  because he feared for his safety  with  because He feared violence
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The city councilmen refused the demonstrators a permit because they advocated violence .
+PRONOUN they
+KNOW SENT He has been refused travel to the West because he has openly advocated for terror against Israeli citizens as well as Americans in Iraq and Afghanistan
+{'Who V someone something ?': '', 'Who did someone V something ?': 'Who has been V ?', 'What did someone V someone ?': 'What has someone been V ?', 'Why did someone V someone ?': 'Why has someone been V somewhere ?', 'Who V something ?': 'Who has V for something ?', 'What did someone V ?': 'What has someone V for ?'}
+{'The city councilmen': {''}, 'the demonstrators': {'He'}, 'a permit': {'travel to the West'}, 'because they advocated violence': {'because he has openly advocated for terror against Israeli citizens as well as Americans in Iraq and Afghanistan'}, 'they': {'he'}, 'violence': {'terror against Israeli citizens'}}
+Compare 1:  because he has openly advocated for terror against Israeli citizens as well as Americans in Iraq and Afghanistan  with  because  advocated violence
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The trophy does not fit into the brown suitcase because it is too large .
+PRONOUN it
+KNOW SENT This file is too large to fit on a disc .
+{"What doesn't V into something ?": "What doesn't V on something ?", "Where doesn't something V ?": "Where isn't something V ?", "What doesn't something V into ?": "What isn't something V on ?", "Why doesn't something V into something ?": '', 'What V something ?': 'What V something ?', 'What does something V ?': 'What does something V ?'}
+{'The trophy': {'This file'}, 'into the brown suitcase': {'on a disc'}, 'the brown suitcase': {'a disc'}, 'because it is too large': {''}, 'it': {'This file'}, 'too large': {'too large to fit on a disc'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The trophy does not fit into the brown suitcase because it is too small .
+PRONOUN it
+KNOW SENT PSU Will Not Fit into Case (too small)
+{"What doesn't V into something ?": "What doesn't V into something ?", "Where doesn't something V ?": '', "What doesn't something V into ?": "What doesn't something V into ?", "Why doesn't something V into something ?": '', 'What V something ?': '', 'What does something V ?': ''}
+{'The trophy': {'PSU'}, 'into the brown suitcase': {''}, 'the brown suitcase': {'Case'}, 'because it is too small': {''}, 'it': {''}, 'too small': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Joan made sure to thank Susan for all the help she had received .
+PRONOUN she
+KNOW SENT I just wanted to thank you because you have helped me the best when I received the deny letter from immigration some years ago .
+{'Who V something ?': 'Who V something ?', 'What did someone V ?': 'What did someone V ?', 'Who V someone ?': 'Who V someone ?', 'Who did someone V ?': 'Who did someone V ?', 'Why was someone V ?': 'Why is someone being V ?', 'What did someone V someone for ?': '', 'Who had V something ?': 'Who V something ?'}
+{'Joan': {'', 'I'}, 'sure': {''}, 'sure to thank Susan for all the help she had received': {''}, 'Susan': {'I', 'you'}, 'for all the help she had received': {'because you have helped me the best when I received the deny letter from immigration some years ago'}, 'all the help she had received': {''}, 'the help': {'the deny letter from immigration'}, 'help': {'the deny letter from immigration'}, 'she': {'I'}}
+Compare 1:    with  sure to thank Susan for all the help  had received
+Compare 1:    with  sure to thank Susan for all the help I had received
+Compare 2:    with  sure to thank Susan for all the help I had received
+Compare 2:    with  sure to thank Susan for all the help you had received
+Compare 1:  because you have helped me the best when I received the deny letter from immigration some years ago  with  for all the help  had received
+Compare 1:  because you have helped me the best when I received the deny letter from immigration some years ago  with  for all the help I had received
+Compare 2:  because you have helped me the best when I received the deny letter from immigration some years ago  with  for all the help I had received
+Compare 2:  because you have helped me the best when I received the deny letter from immigration some years ago  with  for all the help you had received
+Compare 1:    with  all the help  had received
+Compare 1:    with  all the help I had received
+Compare 2:    with  all the help I had received
+Compare 2:    with  all the help you had received
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Joan made sure to thank Susan for all the help she had given .
+PRONOUN she
+KNOW SENT Hey aXXo , I made an account just to thank you for all the help you've given me ,
+{'Who V something ?': 'Who V something ?', 'What did someone V ?': 'What did someone V ?', 'Who V someone ?': 'Who V someone ?', 'Who did someone V ?': 'Who was V ?', 'Why was someone V ?': 'Why was someone V ?', 'What did someone V someone for ?': 'What did someone V someone for ?', 'Who was V ?': 'Who has someone V ?', 'What was V ?': 'What did someone V ?', 'Who had V something ?': 'Who has V someone ?'}
+{'Joan': {'I', 'me'}, 'sure': {'an account'}, 'sure to thank Susan for all the help she had given': {'an account'}, 'Susan': {'me', 'you'}, 'for all the help she had given': {"for all the help you 've given me"}, 'all the help she had given': {"all the help you 've given me"}, 'the help': {'help'}, 'help': {'help'}, 'she': {'you'}}
+Compare 1:  an account  with  sure to thank Susan for all the help I had given
+Compare 1:  an account  with  sure to thank Susan for all the help me had given
+Compare 2:  an account  with  sure to thank Susan for all the help me had given
+Compare 2:  an account  with  sure to thank Susan for all the help you had given
+Compare 1:  for all the help you 've given me  with  for all the help I had given
+Compare 1:  for all the help you 've given me  with  for all the help me had given
+Compare 2:  for all the help you 've given me  with  for all the help me had given
+Compare 2:  for all the help you 've given me  with  for all the help you had given
+Compare 1:  all the help you 've given me  with  all the help I had given
+Compare 1:  all the help you 've given me  with  all the help me had given
+Compare 2:  all the help you 've given me  with  all the help me had given
+Compare 2:  all the help you 've given me  with  all the help you had given
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Paul tried to call George on the phone , but he was not successful .
+PRONOUN he
+KNOW SENT We tried to call the Doctors associate but have not been successful in getting a hold of him to ask questions . 
+{'Who V to do something ?': 'Who V to do something ?', 'What did someone V ?': '', 'What did someone V to do ?': 'What did someone V to do ?', 'Who V someone ?': 'Who V someone ?', 'Who did someone V ?': 'Who did someone V ?', 'Where did someone V someone ?': '', 'Who V something ?': ''}
+{'Paul': {'We'}, 'to call George on the phone': {'call the Doctors associate'}, 'call George on the phone': {'call the Doctors associate'}, 'George': {'the Doctors associate'}, 'on the phone': {''}, 'he': {''}, 'not successful': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Paul tried to call George on the phone , but he was not available .
+PRONOUN he
+KNOW SENT Every half hour she ran out to call Jack , but his phone was unavailable .
+{'Who V to do something ?': '', 'What did someone V ?': 'What did something V ?', 'What did someone V to do ?': '', 'Who V someone ?': 'Who V someone ?', 'Who did someone V ?': 'Who did someone V ?', 'Where did someone V someone ?': '', 'Who V something ?': ''}
+{'Paul': {'', 'she'}, 'to call George on the phone': {''}, 'call George on the phone': {''}, 'George': {'Jack'}, 'on the phone': {''}, 'he': {''}, 'not available': {'unavailable'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The lawyer asked the witness a question , but he was reluctant to repeat it .
+PRONOUN he
+KNOW SENT Someone once asked me a strange question . But I am reluctant to repeat it — at the risk of
+{'Who V someone something ?': 'Who V someone something ?', 'Who did someone V something ?': 'Who did someone V something ?', 'What did someone V someone ?': 'What did someone V someone ?', 'Who V something ?': '', 'What did someone V ?': '', "Who didn't V something ?": '', "What wasn't someone V ?": ''}
+{'The lawyer': {'Someone'}, 'the witness': {'me'}, 'a question': {'a strange question'}, 'he': {''}, 'reluctant': {''}, 'reluctant to repeat it': {''}, 'it': {''}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The lawyer asked the witness a question , but he was reluctant to answer it .
+PRONOUN he
+KNOW SENT For years I've been asked to address this question , but I have been reluctant to answer it .
+{'Who V someone something ?': '', 'Who did someone V something ?': 'Who was V ?', 'What did someone V someone ?': 'What has someone been V to do ?', 'Who V something ?': '', 'What did someone V ?': '', "Who didn't V something ?": "Who didn't V something ?", "What wasn't someone V ?": "What wasn't someone V ?"}
+{'The lawyer': {''}, 'the witness': {"I 've"}, 'a question': {'address this question'}, 'he': {'', 'I'}, 'reluctant': {''}, 'reluctant to answer it': {''}, 'it': {'it'}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The delivery truck zoomed by the school bus because it was going so fast .
+PRONOUN it
+KNOW SENT If you zoom somewhere , you go there very quickly .
+{'What V ?': '', 'How did something V ?': '', 'What did something V by ?': '', 'Why did something V ?': '', 'What was V ?': '', 'How was something V ?': ''}
+{'The delivery truck': {''}, 'by the school bus': {''}, 'the school bus': {''}, 'because it was going so fast': {''}, 'it': {''}, 'so fast': {''}}
+Compare 2:    with  because  was going so fast
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The delivery truck zoomed by the school bus because it was going so slow .
+PRONOUN it
+KNOW SENT But I rushed it because it felt like it was going really really slow .
+{'What V ?': '', 'How did something V ?': '', 'What did something V by ?': '', 'Why did something V ?': '', 'What was V ?': 'What was V ?', 'How was something V ?': 'How was something V ?'}
+{'The delivery truck': {''}, 'by the school bus': {''}, 'the school bus': {''}, 'because it was going so slow': {''}, 'it': {'it'}, 'so slow': {'really really slow'}}
+Compare 2:    with  because  was going so slow
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Frank felt crushed when his longtime rival Bill revealed that he was the winner of the competition .
+PRONOUN he
+KNOW SENT We lose property , and feel crushed and poor . We lose our ideals , our hopes . 
+{'Who V something ?': '', 'What did someone V ?': '', 'When did someone V something ?': ''}
+{'Frank': {''}, 'crushed': {''}, 'when his longtime rival Bill revealed that he was the winner of the competition': {''}, 'his longtime rival Bill': {''}, 'Bill': {''}, 'that he was the winner of the competition': {''}, 'he': {''}, 'the winner of the competition': {''}}
+Compare 1:    with  when his longtime rival Bill revealed that  was the winner of the competition
+Compare 2:    with  when his longtime rival Bill revealed that  was the winner of the competition
+Compare 1:    with  that  was the winner of the competition
+Compare 2:    with  that  was the winner of the competition
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The man could not lift his son because he was so weak .
+PRONOUN he
+KNOW SENT She could not lift it off the floor because she is a weak girl .
+{"Who can't V someone ?": "Who can't V something ?", "Who can't someone V ?": '', "Why can't someone V someone ?": "Why can't someone V something ?", 'Who V something ?': '', 'What did someone V ?': ''}
+{'The man': {'She'}, 'his son': {''}, 'because he was so weak': {'because she is a weak girl'}, 'he': {''}, 'so weak': {''}}
+Compare 1:  because she is a weak girl  with  because She was so weak
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The man could not lift his son because he was so heavy .
+PRONOUN he
+KNOW SENT Could God create a rock so heavy He could not lift it?
+{"Who can't V someone ?": "Who can't V something ?", "Who can't someone V ?": '', "Why can't someone V someone ?": '', 'Who V something ?': '', 'What did someone V ?': ''}
+{'The man': {'He'}, 'his son': {''}, 'because he was so heavy': {''}, 'he': {''}, 'so heavy': {''}}
+Compare 1:    with  because He was so heavy
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The large ball crashed right through the table because it was made of steel .
+PRONOUN it
+KNOW SENT A truck driver was not hurt when steel beams crashed through his cab in Tualatin , April 7 , 2014 (KOIN 6 News) .
+{'What V ?': 'What V ?', 'Where did something V ?': 'Where did something V ?', 'Why did something V somewhere ?': '', 'What was V of something ?': '', 'What was something V of ?': ''}
+{'The large ball': {'steel beams'}, 'right through the table': {'in Tualatin , April 7 , 2014 ( KOIN 6 News )'}, 'because it was made of steel': {''}, 'it': {''}, 'steel': {''}}
+Compare 1:    with  because steel beams was made of steel
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The large ball crashed right through the table because it was made of styrofoam .
+PRONOUN it
+KNOW SENT Oh maybe it is this tire that crashed through that styrofoam wall .
+{'What V somewhere ?': 'What V ?', 'Where did something V ?': 'Where did something V ?', 'Why did something V somewhere ?': '', 'What was V of something ?': '', 'What was something V of ?': ''}
+{'The large ball': {'tire'}, 'right through the table': {'through that styrofoam wall'}, 'because it was made of styrofoam': {''}, 'it': {''}, 'styrofoam': {''}}
+Compare 1:    with  because tire was made of styrofoam
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  John could not see the stage with Billy in front of him because he is so tall .
+PRONOUN he
+KNOW SENT tyra was standing in front of jimin and he couldn’t see because she is so tall 
+{"Who can't V something ?": '', "What can't someone V ?": '', "Where can't someone V something ?": '', "Why can't someone V something ?": '', 'Who V something ?': 'Who V something ?', 'What does someone V ?': 'What does someone V ?'}
+{'John': {''}, 'the stage': {''}, 'the stage with Billy': {''}, 'in front of him': {''}, 'because he is so tall': {''}, 'he': {'she'}, 'so tall': {'so tall'}}
+Compare 1:    with  because  is so tall
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Tom threw his schoolbag down to Ray after he reached the top of the stairs .
+PRONOUN he
+KNOW SENT I slung my bag over my shoulder and threw it down once I reached the top of the wall and jumped down .
+{'Who V something ?': 'Who V something ?', 'What did someone V ?': 'What did someone V ?', 'Where did someone V something ?': '', 'Who did someone V something on ?': '', 'When did someone V something ?': ''}
+{'Tom': {'I'}, 'his schoolbag': {'it'}, 'down to Ray': {''}, 'Ray': {''}, 'after he reached the top of the stairs': {''}, 'he': {'I'}, 'the top of the stairs': {'the top of the wall'}}
+Compare 1:    with  after I reached the top of the stairs
+Compare 2:    with  after  reached the top of the stairs
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Although they ran at about the same speed , Sue beat Sally because she had such a good start .
+PRONOUN she
+KNOW SENT If you get off to a good start , you are successful in the early stages of doing something
+{'Who V ?': '', 'How did someone V ?': '', 'Who V someone ?': '', 'Who did someone V ?': '', 'Why did someone V someone ?': '', 'Who V something ?': '', 'What did someone V ?': ''}
+{'they': {''}, 'at about the same speed': {''}, 'Sue': {''}, 'Sally': {''}, 'because she had such a good start': {''}, 'she': {''}, 'such a good start': {''}}
+Compare 1:    with  because  had such a good start
+Compare 2:    with  because  had such a good start
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Although they ran at about the same speed , Sue beat Sally because she had such a bad start .
+PRONOUN she
+KNOW SENT England got off to a bad start in the Five Nations' Championship , losing 35-10 to France .
+{'Who V ?': '', 'How did someone V ?': '', 'Who V someone ?': '', 'Who did someone V ?': '', 'Why did someone V someone ?': '', 'Who V something ?': '', 'What did someone V ?': ''}
+{'they': {''}, 'at about the same speed': {''}, 'Sue': {''}, 'Sally': {''}, 'because she had such a bad start': {''}, 'she': {''}, 'such a bad start': {''}}
+Compare 1:    with  because  had such a bad start
+Compare 2:    with  because  had such a bad start
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The sculpture rolled off the shelf because it was not anchored .
+PRONOUN it
+KNOW SENT Granted they were not anchored down and encountered heavy winds , so whether they rolled and then collapsed , or the increased tension ripped the hubs
+{'What was V ?': '', 'Where was something V ?': '', 'What did something V into ?': '', 'Why was something V somewhere ?': '', "What wasn't be V ?": ''}
+{'The sculpture': {''}, 'off the shelf': {''}, 'the shelf': {''}, 'because it was not anchored': {''}, 'it': {''}}
+Compare 1:    with  because  was not anchored
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The sculpture rolled off the shelf because it was not level .
+PRONOUN it
+KNOW SENT The oranges rolled off the uneven table
+{'What was V ?': 'What did something V into ?', 'Where was something V ?': 'Where was something V ?', 'What was something V into ?': 'What did something V into ?', 'Why was something V somewhere ?': '', 'What V something ?': '', 'What did something V ?': ''}
+{'The sculpture': {'the uneven table'}, 'off the shelf': {'off the uneven table'}, 'the shelf': {'the uneven table'}, 'because it was not level': {''}, 'it': {''}, 'not level': {''}}
+Compare 1:    with  because the uneven table was not level
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Anna did a lot better than her good friend Lucy on the test because she had studied so hard .
+PRONOUN she
+KNOW SENT He succeeded because he studied hard .
+{'Who V something ?': '', 'What V someone V ?': '', 'Why V someone V something ?': '', 'Who had V ?': 'Who V ?', 'How did someone V ?': 'How did someone V ?'}
+{'Anna': {''}, 'a lot better': {''}, 'because she had studied so hard': {''}, 'she': {'he'}, 'so hard': {'hard'}}
+Compare 1:    with  because  had studied so hard
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Anna did a lot worse than her good friend Lucy on the test because she had studied so hard .
+PRONOUN she
+KNOW SENT Terry failed his maths test because he did not study hard .
+{'Who V something ?': '', 'What V someone V ?': '', 'Why V someone V something ?': '', 'Who had V ?': '', 'How did someone V ?': ''}
+{'Anna': {''}, 'a lot worse': {''}, 'a lot worse than her good friend Lucy on the test': {''}, 'because she had studied so hard': {''}, 'she': {''}, 'so hard': {''}}
+Compare 1:    with  because  had studied so hard
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Frank was upset with Tom because the toaster he had bought from him did not work .
+PRONOUN he
+KNOW SENT I would see people frustrated when they bought products that did not work or super happy when they bought products that made them
+{'Who was V ?': '', 'Who was someone V with ?': '', 'Why was someone V ?': '', 'Who had V ?': 'Who V something ?', 'Who had V something ?': 'Who V something ?', 'What did someone V ?': 'What did someone V ?', 'Who had someone V something from ?': 'Who V something ?', "Who didn't V ?": '', "What didn't V ?": "What didn't V ?"}
+{'Frank': {'', 'they'}, 'Tom': {''}, 'because the toaster he had bought from him did not work': {''}, 'he': {'they'}, 'the toaster': {'products'}, 'him': {'they'}, 'the toaster he had bought from him': {'products'}}
+Compare 1:    with  because the toaster  had bought from him did not work
+Compare 1:    with  because the toaster they had bought from him did not work
+Compare 2:    with  because the toaster  had bought from him did not work
+THIS ISSUE FACED
+Compare 1:  products  with  the toaster  had bought from him
+Compare 1:  products  with  the toaster they had bought from him
+Compare 2:  products  with  the toaster  had bought from him
+************************************************************
+************************************************************
+SENT:  Frank was upset with Tom because the toaster he had sold him did not work .
+PRONOUN he
+KNOW SENT He sold me a bad rug . I am really angry about it . 
+{'Who was V ?': '', 'Who was someone V with ?': '', 'Why was someone V ?': '', 'Who had V someone ?': 'Who V something ?', 'What did someone V ?': 'What did someone V someone ?', 'Who had V something ?': 'Who V something ?', 'Who did someone V ?': 'Who did someone V something ?', "Who didn't V ?": '', "What didn't V ?": ''}
+{'Frank': {'', 'He'}, 'Tom': {'', 'He'}, 'because the toaster he had sold him did not work': {''}, 'the toaster': {'a bad rug'}, 'he': {'He'}, 'him': {'me'}, 'the toaster he had sold him': {''}}
+Compare 1:    with  because the toaster  had sold him did not work
+Compare 1:    with  because the toaster He had sold him did not work
+Compare 2:    with  because the toaster  had sold him did not work
+Compare 2:    with  because the toaster He had sold him did not work
+THIS ISSUE FACED
+Compare 1:    with  the toaster  had sold him
+Compare 1:    with  the toaster He had sold him
+Compare 2:    with  the toaster  had sold him
+Compare 2:    with  the toaster He had sold him
+************************************************************
+************************************************************
+SENT:  Jim yelled at Kevin because he was so upset .
+PRONOUN he
+KNOW SENT MD once yelled at me because he is in a bad mood .
+{'Who V ?': 'Who V ?', 'Who did someone V at ?': 'Who did someone V at ?', 'Why did someone V somewhere ?': 'Why did someone V somewhere ?', 'Who V something ?': '', 'What did someone V ?': ''}
+{'Jim': {'MD'}, 'Kevin': {'me'}, 'because he was so upset': {'because he is in a bad mood'}, 'he': {''}, 'so upset': {''}}
+Compare 1:  because he is in a bad mood  with  because MD was so upset
+Compare 2:  because he is in a bad mood  with  because me was so upset
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Jim comforted Kevin because he was so upset .
+PRONOUN he
+KNOW SENT Ironically he comforted me because I was so upset and now thinks we are
+{'Who V someone ?': 'Who V someone ?', 'Who did someone V ?': 'Who did someone V ?', 'Why did someone V someone ?': '', 'Who V something ?': 'Who V something ?', 'What did someone V ?': 'What did someone V ?'}
+{'Jim': {'he'}, 'Kevin': {'me'}, 'because he was so upset': {''}, 'he': {'I'}, 'so upset': {'so upset'}}
+Compare 1:    with  because he was so upset
+Compare 2:    with  because me was so upset
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The sack of potatoes had been placed above the bag of flour , so it had to be moved first .
+PRONOUN it
+KNOW SENT Coal seams are extracted from a mountain by removing the land , or overburden , above the seams .
+{'What has been V ?': '', 'Where has something been V ?': '', 'What V to do something ?': '', 'What did something V to do ?': '', 'What was V ?': '', 'When was something V ?': ''}
+{'The sack of potatoes': {''}, 'above the bag of flour': {''}, 'it': {''}, 'to be moved first': {''}, 'be moved first': {''}, 'first': {''}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Pete envies Martin although he is very successful .
+PRONOUN he
+KNOW SENT Aaron envies Ryan because Ryan is a successful author , while he has not yet had his novel published , and resents his brother because Ryan would rather spend money on a first class airline ticket than help him pay for the funeral expenses .
+{'Who V someone ?': 'Who V someone ?', 'Who does someone V ?': 'Who does someone V ?', 'Who V something ?': 'Who V something ?', 'What does someone V ?': 'What does someone V ?'}
+{'Pete': {'Aaron'}, 'Martin': {'Ryan'}, 'he': {'Ryan'}, 'very successful': {'a successful author'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Pete envies Martin because he is very successful .
+PRONOUN he
+KNOW SENT Do we hate zuckerberg because he is successful or awkward or because facebook is creepy?
+{'Who V someone ?': '', 'Who does someone V ?': '', 'Why does someone V someone ?': '', 'Who V something ?': 'Who V something ?', 'What does someone V ?': 'What does something V ?'}
+{'Pete': {''}, 'Martin': {''}, 'because he is very successful': {''}, 'he': {'he'}, 'very successful': {'creepy'}}
+Compare 1:    with  because  is very successful
+Compare 2:    with  because  is very successful
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The older students were bullying the younger ones , so we punished them  .
+PRONOUN them
+KNOW SENT merchant bullying a consumer , so they punished the merchant by banning them
+{'Who was V someone ?': 'Who is being V ?', 'Who was someone V ?': 'Who is being V ?', 'Who V someone ?': 'Who V someone ?', 'Who did someone V ?': 'Who did someone V ?'}
+{'The older students': {'a consumer'}, 'older students': {'a consumer'}, 'the younger ones': {'a consumer'}, 'we': {'they'}, 'them': {'the merchant'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The older students were bullying the younger ones , so we rescued them  .
+PRONOUN them
+KNOW SENT This Girl Was Bullied for Her Prom Dress , so Twitter Came to Her Rescue
+{'Who was V someone ?': '', 'Who was someone V ?': '', 'Who V someone ?': '', 'Who did someone V ?': ''}
+{'The older students': {''}, 'older students': {''}, 'the younger ones': {''}, 'we': {''}, 'them': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  I poured water from the bottle into the cup until it was empty .
+PRONOUN it
+KNOW SENT Imagine you made a gallon pitcher of lemonade for your family picnic .You poured the lemonade into 12 paper cup until there was not a drop left .
+{'Who V something ?': 'Who V something ?', 'What did someone V ?': 'What did someone V something into ?', 'Where did someone V something ?': 'Where did someone V something ?', 'What did someone V something from ?': 'What did someone V something into ?', 'When did someone V something ?': 'When did someone V something ?', 'What V something ?': '', 'What did something V ?': 'What did something V ?'}
+{'I': {'You'}, 'water': {'12 paper cup'}, 'from the bottle': {'into 12 paper cup'}, 'into the cup': {'into 12 paper cup'}, 'the bottle': {'12 paper cup'}, 'until it was empty': {'until there was not a drop left'}, 'it': {''}, 'empty': {'not a drop left'}}
+Compare 1:  until there was not a drop left  with  until 12 paper cup was empty
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  I poured water from the bottle into the cup until it was full .
+PRONOUN it
+KNOW SENT If you poured water into a toilet until it was mostly full , but not completely full , and then you flushed the toilet , what would happen?
+{'Who V something ?': 'Who V something ?', 'What did someone V ?': 'What did someone V ?', 'Where did someone V something ?': 'Where did someone V something ?', 'What did someone V something from ?': 'What did someone V ?', 'When did someone V something ?': 'When did someone V something ?', 'What V something ?': 'What V something ?', 'What did something V ?': 'What did something V ?'}
+{'I': {'you'}, 'water': {'water'}, 'from the bottle': {'into a toilet'}, 'into the cup': {'into a toilet'}, 'the bottle': {'water'}, 'until it was full': {'until it was mostly full'}, 'it': {'it'}, 'full': {'mostly full'}}
+Compare 1:  until it was mostly full  with  until water was full
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Susan knows all about Ann's personal problems because she is nosy .
+PRONOUN she
+KNOW SENT She knows about my situation because she is nosy and kept asking me when we were going to try .
+{'Who V something ?': 'Who V something ?', 'What does someone V ?': 'What does someone V ?', 'Why does someone V something ?': 'Why does someone V to do something ?'}
+{'Susan': {'She'}, "all about Ann 's personal problems": {'my situation'}, 'because she is nosy': {'because she is nosy and kept asking me when we were going to try'}, 'she': {'she'}, 'nosy': {'nosy'}}
+Compare 1:  because she is nosy and kept asking me when we were going to try  with  because She is nosy
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Susan knows all about Ann's personal problems because she is indiscreet .
+PRONOUN she
+KNOW SENT The only reason you know anything about God is because he has chosen to reveal himself .
+{'Who V something ?': '', 'What does someone V ?': 'What does someone V ?', 'Why does someone V something ?': 'Why does someone V something ?'}
+{'Susan': {'you'}, "all about Ann 's personal problems": {'anything about God'}, 'because she is indiscreet': {'because he has chosen to reveal himself'}, 'she': {''}, 'indiscreet': {'because he has chosen to reveal himself'}}
+Compare 1:  because he has chosen to reveal himself  with  because you is indiscreet
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Sid explained his theory to Mark but he could not convince him .
+PRONOUN he
+KNOW SENT I explained what had happened , but I could not convince LaFraniere
+{'Who V something ?': 'Who V something ?', 'What did someone V ?': 'What did someone V ?', 'Who did someone V something to ?': '', "Who doesn't V someone ?": '', "Who can't V someone ?": '', "Who can't someone V ?": ''}
+{'Sid': {'', 'I'}, 'his theory': {'what had happened'}, 'Mark': {''}, 'he': {''}, 'him': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Sid explained his theory to Mark but he could not understand him .
+PRONOUN he
+KNOW SENT Papa explained it to me once , but I could not understand it
+{'Who V something ?': 'Who V something ?', 'What did someone V ?': 'What did someone V ?', 'Who did someone V something to ?': 'Who did someone V something to ?', "Who doesn't V someone ?": "Who can't V something ?", "Who can't V someone ?": "Who can't V something ?", "Who can't someone V ?": ''}
+{'Sid': {'I', 'Papa'}, 'his theory': {'it'}, 'Mark': {'me'}, 'he': {'I'}, 'him': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Sid explained his theory to Mark but he could not convince him .
+PRONOUN him
+KNOW SENT i explained him to the best of my knowledge but could not convince him
+{'Who V something ?': 'Who V someone ?', 'What did someone V ?': 'What did someone V someone about ?', 'Who did someone V something to ?': 'Who did someone V ?', "Who doesn't V someone ?": "Who can't V someone ?", "Who can't V someone ?": "Who can't V someone ?", "Who can't someone V ?": "Who can't be V ?"}
+{'Sid': {'i'}, 'his theory': {'the best of my knowledge'}, 'Mark': {'i', 'him'}, 'he': {'i'}, 'him': {'him'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Sid explained his theory to Mark but he could not understand him .
+PRONOUN him
+KNOW SENT No matter how many times I try to explain . They do not understand me and I feel like I am on my own .
+{'Who V something ?': 'Who V something ?', 'What did someone V ?': '', 'Who did someone V something to ?': '', "Who doesn't V someone ?": "Who doesn't V someone ?", "Who can't V someone ?": "Who doesn't V someone ?", "Who can't someone V ?": "Who doesn't be V ?"}
+{'Sid': {'I', 'They'}, 'his theory': {''}, 'Mark': {'', 'They'}, 'he': {'They'}, 'him': {'me'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Susan knew that Ann's son had been in a car accident , so she told her about it .
+PRONOUN she
+KNOW SENT he got out of the car , and I told him to get back in … because I knew he would do it all over again the next day .
+{'Who V something ?': 'Who V something ?', 'What did someone V ?': 'What did someone V ?', 'Who had V in something ?': '', 'What did someone V in ?': '', 'Who V someone about something ?': 'Who V something ?', 'Who did someone V something ?': 'Who did someone V something ?', 'What did someone V someone about ?': 'What did someone V someone to do ?'}
+{'Susan': {'I'}, "that Ann 's son had been in a car accident": {'he would do it all over again the next day'}, "Ann 's son": {''}, 'in a car accident': {''}, 'a car accident': {''}, 'she': {'I'}, 'her': {'him'}, 'it': {'get back in …'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Susan knew that Ann's son had been in a car accident , because she told her about it .
+PRONOUN she
+KNOW SENT You knew about this pain , because we told you .
+{'Who V something ?': 'Who V someone something ?', 'What did someone V ?': 'What did someone V about ?', 'Why did someone V something ?': '', 'Who had V in something ?': '', 'What did someone V in ?': '', 'Who did someone V something ?': 'Who did someone V something ?', 'What did someone V someone about ?': ''}
+{'Susan': {'You'}, "that Ann 's son had been in a car accident": {'this pain'}, 'because she told her about it': {'', 'because we told you'}, "Ann 's son": {''}, 'in a car accident': {''}, 'a car accident': {''}, 'she': {'we'}, 'her': {'you'}, 'it': {''}}
+Compare 1:    with  because You told her about it
+Compare 1:  because we told you  with  because You told her about it
+Compare 1:    with  because You told her about it
+Compare 1:  because we told you  with  because You told her about it
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  There is a gap in the wall . You can see the garden through it  .
+PRONOUN it
+KNOW SENT Eventually he found a place from which he could see through a gap in the hedge .
+{'Who can V something ?': 'Who can V ?', 'What can someone V ?': 'What can someone V through ?', 'Where can someone V something ?': 'Where can someone V ?', 'What can someone V something in ?': 'What can someone V through ?'}
+{'You': {'he'}, 'the garden': {'a gap in the hedge'}, 'through it': {'through a gap in the hedge'}, 'it': {'a gap in the hedge'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The drain is clogged with hair . It has to be cleaned .
+PRONOUN It
+KNOW SENT Sections of the porous pavement which were clogged were cleaned by various methods .
+{'What V to do something ?': '', 'What does something V to do ?': '', 'What V something ?': '', 'What does something V ?': '', 'What is be V ?': 'What was something V by ?'}
+{'It': {'', 'various methods'}, 'to be cleaned': {''}, 'be cleaned': {''}, 'cleaned': {''}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The drain is clogged with hair . It has to be removed .
+PRONOUN It
+KNOW SENT To clean a bathtub drain that is clogged with hair , remove hair caught in the grate
+{'What V to do something ?': '', 'What does something V to do ?': '', 'What V something ?': '', 'What will something V ?': '', 'What is be V ?': ''}
+{'It': {''}, 'to be removed': {''}, 'be removed': {''}, 'removed': {''}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  In the middle of the outdoor concert , the rain started falling , and it continued until 10 .
+PRONOUN it
+KNOW SENT I started and continued discovering it .
+{'When did something V doing something ?': '', 'What V ?': '', 'What did something V  doing ?': '', 'When was something V ?': '', 'What was V ?': '', 'When did something V ?': ''}
+{'In the middle of the outdoor concert': {''}, 'the rain': {''}, 'falling': {''}, 'until 10': {''}, 'it': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  I used an old rag to clean the knife , and then I put it in the trash .
+PRONOUN it
+KNOW SENT My boss cleaned it up with paper towels and put the towel in the trash .
+{'Who V something ?': 'Who V something ?', 'What did someone V ?': 'What did someone V ?', 'Why did someone V something ?': '', 'What V something ?': '', 'Where did someone V something ?': 'Where did someone V something ?'}
+{'I': {'', 'My boss'}, 'an old rag': {''}, 'to clean the knife': {''}, 'the knife': {''}, 'it': {'the towel'}, 'in the trash': {'in the trash'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  I used an old rag to clean the knife , and then I put it in the drawer .
+PRONOUN it
+KNOW SENT He cleaned his unit and put it back in the bags which tells me that is NOT a new unit .
+{'Who V something ?': 'Who V something ?', 'What did someone V ?': 'What did someone V ?', 'Why did someone V something ?': '', 'What V something ?': '', 'Where did someone V something ?': 'Where did someone V something ?'}
+{'I': {'', 'He'}, 'an old rag': {''}, 'to clean the knife': {''}, 'the knife': {''}, 'it': {'it'}, 'in the drawer': {'back in the bags'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Ann asked Mary what time the library closes , because she had forgotten .
+PRONOUN she
+KNOW SENT I asked an invoice for the stay because I forgot to ask when I check out and since then (2 weeks now) , nobody answers my emails . 
+{'Who V someone something ?': 'Who V ?', 'Who did someone V something ?': '', 'What did someone V someone ?': 'What did someone V something for ?', 'Why did someone V someone ?': 'Why did someone V something ?', 'What V ?': '', 'Why does something V ?': '', 'Who had V something ?': 'Who V to do something ?', 'Who had V ?': 'Who V to do something ?'}
+{'Ann': {'I'}, 'Mary': {'', 'I'}, 'what time the library closes': {'the stay'}, 'because she had forgotten': {'', 'because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails'}, 'the library': {''}, 'she': {'I'}}
+Compare 1:    with  because I had forgotten
+Compare 2:    with  because  had forgotten
+Compare 2:    with  because I had forgotten
+Compare 1:  because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails  with  because I had forgotten
+Compare 2:  because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails  with  because  had forgotten
+Compare 2:  because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails  with  because I had forgotten
+Compare 1:    with  because I had forgotten
+Compare 2:    with  because  had forgotten
+Compare 2:    with  because I had forgotten
+Compare 1:  because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails  with  because I had forgotten
+Compare 2:  because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails  with  because  had forgotten
+Compare 2:  because I forgot to ask when I check out and since then ( 2 weeks now ) , nobody answers my emails  with  because I had forgotten
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  I took the water bottle out of the backpack so that it would be handy .
+PRONOUN it
+KNOW SENT I just need to get it out of me , so that it does not stay inside .
+{'Who V something ?': '', 'What did someone V ?': '', 'Where did someone V something ?': '', 'Why did someone V something ?': '', 'What would V something ?': '', 'What would something V ?': ''}
+{'I': {''}, 'the water bottle': {''}, 'out of the backpack': {''}, 'so that it would be handy': {''}, 'it': {''}, 'handy': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  I took the water bottle out of the backpack so that it would be lighter .
+PRONOUN it
+KNOW SENT Since the oil has been taken out of it ,it is lighter by weight and will have
+{'Who V something ?': '', 'What did someone V ?': 'What has something be V into ?', 'Where did someone V something ?': 'Where has something been V ?', 'Why did someone V something ?': '', 'What would V something ?': '', 'What would something V ?': ''}
+{'I': {''}, 'the water bottle': {'it'}, 'out of the backpack': {'out of it'}, 'so that it would be lighter': {''}, 'it': {''}, 'lighter': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  I could not put the pot on the shelf because it was too tall .
+PRONOUN it
+KNOW SENT It however is not as big as i hoped for- the spaces between the shelves are adjustable but taller books will not fit on all the shelves at the same time .
+{"Who can't V something ?": '', "What isn't someone V ?": '', "Where can't someone V something ?": '', "Why can't someone V something ?": '', 'What V something ?': '', 'What did something V ?': ''}
+{'I': {''}, 'the pot': {''}, 'on the shelf': {''}, 'because it was too tall': {''}, 'it': {''}, 'too tall': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Bob paid for Charlie's college education . He is very generous .
+PRONOUN He
+KNOW SENT Woman's layaway paid for by generous donor
+{'Who V for something ?': 'Who V something ?', 'What did someone V for ?': 'What was V ?', 'Who V something ?': '', 'What does someone V ?': ''}
+{'Bob': {'generous donor'}, "Charlie 's college education": {"Woman 's layaway"}, 'He': {''}, 'very generous': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Bob paid for Charlie's college education . He is very grateful .
+PRONOUN He
+KNOW SENT I am really grateful for having a good job now , and I am grateful to the NGO because it has helped me and paid for my tuition until I graduated with satisfactory grades .
+{'Who V for something ?': 'Who V for something ?', 'What did someone V for ?': 'What did someone V for ?', 'Who V something ?': '', 'What does someone V ?': ''}
+{'Bob': {'it'}, "Charlie 's college education": {'my tuition'}, 'He': {''}, 'very grateful': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Bob paid for Charlie's college education , but now Charlie acts as though it never happened . He is very hurt .
+PRONOUN He
+KNOW SENT I was angry and hurt that he had not appreciated my resonant excitement for him .
+{'Who V ?': '', 'How does someone V ?': '', "Who didn't V ?": '', "What didn't V ?": '', 'Who V something ?': '', 'What does someone V ?': '', 'Who is V ?': 'Who was V ?', 'How is someone V ?': ''}
+{'Charlie': {''}, 'as though it never happened': {''}, 'as though it never happened . He is very hurt': {''}, 'it': {''}, 'He': {'', 'I'}, 'very hurt': {''}, 'very': {''}}
+Compare 2:    with  as though it never happened .  is very hurt
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Bob paid for Charlie's college education , but now Charlie acts as though it never happened . He is very ungrateful .
+PRONOUN He
+KNOW SENT Be thankful for the things you get , and the ones you already have .
+{'Who V for something ?': '', 'What did someone V for ?': '', 'Who V ?': '', 'How does someone V ?': '', "Who didn't V ?": '', "What didn't V ?": '', 'Who V something ?': '', 'What does someone V ?': ''}
+{'Bob': {''}, "Charlie 's college education": {''}, 'Charlie': {''}, 'as though it never happened': {''}, 'it': {''}, 'He': {''}, 'very ungrateful': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , he would have lost .
+PRONOUN he
+KNOW SENT Inter Milan were unlucky to lose the match .
+{'Who V something ?': '', 'What did someone V ?': '', 'Who V V V something ?': '', 'What did someone V V ?': '', 'Who V V something ?': '', 'What would someone V ?': '', 'Who V ?': '', 'Who has V ?': ''}
+{'Bob': {''}, 'way ahead': {''}, 'Adam': {''}, 'a sudden run of good luck': {''}, 'he': {''}, 'lost': {''}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , he would be here by this time .
+PRONOUN he
+KNOW SENT I normally leave my house on time and can reach work on time
+{"Who can't V ?": '', "What can't someone V ?": '', "Where can't someone V something ?": '', "When can't someone V ?": '', 'Who V ?': '', 'What does someone V to do ?': '', 'Who V someone ?': '', 'Who does someone V ?': '', 'Who V something ?': '', 'What did someone V ?': '', 'Who V somewhere ?': '', 'Where did someone V ?': '', 'Who would V somewhere ?': '', 'Who would V ?': '', 'Where would someone V ?': '', 'When will someone V ?': ''}
+{'Adam': {''}, 'work': {''}, 'here': {''}, 'until Bob arrives to replace him': {''}, 'Bob': {''}, 'to replace him': {''}, 'replace him': {''}, 'him': {''}, 'left home': {''}, 'home': {''}, 'he': {''}, 'by this time': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  If the con artist has succeeded in fooling Sam , he would have gotten a lot of money .
+PRONOUN he
+KNOW SENT Al Gore made money fooling Muslims into thinking anybody watched CurrentTV .
+{'Who has V ?': '', 'How did someone V ?': '', 'What has someone V in ?': '', 'Who V someone ?': '', 'Who did someone V ?': 'Who was V ?', 'Who has V something ?': '', 'What has someone V ?': ''}
+{'the con artist': {''}, 'in fooling Sam': {''}, 'fooling Sam': {''}, 'Sam': {'Muslims'}, 'he': {''}, 'a lot of money': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  If the con artist has succeeded in fooling Sam , he would have lost a lot of money .
+PRONOUN he
+KNOW SENT If you lost money in an IPO investment because you were misled , deceived or improperly advised by a broker or investment adviser , our firm can help you understand your rights and options , and we can represent you in filing and pursuing a claim to recoup your money .
+{'Who has V ?': '', 'How did someone V ?': '', 'What has someone V in ?': '', 'Who V someone ?': '', 'Who did someone V ?': 'Who was V ?', 'Who has V something ?': 'Who V something ?', 'What has someone V ?': 'What did someone V ?'}
+{'the con artist': {''}, 'in fooling Sam': {''}, 'fooling Sam': {''}, 'Sam': {'a broker or investment adviser'}, 'he': {'you'}, 'a lot of money': {'money'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  It was a summer afternoon , and the dog was sitting in the middle of the lawn . After a while , it got up and moved to a spot under the tree , because it was hot .
+PRONOUN it
+KNOW SENT If a person starts to experience over heating , and symptoms of heat syncope , they should move or be moved to a shaded or cool area .
+{'What V something ?': '', 'What did something V ?': '', 'What was V ?': '', 'Where was someone V ?': '', 'What V up ?': '', 'What V ?': '', 'How did something V ?': '', 'Why did something V somewhere ?': '', 'What V somewhere ?': '', 'Where did something V ?': 'Where is someone V ?', 'What did something V to ?': 'What is someone V to ?'}
+{'It': {''}, 'a summer afternoon': {''}, 'the dog': {''}, 'in the middle of the lawn': {''}, 'it': {''}, 'up': {''}, 'because it was hot': {''}, 'to a spot under the tree': {'to a shaded or cool area'}, 'a spot under the tree': {'a shaded or cool area'}, 'hot': {''}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  It was a summer afternoon , and the dog was sitting in the middle of the lawn . After a while , it got up and moved to a spot under the tree , because it was cooler .
+PRONOUN it
+KNOW SENT If a person starts to experience over heating , and symptoms of heat syncope , they should move or be moved to a shaded or cool area .
+{'What V something ?': '', 'What did something V ?': '', 'What was V ?': '', 'Where was someone V ?': '', 'What V up ?': '', 'What V ?': '', 'How did something V ?': '', 'Why did something V somewhere ?': '', 'What V somewhere ?': '', 'Where did something V ?': 'Where is someone V ?', 'What did something V to ?': 'What is someone V to ?'}
+{'It': {''}, 'a summer afternoon': {''}, 'the dog': {''}, 'in the middle of the lawn': {''}, 'it': {''}, 'up': {''}, 'because it was cooler': {''}, 'to a spot under the tree': {'to a shaded or cool area'}, 'a spot under the tree': {'a shaded or cool area'}, 'cooler': {''}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The cat was lying by the mouse hole waiting for the mouse , but it was too impatient .
+PRONOUN it
+KNOW SENT I waited a few seconds but was impatient as my Jetstar flight had been delayed two hours anyway .
+{'What was V ?': '', 'How was something V ?': '', 'What was something V by ?': '', 'What was something V for ?': '', 'What V something ?': '', 'What did something V ?': 'What did someone V ?'}
+{'The cat': {''}, 'by the mouse hole': {''}, 'the mouse hole': {''}, 'the mouse': {''}, 'it': {''}, 'too impatient': {'impatient'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The cat was lying by the mouse hole waiting for the mouse , but it was too cautious .
+PRONOUN it
+KNOW SENT Overeem appears to be waiting for Blaydes to come in , but Blaydes is cautious himself .
+{'What was V ?': 'What is someone V for ?', 'How was something V ?': '', 'What was something V by ?': '', 'What was something V for ?': 'What is someone V for ?', 'What V something ?': '', 'What did something V ?': ''}
+{'The cat': {'', 'Blaydes to come in'}, 'by the mouse hole': {''}, 'the mouse hole': {''}, 'the mouse': {'Blaydes to come in'}, 'it': {''}, 'too cautious': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Anne gave birth to a daughter last month . She is a very charming woman .
+PRONOUN She
+KNOW SENT Oldest woman to give birth in Ireland was aged 54
+{'Who V something ?': '', 'What did someone V ?': '', 'Who did someone V something to ?': '', 'When did someone V something ?': '', 'What does someone V ?': ''}
+{'Anne': {''}, 'birth': {''}, 'a daughter': {''}, 'last month': {''}, 'She': {''}, 'a very charming woman': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Anne gave birth to a daughter last month . She is a very charming baby .
+PRONOUN She
+KNOW SENT Serena Williams has given birth to a baby girl .
+{'Who V something ?': '', 'What did someone V ?': '', 'Who did someone V something to ?': '', 'When did someone V something ?': '', 'What does someone V ?': ''}
+{'Anne': {''}, 'birth': {''}, 'a daughter': {''}, 'last month': {''}, 'She': {''}, 'a very charming baby': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The fish ate the worm . It was hungry .
+PRONOUN It
+KNOW SENT I just ate something because im hungry and i am sleepy
+{'What V something ?': '', 'What did something V ?': ''}
+{'The fish': {''}, 'the worm': {'something'}, 'It': {''}, 'hungry': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The fish ate the worm . It was tasty .
+PRONOUN It
+KNOW SENT I can eat it because it is tasty
+{'What V something ?': '', 'What did something V ?': ''}
+{'The fish': {''}, 'the worm': {''}, 'It': {''}, 'tasty': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum , and I could not get it in .
+PRONOUN it
+KNOW SENT Once the venue is full , you will not get in , even if you are a member .
+{'Who was V to do something ?': '', 'What was someone V to do ?': '', 'Who was V something ?': '', 'What was V ?': '', 'How was something V ?': '', 'Who had V something ?': '', 'What did someone V ?': '', 'How did someone V something ?': '', 'What did someone V something with ?': '', "Who can't V something ?": "Who doesn't V ?", "What can't someone V ?": ''}
+{'I': {'', 'you'}, 'to open the lock with the key': {''}, 'open the lock with the key': {''}, 'the lock': {''}, 'with the key': {''}, 'someone': {''}, 'the keyhole': {''}, 'with chewing gum': {''}, 'chewing gum': {''}, 'gum': {''}, 'it': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum , and I could not get it out .
+PRONOUN it
+KNOW SENT they will be full of sawdust and you can not get it out
+{'Who was V to do something ?': '', 'What was someone V to do ?': '', 'Who was V something ?': '', 'What was V ?': '', 'How was something V ?': '', 'Who had V something ?': '', 'What did someone V ?': '', 'How did someone V something ?': '', 'What did someone V something with ?': '', "Who can't V ?": "Who can't V something ?", "What can't someone V ?": ''}
+{'I': {'', 'you'}, 'to open the lock with the key': {''}, 'open the lock with the key': {''}, 'the lock': {''}, 'with the key': {''}, 'someone': {''}, 'the keyhole': {''}, 'with chewing gum': {''}, 'chewing gum': {''}, 'gum': {''}, 'it': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get it removed .
+PRONOUN it
+KNOW SENT When trees fall in your yard , you have to foot the bill to remove them .
+{'Where did something V ?': '', 'What V ?': '', 'How did something V ?': '', 'What did something V through ?': '', 'Who V to do something ?': 'Who V to do something ?', 'What does someone V ?': '', 'What does someone V to do ?': 'What does someone V to do ?', 'Who V something ?': '', 'What was V ?': ''}
+{'In the storm': {''}, 'the tree': {''}, 'down': {''}, 'through the roof of my house': {''}, 'the roof of my house': {''}, 'I': {'', 'you'}, 'to get it removed': {'foot the bill'}, 'get it removed': {'foot the bill'}, 'it removed': {''}, 'it': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  He also refused to give his full name because he feared for his safety .
+PRONOUN it
+KNOW SENT Derry house may take months to repair after car crashed into it
+{'Who V to do something ?': '', 'What did someone V ?': '', 'What did someone V to do ?': '', 'Why did someone V to do something ?': '', "Who didn't V something ?": '', "What didn't someone V ?": '', "Why didn't someone V something ?": '', 'Who V for something ?': '', 'What did someone V for ?': ''}
+{'He': {''}, 'to give his full name': {''}, 'give his full name': {''}, 'because he feared for his safety': {''}, 'his full name': {''}, 'he': {''}, 'for his safety': {''}, 'his safety': {''}}
+************************************************************
+************************************************************
+SENT:  The customer walked into the bank and stabbed one of the tellers . He was immediately taken to the police station .
+PRONOUN He
+KNOW SENT A suicidal transient who threatened to stab a gas station clerk and police officers was arrested and taken into custody
+{'Who V ?': '', 'Where did someone V ?': '', 'What did someone V into ?': '', 'Who V someone ?': '', 'Who did someone V ?': '', 'Who was V somewhere ?': 'Who was V ?', 'When was someone V ?': '', 'Where was someone V ?': 'Where was someone V ?'}
+{'The customer': {''}, 'into the bank': {''}, 'the bank': {''}, 'one of the tellers': {''}, 'He': {'', 'A suicidal transient who threatened to stab a gas station clerk and police officers'}, 'immediately': {''}, 'to the police station': {'into custody'}, 'the police station': {'into custody'}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The customer walked into the bank and stabbed one of the tellers . He was immediately taken to the hospital .
+PRONOUN He
+KNOW SENT Brown , of the 300 block of West 95th Street , was stabbed in his stomach and taken to Advocate Christ Medical Center where he died .
+{'Who V ?': '', 'Where did someone V ?': '', 'What did someone V into ?': '', 'Who V someone ?': '', 'Who did someone V ?': 'Who was V ?', 'Who was V somewhere ?': 'Who was V somewhere ?', 'Who was V ?': 'Who was V somewhere ?', 'When was someone V ?': '', 'Where was someone V ?': 'Where was someone V ?'}
+{'The customer': {'', 'Brown'}, 'into the bank': {''}, 'the bank': {''}, 'one of the tellers': {'Brown'}, 'He': {'', 'Brown'}, 'immediately': {''}, 'to the hospital': {'Advocate Christ Medical Center'}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  John was doing research in the library when he heard a man humming and whistling . He was very annoyed .
+PRONOUN He
+KNOW SENT the more times you hear him whistle the more annoyed you become
+{'Who was V something ?': '', 'What was someone V ?': '', 'Where was someone V something ?': '', 'When was someone V something ?': '', 'Who V something ?': '', 'What did someone V ?': '', 'Who was V ?': ''}
+{'John': {'', 'you'}, 'research': {''}, 'in the library': {''}, 'when he heard a man humming and whistling': {''}, 'he': {'you'}, 'a man humming and whistling': {'whistle'}, 'a man': {''}, 'He': {''}, 'very annoyed': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  John was doing research in the library when he heard a man humming and whistling . He was very annoying .
+PRONOUN He
+KNOW SENT if it is a hoarse tuneless whistling , then it is annoying .
+{'Who was V something ?': '', 'What was someone V ?': '', 'Where was someone V something ?': '', 'When was someone V something ?': '', 'Who V something ?': '', 'What did someone V ?': '', 'Who was V ?': ''}
+{'John': {''}, 'research': {''}, 'in the library': {''}, 'when he heard a man humming and whistling': {''}, 'he': {''}, 'a man humming and whistling': {''}, 'a man': {''}, 'He': {''}, 'very annoying': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  John was jogging through the park when he saw a man juggling watermelons . He was very impressed .
+PRONOUN He
+KNOW SENT We are impressed to see juggler of Las Vegas
+{'Who V something ?': '', 'What did someone V ?': '', 'What did someone V  doing ?': '', 'When did someone V something ?': '', 'What did someone see ?': '', 'Who was V something ?': '', 'What was someone V ?': ''}
+{'John': {''}, 'jogging': {''}, 'jogging through the park': {''}, 'when he saw a man juggling watermelons': {''}, 'he': {''}, 'a man': {''}, 'a man juggling watermelons': {''}, 'watermelons': {''}, 'He': {''}, 'very impressed': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  John was jogging through the park when he saw a man juggling watermelons . He was very impressive .
+PRONOUN He
+KNOW SENT  to juggle with clubs can look quite impressive
+{'Who V something ?': '', 'What did someone V ?': '', 'What did someone V  doing ?': '', 'When did someone V something ?': '', 'What did someone see ?': '', 'Who was V something ?': '', 'What was someone V ?': 'What is being V with ?'}
+{'John': {''}, 'jogging': {''}, 'jogging through the park': {''}, 'when he saw a man juggling watermelons': {''}, 'he': {''}, 'a man': {''}, 'a man juggling watermelons': {''}, 'watermelons': {'clubs'}, 'He': {''}, 'very impressive': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Bob collapsed on the sidewalk . Soon he saw Carl coming to help . He was very ill .
+PRONOUN He
+KNOW SENT Back in the studio Bruce collapsed and was sick .
+{'Who V somewhere ?': 'Who V ?', 'Where did someone V ?': 'Where did someone V ?', 'What did someone V on ?': '', 'Who V something ?': 'Who V something ?', 'What did someone see ?': '', 'Who was V ?': '', 'What was someone V to do ?': '', 'Who V ?': '', 'What did someone V ?': 'What did someone V ?'}
+{'Bob': {'', 'Bruce'}, 'on the sidewalk': {'in the studio'}, 'the sidewalk': {''}, 'he': {''}, 'Carl coming to help': {''}, 'Carl': {''}, 'to help': {''}, 'help': {''}, 'He': {'Bruce'}, 'very ill': {'sick'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Bob collapsed on the sidewalk . Soon he saw Carl coming to help . He was very concerned .
+PRONOUN He
+KNOW SENT Police say a concerned citizen helped them find the car connected to last week's homicide suspect , who shot and killed Alton Mills , 22 .
+{'Who V somewhere ?': '', 'Where did someone V ?': '', 'What did someone V on ?': '', 'Who V something ?': '', 'What did someone see ?': '', 'Who was V ?': '', 'What was someone V to do ?': '', 'Who V ?': '', 'What did someone V ?': ''}
+{'Bob': {''}, 'on the sidewalk': {''}, 'the sidewalk': {''}, 'he': {''}, 'Carl coming to help': {''}, 'Carl': {''}, 'to help': {''}, 'help': {''}, 'He': {''}, 'very concerned': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are fifteen .
+PRONOUN they
+KNOW SENT Parents usually become concerned when their teenager falls in love in high school .
+{'Who V something ?': '', 'What does someone V ?': '', 'How does someone V something ?': '', 'Why does someone V something ?': ''}
+{'Sam and Amy': {''}, 'passionately': {''}, 'in love': {''}, "Amy 's parents": {''}, 'unhappy': {''}, 'unhappy about it': {''}, 'because they are fifteen': {''}, 'they': {''}, 'fifteen': {''}}
+Compare 1:    with  because  are fifteen
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are snobs .
+PRONOUN they
+KNOW SENT But I think that snobs are unhappy and have nothing to be snobbish about .
+{'Who V something ?': 'Who V something ?', 'What does someone V ?': 'What does someone V ?', 'How does someone V something ?': '', 'Why does someone V something ?': '', 'Who does someone V ?': ''}
+{'Sam and Amy': {'snobs'}, 'passionately': {'unhappy'}, 'in love': {''}, "Amy 's parents": {'snobs'}, 'unhappy': {'unhappy'}, 'unhappy about it': {'unhappy'}, 'because they are snobs': {''}, 'they': {'snobs'}, 'snobs': {''}}
+Compare 1:    with  because snobs are snobs
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Joe has sold his house and bought a new one a few miles away . He will be moving out of it on Thursday .
+PRONOUN it
+KNOW SENT Sold David's home so he can move out to the country!
+{'Who V something ?': '', 'What did someone V ?': '', 'When did someone V something ?': '', 'Who would V doing something ?': '', 'Who would V something ?': '', 'What will someone V  doing ?': '', 'When will someone V doing something ?': '', 'Who is be V somewhere ?': '', 'Who is be V ?': '', 'Where is someone be V ?': '', 'When is someone V somewhere ?': ''}
+{'Joe': {''}, 'a new one': {''}, 'a few miles away': {''}, 'He': {''}, 'moving out of it': {''}, 'on Thursday': {''}, 'Thursday': {''}, 'out of it': {''}}
+************************************************************
+************************************************************
+SENT:  Joe has sold his house and bought a new one a few miles away . He will be moving into it on Thursday .
+PRONOUN it
+KNOW SENT In a perfect world I would be able to sell my old house and immediately move into my new one .  
+{'Who V something ?': '', 'What did someone V ?': '', 'When did someone V something ?': '', 'Who would V doing something ?': 'Who would V something ?', 'Who would V something ?': 'Who would V something ?', 'What will someone V  doing ?': 'What would someone V ?', 'When will someone V something ?': '', 'Who is be V ?': '', "What isn't someone be V into ?": '', 'When is someone V somewhere ?': ''}
+{'Joe': {'', 'I'}, 'a new one': {''}, 'a few miles away': {''}, 'He': {'', 'I'}, 'moving into it': {'able to sell my old house and immediately move into my new one'}, 'on Thursday': {''}, 'Thursday': {''}, 'it': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Many people start to read Paul's books and can not put them down . They are gripped because Paul writes so well .
+PRONOUN They
+KNOW SENT I started to read it , and I was gripped .
+{'Who V to do something ?': '', 'What does someone V ?': '', 'What does someone V to do ?': '', 'Who V something ?': '', "What can't be V ?": '', 'Why does someone V something ?': '', 'Who is V ?': 'Who was V ?', 'Why is someone V ?': '', 'How does someone V something ?': ''}
+{'Many people': {'', 'I'}, "to read Paul 's books": {''}, "read Paul 's books": {''}, "Paul 's books": {'it', ''}, 'them': {''}, 'They': {'', 'I'}, 'gripped': {''}, 'because Paul writes so well': {''}, 'Paul': {''}, 'so well': {''}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Many people start to read Paul's books and can not put them down . They are popular because Paul writes so well .
+PRONOUN They
+KNOW SENT I feel the reason this show IS popular is because of how well written it is .
+{'Who V to do something ?': '', 'What does someone V ?': '', 'What does someone V to do ?': '', 'Who V something ?': '', "What can't be V ?": '', 'What V something ?': '', 'What does something V ?': '', 'Why does someone V something ?': '', 'How does someone V something ?': ''}
+{'Many people': {''}, "to read Paul 's books": {''}, "read Paul 's books": {''}, "Paul 's books": {''}, 'them': {''}, 'They': {''}, 'popular': {''}, 'because Paul writes so well': {''}, 'Paul': {''}, 'so well': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Since it was raining , I carried the newspaper in my backpack to keep it dry .
+PRONOUN it
+KNOW SENT I put electronics in a large baggie to keep them dry when wet towels go back into the bag .
+{'What was V ?': '', 'When did someone V something ?': 'When is something V ?', 'Who V something ?': '', 'What did someone V ?': '', 'Where did someone V something ?': '', 'Why did someone V something ?': '', 'What V something ?': 'What V something ?', 'How was something V ?': 'How is someone being V ?'}
+{'it': {''}, 'Since it was raining': {'', 'when wet towels go back into the bag'}, 'I': {''}, 'the newspaper': {'', 'electronics'}, 'in my backpack': {''}, 'to keep it dry': {''}, 'dry': {'dry'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Since it was raining , I carried the newspaper over my backpack to keep it dry .
+PRONOUN it
+KNOW SENT Cover put over young plants to protect them from cold
+{'What was V ?': '', 'When did someone V something ?': '', 'Who V something ?': '', 'What did someone V ?': '', 'Where did someone V something ?': '', 'Why did someone V something ?': '', 'What V something ?': '', 'How was something V ?': ''}
+{'it': {''}, 'Since it was raining': {''}, 'I': {''}, 'the newspaper': {''}, 'over my backpack': {''}, 'to keep it dry': {''}, 'dry': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Sara borrowed the book from the library because she needs it for an article she is working on . She writes it when she gets home from work .
+PRONOUN it
+KNOW SENT I lost the word file I've been working on . I have to write it all over again
+{'Who V something ?': '', 'What did someone V ?': '', 'Where did someone V something ?': '', 'Where did someone V something from ?': '', 'Why did someone V something ?': '', 'What does someone V ?': '', 'Why does someone V something ?': '', 'What does someone V something for ?': '', 'Who is V on something ?': '', 'What is someone V on ?': 'What was have been V ?', 'What is V on something ?': 'What was have been V ?', 'When does someone V something ?': '', 'Where does someone V ?': ''}
+{'Sara': {'', 'I'}, 'the book': {''}, 'from the library': {''}, 'the library': {''}, 'because she needs it for an article she is working on': {''}, 'because she needs it for an article she is working on . She writes it when she gets home from work': {''}, 'she': {''}, 'it': {'', 'it'}, 'for an article she is working on': {''}, 'an article she is working on': {''}, 'an article': {'the word file'}, 'article': {'the word file'}, 'She': {'I'}, 'when she gets home from work': {''}, 'home': {''}, 'home from work': {''}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Jane knocked on Susan's door , but there was no answer . She was disappointed .
+PRONOUN She
+KNOW SENT I knocked but he didn’t answer . I was disappointed , I had to wait to find out what happened .
+{'What did something V ?': 'What did someone V ?', 'Who V something ?': 'Who V something ?', 'What did someone V ?': 'What did someone V ?', 'Who was V ?': ''}
+{'no answer': {'disappointed'}, 'She': {'', 'I'}, 'disappointed': {'disappointed'}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Jane knocked on Susan's door , but there was no answer . She was out .
+PRONOUN She
+KNOW SENT Later that evening , there was no answer when I knocked on her door , and , assuming she was out , I left a note of my own , signing it , A fellow-ghost
+{'Who V on something ?': 'Who V ?', 'What did someone V on ?': 'What did someone V on ?', 'What V V ?': 'What V something ?', 'Who V somewhere ?': 'Who V ?', 'How did someone V ?': 'How did someone V ?'}
+{'Jane': {'I'}, "Susan 's door": {'her door'}, 'no answer': {'there'}, 'She': {'she'}, 'out': {'out'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Jane knocked on the door , and Susan answered it . She invited her to come out .
+PRONOUN She
+KNOW SENT My Worldwide Quest to Find My Best Childhood Friends , Knock on Their Doors , and Ask Them to Come Out and Play by Danny Wallace was just what the doctor ordered!
+{'Who V on something ?': '', 'Where did someone V ?': '', 'What did someone V on ?': '', 'Who V something ?': '', 'What did someone answere ?': '', 'When did someone V something ?': '', 'Who V someone to do something ?': '', 'Who did someone V ?': '', 'What did someone V someone to do ?': '', 'Who V somewhere ?': 'Who V somewhere ?'}
+{'Jane': {''}, 'on the door': {''}, 'the door': {''}, 'Susan': {''}, 'it': {''}, '. She invited her to come out': {''}, 'She': {''}, 'her': {'', 'Them'}, 'to come out': {''}, 'come out': {''}, 'out': {''}}
+Compare 1:    with  .  invited her to come out
+Compare 2:    with  .  invited her to come out
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Jane knocked on the door , and Susan answered it . She invited her to come out .
+PRONOUN her
+KNOW SENT My Worldwide Quest to Find My Best Childhood Friends , Knock on Their Doors , and Ask Them to Come Out and Play by Danny Wallace was just what the doctor ordered!
+{'Who V on something ?': '', 'Where did someone V ?': '', 'What did someone V on ?': '', 'Who V something ?': '', 'What did someone answere ?': '', 'When did someone V something ?': '', 'Who V someone to do something ?': '', 'Who did someone V ?': '', 'What did someone V someone to do ?': '', 'Who V somewhere ?': 'Who V somewhere ?'}
+{'Jane': {''}, 'on the door': {''}, 'the door': {''}, 'Susan': {''}, 'it': {''}, '. She invited her to come out': {''}, 'She': {''}, 'her': {'', 'Them'}, 'to come out': {''}, 'come out': {''}, 'out': {''}}
+Compare 1:    with  . She invited  to come out
+Compare 2:    with  . She invited  to come out
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Jane knocked on the door , and Susan answered it . She invited her to come in .
+PRONOUN She
+KNOW SENT When I knocked , Mrs . M answered the door and invited me in .
+{'Who V on something ?': 'Who V ?', 'Where did someone V ?': '', 'What did someone V on ?': '', 'Who V something ?': 'Who V something ?', 'What did someone answere ?': 'What did someone answere ?', 'When did someone V something ?': 'When did someone V something ?', 'Who V someone ?': 'Who V someone ?', 'Who V someone something ?': 'Who V someone ?', 'Who did someone V ?': 'Who did someone V ?', 'What did someone V someone to do ?': '', 'Who V somewhere ?': ''}
+{'Jane': {'I', 'M'}, 'on the door': {''}, 'the door': {''}, 'Susan': {'M'}, 'it': {'the door'}, '. She invited her to come in': {'When I knocked'}, 'She': {'M'}, 'her': {'', 'me'}, 'to come in': {''}, 'come in': {''}, 'in': {''}}
+Compare 1:  When I knocked  with  . I invited her to come in
+Compare 1:  When I knocked  with  . M invited her to come in
+Compare 2:  When I knocked  with  . M invited her to come in
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Jane knocked on the door , and Susan answered it . She invited her to come in .
+PRONOUN her
+KNOW SENT When I knocked , Mrs . M answered the door and invited me in .
+{'Who V on something ?': 'Who V ?', 'Where did someone V ?': '', 'What did someone V on ?': '', 'Who V something ?': 'Who V something ?', 'What did someone answere ?': 'What did someone answere ?', 'When did someone V something ?': 'When did someone V something ?', 'Who V someone ?': 'Who V someone ?', 'Who V someone something ?': 'Who V someone ?', 'Who did someone V ?': 'Who did someone V ?', 'What did someone V someone to do ?': '', 'Who V somewhere ?': ''}
+{'Jane': {'I', 'M'}, 'on the door': {''}, 'the door': {''}, 'Susan': {'M'}, 'it': {'the door'}, '. She invited her to come in': {'When I knocked'}, 'She': {'M'}, 'her': {'', 'me'}, 'to come in': {''}, 'come in': {''}, 'in': {''}}
+Compare 1:  When I knocked  with  . She invited I to come in
+Compare 1:  When I knocked  with  . She invited M to come in
+Compare 2:  When I knocked  with  . She invited M to come in
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Sam took French classes from Adam , because he was eager to speak it fluently .
+PRONOUN he
+KNOW SENT If you want to learn Data Science , take a few of these statistics classes .
+{'Who V something ?': '', 'What did someone V ?': '', 'Who did someone V something from ?': '', 'Why did someone V something ?': '', 'How was someone V something ?': ''}
+{'Sam': {''}, 'French classes': {''}, 'Adam': {''}, 'because he was eager to speak it fluently': {''}, 'he': {''}, 'eager to speak it fluently': {''}, 'it': {''}, 'fluently': {''}}
+Compare 1:    with  because  was eager to speak it fluently
+Compare 2:    with  because  was eager to speak it fluently
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Sam took French classes from Adam , because he was known to speak it fluently .
+PRONOUN he
+KNOW SENT I know how to dance so I would organize classes to teach thesethings .
+{'Who V something ?': '', 'What did someone V ?': '', 'Who did someone V something from ?': '', 'Why did someone V something ?': '', 'Who was V ?': '', 'Who was V to do something ?': '', 'What was someone V to do ?': '', 'How did someone V something ?': ''}
+{'Sam': {''}, 'French classes': {''}, 'Adam': {''}, 'because he was known to speak it fluently': {''}, 'he': {''}, 'to speak it fluently': {''}, 'speak it fluently': {''}, 'it': {''}, 'fluently': {''}}
+Compare 1:    with  because  was known to speak it fluently
+Compare 2:    with  because  was known to speak it fluently
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The path to the lake was blocked , so we could not use it  .
+PRONOUN it
+KNOW SENT I can not use photoshop patterns because it's blocked
+{'What was V ?': 'What is V ?', "Who can't V something ?": "Who can't V something ?", "What doesn't someone V ?": "What can't someone V ?"}
+{'The path to the lake': {'it'}, 'we': {'I'}, 'it': {'photoshop patterns'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  We went to the lake , because a shark had been seen at the ocean beach , so it was a safer place to swim .
+PRONOUN it
+KNOW SENT have a fear of sharks and stingrays . Can anyone suggest any hotels that have safe places to swim (no major rips) without sharks or stingrays to worry about? Maybe a nice lagoon that sea creatures can not get into? Would also prefer the water outside the OWB is not more than shoulder deep to get into .
+{'Who V somewhere ?': '', 'Where did someone V ?': '', 'Why did someone V somewhere ?': '', 'What has been V ?': '', 'Where has something been V ?': '', 'What V something ?': '', 'What did something V ?': '', 'What was being V ?': ''}
+{'We': {''}, 'to the lake': {''}, 'because a shark had been seen at the ocean beach': {''}, 'a shark': {''}, 'at the ocean beach': {''}, 'it': {''}, 'a safer place to swim': {''}, 'a safer place': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Mary tucked her daughter Anne into bed , so that she could sleep .
+PRONOUN she
+KNOW SENT My dog is very serious about being tucked in to sleep in the morning and at night .
+{'Who V someone ?': '', 'Who did someone V ?': 'Who is V ?', 'Who was V ?': '', 'Where was someone V ?': '', 'Why did someone V someone ?': '', 'Who V ?': 'Who V ?', 'Who might V ?': ''}
+{'Mary': {''}, 'her daughter Anne': {'My dog'}, 'Anne': {'My dog'}, 'into bed': {'', 'in to sleep'}, 'so that she could sleep': {''}, 'she': {''}}
+Compare 1:    with  so that  could sleep
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Thomson visited Cooper's grave in 1765 . At that date he had been travelling for five years .
+PRONOUN he
+KNOW SENT Last January 2016 , I visited Egypt . I was traveling with my boyfriend Juan
+{'Who V something ?': '', 'What did someone V ?': '', 'When did someone V something ?': '', 'Who had V something ?': '', 'How long did someone V something ?': '', 'Who was V ?': 'Who was someone V with ?', 'When was someone V ?': 'When was someone V ?', 'Who was be V ?': 'Who was someone V with ?', 'How long was someone V ?': ''}
+{'Thomson': {'', 'I', 'my boyfriend Juan'}, "Cooper 's grave": {''}, 'in 1765': {'', 'Last January 2016'}, '1765': {'Last January 2016'}, 'he': {'', 'my boyfriend Juan'}, 'been travelling': {''}, 'been travelling for five years': {''}, 'travelling': {''}, 'for five years': {''}, 'five years': {''}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Thomson visited Cooper's grave in 1765 . At that date he had been dead for five years .
+PRONOUN he
+KNOW SENT After Her Dad Died , She Wanted To Visit His Grave On Prom Night , But Noticed Something Odd 3k . 
+{'Who V something ?': '', 'What did someone V ?': '', 'When did someone V something ?': '', 'How long did someone V something ?': '', 'Who had V something ?': ''}
+{'Thomson': {''}, "Cooper 's grave": {''}, 'in 1765': {''}, '1765': {''}, 'he': {''}, 'been dead': {''}, 'for five years': {''}, 'dead': {''}, 'five years': {''}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Jackson was greatly influenced by Arnold , though he lived two centuries later .
+PRONOUN he
+KNOW SENT Galen of Pergamon (AD 129-199) is perhaps a figure more sympathetic to modern thought and philosophy , still much influenced by Platonic ideas , though he lived 400 years later .
+{'Who was V ?': 'Who is V by something ?', 'How was someone V ?': '', 'Who was someone V by ?': 'Who is V by something ?', 'Who V ?': 'Who V ?', 'When did someone V ?': 'When did someone V ?'}
+{'Jackson': {'Galen of Pergamon'}, 'greatly': {''}, 'Arnold': {'Galen of Pergamon'}, 'he': {'he'}, 'two centuries later': {'400 years later'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Jackson was greatly influenced by Arnold , though he lived two centuries earlier .
+PRONOUN he
+KNOW SENT Pythagoras himself lived earlier than many of the other Pre-Socratics and had some influence on them
+{'Who was V ?': '', 'How was someone V ?': '', 'Who was someone V by ?': '', 'Who V ?': 'Who V ?', 'When did someone V ?': ''}
+{'Jackson': {''}, 'greatly': {''}, 'Arnold': {''}, 'he': {'Pythagoras'}, 'two centuries earlier': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  I can not cut that tree down with that axe ; it is too thick .
+PRONOUN it
+KNOW SENT my ebay key was a little too thick to fit so they could not cut it but I had it done else where . 
+{"Who can't V something ?": "Who can't V something ?", "What can't be V ?": "What doesn't V something ?", 'How is someone V something ?': '', "How can't someone V something ?": '', 'What V something ?': '', 'What does something V ?': ''}
+{'I': {'they'}, 'that tree': {'my ebay key'}, 'down': {''}, 'with that axe': {''}, 'it': {''}, 'too thick': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The foxes are getting in at night and attacking the chickens . I shall have to kill them  .
+PRONOUN them
+KNOW SENT Terrorists are attacking your cell , you have to kill them and complete the objectives
+{'What is V ?': '', 'When is someone V ?': '', 'Who is V someone ?': 'Who is being V ?', 'Who is being V ?': 'Who is V something ?', 'Who V to do something ?': 'Who V to do something ?', 'What does someone V ?': 'What does someone V to do ?', 'What does someone V to do ?': 'What does someone V to do ?', 'Who V someone ?': 'Who V someone ?', 'Who is someone V ?': 'Who is being V ?'}
+{'The foxes': {'', 'Terrorists', 'you'}, 'at night': {''}, 'the chickens': {'Terrorists', 'them'}, 'I': {'you'}, 'to kill them': {'kill them'}, 'kill them': {'kill them'}, 'them': {'them'}}
+Compare 1:  kill them  with  to kill
+Compare 1:  kill them  with  to kill Terrorists
+Compare 1:  kill them  with  to kill you
+Compare 1:  kill them  with  kill
+Compare 1:  kill them  with  kill Terrorists
+Compare 1:  kill them  with  kill you
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The foxes are getting in at night and attacking the chickens . I shall have to guard them  .
+PRONOUN them
+KNOW SENT When you're being attacked , you have a right to protect yourself
+{'What is V ?': '', 'When is someone V ?': '', 'Who is V someone ?': '', 'Who is being V ?': '', 'Who V to do something ?': 'Who V something ?', 'What does someone V ?': 'What does someone V ?', 'What does someone V to do ?': 'What does someone V ?', 'Who V someone ?': ''}
+{'The foxes': {'', 'you'}, 'at night': {''}, 'the chickens': {'', 'you'}, 'I': {'', 'you'}, 'to guard them': {'a right to protect yourself'}, 'guard them': {'a right to protect yourself'}, 'them': {''}}
+Compare 1:  a right to protect yourself  with  to guard
+Compare 1:  a right to protect yourself  with  to guard you
+Compare 1:  a right to protect yourself  with  guard
+Compare 1:  a right to protect yourself  with  guard you
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The foxes are getting in at night and attacking the chickens . They have gotten very bold .
+PRONOUN They
+KNOW SENT Bold sheep attacking a parcel of mangoes
+{'What is V ?': '', 'When is someone V ?': '', 'Who is V someone ?': '', 'Who is being V ?': '', 'Who V something ?': '', 'What does someone V ?': '', 'Who has V something ?': '', 'What has someone V ?': ''}
+{'The foxes': {''}, 'at night': {''}, 'the chickens': {''}, 'They': {''}, 'gotten very bold': {''}, 'very bold': {''}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The foxes are getting in at night and attacking the chickens . They have gotten very nervous .
+PRONOUN They
+KNOW SENT You are so right , I never heard the German Shepherd that attacked and bit me . Since then I am so afraid to walk anywhere I might encounter a dog off leash or on those stupid leases .
+{'What is V ?': '', 'When is someone V ?': '', 'Who is V someone ?': 'Who did someone V ?', 'Who is being V ?': 'Who did someone V ?', 'Who V something ?': '', 'What does someone V ?': '', 'Who has V something ?': '', 'What has someone V ?': ''}
+{'The foxes': {'', 'me'}, 'at night': {''}, 'the chickens': {'me'}, 'They': {''}, 'gotten very nervous': {''}, 'very nervous': {''}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Fred watched TV while George went out to buy groceries . After an hour he got up .
+PRONOUN he
+KNOW SENT I can sit down and watch TV all day . At the outset , each study volunteer was asked to sit down on the floor and then get up
+{'Who V something ?': '', 'What did someone V ?': '', 'When did someone V something ?': '', 'Who V somewhere ?': '', 'Where did someone V ?': '', 'Why did someone V somewhere ?': '', 'When did someone V up ?': '', 'How did someone V ?': ''}
+{'Fred': {''}, 'TV': {''}, 'while George went out to buy groceries': {''}, 'George': {''}, 'out': {''}, 'to buy groceries': {''}, 'groceries': {''}, 'he': {''}, 'After an hour': {''}, 'up': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Fred watched TV while George went out to buy groceries . After an hour he got back .
+PRONOUN he
+KNOW SENT I went out walking and I got back from talking
+{'Who V something ?': '', 'What did someone V ?': '', 'Who V somewhere ?': 'Who V ?', 'Where did someone V ?': 'Where did someone V ?', 'Why did someone V somewhere ?': '', 'When did someone V somewhere ?': '', 'Who V ?': 'Who V ?'}
+{'Fred': {'', 'I'}, 'TV': {''}, 'George': {'', 'I'}, 'out': {'out walking'}, 'to buy groceries': {''}, 'groceries': {''}, 'After an hour': {''}, 'he': {'I'}, 'back': {'back from talking'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were defeated within weeks .
+PRONOUN they
+KNOW SENT I beat you because I am better than you , Beric .
+{'What V something ?': '', 'What did something V ?': '', 'What did someone V ?': '', 'What was V ?': '', 'Who V something ?': '', 'When did someone V something ?': '', 'Who was V ?': '', 'When was someone V ?': ''}
+{"Yakutsk 's army": {''}, 'much better equipped': {''}, 'much better equipped and ten times larger': {''}, 'they': {''}, 'defeated': {''}, 'within weeks': {''}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were victorious within weeks .
+PRONOUN they
+KNOW SENT If you win a game , it is because you played better .
+{'What V something ?': '', 'What did someone V ?': 'What does something V ?', 'Who was V ?': '', 'Who V something ?': '', 'When did someone V something ?': 'When does something V ?'}
+{"Yakutsk 's army": {''}, 'much better equipped': {''}, 'much better equipped and ten times larger': {''}, 'they': {''}, 'victorious': {'because you played better'}, 'within weeks': {'If you win a game'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The scientists are studying three species of fish that have recently been found living in the Indian Ocean . They appeared two years ago .
+PRONOUN They
+KNOW SENT Mehdi Benatia's November 2015 payslip emerged online after police found it
+{'Who is V something ?': '', 'What is someone V ?': '', 'What has been founded ?': '', 'When has something been founded ?': '', 'Where has something been founded ?': '', 'What was V ?': '', 'Where was something V ?': '', 'What V ?': '', 'Who V ?': '', 'When did someone V ?': ''}
+{'The scientists': {''}, 'three species of fish': {''}, 'three species of fish that have recently been found living in the Indian Ocean': {''}, 'recently': {''}, 'living in the Indian Ocean': {''}, 'in the Indian Ocean': {''}, 'They': {''}, 'two years ago': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The police arrested all of the gang members . They were trying to stop the drug trade in the neighborhood .
+PRONOUN They
+KNOW SENT 14 Terror Suspects Arrested Across Country To Prevent Paris-Style Attack
+{'Who V someone ?': '', 'Who did someone V ?': 'Who was V ?', 'Who V to do something ?': '', 'What did someone V  doing ?': '', 'Who was V to do something ?': '', 'What was someone V to do ?': '', 'Where was someone V to do something ?': '', 'Who V something ?': '', 'What was V ?': '', 'Where was something being V ?': ''}
+{'The police': {''}, 'all of the gang members': {'14 Terror Suspects'}, 'They': {''}, 'trying to stop the drug trade': {''}, 'trying to stop the drug trade in the neighborhood': {''}, 'to stop the drug trade': {''}, 'to stop the drug trade in the neighborhood': {''}, 'stop the drug trade': {''}, 'in the neighborhood': {''}, 'the drug trade': {''}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The police arrested all of the gang members . They were trying to run the drug trade in the neighborhood .
+PRONOUN They
+KNOW SENT He was arrested for drug trafficking because he planned to sell the drugs
+{'Who V someone ?': '', 'Who did someone V ?': 'Who was V ?', 'Who V to do something ?': '', 'What did someone V  doing ?': '', 'Who was V to do something ?': '', 'What was someone V to do ?': '', 'Where was someone V to do something ?': '', 'Who V something ?': '', 'Who was V something ?': '', 'What was V ?': '', 'Where was something being V ?': ''}
+{'The police': {''}, 'all of the gang members': {'He'}, 'They': {''}, 'trying to run the drug trade': {''}, 'trying to run the drug trade in the neighborhood': {''}, 'to run the drug trade': {''}, 'to run the drug trade in the neighborhood': {''}, 'run the drug trade': {''}, 'in the neighborhood': {''}, 'the drug trade': {''}}
+THIS ISSUE FACED
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  I stuck a pin through a carrot . When I pulled the pin out , it left a hole .
+PRONOUN it
+KNOW SENT After Bertha got stuck , she could not back up because she builds the concrete walls of the tunnel as she drills forward . That means the hole she leaves behind is narrower than she is . 
+{'Who V something ?': '', 'What did someone V ?': '', 'Where did someone V something ?': '', 'What V something ?': '', 'What did something V ?': ''}
+{'I': {''}, 'a pin': {'Bertha'}, 'through a carrot': {''}, 'the pin': {''}, 'it': {''}, 'a hole': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  I stuck a pin through a carrot . When I pulled the pin out , it had a hole .
+PRONOUN it
+KNOW SENT Stick a pin in a balloon and you will not only make kids cry , you will also puncture the balloon .
+{'Who V something ?': '', 'What did someone V ?': '', 'Where did someone V something ?': '', 'What V something ?': '', 'What did something V ?': ''}
+{'I': {''}, 'a pin': {''}, 'through a carrot': {''}, 'the pin': {''}, 'it': {''}, 'a hole': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Steve follows Fred's example in everything . He admires him hugely .
+PRONOUN He
+KNOW SENT I follow you because I admire your spirit of openness and acceptance .
+{'Who V something ?': 'Who V someone ?', 'What does someone V ?': '', 'Where does someone V something ?': '', 'Who V someone ?': 'Who V something ?', 'Who does someone V ?': '', 'How does someone V someone ?': ''}
+{'Steve': {'I'}, "Fred 's example": {''}, 'in everything': {''}, 'He': {'I'}, 'him': {''}, 'hugely': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Steve follows Fred's example in everything . He admires him hugely .
+PRONOUN him
+KNOW SENT I follow you because I admire your spirit of openness and acceptance .
+{'Who V something ?': 'Who V someone ?', 'What does someone V ?': '', 'Where does someone V something ?': '', 'Who V someone ?': 'Who V something ?', 'Who does someone V ?': '', 'How does someone V someone ?': ''}
+{'Steve': {'I'}, "Fred 's example": {''}, 'in everything': {''}, 'Fred': {'I'}, 'He': {'I'}, 'him': {''}, 'hugely': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Steve follows Fred's example in everything . He influences him hugely .
+PRONOUN He
+KNOW SENT people follow you because of your influence and not  your title .
+{'Who V something ?': 'Who V someone ?', 'What does someone V ?': '', 'Where does someone V something ?': '', 'Who V someone ?': '', 'Who does someone V ?': '', 'How does someone V someone ?': ''}
+{'Steve': {'people'}, "Fred 's example": {''}, 'in everything': {''}, 'He': {''}, 'him': {''}, 'hugely': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The table would not fit through the doorway because it is too wide .
+PRONOUN it
+KNOW SENT The ball does not fit through a hole in the plate , because the diameter of the ball is slightly larger than the diameter of the hole .
+{"What doesn't V ?": "What doesn't V ?", "Where doesn't something V ?": "Where doesn't something V ?", "What doesn't something V through ?": "What doesn't something V through ?", "Why doesn't something V somewhere ?": "Why doesn't something V somewhere ?", 'What V something ?': 'What V something ?', 'What does something V ?': 'What does something V ?'}
+{'The table': {'The ball'}, 'through the doorway': {'through a hole in the plate'}, 'the doorway': {'a hole in the plate'}, 'because it is too wide': {'because the diameter of the ball is slightly larger than the diameter of the hole'}, 'it': {'the diameter of the ball'}, 'too wide': {'slightly larger than the diameter of the hole'}}
+Compare 1:  because the diameter of the ball is slightly larger than the diameter of the hole  with  because The ball is too wide
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The table would not fit through the doorway because it is too narrow .
+PRONOUN it
+KNOW SENT If it turns out your sofa will not fit through the door because the width of your furniture piece is wider than that of the door
+{"What doesn't V ?": "What doesn't V ?", "Where doesn't something V ?": "Where doesn't something V ?", "What doesn't something V through ?": "What doesn't something V into ?", "Why doesn't something V somewhere ?": "Why doesn't something V somewhere ?", 'What V something ?': 'What V something ?', 'What does something V ?': 'What does something V ?'}
+{'The table': {'your sofa'}, 'through the doorway': {'through the door'}, 'the doorway': {'the door'}, 'because it is too narrow': {'because the width of your furniture piece is wider than that of the door'}, 'it': {'the width of your furniture piece'}, 'too narrow': {'wider than that of the door'}}
+Compare 1:  because the width of your furniture piece is wider than that of the door  with  because your sofa is too narrow
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  John hired Bill to take care of him  .
+PRONOUN him
+KNOW SENT Mrs . Zhao MeiLan and her colleagues are hired to take care of a small forest near a highway in Beijing
+{'Who V someone ?': '', 'Who did someone V ?': 'Who is V to do something ?', 'Why did someone V someone ?': 'Why is someone V ?', 'Who V something ?': 'Who V something ?', 'What did someone V ?': 'What does someone V ?'}
+{'John': {'', 'Zhao MeiLan and her colleagues'}, 'Bill': {'Zhao MeiLan and her colleagues'}, 'to take care of him': {'to take care of a small forest'}, 'care': {'care of a small forest'}, 'care of him': {'care of a small forest'}}
+Compare 1:  to take care of a small forest  with  to take care of
+Compare 1:  to take care of a small forest  with  to take care of Zhao MeiLan and her colleagues
+Compare 2:  to take care of a small forest  with  to take care of Zhao MeiLan and her colleagues
+Compare 1:  care of a small forest  with  care of
+Compare 1:  care of a small forest  with  care of Zhao MeiLan and her colleagues
+Compare 2:  care of a small forest  with  care of Zhao MeiLan and her colleagues
+************************************************************
+************************************************************
+SENT:  Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his childhood .
+PRONOUN he
+KNOW SENT a biography of Rajdeep Singh showing the struggles and challenges he faced in the journey of his success .
+{'What V something ?': '', 'What does something V ?': '', 'What did someone V ?': 'What did someone V something in ?', 'Who V something ?': 'Who V something ?', 'When did someone V something ?': '', 'What did someone V something in ?': 'What did someone V something in ?'}
+{"Sam Goodman 's biography of the Spartan general Xenophanes": {''}, 'a vivid sense of the difficulties he faced in his childhood': {''}, 'the difficulties': {'the journey of his success'}, 'difficulties': {'the journey of his success'}, 'he': {'he'}, 'in his childhood': {''}, 'his childhood': {'the journey of his success'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Emma's mother had died long ago , and her place had been taken by an excellent woman as governess .
+PRONOUN her
+KNOW SENT His untimely death in March 1956 , following that his place was taken by Barry Bucknell
+{'Who had V ?': '', 'When did someone V ?': '', 'What has been V ?': 'What was V ?', 'Who has V something ?': 'Who V something ?', 'Who has something been V by ?': 'Who V something ?'}
+{"Emma 's mother": {''}, 'long ago': {''}, 'her place': {'his place'}, 'an excellent woman': {'Barry Bucknell'}, 'an excellent woman as governess': {'Barry Bucknell'}}
+************************************************************
+************************************************************
+SENT:  Jane knocked on Susan's door but she did not get an answer .
+PRONOUN she
+KNOW SENT You called for him and knocked on his door , but , as you did not get a reply
+{'Who V on something ?': 'Who V on something ?', 'What did someone V on ?': 'What did someone V on ?', "Who didn't V something ?": "Who didn't V something ?", "What didn't someone V ?": "What didn't someone V ?"}
+{'Jane': {'him'}, "Susan 's door": {'his door'}, 'she': {'you'}, 'an answer': {'a reply'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Jane knocked on Susan's door but she did not answer .
+PRONOUN she
+KNOW SENT Bridget clearly heard the knock on her bedroom door , but she did not respond right away . 
+{'Who V on something ?': '', 'What did someone V on ?': '', "Who didn't V ?": ''}
+{'Jane': {''}, "Susan 's door": {''}, 'she': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Joe paid the detective after he received the final report on the case .
+PRONOUN he
+KNOW SENT You can pay your taxes , in whole or in part , when you file your return , or you can wait until after you receive your Notice of Assessment .
+{'Who V someone ?': '', 'Who did someone V ?': '', 'When did someone V someone ?': '', 'Who V something ?': 'Who V something ?', 'What did someone V ?': 'What does someone V ?'}
+{'Joe': {''}, 'the detective': {''}, 'after he received the final report on the case': {''}, 'he': {'you'}, 'the final report on the case': {'your Notice of Assessment'}}
+Compare 1:    with  after  received the final report on the case
+Compare 2:    with  after  received the final report on the case
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Joe paid the detective after he delivered the final report on the case .
+PRONOUN he
+KNOW SENT Heartbreak as #Zimbabwe government refuses to pay new black tobacco farmers after they delivered US$400 million tobacco harvest delivery .
+{'Who V someone ?': '', 'Who did someone V ?': '', 'When did someone V someone ?': '', 'Who V something ?': 'Who V something ?', 'What did someone V ?': 'What did someone V ?'}
+{'Joe': {''}, 'the detective': {''}, 'after he delivered the final report on the case': {''}, 'he': {'they'}, 'the final report': {'US$ 400 million tobacco harvest delivery'}, 'the final report on the case': {'US$ 400 million tobacco harvest delivery'}}
+Compare 1:    with  after  delivered the final report on the case
+Compare 2:    with  after  delivered the final report on the case
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Beth did not get angry with Sally , who had cut her off , because she stopped and counted to ten .
+PRONOUN she
+KNOW SENT He counted to ten in his head , willing himself not to get angry . 
+{"Who didn't V something ?": "Who didn't V something ?", "What didn't someone V ?": "What wasn't someone V ?", "Who didn't someone V something with ?": '', 'Who had V something ?': '', 'Who did someone V up ?': '', 'Why was someone V up something ?': '', 'Who V ?': 'Who V ?', 'Who V to something ?': 'Who V ?', 'What did someone V to ?': 'What did someone V to ?'}
+{'Beth': {'He'}, 'angry': {'angry'}, 'Sally': {'', 'He'}, 'her': {''}, 'because she stopped and counted to ten': {''}, 'she': {'', 'He'}, 'ten': {'ten'}}
+Compare 1:    with  because He stopped and counted to ten
+Compare 2:    with  because  stopped and counted to ten
+Compare 2:    with  because He stopped and counted to ten
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Beth did not get angry with Sally , who had cut her off , because she stopped and apologized .
+PRONOUN she
+KNOW SENT I had inflicted pain on my son . I apologized . and he nodded . He was not angry anymore .
+{"Who didn't V something ?": '', "What didn't someone V ?": '', "Who didn't someone V something with ?": '', 'Who had V something ?': '', 'Who did someone V up ?': '', 'Why was someone V somewhere ?': '', 'Who V ?': 'Who V ?'}
+{'Beth': {''}, 'angry': {''}, 'Sally': {''}, 'her': {''}, 'because she stopped and apologized': {''}, 'she': {'', 'I'}}
+Compare 1:    with  because  stopped and apologized
+Compare 2:    with  because  stopped and apologized
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Tom said Check to Ralph as he moved his bishop .
+PRONOUN his
+KNOW SENT a player said checkmate to me by moving his queen
+{'Who V something ?': 'Who V something ?', 'What did someone V ?': 'What was V ?', 'Who V ?': '', 'Who was someone V to ?': '', 'Who did someone V to ?': '', 'When did someone V somewhere ?': '', 'Who V someone ?': 'Who V something ?'}
+{'Tom': {'', 'a player'}, 'Check to Ralph': {'checkmate'}, 'Check to Ralph as he moved his bishop': {'checkmate'}, 'to Ralph': {''}, 'Ralph': {'', 'a player'}, 'as he moved his bishop': {''}, 'he': {'a player'}, 'his bishop': {'his queen'}}
+Compare 1:  checkmate  with  Check to Ralph as he moved  bishop
+Compare 1:  checkmate  with  Check to Ralph as he moved a player bishop
+Compare 2:  checkmate  with  Check to Ralph as he moved  bishop
+Compare 2:  checkmate  with  Check to Ralph as he moved a player bishop
+Compare 1:    with  as he moved  bishop
+Compare 1:    with  as he moved a player bishop
+Compare 2:    with  as he moved  bishop
+Compare 2:    with  as he moved a player bishop
+Compare 1:  his queen  with  bishop
+Compare 1:  his queen  with  a player bishop
+Compare 2:  his queen  with  bishop
+Compare 2:  his queen  with  a player bishop
+************************************************************
+************************************************************
+SENT:  Tom said Check to Ralph as he took his bishop .
+PRONOUN his
+KNOW SENT white has checkmate the next move by taking blacks king bishop
+{'Who V something ?': '', 'What did someone V ?': '', 'Who V ?': '', 'Who was someone V to ?': '', 'Who did someone V to ?': '', 'When did someone V somewhere ?': ''}
+{'Tom': {''}, 'Check to Ralph': {''}, 'Check to Ralph as he took his bishop': {''}, 'to Ralph': {''}, 'Ralph': {''}, 'as he took his bishop': {''}, 'he': {''}, 'his bishop': {''}}
+Compare 1:    with  Check to Ralph as he took  bishop
+Compare 2:    with  Check to Ralph as he took  bishop
+Compare 1:    with  as he took  bishop
+Compare 2:    with  as he took  bishop
+Compare 1:    with  bishop
+Compare 2:    with  bishop
+************************************************************
+************************************************************
+SENT:  Tom gave Ralph a lift to school so he would not have to drive alone .
+PRONOUN he
+KNOW SENT That is if you do not mind the journey up there , and on this day Mashi offered me a lift so I did not have to drive .
+{'Who V something ?': '', 'Who did someone V something ?': '', 'What did someone V someone ?': '', 'Why did someone V something ?': '', "Who doesn't V to do something ?": "Who didn't V to do something ?", "What doesn't someone V to do ?": "What didn't someone V to do ?", "Who didn't V ?": "Who didn't V ?", "How isn't someone V ?": ''}
+{'Tom': {''}, 'Ralph': {''}, 'a lift to school': {''}, 'so he would not have to drive alone': {''}, 'he': {'I'}, 'to drive alone': {'drive'}, 'drive alone': {'drive'}, 'alone': {''}}
+Compare 1:    with  so  would not have to drive alone
+Compare 2:    with  so  would not have to drive alone
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Tom gave Ralph a lift to school so he would not have to walk .
+PRONOUN he
+KNOW SENT We purchased our beds and ask[ed] the shop if they could deliver them that afternoon and also give us a lift back home , so we would not have to walk .
+{'Who V something ?': '', 'Who did someone V something ?': '', 'What did someone V someone ?': '', 'Why did someone V something ?': '', "Who doesn't V to do something ?": "Who doesn't V to do something ?", "What doesn't someone V to do ?": "What doesn't someone V to do ?", "Who didn't V ?": "Who doesn't V ?"}
+{'Tom': {''}, 'Ralph': {''}, 'a lift to school': {''}, 'so he would not have to walk': {''}, 'he': {'we'}, 'to walk': {'walk'}, 'walk': {'walk'}}
+Compare 1:    with  so  would not have to walk
+Compare 2:    with  so  would not have to walk
+THIS ISSUE FACED
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Bill passed the half-empty plate to John because he was full .
+PRONOUN he
+KNOW SENT We passed on dessert because we were full by the end of the meal .
+{'Who V something ?': '', 'What did someone V ?': '', 'Who did someone V something to ?': '', 'Why did someone V something ?': 'Why did someone V something ?'}
+{'Bill': {'We'}, 'the half-empty plate': {'dessert'}, 'John': {''}, 'because he was full': {'because we were full by the end of the meal'}, 'he': {''}, 'full': {''}}
+Compare 1:  because we were full by the end of the meal  with  because We was full
+Compare 2:  because we were full by the end of the meal  with  because  was full
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Bill passed the half-empty plate to John because he was hungry .
+PRONOUN he
+KNOW SENT Some kid gave me half his subway sandwich because I looked hungry here at the mall food court . He probably jizzed in it .
+{'Who V something ?': '', 'What did someone V ?': '', 'Who did someone V something to ?': '', 'Why did someone V something ?': ''}
+{'Bill': {''}, 'the half-empty plate': {''}, 'John': {''}, 'because he was hungry': {''}, 'he': {''}, 'hungry': {''}}
+Compare 1:    with  because  was hungry
+Compare 2:    with  because  was hungry
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  The man lifted the boy onto his shoulders .
+PRONOUN his
+KNOW SENT I am going to put the pillow onto my shoulder and then lift you up onto my shoulder and run you out of here .
+{'Who V something ?': '', 'What did someone V ?': '', 'Where did someone V something ?': ''}
+{'The man': {''}, 'the boy': {''}, 'onto his shoulders': {''}}
+Compare 1:    with  onto  shoulders
+************************************************************
+************************************************************
+SENT:  Lily spoke to Donna , breaking her silence .
+PRONOUN her
+KNOW SENT Dolezal's parents finally speak out and break their silence , revealing their daughter is white , and has been misrepresenting her race for years .
+{'Who V to someone ?': '', 'Who did someone V to ?': '', 'Who V something ?': '', 'What did someone V ?': ''}
+{'Lily': {''}, 'Donna': {''}, 'her silence': {''}}
+Compare 1:    with  silence
+Compare 2:    with  silence
+************************************************************
+************************************************************
+SENT:  Lily spoke to Donna , breaking her concentration .
+PRONOUN her
+KNOW SENT If someone speaks to you and breaks your concentration , or you realise a harness strap is twisted and have to untwist it , start checks again at the beginning .
+{'Who V to someone ?': '', 'Who did someone V to ?': '', 'Who V something ?': '', 'What did someone V ?': ''}
+{'Lily': {''}, 'Donna': {''}, 'her concentration': {''}}
+Compare 1:    with  concentration
+Compare 2:    with  concentration
+************************************************************
+************************************************************
+SENT:  As Ollie carried Tommy up the long winding steps , his legs ached .
+PRONOUN his
+KNOW SENT I struggle  lifting things at work cas my arms are hurting im only 32 and i cant see y and wat it could be around  my elbows and down my arms including  muscles ??
+{'Who V someone ?': '', 'Who did someone V ?': '', 'Where did someone V someone ?': '', 'What was V ?': '', 'What V ?': ''}
+{'Ollie': {''}, 'Tommy': {''}, 'up the long winding steps': {''}, 'steps': {''}, 'his legs': {''}}
+Compare 1:    with  legs
+Compare 2:    with  legs
+************************************************************
+************************************************************
+SENT:  As Ollie carried Tommy up the long winding steps , his legs dangled .
+PRONOUN his
+KNOW SENT He is reported to have been a very wise leader and a very fierce warrior who had to be carried into battle on a shield because his legs were so soft .
+{'Who V something ?': '', 'Who did someone V ?': 'Who was V ?', 'Where did someone V someone ?': '', 'What was V ?': ''}
+{'Ollie': {''}, 'Tommy': {'a very fierce warrior'}, 'up the long winding steps': {''}, 'steps': {''}, 'his legs': {''}}
+Compare 1:    with  legs
+Compare 2:    with  a very fierce warrior legs
+************************************************************
+************************************************************
+SENT:  The father carried the sleeping boy in his arms .
+PRONOUN his
+KNOW SENT Watching them carry my very upset boy away in their arms was tough .
+{'Who V something ?': '', 'What did someone V ?': '', 'Where did someone V someone ?': '', 'Who was V ?': '', 'Where was someone V ?': ''}
+{'The father': {''}, 'the sleeping boy': {''}, 'in his arms': {''}, 'boy': {''}}
+Compare 1:    with  in  arms
+Compare 1:    with  in  arms
+************************************************************
+************************************************************
+SENT:  The woman held the girl against her chest .
+PRONOUN her
+KNOW SENT He held her head against his chest , 
+{'Who V someone ?': 'Who V something ?', 'What did someone V ?': 'What did someone V something from ?', 'Where did someone V someone ?': 'Where did someone V something ?', 'What did someone V someone from ?': 'What did someone V something from ?'}
+{'The woman': {'He'}, 'the girl': {'his chest'}, 'against her chest': {'against his chest'}, 'her chest': {'his chest'}}
+Compare 1:  against his chest  with  against He chest
+Compare 1:  his chest  with  He chest
+************************************************************
+************************************************************
+SENT:  The woman held the girl against her will .
+PRONOUN her
+KNOW SENT There , he found an unoccupied apartment , where he held her against her will , police said .
+{'Who V someone ?': 'Who V someone ?', 'Who did someone V ?': '', 'How did someone V someone ?': 'How did someone V someone ?', 'What did someone V someone with ?': 'What did someone V someone with ?'}
+{'The woman': {'he'}, 'the girl': {''}, 'against her will': {'against her will'}, 'her will': {'her will'}}
+Compare 1:  against her will  with  against he will
+Compare 1:  her will  with  he will
+************************************************************
+************************************************************
+SENT:  Pam's parents came home and found her having sex with her boyfriend , Paul . They were furious about it .
+PRONOUN They
+KNOW SENT What if it were your daughter , and you found out she was six and having sex , I hope you would be furious , and
+{'Who V somewhere ?': '', 'Where did someone V ?': '', 'Who founded something ?': '', 'What did someone V ?': 'What did something V ?', 'Who V something ?': ''}
+{"Pam 's parents": {''}, 'home': {''}, 'her having sex with her boyfriend': {'she was six and having sex'}, 'her having sex with her boyfriend , Paul': {'she was six and having sex'}, 'her': {'she'}, 'sex': {'sex'}, 'sex with her boyfriend': {'sex'}, 'They': {''}, 'furious': {'your daughter'}, 'furious about it': {'your daughter'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Pam's parents came home and found her having sex with her boyfriend , Paul . They were embarrassed about it .
+PRONOUN They
+KNOW SENT This iconic gesture , depicting pulling shades up over the eyes , says that here is a man who was caught having sex and was very embarrassed as a result
+{'Who V somewhere ?': '', 'Where did someone V ?': '', 'Who founded something ?': '', 'What did someone V ?': 'What does something V ?', 'Who V something ?': ''}
+{"Pam 's parents": {''}, 'home': {''}, 'her having sex with her boyfriend': {''}, 'her having sex with her boyfriend , Paul': {''}, 'her': {''}, 'sex': {'sex'}, 'sex with her boyfriend': {'sex'}, 'They': {''}, 'embarrassed': {'a man'}, 'embarrassed about it': {'a man'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Dan had to stop Bill from toying with the injured bird . He is very compassionate .
+PRONOUN He
+KNOW SENT My friend stopped me from cutting my because I knew she cared but now I am stuck knowing she cut because she does not realize I care too .
+{'Who V to do something ?': '', 'What did someone V ?': '', 'What did someone V to do ?': '', 'Who V something ?': '', 'Who did someone V ?': '', 'How did someone V someone ?': '', 'What was someone V from ?': '', 'Who was V ?': '', 'What was someone V with ?': '', 'What does someone V ?': ''}
+{'Dan': {''}, 'to stop Bill from toying with the injured bird': {''}, 'stop Bill from toying with the injured bird': {''}, 'Bill': {''}, 'from toying with the injured bird': {''}, 'toying with the injured bird': {''}, 'the injured bird': {''}, 'He': {''}, 'very compassionate': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Dan had to stop Bill from toying with the injured bird . He is very cruel .
+PRONOUN He
+KNOW SENT Watch 16 pics of Cruel mistress toying her submissive fuck slave in tight bondage at PornPics .com .
+{'Who V to do something ?': '', 'What did someone V ?': '', 'What did someone V to do ?': '', 'Who V something ?': '', 'Who did someone V ?': '', 'How did someone V someone ?': '', 'What was someone V from ?': '', 'Who was V ?': 'Who was V ?', 'What was someone V with ?': '', 'What does someone V ?': ''}
+{'Dan': {''}, 'to stop Bill from toying with the injured bird': {''}, 'stop Bill from toying with the injured bird': {''}, 'Bill': {'', 'her submissive fuck slave'}, 'from toying with the injured bird': {''}, 'toying with the injured bird': {''}, 'the injured bird': {''}, 'He': {''}, 'very cruel': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Jane gave Joan candy because she was not hungry .
+PRONOUN she
+KNOW SENT I think I would just pass it because I either was not hungry at the time , or I just did not realize that was THE Giovanni's truck!
+{'Who V someone something ?': '', 'Who did someone V something ?': '', 'What did someone V ?': 'What did someone V ?', 'Why did someone V someone ?': '', 'Who V something ?': 'Who V something ?'}
+{'Jane': {''}, 'Joan': {''}, 'Joan candy': {''}, 'because she was not hungry': {''}, 'she': {'I'}, 'not hungry': {'not hungry'}}
+Compare 1:    with  because  was not hungry
+Compare 2:    with  because  was not hungry
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Jane gave Joan candy because she was hungry .
+PRONOUN she
+KNOW SENT Some kid gave me half his subway sandwich because I looked hungry here at the mall food court . He probably jizzed in it .
+{'Who V someone something ?': 'Who V something something ?', 'Who did someone V something ?': 'Who did someone V something ?', 'What did someone V ?': '', 'Why did someone V someone ?': 'Why did someone V something ?', 'Who V something ?': ''}
+{'Jane': {'Some kid'}, 'Joan': {'me'}, 'Joan candy': {'half his subway sandwich'}, 'because she was hungry': {'because I looked hungry here at the mall food court'}, 'she': {''}, 'hungry': {''}}
+Compare 1:  because I looked hungry here at the mall food court  with  because Some kid was hungry
+Compare 2:  because I looked hungry here at the mall food court  with  because me was hungry
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  James asked Robert for a favor but he was refused .
+PRONOUN he
+KNOW SENT Have you ever asked for but been refused a pay rise?
+{'Who V someone ?': 'Who V for something ?', 'Who did someone aske ?': '', 'What did someone V someone for ?': '', 'Who was V ?': 'Who was V something ?'}
+{'James': {'you'}, 'Robert': {''}, 'for a favor': {''}, 'a favor': {''}, 'he': {'you'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  James asked Robert for a favor but he refused .
+PRONOUN he
+KNOW SENT He asked the LORD what he should do , but the LORD refused to answer him , either by dreams or by sacred lots or by the prophets . 
+{'Who V someone ?': 'Who V someone something ?', 'Who did someone aske ?': '', 'What did someone V someone for ?': 'What did someone V someone ?', 'Who V ?': 'Who V to do something ?'}
+{'James': {'He'}, 'Robert': {''}, 'for a favor': {'what he should do'}, 'a favor': {'what he should do'}, 'he': {'the LORD'}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Kirilov ceded the presidency to Shatov because he was less popular .
+PRONOUN he
+KNOW SENT The major reason for the coup's defeat was that it was instantly unpopular .
+{'Who V something ?': '', 'What did someone V ?': 'What did something V ?', 'Who did someone V something to ?': '', 'Why did someone V something ?': ''}
+{'Kirilov': {''}, 'the presidency': {''}, 'Shatov': {''}, 'because he was less popular': {''}, 'he': {''}, 'less popular': {'instantly unpopular'}}
+Compare 1:    with  because  was less popular
+Compare 2:    with  because  was less popular
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Kirilov ceded the presidency to Shatov because he was more popular .
+PRONOUN he
+KNOW SENT The remnants have been ceded to London's Deliveroo , a pretty popular and conventional restaurant meal delivery service .
+{'Who V something ?': '', 'What did someone V ?': '', 'Who did someone V something to ?': '', 'Why did someone V something ?': ''}
+{'Kirilov': {''}, 'the presidency': {"London 's Deliveroo"}, 'Shatov': {''}, 'because he was more popular': {''}, 'he': {''}, 'more popular': {''}}
+Compare 1:    with  because  was more popular
+Compare 2:    with  because  was more popular
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  I put the heavy book on the table and it broke .
+PRONOUN it
+KNOW SENT A broken (fractured) toe is an injury normally caused by impact , usually from dropping a heavy object on the toe or stubbing the toe hard .
+{'Who V something ?': '', 'What did someone V ?': '', 'Where did someone V something ?': '', 'What V ?': ''}
+{'I': {''}, 'the heavy book': {''}, 'on the table': {''}, 'it': {''}}
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Madonna fired her trainer because she could not stand her boyfriend .
+PRONOUN she
+KNOW SENT He fired her simply because he hated her .
+{'Who V someone ?': 'Who V someone ?', 'Who did someone V ?': 'Who did someone V ?', 'Why did someone V someone ?': 'Why did someone V someone ?', "Who doesn't V ?": '', "Who can't V ?": '', "Who can't someone V ?": ''}
+{'Madonna': {'', 'He'}, 'her trainer': {'her'}, 'because she could not stand her boyfriend': {'because he hated her'}, 'she': {''}, 'her boyfriend': {''}}
+Compare 1:  because he hated her  with  because  could not stand her boyfriend
+Compare 1:  because he hated her  with  because He could not stand her boyfriend
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Madonna fired her trainer because she could not stand her boyfriend .
+PRONOUN her
+KNOW SENT He fired her simply because he hated her .
+{'Who V someone ?': 'Who V someone ?', 'Who did someone V ?': 'Who did someone V ?', 'Why did someone V someone ?': 'Why did someone V someone ?', "Who doesn't V ?": '', "Who can't V ?": '', "Who can't someone V ?": ''}
+{'Madonna': {'', 'He'}, 'her trainer': {'her'}, 'because she could not stand her boyfriend': {'because he hated her'}, 'she': {''}, 'her boyfriend': {''}}
+Compare 1:  her  with  trainer
+Compare 1:  her  with  He trainer
+Compare 1:  because he hated her  with  because she could not stand  boyfriend
+Compare 1:  because he hated her  with  because she could not stand He boyfriend
+Compare 1:    with  boyfriend
+Compare 1:    with  He boyfriend
+************************************************************
+************************************************************
+SENT:  Madonna fired her trainer because she slept with her boyfriend .
+PRONOUN she
+KNOW SENT I thought you fired me because I slept with your ex-wife .
+{'Who V someone ?': 'Who V someone ?', 'Who did someone V ?': 'Who did someone V ?', 'Why did someone V someone ?': 'Why did someone V someone ?', 'Who V ?': 'Who V ?', 'Who did someone V with ?': 'Who did someone V with ?'}
+{'Madonna': {'you'}, 'her trainer': {'me'}, 'because she slept with her boyfriend': {'because I slept with your ex-wife'}, 'she': {'I'}, 'her boyfriend': {'your ex-wife'}}
+Compare 1:  because I slept with your ex-wife  with  because you slept with her boyfriend
+THIS ISSUE FACED
+************************************************************
+************************************************************
+SENT:  Madonna fired her trainer because she slept with her boyfriend .
+PRONOUN her
+KNOW SENT I thought you fired me because I slept with your ex-wife .
+{'Who V someone ?': 'Who V someone ?', 'Who did someone V ?': 'Who did someone V ?', 'Why did someone V someone ?': 'Why did someone V someone ?', 'Who V ?': 'Who V ?', 'Who did someone V with ?': 'Who did someone V with ?'}
+{'Madonna': {'I', 'you'}, 'her trainer': {'me'}, 'because she slept with her boyfriend': {'because I slept with your ex-wife'}, 'she': {'I'}, 'her boyfriend': {'your ex-wife'}}
+Compare 1:  me  with  I trainer
+Compare 1:  me  with  you trainer
+Compare 1:  because I slept with your ex-wife  with  because she slept with I boyfriend
+Compare 1:  because I slept with your ex-wife  with  because she slept with you boyfriend
+Compare 1:  your ex-wife  with  I boyfriend
+Compare 1:  your ex-wife  with  you boyfriend
+************************************************************

@@ -1,0 +1,3137 @@
+[
+  {
+    "question": "The city councilmen refused the demonstrators a permit. ? because they feared violence .",
+    "pronoun": "they",
+    "choice1": "The city councilmen",
+    "choice2": "The demonstrators",
+    "ans": "The city councilmen",
+    "cand_ques": [
+      "The city councilmen refused the demonstrators a permit. ? because the city councilmen feared violence .",
+      "The city councilmen refused the demonstrators a permit. ? because the demonstrators feared violence ."
+    ]
+  },
+  {
+    "question": "The city councilmen refused the demonstrators a permit. ? because they advocated violence .",
+    "pronoun": "they",
+    "choice1": "The city councilmen",
+    "choice2": "The demonstrators",
+    "ans": "The demonstrators",
+    "cand_ques": [
+      "The city councilmen refused the demonstrators a permit. ? because the city councilmen advocated violence .",
+      "The city councilmen refused the demonstrators a permit. ? because the demonstrators advocated violence ."
+    ]
+  },
+  {
+    "question": "The trophy does not fit into the brown suitcase. ? because it is too large .",
+    "pronoun": "it",
+    "choice1": "the trophy",
+    "choice2": "the suitcase",
+    "ans": "the trophy",
+    "cand_ques": [
+      "The trophy does not fit into the brown suitcase. ? because the trophy is too large .",
+      "The trophy does not fit into the brown suitcase. ? because the suitcase is too large ."
+    ]
+  },
+  {
+    "question": "The trophy does not fit into the brown suitcase. ? because it is too small .",
+    "pronoun": "it",
+    "choice1": "the trophy",
+    "choice2": "the brown suitcase",
+    "ans": "the brown suitcase",
+    "cand_ques": [
+      "The trophy does not fit into the brown suitcase. ? because the trophy is too small .",
+      "The trophy does not fit into the brown suitcase. ? because the brown suitcase is too small ."
+    ]
+  },
+  {
+    "question": "Joan made sure to thank Susan for all the help. ? she had received .",
+    "pronoun": "she",
+    "choice1": "Joan",
+    "choice2": "Susan",
+    "ans": "Joan",
+    "cand_ques": [
+      "Joan made sure to thank Susan for all the help. ? joan had received .",
+      "Joan made sure to thank Susan for all the help. ? susan had received ."
+    ]
+  },
+  {
+    "question": "Joan made sure to thank Susan for all the help. ? she had given .",
+    "pronoun": "she",
+    "choice1": "Joan",
+    "choice2": "Susan",
+    "ans": "Susan",
+    "cand_ques": [
+      "Joan made sure to thank Susan for all the help. ? joan had given .",
+      "Joan made sure to thank Susan for all the help. ? susan had given ."
+    ]
+  },
+  {
+    "question": "Paul tried to call George on the phone. ? but he was not successful .",
+    "pronoun": "he",
+    "choice1": "Paul",
+    "choice2": "George",
+    "ans": "Paul",
+    "cand_ques": [
+      "Paul tried to call George on the phone. ? but paul was not successful .",
+      "Paul tried to call George on the phone. ? but george was not successful ."
+    ]
+  },
+  {
+    "question": "Paul tried to call George on the phone. ? but he was not available .",
+    "pronoun": "he",
+    "choice1": "Paul",
+    "choice2": "George",
+    "ans": "George",
+    "cand_ques": [
+      "Paul tried to call George on the phone. ? but paul was not available .",
+      "Paul tried to call George on the phone. ? but george was not available ."
+    ]
+  },
+  {
+    "question": "The lawyer asked the witness a question. ? but he was reluctant to repeat it .",
+    "pronoun": "he",
+    "choice1": "the lawyer",
+    "choice2": "the witness",
+    "ans": "the lawyer",
+    "cand_ques": [
+      "The lawyer asked the witness a question. ? but the lawyer was reluctant to repeat it .",
+      "The lawyer asked the witness a question. ? but the witness was reluctant to repeat it ."
+    ]
+  },
+  {
+    "question": "The lawyer asked the witness a question. ? but he was reluctant to answer it .",
+    "pronoun": "he",
+    "choice1": "the lawyer",
+    "choice2": "the witness",
+    "ans": "the witness",
+    "cand_ques": [
+      "The lawyer asked the witness a question. ? but the lawyer was reluctant to answer it .",
+      "The lawyer asked the witness a question. ? but the witness was reluctant to answer it ."
+    ]
+  },
+  {
+    "question": "The delivery truck zoomed by the school bus because it was going so fast .",
+    "pronoun": "it",
+    "choice1": "the delivery truck",
+    "choice2": "the school bus",
+    "ans": "the delivery truck",
+    "cand_ques": [
+      "The delivery truck zoomed by the school bus because ? the delivery truck was going so fast .",
+      "The delivery truck zoomed by the school bus because ? the school bus was going so fast ."
+    ]
+  },
+  {
+    "question": "The delivery truck zoomed by the school bus because it was going so slow .",
+    "pronoun": "it",
+    "choice1": "the delivery truck",
+    "choice2": "the school bus",
+    "ans": "the school bus",
+    "cand_ques": [
+      "The delivery truck zoomed by the school bus because ? the delivery truck was going so slow .",
+      "The delivery truck zoomed by the school bus because ? the school bus was going so slow ."
+    ]
+  },
+  {
+    "question": "Frank felt vindicated when his longtime rival Bill revealed that. ? he was the winner of the competition .",
+    "pronoun": "he",
+    "choice1": "Frank",
+    "choice2": "Bill",
+    "ans": "Frank",
+    "cand_ques": [
+      "Frank felt vindicated when his longtime rival Bill revealed that. ? frank was the winner of the competition .",
+      "Frank felt vindicated when his longtime rival Bill revealed that. ? bill was the winner of the competition ."
+    ]
+  },
+  {
+    "question": "Frank felt crushed when his longtime rival Bill revealed that. ? he was the winner of the competition .",
+    "pronoun": "he",
+    "choice1": "Frank",
+    "choice2": "Bill",
+    "ans": "Bill",
+    "cand_ques": [
+      "Frank felt crushed when his longtime rival Bill revealed ? that frank was the winner of the competition .",
+      "Frank felt crushed when his longtime rival Bill revealed ? that bill was the winner of the competition ."
+    ]
+  },
+  {
+    "question": "The man could not lift his son. ? because he was so weak .",
+    "pronoun": "he",
+    "choice1": "The man",
+    "choice2": "The son",
+    "ans": "The man",
+    "cand_ques": [
+      "The man could not lift his son ? because the man was so weak .",
+      "The man could not lift his son ? because the son was so weak ."
+    ]
+  },
+  {
+    "question": "The man could not lift his son. ? because he was so heavy .",
+    "pronoun": "he",
+    "choice1": "The man",
+    "choice2": "his son",
+    "ans": "his son",
+    "cand_ques": [
+      "The man could not lift his son. ? because the man was so heavy .",
+      "The man could not lift his son. ? because his son was so heavy ."
+    ]
+  },
+  {
+    "question": "The large ball crashed right through the table. ? because it was made of steel .",
+    "pronoun": "it",
+    "choice1": "The large ball",
+    "choice2": "The table",
+    "ans": "The large ball",
+    "cand_ques": [
+      "The large ball crashed right through the table. ? because the large ball was made of steel .",
+      "The large ball crashed right through the table. ? because the table was made of steel ."
+    ]
+  },
+  {
+    "question": "The large ball crashed right through the table. ? because it was made of styrofoam .",
+    "pronoun": "it",
+    "choice1": "The large ball",
+    "choice2": "The table",
+    "ans": "The table",
+    "cand_ques": [
+      "The large ball crashed right through ? the table because the large ball was made of styrofoam .",
+      "The large ball crashed right through ? the table because the table was made of styrofoam ."
+    ]
+  },
+  {
+    "question": "John could not see the stage with Billy in front of him. ? because he is so short .",
+    "pronoun": "he",
+    "choice1": "John",
+    "choice2": "Billy",
+    "ans": "John",
+    "cand_ques": [
+      "John could not see the stage with Billy in front of him. ? because john is so short .",
+      "John could not see the stage with Billy in front of him. ? because billy is so short ."
+    ]
+  },
+  {
+    "question": "John could not see the stage with Billy in front of him. ? because he is so tall .",
+    "pronoun": "he",
+    "choice1": "John",
+    "choice2": "Billy",
+    "ans": "Billy",
+    "cand_ques": [
+      "John could not see the stage with Billy in front of him ? because john is so tall .",
+      "John could not see the stage with Billy in front of him ? because billy is so tall ."
+    ]
+  },
+  {
+    "question": "Tom threw his schoolbag down to Ray . ? after he reached the top of the stairs .",
+    "pronoun": "he",
+    "choice1": "Tom",
+    "choice2": "Ray",
+    "ans": "Tom",
+    "cand_ques": [
+      "Tom threw his schoolbag down to ? Ray after tom reached the top of the stairs .",
+      "Tom threw his schoolbag down to ? Ray after ray reached the top of the stairs ."
+    ]
+  },
+  {
+    "question": "Tom threw his schoolbag down to Ray. ? after he reached the bottom of the stairs .",
+    "pronoun": "he",
+    "choice1": "Tom",
+    "choice2": "Ray",
+    "ans": "Ray",
+    "cand_ques": [
+      "Tom threw his schoolbag down to Ray ? after tom reached the bottom of the stairs .",
+      "Tom threw his schoolbag down to Ray ? after ray reached the bottom of the stairs ."
+    ]
+  },
+  {
+    "question": "Although they ran at about the same speed , Sue beat Sally. ? because she had such a good start .",
+    "pronoun": "she",
+    "choice1": "Sue",
+    "choice2": "Sally",
+    "ans": "Sue",
+    "cand_ques": [
+      "Although they ran at about the same speed , Sue beat Sally. ? because sue had such a good start .",
+      "Although they ran at about the same speed , Sue beat Sally. ? because sally had such a good start ."
+    ]
+  },
+  {
+    "question": "Although they ran at about the same speed , Sue beat Sally. ? because she had such a bad start .",
+    "pronoun": "she",
+    "choice1": "Sue",
+    "choice2": "Sally",
+    "ans": "Sally",
+    "cand_ques": [
+      "Although they ran at about the same speed , Sue beat Sally. ? because sue had such a bad start .",
+      "Although they ran at about the same speed , Sue beat Sally. ? because sally had such a bad start ."
+    ]
+  },
+  {
+    "question": "The sculpture rolled off the shelf. ? because it was not anchored .",
+    "pronoun": "it",
+    "choice1": "The sculpture",
+    "choice2": "The shelf",
+    "ans": "The sculpture",
+    "cand_ques": [
+      "The sculpture rolled off the shelf. ? because the sculpture was not anchored .",
+      "The sculpture rolled off the shelf. ? because the shelf was not anchored ."
+    ]
+  },
+  {
+    "question": "The sculpture rolled off the shelf. ? because it was not level .",
+    "pronoun": "it",
+    "choice1": "The sculpture",
+    "choice2": "The shelf",
+    "ans": "The shelf",
+    "cand_ques": [
+      "The sculpture rolled off the shelf. ? because the sculpture was not level .",
+      "The sculpture rolled off the shelf. ? because the shelf was not level ."
+    ]
+  },
+  {
+    "question": "Sam's drawing was hung just above Tina's. ? and it did look much better with another one below it .",
+    "pronoun": "it",
+    "choice1": "Sam's drawing",
+    "choice2": "Tina's",
+    "ans": "Sam's drawing",
+    "cand_ques": [
+      "Sam's drawing was hung just above Tina's. ? and sam's drawing did look much better with another one below sam's drawing .",
+      "Sam's drawing was hung just above Tina's. ? and tina's did look much better with another one below tina's ."
+    ]
+  },
+  {
+    "question": "Sam's drawing was hung just above Tina's. ? and it did look much better with another one above it .",
+    "pronoun": "it",
+    "choice1": "Sam's drawing",
+    "choice2": "Tina's",
+    "ans": "Tina's",
+    "cand_ques": [
+      "Sam's drawing was hung just above Tina's. ? and sam's drawing did look much better with another one above sam's drawing .",
+      "Sam's drawing was hung just above Tina's. ? and tina's did look much better with another one above tina's ."
+    ]
+  },
+  {
+    "question": "Anna did a lot better than her good friend Lucy on the test. ? because she had studied so hard .",
+    "pronoun": "she",
+    "choice1": "Anna",
+    "choice2": "Lucy",
+    "ans": "Anna",
+    "cand_ques": [
+      "Anna did a lot better than her good friend Lucy on the test. ? because anna had studied so hard .",
+      "Anna did a lot better than her good friend Lucy on the test. ? because lucy had studied so hard ."
+    ]
+  },
+  {
+    "question": "Anna did a lot worse than her good friend Lucy on the test. ? because she had studied so hard .",
+    "pronoun": "she",
+    "choice1": "Anna",
+    "choice2": "Lucy",
+    "ans": "Lucy",
+    "cand_ques": [
+      "Anna did a lot worse than her good friend Lucy on the test. ? because anna had studied so hard .",
+      "Anna did a lot worse than her good friend Lucy on the test. ? because lucy had studied so hard ."
+    ]
+  },
+  {
+    "question": "The firemen arrived after the police. ? because they were coming from so far away .",
+    "pronoun": "they",
+    "choice1": "The firemen",
+    "choice2": "The police",
+    "ans": "The firemen",
+    "cand_ques": [
+      "The firemen arrived after the police. ? because the firemen were coming from so far away .",
+      "The firemen arrived after the police. ? because the police were coming from so far away ."
+    ]
+  },
+  {
+    "question": "The firemen arrived before the police. ? because they were coming from so far away .",
+    "pronoun": "they",
+    "choice1": "The firemen",
+    "choice2": "The police",
+    "ans": "The police",
+    "cand_ques": [
+      "The firemen arrived before the police. ? because the firemen were coming from so far away .",
+      "The firemen arrived before the police. ? because the police were coming from so far away ."
+    ]
+  },
+  {
+    "question": "Frank was upset with Tom. ? because the toaster he had bought from him did not work .",
+    "pronoun": "he",
+    "choice1": "Frank",
+    "choice2": "Tom",
+    "ans": "Frank",
+    "cand_ques": [
+      "Frank was upset with Tom. ? because the toaster frank had bought from him did not work .",
+      "Frank was upset with Tom. ? because the toaster tom had bought from him did not work ."
+    ]
+  },
+  {
+    "question": "Frank was upset with Tom. ? because the toaster he had sold him did not work .",
+    "pronoun": "he",
+    "choice1": "Frank",
+    "choice2": "Tom",
+    "ans": "Tom",
+    "cand_ques": [
+      "Frank was upset with Tom. ? because the toaster frank had sold him did not work .",
+      "Frank was upset with Tom. ? because the toaster tom had sold him did not work ."
+    ]
+  },
+  {
+    "question": "Jim yelled at Kevin. ? because he was so upset .",
+    "pronoun": "he",
+    "choice1": "Jim",
+    "choice2": "Kevin",
+    "ans": "Jim",
+    "cand_ques": [
+      "Jim yelled at Kevin. ? because jim was so upset .",
+      "Jim yelled at Kevin. ? because kevin was so upset ."
+    ]
+  },
+  {
+    "question": "Jim comforted Kevin. ? because he was so upset .",
+    "pronoun": "he",
+    "choice1": "Jim",
+    "choice2": "Kevin",
+    "ans": "Kevin",
+    "cand_ques": [
+      "Jim comforted Kevin. ? because jim was so upset .",
+      "Jim comforted Kevin. ? because kevin was so upset ."
+    ]
+  },
+  {
+    "question": "The sack of potatoes had been placed above the bag of flour . ? so it had to be moved first .",
+    "pronoun": "it",
+    "choice1": "The sack of potatoes",
+    "choice2": "The bag of flour",
+    "ans": "The sack of potatoes",
+    "cand_ques": [
+      "The sack of potatoes had been placed above the bag of flour . ? so the sack of potatoes had to be moved first .",
+      "The sack of potatoes had been placed above the bag of flour . ? so the bag of flour had to be moved first ."
+    ]
+  },
+  {
+    "question": "The sack of potatoes had been placed below the bag of flour . ? so it had to be moved first .",
+    "pronoun": "it",
+    "choice1": "The sack of potatoes",
+    "choice2": "The bag of flour",
+    "ans": "The bag of flour",
+    "cand_ques": [
+      "The sack of potatoes had been placed below the bag of flour . ? so the sack of potatoes had to be moved first .",
+      "The sack of potatoes had been placed below the bag of flour . ? so the bag of flour had to be moved first ."
+    ]
+  },
+  {
+    "question": "Pete envies . ? Martin although he is very successful .",
+    "pronoun": "he",
+    "choice1": "Pete",
+    "choice2": "Martin",
+    "ans": "Pete",
+    "cand_ques": [
+      "Pete envies . ? Martin although pete is very successful .",
+      "Pete envies . ? Martin although martin is very successful ."
+    ]
+  },
+  {
+    "question": "Pete envies Martin . ? because he is very successful .",
+    "pronoun": "he",
+    "choice1": "Pete",
+    "choice2": "Martin",
+    "ans": "Martin",
+    "cand_ques": [
+      "Pete envies . ? Martin because pete is very successful .",
+      "Pete envies . ? Martin because martin is very successful ."
+    ]
+  },
+  {
+    "question": "The older students were bullying the younger ones . ? so we punished them  .",
+    "pronoun": "them",
+    "choice1": "The older students",
+    "choice2": "The younger ones",
+    "ans": "The older students",
+    "cand_ques": [
+      "The older students were bullying the younger ones ? so we punished the older students  .",
+      "The older students were bullying the younger ones ? so we punished the younger ones  ."
+    ]
+  },
+  {
+    "question": "The older students were bullying the younger ones . ? so we rescued them  .",
+    "pronoun": "them",
+    "choice1": "The older students",
+    "choice2": "The younger ones",
+    "ans": "The younger ones",
+    "cand_ques": [
+      "The older students were bullying the younger ones . ? so we rescued the older students  .",
+      "The older students were bullying the younger ones . ? so we rescued the younger ones  ."
+    ]
+  },
+  {
+    "question": "I poured water from the bottle into the cup . ? until it was empty .",
+    "pronoun": "it",
+    "choice1": "the bottle",
+    "choice2": "the cup",
+    "ans": "the bottle",
+    "cand_ques": [
+      "I poured water from the bottle into the cup . ? until the bottle was empty .",
+      "I poured water from the bottle into the cup . ? until the cup was empty ."
+    ]
+  },
+  {
+    "question": "I poured water from the bottle into the cup . ? until it was full .",
+    "pronoun": "it",
+    "choice1": "the bottle",
+    "choice2": "the cup",
+    "ans": "the cup",
+    "cand_ques": [
+      "I poured water from the bottle into the cup . ? until the bottle was full .",
+      "I poured water from the bottle into the cup . ? until the cup was full ."
+    ]
+  },
+  {
+    "question": "Susan knows all about Ann's personal problems . ? because she is nosy .",
+    "pronoun": "she",
+    "choice1": "Susan",
+    "choice2": "Ann",
+    "ans": "Susan",
+    "cand_ques": [
+      "Susan knows all about Ann's personal problems . ? because susan is nosy .",
+      "Susan knows all about Ann's personal problems . ? because ann is nosy ."
+    ]
+  },
+  {
+    "question": "Susan knows all about Ann's personal problems . ? because she is indiscreet .",
+    "pronoun": "she",
+    "choice1": "Susan",
+    "choice2": "Ann",
+    "ans": "Ann",
+    "cand_ques": [
+      "Susan knows all about Ann's personal problems . ? because susan is indiscreet .",
+      "Susan knows all about Ann's personal problems . ? because ann is indiscreet ."
+    ]
+  },
+  {
+    "question": "Sid explained his theory to Mark . ? but he could not convince him .",
+    "pronoun": "him",
+    "choice1": "Sid",
+    "choice2": "Mark",
+    "ans": "Mark",
+    "cand_ques": [
+      "Sid explained his theory to Mark . ? but he could not convince sid .",
+      "Sid explained his theory to Mark . ? but he could not convince mark ."
+    ]
+  },
+  {
+    "question": "Sid explained his theory to Mark . ? but he could not understand him .",
+    "pronoun": "him",
+    "choice1": "Sid",
+    "choice2": "Mark",
+    "ans": "Sid",
+    "cand_ques": [
+      "Sid explained his theory to Mark . ? but he could not understand sid .",
+      "Sid explained his theory to Mark . ? but he could not understand mark ."
+    ]
+  },
+  {
+    "question": "Susan knew that Ann's son had been in a car accident . ? so she told her about it .",
+    "pronoun": "she",
+    "choice1": "Susan",
+    "choice2": "Ann",
+    "ans": "Susan",
+    "cand_ques": [
+      "Susan knew that Ann's son had been in a car accident . ? so susan told her about it .",
+      "Susan knew that Ann's son had been in a car accident . ? so ann told her about it ."
+    ]
+  },
+  {
+    "question": "Susan knew that Ann's son had been in a car accident because ? she told her about it .",
+    "pronoun": "she",
+    "choice1": "Susan",
+    "choice2": "Ann",
+    "ans": "Ann",
+    "cand_ques": [
+      "Susan knew that Ann's son had been in a car accident  because ? susan told her about it .",
+      "Susan knew that Ann's son had been in a car accident  because ? ann told her about it ."
+    ]
+  },
+  {
+    "question": "Joe's uncle can still beat him at tennis . ? even though he is 30 years younger .",
+    "pronoun": "he",
+    "choice1": "Joe",
+    "choice2": "Joe's uncle",
+    "ans": "Joe",
+    "cand_ques": [
+      "Joe's uncle can still beat him at tennis . ? even though joe is 30 years younger .",
+      "Joe's uncle can still beat him at tennis . ? even though joe's uncle is 30 years younger ."
+    ]
+  },
+  {
+    "question": "Joe's uncle can still beat him at tennis . ? even though he is 30 years older .",
+    "pronoun": "he",
+    "choice1": "Joe",
+    "choice2": "Joe's uncle",
+    "ans": "Joe's uncle",
+    "cand_ques": [
+      "Joe's uncle can still beat him at tennis . ? even though joe is 30 years older .",
+      "Joe's uncle can still beat him at tennis . ? even though joe's uncle is 30 years older ."
+    ]
+  },
+  {
+    "question": "The painting in Mark's living room shows an oak tree . ? It is to the right of the bookcase .",
+    "pronoun": "It",
+    "choice1": "The painting",
+    "choice2": "The oak tree",
+    "ans": "The painting",
+    "cand_ques": [
+      "The painting in Mark's living room shows an oak tree . ? the painting is to the right of the bookcase .",
+      "The painting in Mark's living room shows an oak tree . ? the oak tree is to the right of the bookcase ."
+    ]
+  },
+  {
+    "question": "The painting in Mark's living room shows an oak tree . ? It is to the right of a house .",
+    "pronoun": "It",
+    "choice1": "The painting",
+    "choice2": "The oak tree",
+    "ans": "The oak tree",
+    "cand_ques": [
+      "The painting in Mark's living room shows an oak tree . ? the painting is to the right of a house .",
+      "The painting in Mark's living room shows an oak tree . ? the oak tree is to the right of a house ."
+    ]
+  },
+  {
+    "question": "There is a gap in the wall . ? You can see the garden through it  .",
+    "pronoun": "it",
+    "choice1": "The gap",
+    "choice2": "The wall",
+    "ans": "The gap",
+    "cand_ques": [
+      "There is a gap in the wall . ? You can see the garden through the gap  .",
+      "There is a gap in the wall . ? You can see the garden through the wall  ."
+    ]
+  },
+  {
+    "question": "There is a gap in the wall . ? You can see the garden behind it  .",
+    "pronoun": "it",
+    "choice1": "The gap",
+    "choice2": "The wall",
+    "ans": "The wall",
+    "cand_ques": [
+      "There is a gap in the wall . ? You can see the garden behind the gap  .",
+      "There is a gap in the wall . ? You can see the garden behind the wall  ."
+    ]
+  },
+  {
+    "question": "The drain is clogged with hair . ? It has to be cleaned .",
+    "pronoun": "It",
+    "choice1": "The drain",
+    "choice2": "The hair",
+    "ans": "The drain",
+    "cand_ques": [
+      "The drain is clogged with hair . ? the drain has to be cleaned .",
+      "The drain is clogged with hair . ? the hair has to be cleaned ."
+    ]
+  },
+  {
+    "question": "The drain is clogged with hair . ? It has to be removed .",
+    "pronoun": "It",
+    "choice1": "The drain",
+    "choice2": "The hair",
+    "ans": "The hair",
+    "cand_ques": [
+      "The drain is clogged with hair . ? the drain has to be removed .",
+      "The drain is clogged with hair . ? the hair has to be removed ."
+    ]
+  },
+  {
+    "question": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . ? Luckily , it was short , so it worked out .",
+    "pronoun": "it",
+    "choice1": "The meeting",
+    "choice2": "The train",
+    "ans": "The meeting",
+    "cand_ques": [
+      "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . ? Luckily , the meeting was short , so the meeting worked out .",
+      "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . ? Luckily , the train was short , so the train worked out ."
+    ]
+  },
+  {
+    "question": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . ? Luckily , it was delayed , so it worked out .",
+    "pronoun": "it",
+    "choice1": "The meeting",
+    "choice2": "The train",
+    "ans": "The train",
+    "cand_ques": [
+      "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . ? Luckily , the meeting was delayed , so the meeting worked out .",
+      "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . ? Luckily , the train was delayed , so the train worked out ."
+    ]
+  },
+  {
+    "question": "There is a pillar between me and the stage . ? and I can not see around it  .",
+    "pronoun": "it",
+    "choice1": "The pillar",
+    "choice2": "The stage",
+    "ans": "The pillar",
+    "cand_ques": [
+      "There is a pillar between me and the stage . ? and I can not see around the pillar  .",
+      "There is a pillar between me and the stage . ? and I can not see around the stage  ."
+    ]
+  },
+  {
+    "question": "There is a pillar between me and the stage . ? and I can not see it  .",
+    "pronoun": "it",
+    "choice1": "The pillar",
+    "choice2": "The stage",
+    "ans": "The stage",
+    "cand_ques": [
+      "There is a pillar between me and the stage . ? and I can not see the pillar  .",
+      "There is a pillar between me and the stage . ? and I can not see the stage  ."
+    ]
+  },
+  {
+    "question": "They broadcast an announcement . ? but a subway came into the station and I could not hear it  .",
+    "pronoun": "it",
+    "choice1": "The announcement",
+    "choice2": "The subway",
+    "ans": "The announcement",
+    "cand_ques": [
+      "They broadcast an announcement . ? but a subway came into the station and I could not hear the announcement  .",
+      "They broadcast an announcement . ? but a subway came into the station and I could not hear the subway  ."
+    ]
+  },
+  {
+    "question": "They broadcast an announcement . ? but a subway came into the station and I could not hear over it  .",
+    "pronoun": "it",
+    "choice1": "The announcement",
+    "choice2": "The subway",
+    "ans": "The subway",
+    "cand_ques": [
+      "They broadcast an announcement . ? but a subway came into the station and I could not hear over the announcement  .",
+      "They broadcast an announcement . ? but a subway came into the station and I could not hear over the subway  ."
+    ]
+  },
+  {
+    "question": "In the middle of the outdoor concert , the rain started falling . ? but it continued until 10 .",
+    "pronoun": "it",
+    "choice1": "The concert",
+    "choice2": "The rain",
+    "ans": "The concert",
+    "cand_ques": [
+      "In the middle of the outdoor concert , the rain started falling . ? but the concert continued until 10 .",
+      "In the middle of the outdoor concert , the rain started falling . ? but the rain continued until 10 ."
+    ]
+  },
+  {
+    "question": "In the middle of the outdoor concert , the rain started falling . ? and it continued until 10 .",
+    "pronoun": "it",
+    "choice1": "The concert",
+    "choice2": "The rain",
+    "ans": "The rain",
+    "cand_ques": [
+      "In the middle of the outdoor concert , the rain started falling . ? and the concert continued until 10 .",
+      "In the middle of the outdoor concert , the rain started falling . ? and the rain continued until 10 ."
+    ]
+  },
+  {
+    "question": "I used an old rag to clean the knife . ? and then I put it in the trash .",
+    "pronoun": "it",
+    "choice1": "The rag",
+    "choice2": "The knife",
+    "ans": "The rag",
+    "cand_ques": [
+      "I used an old rag to clean the knife . ? and then I put the rag in the trash .",
+      "I used an old rag to clean the knife . ? and then I put the knife in the trash ."
+    ]
+  },
+  {
+    "question": "I used an old rag to clean the knife . ? and then I put it in the drawer .",
+    "pronoun": "it",
+    "choice1": "The rag",
+    "choice2": "The knife",
+    "ans": "The knife",
+    "cand_ques": [
+      "I used an old rag to clean the knife . ? and then I put the rag in the drawer .",
+      "I used an old rag to clean the knife . ? and then I put the knife in the drawer ."
+    ]
+  },
+  {
+    "question": "Ann asked Mary what time the library closes . ? because she had forgotten .",
+    "pronoun": "she",
+    "choice1": "Ann",
+    "choice2": "Mary",
+    "ans": "Ann",
+    "cand_ques": [
+      "Ann asked Mary what time the library closes . ? because ann had forgotten .",
+      "Ann asked Mary what time the library closes . ? because mary had forgotten ."
+    ]
+  },
+  {
+    "question": "Ann asked Mary what time the library closes . ? but she had forgotten .",
+    "pronoun": "she",
+    "choice1": "Ann",
+    "choice2": "Mary",
+    "ans": "Mary",
+    "cand_ques": [
+      "Ann asked Mary what time the library closes . ? but ann had forgotten .",
+      "Ann asked Mary what time the library closes . ? but mary had forgotten ."
+    ]
+  },
+  {
+    "question": "I took the water bottle out of the backpack . ? so that it would be handy .",
+    "pronoun": "it",
+    "choice1": "The water bottle",
+    "choice2": "The backpack",
+    "ans": "The water bottle",
+    "cand_ques": [
+      "I took the water bottle out of the backpack . ? so that the water bottle would be handy .",
+      "I took the water bottle out of the backpack . ? so that the backpack would be handy ."
+    ]
+  },
+  {
+    "question": "I took the water bottle out of the backpack . ? so that it would be lighter .",
+    "pronoun": "it",
+    "choice1": "The water bottle",
+    "choice2": "The backpack",
+    "ans": "The backpack",
+    "cand_ques": [
+      "I took the water bottle out of the backpack . ? so that the water bottle would be lighter .",
+      "I took the water bottle out of the backpack . ? so that the backpack would be lighter ."
+    ]
+  },
+  {
+    "question": "I could not put the pot on the shelf . ? because it was too tall .",
+    "pronoun": "it",
+    "choice1": "The pot",
+    "choice2": "The shelf",
+    "ans": "The pot",
+    "cand_ques": [
+      "I could not put the pot on the shelf . ? because the pot was too tall .",
+      "I could not put the pot on the shelf . ? because the shelf was too tall ."
+    ]
+  },
+  {
+    "question": "I could not put the pot on the shelf . ? because it was too high .",
+    "pronoun": "it",
+    "choice1": "The pot",
+    "choice2": "The shelf",
+    "ans": "The shelf",
+    "cand_ques": [
+      "I could not put the pot on the shelf . ? because the pot was too high .",
+      "I could not put the pot on the shelf . ? because the shelf was too high ."
+    ]
+  },
+  {
+    "question": "I am sure that my map will show this building . ? it is very good .",
+    "pronoun": "it",
+    "choice1": "The map",
+    "choice2": "The building",
+    "ans": "The map",
+    "cand_ques": [
+      "I am sure that my map will show this building . ? the map is very good .",
+      "I am sure that my map will show this building . ? the building is very good ."
+    ]
+  },
+  {
+    "question": "I am sure that my map will show this building . ? it is very famous .",
+    "pronoun": "it",
+    "choice1": "The map",
+    "choice2": "The building",
+    "ans": "The building",
+    "cand_ques": [
+      "I am sure that my map will show this building . ? the map is very famous .",
+      "I am sure that my map will show this building . ? the building is very famous ."
+    ]
+  },
+  {
+    "question": "Bob paid for Charlie's college education . ? He is very generous .",
+    "pronoun": "He",
+    "choice1": "Bob",
+    "choice2": "Charlie",
+    "ans": "Bob",
+    "cand_ques": [
+      "Bob paid for Charlie's college education . ? bob is very generous .",
+      "Bob paid for Charlie's college education . ? charlie is very generous ."
+    ]
+  },
+  {
+    "question": "Bob paid for Charlie's college education . ? He is very grateful .",
+    "pronoun": "He",
+    "choice1": "Bob",
+    "choice2": "Charlie",
+    "ans": "Charlie",
+    "cand_ques": [
+      "Bob paid for Charlie's college education . ? bob is very grateful .",
+      "Bob paid for Charlie's college education . ? charlie is very grateful ."
+    ]
+  },
+  {
+    "question": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . ? He is very hurt .",
+    "pronoun": "He",
+    "choice1": "Bob",
+    "choice2": "Charlie",
+    "ans": "Bob",
+    "cand_ques": [
+      "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . ? bob is very hurt .",
+      "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . ? charlie is very hurt ."
+    ]
+  },
+  {
+    "question": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . ? He is very ungrateful .",
+    "pronoun": "He",
+    "choice1": "Bob",
+    "choice2": "Charlie",
+    "ans": "Charlie",
+    "cand_ques": [
+      "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . ? bob is very ungrateful .",
+      "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . ? charlie is very ungrateful ."
+    ]
+  },
+  {
+    "question": "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck . ? he would have won .",
+    "pronoun": "he",
+    "choice1": "Bob",
+    "choice2": "Adam",
+    "ans": "Bob",
+    "cand_ques": [
+      "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck . ? bob would have won .",
+      "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck . ? adam would have won ."
+    ]
+  },
+  {
+    "question": "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck . ? he would have lost .",
+    "pronoun": "he",
+    "choice1": "Bob",
+    "choice2": "Adam",
+    "ans": "Adam",
+    "cand_ques": [
+      "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck . ? bob would have lost .",
+      "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck . ? adam would have lost ."
+    ]
+  },
+  {
+    "question": "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time . ? he would be gone by this time .",
+    "pronoun": "he",
+    "choice1": "Adam",
+    "choice2": "Bob",
+    "ans": "Adam",
+    "cand_ques": [
+      "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time . ? adam would be gone by this time .",
+      "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time . ? bob would be gone by this time ."
+    ]
+  },
+  {
+    "question": "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time . ? he would be here by this time .",
+    "pronoun": "he",
+    "choice1": "Adam",
+    "choice2": "Bob",
+    "ans": "Bob",
+    "cand_ques": [
+      "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time . ? adam would be here by this time .",
+      "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time . ? bob would be here by this time ."
+    ]
+  },
+  {
+    "question": "If the con artist has succeeded in fooling Sam . ? he would have gotten a lot of money .",
+    "pronoun": "he",
+    "choice1": "The con artist",
+    "choice2": "Sam",
+    "ans": "The con artist",
+    "cand_ques": [
+      "If the con artist has succeeded in fooling Sam . ? the con artist would have gotten a lot of money .",
+      "If the con artist has succeeded in fooling Sam . ? sam would have gotten a lot of money ."
+    ]
+  },
+  {
+    "question": "If the con artist has succeeded in fooling Sam . ? he would have lost a lot of money .",
+    "pronoun": "he",
+    "choice1": "The con artist",
+    "choice2": "Sam",
+    "ans": "Sam",
+    "cand_ques": [
+      "If the con artist has succeeded in fooling Sam . ? the con artist would have lost a lot of money .",
+      "If the con artist has succeeded in fooling Sam . ? sam would have lost a lot of money ."
+    ]
+  },
+  {
+    "question": "It was a summer afternoon , and the dog was sitting in the middle of the lawn. After a while , it got up and moved to a spot under the tree. ? because it was hot .",
+    "pronoun": "it",
+    "choice1": "The dog",
+    "choice2": "The spot under the tree",
+    "ans": "The dog",
+    "cand_ques": [
+      "It was a summer afternoon , and the dog was sitting in the middle of the lawn. After a while , the dog got up and moved to a spot under the tree. ? because the dog was hot .",
+      "It was a summer afternoon , and the dog was sitting in the middle of the lawn. After a while , the spot under the tree got up and moved to a spot under the tree. ? because the spot under the tree was hot ."
+    ]
+  },
+  {
+    "question": "It was a summer afternoon , and the dog was sitting in the middle of the lawn. After a while , it got up and moved to a spot under the tree. ? because it was cooler .",
+    "pronoun": "it",
+    "choice1": "The dog",
+    "choice2": "The spot under the tree",
+    "ans": "The spot under the tree",
+    "cand_ques": [
+      "It was a summer afternoon , and the dog was sitting in the middle of the lawn. After a while , the dog got up and moved to a spot under the tree. ? because the dog was cooler .",
+      "It was a summer afternoon , and the dog was sitting in the middle of the lawn. After a while , the spot under the tree got up and moved to a spot under the tree. ? because the spot under the tree was cooler ."
+    ]
+  },
+  {
+    "question": "The cat was lying by the mouse hole waiting for the mouse . ? but it was too impatient .",
+    "pronoun": "it",
+    "choice1": "The cat",
+    "choice2": "The mouse",
+    "ans": "The cat",
+    "cand_ques": [
+      "The cat was lying by the mouse hole waiting for the mouse . ? but the cat was too impatient .",
+      "The cat was lying by the mouse hole waiting for the mouse . ? but the mouse was too impatient ."
+    ]
+  },
+  {
+    "question": "The cat was lying by the mouse hole waiting for the mouse . ? but it was too cautious .",
+    "pronoun": "it",
+    "choice1": "The cat",
+    "choice2": "The mouse",
+    "ans": "The mouse",
+    "cand_ques": [
+      "The cat was lying by the mouse hole waiting for the mouse . ? but the cat was too cautious .",
+      "The cat was lying by the mouse hole waiting for the mouse . ? but the mouse was too cautious ."
+    ]
+  },
+  {
+    "question": "Anne gave birth to a daughter last month . ? She is a very charming woman .",
+    "pronoun": "She",
+    "choice1": "Anne",
+    "choice2": "daughter",
+    "ans": "Anne",
+    "cand_ques": [
+      "Anne gave birth to a daughter last month . ? anne is a very charming woman .",
+      "Anne gave birth to a daughter last month . ? daughter is a very charming woman ."
+    ]
+  },
+  {
+    "question": "Anne gave birth to a daughter last month . ? She is a very charming baby .",
+    "pronoun": "She",
+    "choice1": "Anne",
+    "choice2": "daughter",
+    "ans": "daughter",
+    "cand_ques": [
+      "Anne gave birth to a daughter last month . ? anne is a very charming baby .",
+      "Anne gave birth to a daughter last month . ? daughter is a very charming baby ."
+    ]
+  },
+  {
+    "question": "Alice tried frantically to stop her daughter from chatting at the party leaving us to wonder. ? why she was behaving so strangely .",
+    "pronoun": "she",
+    "choice1": "Alice",
+    "choice2": "daughter",
+    "ans": "Alice",
+    "cand_ques": [
+      "Alice tried frantically to stop her daughter from chatting at the party leaving us to wonder. ? why alice was behaving so strangely .",
+      "Alice tried frantically to stop her daughter from chatting at the party leaving us to wonder. ? why daughter was behaving so strangely ."
+    ]
+  },
+  {
+    "question": "Alice tried frantically to stop her daughter from barking at the party leaving us to wonder. ? why she was behaving so strangely .",
+    "pronoun": "she",
+    "choice1": "Alice",
+    "choice2": "daughter",
+    "ans": "daughter",
+    "cand_ques": [
+      "Alice tried frantically to stop her daughter from barking at the party leaving us to wonder. ? why alice was behaving so strangely .",
+      "Alice tried frantically to stop her daughter from barking at the party leaving us to wonder. ? why daughter was behaving so strangely ."
+    ]
+  },
+  {
+    "question": "I saw Jim yelling at some guy in a military uniform with a huge red beard I do not know why he was. ? but he looked very unhappy .",
+    "pronoun": "he",
+    "choice1": "Jim",
+    "choice2": "the guy",
+    "ans": "Jim",
+    "cand_ques": [
+      "I saw Jim yelling at some guy in a military uniform with a huge red beard I do not know why jim was. ? but jim looked very unhappy .",
+      "I saw Jim yelling at some guy in a military uniform with a huge red beard I do not know why the guy was. ? but the guy looked very unhappy ."
+    ]
+  },
+  {
+    "question": "I saw Jim yelling at some guy in a military uniform with a huge red beard . ? I do not know who he was . ? but he looked very unhappy .",
+    "pronoun": "he",
+    "choice1": "Jim",
+    "choice2": "the guy",
+    "ans": "the guy",
+    "cand_ques": [
+      "I saw Jim yelling at some guy in a military uniform with a huge red beard . ? I do not know who jim was . ? but jim looked very unhappy .",
+      "I saw Jim yelling at some guy in a military uniform with a huge red beard . ? I do not know who the guy was . ? but the guy looked very unhappy ."
+    ]
+  },
+  {
+    "question": "The fish ate the worm . ? It was hungry .",
+    "pronoun": "It",
+    "choice1": "The fish",
+    "choice2": "The worm",
+    "ans": "The fish",
+    "cand_ques": [
+      "The fish ate the worm . ? the fish was hungry .",
+      "The fish ate the worm . ? the worm was hungry ."
+    ]
+  },
+  {
+    "question": "The fish ate the worm . ? It was tasty .",
+    "pronoun": "It",
+    "choice1": "The fish",
+    "choice2": "The worm",
+    "ans": "The worm",
+    "cand_ques": [
+      "The fish ate the worm . ? the fish was tasty .",
+      "The fish ate the worm . ? the worm was tasty ."
+    ]
+  },
+  {
+    "question": "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum . ? and I could not get it in .",
+    "pronoun": "it",
+    "choice1": "The key",
+    "choice2": "The chewing gum",
+    "ans": "The key",
+    "cand_ques": [
+      "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum . ? and I could not get the key in .",
+      "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum . ? and I could not get the chewing gum in ."
+    ]
+  },
+  {
+    "question": "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum . ? and I could not get it out .",
+    "pronoun": "it",
+    "choice1": "The key",
+    "choice2": "The chewing gum",
+    "ans": "The chewing gum",
+    "cand_ques": [
+      "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum . ? and I could not get the key out .",
+      "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum . ? and I could not get the chewing gum out ."
+    ]
+  },
+  {
+    "question": "The dog chased the cat , which ran up a tree . ? It waited at the bottom .",
+    "pronoun": "It",
+    "choice1": "The dog",
+    "choice2": "The cat",
+    "ans": "The dog",
+    "cand_ques": [
+      "The dog chased the cat , which ran up a tree . ? the dog waited at the bottom .",
+      "The dog chased the cat , which ran up a tree . ? the cat waited at the bottom ."
+    ]
+  },
+  {
+    "question": "The dog chased the cat , which ran up a tree . ? It waited at the top .",
+    "pronoun": "It",
+    "choice1": "The dog",
+    "choice2": "The cat",
+    "ans": "The cat",
+    "cand_ques": [
+      "The dog chased the cat , which ran up a tree . ? the dog waited at the top .",
+      "The dog chased the cat , which ran up a tree . ? the cat waited at the top ."
+    ]
+  },
+  {
+    "question": "In the storm , the tree fell down and crashed through the roof of my house . ? Now , I have to get it removed .",
+    "pronoun": "it",
+    "choice1": "The tree",
+    "choice2": "The roof",
+    "ans": "The tree",
+    "cand_ques": [
+      "In the storm , the tree fell down and crashed through the roof of my house . ? Now , I have to get the tree removed .",
+      "In the storm , the tree fell down and crashed through the roof of my house . ? Now , I have to get the roof removed ."
+    ]
+  },
+  {
+    "question": "In the storm , the tree fell down and crashed through the roof of my house . ? Now , I have to get it repaired .",
+    "pronoun": "it",
+    "choice1": "The tree",
+    "choice2": "The roof",
+    "ans": "The roof",
+    "cand_ques": [
+      "In the storm , the tree fell down and crashed through the roof of my house . ? Now , I have to get the tree repaired .",
+      "In the storm , the tree fell down and crashed through the roof of my house . ? Now , I have to get the roof repaired ."
+    ]
+  },
+  {
+    "question": "The customer walked into the bank and stabbed one of the tellers . ? He was immediately taken to the police station .",
+    "pronoun": "He",
+    "choice1": "The customer",
+    "choice2": "The teller",
+    "ans": "The customer",
+    "cand_ques": [
+      "The customer walked into the bank and stabbed one of the tellers . ? the customer was immediately taken to the police station .",
+      "The customer walked into the bank and stabbed one of the tellers . ? the teller was immediately taken to the police station ."
+    ]
+  },
+  {
+    "question": "The customer walked into the bank and stabbed one of the tellers . ? He was immediately taken to the hospital .",
+    "pronoun": "He",
+    "choice1": "The customer",
+    "choice2": "one of the tellers",
+    "ans": "one of the tellers",
+    "cand_ques": [
+      "The customer walked into the bank and stabbed one of the tellers . ? the customer was immediately taken to the hospital .",
+      "The customer walked into the bank and stabbed one of the tellers . ? one of the tellers was immediately taken to the hospital ."
+    ]
+  },
+  {
+    "question": "John was doing research in the library when he heard a man humming and whistling . ? He was very annoyed .",
+    "pronoun": "He",
+    "choice1": "John",
+    "choice2": "The man",
+    "ans": "John",
+    "cand_ques": [
+      "John was doing research in the library when he heard a man humming and whistling . ? john was very annoyed .",
+      "John was doing research in the library when he heard a man humming and whistling . ? the man was very annoyed ."
+    ]
+  },
+  {
+    "question": "John was doing research in the library when he heard a man humming and whistling . ? He was very annoying .",
+    "pronoun": "He",
+    "choice1": "John",
+    "choice2": "The man",
+    "ans": "The man",
+    "cand_ques": [
+      "John was doing research in the library when he heard a man humming and whistling . ? john was very annoying .",
+      "John was doing research in the library when he heard a man humming and whistling . ? the man was very annoying ."
+    ]
+  },
+  {
+    "question": "John was jogging through the park when he saw a man juggling watermelons . ? He was very impressed .",
+    "pronoun": "He",
+    "choice1": "John",
+    "choice2": "The juggler",
+    "ans": "John",
+    "cand_ques": [
+      "John was jogging through the park when he saw a man juggling watermelons . ? john was very impressed .",
+      "John was jogging through the park when he saw a man juggling watermelons . ? the juggler was very impressed ."
+    ]
+  },
+  {
+    "question": "John was jogging through the park when he saw a man juggling watermelons . ? He was very impressive .",
+    "pronoun": "He",
+    "choice1": "John",
+    "choice2": "The juggler",
+    "ans": "The juggler",
+    "cand_ques": [
+      "John was jogging through the park when he saw a man juggling watermelons . ? john was very impressive .",
+      "John was jogging through the park when he saw a man juggling watermelons . ? the juggler was very impressive ."
+    ]
+  },
+  {
+    "question": "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . ? He was very ill .",
+    "pronoun": "He",
+    "choice1": "Bob",
+    "choice2": "Carl",
+    "ans": "Bob",
+    "cand_ques": [
+      "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . ? bob was very ill .",
+      "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . ? carl was very ill ."
+    ]
+  },
+  {
+    "question": "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . ? He was very concerned .",
+    "pronoun": "He",
+    "choice1": "Bob",
+    "choice2": "Carl",
+    "ans": "Carl",
+    "cand_ques": [
+      "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . ? bob was very concerned .",
+      "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . ? carl was very concerned ."
+    ]
+  },
+  {
+    "question": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it . ? because they are fifteen .",
+    "pronoun": "they",
+    "choice1": "Sam and Amy",
+    "choice2": "Amy's parents",
+    "ans": "Sam and Amy",
+    "cand_ques": [
+      "Sam and Amy are passionately in love , but Amy's parents are unhappy about it . ? because sam and amy are fifteen .",
+      "Sam and Amy are passionately in love , but Amy's parents are unhappy about it . ? because amy's parents are fifteen ."
+    ]
+  },
+  {
+    "question": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it . ? because they are snobs .",
+    "pronoun": "they",
+    "choice1": "Sam and Amy",
+    "choice2": "Amy's parents",
+    "ans": "Amy's parents",
+    "cand_ques": [
+      "Sam and Amy are passionately in love , but Amy's parents are unhappy about it . ? because sam and amy are snobs .",
+      "Sam and Amy are passionately in love , but Amy's parents are unhappy about it . ? because amy's parents are snobs ."
+    ]
+  },
+  {
+    "question": "Mark told Pete many lies about himself , which Pete included in his book . ? He should have been more truthful .",
+    "pronoun": "He",
+    "choice1": "Mark",
+    "choice2": "Pete",
+    "ans": "Mark",
+    "cand_ques": [
+      "Mark told Pete many lies about himself , ? which Pete included in his book  mark should have been more truthful .",
+      "Mark told Pete many lies about himself , ? which Pete included in his book  pete should have been more truthful ."
+    ]
+  },
+  {
+    "question": "Mark told Pete many lies about himself , which Pete included in his book . ? He should have been more skeptical .",
+    "pronoun": "He",
+    "choice1": "Mark",
+    "choice2": "Pete",
+    "ans": "Pete",
+    "cand_ques": [
+      "Mark told Pete many lies about himself , ? which Pete included in his book  mark should have been more skeptical .",
+      "Mark told Pete many lies about himself , ? which Pete included in his book  pete should have been more skeptical ."
+    ]
+  },
+  {
+    "question": "Joe has sold his house and bought a new one a few miles away . ? He will be moving out of it on Thursday .",
+    "pronoun": "it",
+    "choice1": "The old house",
+    "choice2": "The new house",
+    "ans": "The old house",
+    "cand_ques": [
+      "Joe has sold his house and bought a new one a few miles away . ? He will be moving out of the old house on Thursday .",
+      "Joe has sold his house and bought a new one a few miles away . ? He will be moving out of the new house on Thursday ."
+    ]
+  },
+  {
+    "question": "Joe has sold his house and bought a new one a few miles away . ? He will be moving into it on Thursday .",
+    "pronoun": "it",
+    "choice1": "The old house",
+    "choice2": "The new house",
+    "ans": "The new house",
+    "cand_ques": [
+      "Joe has sold his house and bought a new one a few miles away . ? He will be moving into the old house on Thursday .",
+      "Joe has sold his house and bought a new one a few miles away . ? He will be moving into the new house on Thursday ."
+    ]
+  },
+  {
+    "question": "Many people start to read Paul's books and can not put them down . ? They are gripped because Paul writes so well .",
+    "pronoun": "They",
+    "choice1": "People",
+    "choice2": "Paul's books",
+    "ans": "People",
+    "cand_ques": [
+      "Many people start to read Paul's books and can not put them down . ? people are gripped because Paul writes so well .",
+      "Many people start to read Paul's books and can not put them down . ? paul's books are gripped because Paul writes so well ."
+    ]
+  },
+  {
+    "question": "Many people start to read Paul's books and can not put them down . ? They are popular because Paul writes so well .",
+    "pronoun": "They",
+    "choice1": "People",
+    "choice2": "Paul's books",
+    "ans": "Paul's books",
+    "cand_ques": [
+      "Many people start to read Paul's books and can not put them down . ? people are popular because Paul writes so well .",
+      "Many people start to read Paul's books and can not put them down . ? paul's books are popular because Paul writes so well ."
+    ]
+  },
+  {
+    "question": "Mary took out her flute and played one of her favorite pieces . ? She has had it since she was a child .",
+    "pronoun": "it",
+    "choice1": "The flute",
+    "choice2": "The piece",
+    "ans": "The flute",
+    "cand_ques": [
+      "Mary took out her flute and played one of her favorite pieces . ? She has had the flute since she was a child .",
+      "Mary took out her flute and played one of her favorite pieces . ? She has had the piece since she was a child ."
+    ]
+  },
+  {
+    "question": "Mary took out her flute and played one of her favorite pieces . ? She has loved it since she was a child .",
+    "pronoun": "it",
+    "choice1": "The flute",
+    "choice2": "The piece",
+    "ans": "The piece",
+    "cand_ques": [
+      "Mary took out her flute and played one of her favorite pieces . ? She has loved the flute since she was a child .",
+      "Mary took out her flute and played one of her favorite pieces . ? She has loved the piece since she was a child ."
+    ]
+  },
+  {
+    "question": "Sam pulled up a chair to the piano . ? but it was broken , so he had to stand instead .",
+    "pronoun": "it",
+    "choice1": "The chair",
+    "choice2": "The piano",
+    "ans": "The chair",
+    "cand_ques": [
+      "Sam pulled up a chair to the piano . ? but the chair was broken , so he had to stand instead .",
+      "Sam pulled up a chair to the piano . ? but the piano was broken , so he had to stand instead ."
+    ]
+  },
+  {
+    "question": "Sam pulled up a chair to the piano . ? but it was broken , so he had to sing instead .",
+    "pronoun": "it",
+    "choice1": "The chair",
+    "choice2": "The piano",
+    "ans": "The piano",
+    "cand_ques": [
+      "Sam pulled up a chair to the piano . ? but the chair was broken , so he had to sing instead .",
+      "Sam pulled up a chair to the piano . ? but the piano was broken , so he had to sing instead ."
+    ]
+  },
+  {
+    "question": "Since it was raining . ? I carried the newspaper in my backpack to keep it dry .",
+    "pronoun": "it",
+    "choice1": "The newspaper",
+    "choice2": "The backpack",
+    "ans": "The newspaper",
+    "cand_ques": [
+      "Since the newspaper was raining . ? I carried the newspaper in my backpack to keep the newspaper dry .",
+      "Since the backpack was raining . ? I carried the newspaper in my backpack to keep the backpack dry ."
+    ]
+  },
+  {
+    "question": "Since it was raining . ? I carried the newspaper over my backpack to keep it dry .",
+    "pronoun": "it",
+    "choice1": "The newspaper",
+    "choice2": "The backpack",
+    "ans": "The backpack",
+    "cand_ques": [
+      "Since the newspaper was raining . ? I carried the newspaper over my backpack to keep the newspaper dry .",
+      "Since the backpack was raining . ? I carried the newspaper over my backpack to keep the backpack dry ."
+    ]
+  },
+  {
+    "question": "Sara borrowed the book from the library because she needs it for an article she is working on . ? She reads it when she gets home from work .",
+    "pronoun": "it",
+    "choice1": "The book",
+    "choice2": "The article",
+    "ans": "The book",
+    "cand_ques": [
+      "Sara borrowed the book from the library because she needs the book for an article she is working on . ? She reads the book when she gets home from work .",
+      "Sara borrowed the book from the library because she needs the article for an article she is working on . ? She reads the article when she gets home from work ."
+    ]
+  },
+  {
+    "question": "Sara borrowed the book from the library because she needs it for an article she is working on . ? She writes it when she gets home from work .",
+    "pronoun": "it",
+    "choice1": "The book",
+    "choice2": "The article",
+    "ans": "The article",
+    "cand_ques": [
+      "Sara borrowed the book from the library because she needs the book for an article she is working on . ? She writes the book when she gets home from work .",
+      "Sara borrowed the book from the library because she needs the article for an article she is working on . ? She writes the article when she gets home from work ."
+    ]
+  },
+  {
+    "question": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower . ? but this afternoon the tide knocked it down .",
+    "pronoun": "it",
+    "choice1": "The sand castle",
+    "choice2": "The flag",
+    "ans": "The sand castle",
+    "cand_ques": [
+      "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower . ? but this afternoon the tide knocked the sand castle down .",
+      "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower . ? but this afternoon the tide knocked the flag down ."
+    ]
+  },
+  {
+    "question": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower . ? but this afternoon the wind knocked it down .",
+    "pronoun": "it",
+    "choice1": "The sand castle",
+    "choice2": "The flag",
+    "ans": "The flag",
+    "cand_ques": [
+      "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower . ? but this afternoon the wind knocked the sand castle down .",
+      "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower . ? but this afternoon the wind knocked the flag down ."
+    ]
+  },
+  {
+    "question": "Jane knocked on Susan's door , but there was no answer . ? She was disappointed .",
+    "pronoun": "She",
+    "choice1": "Jane",
+    "choice2": "Susan",
+    "ans": "Jane",
+    "cand_ques": [
+      "Jane knocked on Susan's door , but there was no answer . ? jane was disappointed .",
+      "Jane knocked on Susan's door , but there was no answer . ? susan was disappointed ."
+    ]
+  },
+  {
+    "question": "Jane knocked on Susan's door , but there was no answer . ? She was out .",
+    "pronoun": "She",
+    "choice1": "Jane",
+    "choice2": "Susan",
+    "ans": "Susan",
+    "cand_ques": [
+      "Jane knocked on Susan's door , but there was no answer . ? jane was out .",
+      "Jane knocked on Susan's door , but there was no answer . ? susan was out ."
+    ]
+  },
+  {
+    "question": "Jane knocked on the door , and Susan answered it . ? She invited her to come out .",
+    "pronoun": "her",
+    "choice1": "Jane",
+    "choice2": "Susan",
+    "ans": "Susan",
+    "cand_ques": [
+      "Jane knocked on the door , and Susan answered it . ? She invited jane to come out .",
+      "Jane knocked on the door , and Susan answered it . ? She invited susan to come out ."
+    ]
+  },
+  {
+    "question": "Jane knocked on the door , and Susan answered it . ? She invited her to come in .",
+    "pronoun": "her",
+    "choice1": "Jane",
+    "choice2": "Susan",
+    "ans": "Jane",
+    "cand_ques": [
+      "Jane knocked on the door , and Susan answered it . ? She invited jane to come in .",
+      "Jane knocked on the door , and Susan answered it . ? She invited susan to come in ."
+    ]
+  },
+  {
+    "question": "Sam took French classes from Adam . ? because he was eager to speak it fluently .",
+    "pronoun": "he",
+    "choice1": "Sam",
+    "choice2": "Adam",
+    "ans": "Sam",
+    "cand_ques": [
+      "Sam took French classes from Adam . ? because sam was eager to speak it fluently .",
+      "Sam took French classes from Adam . ? because adam was eager to speak it fluently ."
+    ]
+  },
+  {
+    "question": "Sam took French classes from Adam . ? because he was known to speak it fluently .",
+    "pronoun": "he",
+    "choice1": "Sam",
+    "choice2": "Adam",
+    "ans": "Adam",
+    "cand_ques": [
+      "Sam took French classes from Adam . ? because sam was known to speak it fluently .",
+      "Sam took French classes from Adam . ? because adam was known to speak it fluently ."
+    ]
+  },
+  {
+    "question": "The path to the lake was blocked . ? so we could not use it  .",
+    "pronoun": "it",
+    "choice1": "The path",
+    "choice2": "The lake",
+    "ans": "The path",
+    "cand_ques": [
+      "The path to the lake was blocked . ? so we could not use the path  .",
+      "The path to the lake was blocked . ? so we could not use the lake  ."
+    ]
+  },
+  {
+    "question": "The path to the lake was ? blocked so we could not reach it  .",
+    "pronoun": "it",
+    "choice1": "The path",
+    "choice2": "The lake",
+    "ans": "The lake",
+    "cand_ques": [
+      "The path to the lake was ? blocked so we could not reach the path  .",
+      "The path to the lake was ? blocked so we could not reach the lake  ."
+    ]
+  },
+  {
+    "question": "The sun was covered by a thick cloud all morning . ? but luckily , by the time the picnic started , it was out .",
+    "pronoun": "it",
+    "choice1": "The sun",
+    "choice2": "The cloud",
+    "ans": "The sun",
+    "cand_ques": [
+      "The sun was covered by a thick cloud all morning . ? but luckily , by the time the picnic started , the sun was out .",
+      "The sun was covered by a thick cloud all morning . ? but luckily , by the time the picnic started , the cloud was out ."
+    ]
+  },
+  {
+    "question": "The sun was covered by a thick cloud all morning . ? but luckily , by the time the picnic started , it was gone .",
+    "pronoun": "it",
+    "choice1": "The sun",
+    "choice2": "The cloud",
+    "ans": "The cloud",
+    "cand_ques": [
+      "The sun was covered by a thick cloud all morning . ? but luckily , by the time the picnic started , the sun was gone .",
+      "The sun was covered by a thick cloud all morning . ? but luckily , by the time the picnic started , the cloud was gone ."
+    ]
+  },
+  {
+    "question": "We went to the lake , because a shark had been seen at the ocean beach . ? so it was a safer place to swim .",
+    "pronoun": "it",
+    "choice1": "The lake",
+    "choice2": "The ocean beach",
+    "ans": "The lake",
+    "cand_ques": [
+      "We went to the lake , because a shark had been seen at the ocean beach . ? so the lake was a safer place to swim .",
+      "We went to the lake , because a shark had been seen at the ocean beach . ? so the ocean beach was a safer place to swim ."
+    ]
+  },
+  {
+    "question": "We went to the lake , because a shark had been seen at the ocean beach . ? so it was a dangerous place to swim .",
+    "pronoun": "it",
+    "choice1": "The lake",
+    "choice2": "The ocean beach",
+    "ans": "The ocean beach",
+    "cand_ques": [
+      "We went to the lake , because a shark had been seen at the ocean beach . ? so the lake was a dangerous place to swim .",
+      "We went to the lake , because a shark had been seen at the ocean beach . ? so the ocean beach was a dangerous place to swim ."
+    ]
+  },
+  {
+    "question": "Sam tried to paint a picture of shepherds with sheep ,. ? but they ended up looking more like golfers .",
+    "pronoun": "they",
+    "choice1": "The shepherds",
+    "choice2": "The sheep",
+    "ans": "The shepherds",
+    "cand_ques": [
+      "Sam tried to paint a picture of shepherds with sheep ,. ? but the shepherds ended up looking more like golfers .",
+      "Sam tried to paint a picture of shepherds with sheep ,. ? but the sheep ended up looking more like golfers ."
+    ]
+  },
+  {
+    "question": "Sam tried to paint a picture of shepherds with sheep ,. ? but they ended up looking more like dogs .",
+    "pronoun": "they",
+    "choice1": "The shepherds",
+    "choice2": "The sheep",
+    "ans": "The sheep",
+    "cand_ques": [
+      "Sam tried to paint a picture of shepherds with sheep ,. ? but the shepherds ended up looking more like dogs .",
+      "Sam tried to paint a picture of shepherds with sheep ,. ? but the sheep ended up looking more like dogs ."
+    ]
+  },
+  {
+    "question": "Mary tucked her daughter Anne into bed ,. ? so that she could work .",
+    "pronoun": "she",
+    "choice1": "Mary",
+    "choice2": "daughter",
+    "ans": "Mary",
+    "cand_ques": [
+      "Mary tucked her daughter Anne into bed ,. ? so that mary could work .",
+      "Mary tucked her daughter Anne into bed ,. ? so that daughter could work ."
+    ]
+  },
+  {
+    "question": "Mary tucked her daughter Anne into bed ,. ? so that she could sleep .",
+    "pronoun": "she",
+    "choice1": "Mary",
+    "choice2": "daughter",
+    "ans": "daughter",
+    "cand_ques": [
+      "Mary tucked her daughter Anne into bed ,. ? so that mary could sleep .",
+      "Mary tucked her daughter Anne into bed ,. ? so that daughter could sleep ."
+    ]
+  },
+  {
+    "question": "Fred and Alice had very warm down coats ,. ? but they were not prepared for the cold in Alaska .",
+    "pronoun": "they",
+    "choice1": "Fred and Alice",
+    "choice2": "coats",
+    "ans": "Fred and Alice",
+    "cand_ques": [
+      "Fred and Alice had very warm down coats ,. ? but fred and alice were not prepared for the cold in Alaska .",
+      "Fred and Alice had very warm down coats ,. ? but coats were not prepared for the cold in Alaska ."
+    ]
+  },
+  {
+    "question": "Fred and Alice had very warm down coats ,. ? but they were not enough for the cold in Alaska .",
+    "pronoun": "they",
+    "choice1": "Fred and Alice",
+    "choice2": "coats",
+    "ans": "coats",
+    "cand_ques": [
+      "Fred and Alice had very warm down coats ,. ? but fred and alice were not enough for the cold in Alaska .",
+      "Fred and Alice had very warm down coats ,. ? but coats were not enough for the cold in Alaska ."
+    ]
+  },
+  {
+    "question": "Thomson visited Cooper's grave in 1765 . ? At that date he had been travelling for five years .",
+    "pronoun": "he",
+    "choice1": "Thomson",
+    "choice2": "Cooper",
+    "ans": "Thomson",
+    "cand_ques": [
+      "Thomson visited Cooper's grave in 1765 . ? At that date thomson had been travelling for five years .",
+      "Thomson visited Cooper's grave in 1765 . ? At that date cooper had been travelling for five years ."
+    ]
+  },
+  {
+    "question": "Thomson visited Cooper's grave in 1765 . ? At that date he had been dead for five years .",
+    "pronoun": "he",
+    "choice1": "Thomson",
+    "choice2": "Cooper",
+    "ans": "Cooper",
+    "cand_ques": [
+      "Thomson visited Cooper's grave in 1765 . ? At that date thomson had been dead for five years .",
+      "Thomson visited Cooper's grave in 1765 . ? At that date cooper had been dead for five years ."
+    ]
+  },
+  {
+    "question": "Jackson was greatly influenced by Arnold ,. ? though he lived two centuries later .",
+    "pronoun": "he",
+    "choice1": "Jackson",
+    "choice2": "Arnold",
+    "ans": "Jackson",
+    "cand_ques": [
+      "Jackson was greatly influenced by Arnold ,. though ? jackson lived two centuries later .",
+      "Jackson was greatly influenced by Arnold ,. though ? arnold lived two centuries later ."
+    ]
+  },
+  {
+    "question": "Jackson was greatly influenced by Arnold ,. ? though he lived two centuries earlier .",
+    "pronoun": "he",
+    "choice1": "Jackson",
+    "choice2": "Arnold",
+    "ans": "Arnold",
+    "cand_ques": [
+      "Jackson was greatly influenced by Arnold ,. ? though ? jackson lived two centuries earlier .",
+      "Jackson was greatly influenced by Arnold ,. ? though ? arnold lived two centuries earlier ."
+    ]
+  },
+  {
+    "question": "I can not cut that tree down with that axe ;. ? it is too thick .",
+    "pronoun": "it",
+    "choice1": "The tree",
+    "choice2": "The axe",
+    "ans": "The tree",
+    "cand_ques": [
+      "I can not cut that tree down with that axe ;. ? the tree is too thick .",
+      "I can not cut that tree down with that axe ;. ? the axe is too thick ."
+    ]
+  },
+  {
+    "question": "I can not cut that tree down with that axe ;. ? it is too small .",
+    "pronoun": "it",
+    "choice1": "The tree",
+    "choice2": "The axe",
+    "ans": "The axe",
+    "cand_ques": [
+      "I can not cut that tree down with that axe ;. ? the tree is too small .",
+      "I can not cut that tree down with that axe ;. ? the axe is too small ."
+    ]
+  },
+  {
+    "question": "The foxes are getting in at night and attacking the chickens . ? I shall have to kill them  .",
+    "pronoun": "them",
+    "choice1": "The foxes",
+    "choice2": "The chickens",
+    "ans": "The foxes",
+    "cand_ques": [
+      "The foxes are getting in at night and attacking the chickens . ? I shall have to kill the foxes  .",
+      "The foxes are getting in at night and attacking the chickens . ? I shall have to kill the chickens  ."
+    ]
+  },
+  {
+    "question": "The foxes are getting in at night and attacking the chickens . ? I shall have to guard them  .",
+    "pronoun": "them",
+    "choice1": "The foxes",
+    "choice2": "The chickens",
+    "ans": "The chickens",
+    "cand_ques": [
+      "The foxes are getting in at night and attacking the chickens . ? I shall have to guard the foxes  .",
+      "The foxes are getting in at night and attacking the chickens . ? I shall have to guard the chickens  ."
+    ]
+  },
+  {
+    "question": "The foxes are getting in at night and attacking the chickens . ? They have gotten very bold .",
+    "pronoun": "They",
+    "choice1": "The foxes",
+    "choice2": "The chickens",
+    "ans": "The foxes",
+    "cand_ques": [
+      "The foxes are getting in at night and attacking the chickens . ? the foxes have gotten very bold .",
+      "The foxes are getting in at night and attacking the chickens . ? the chickens have gotten very bold ."
+    ]
+  },
+  {
+    "question": "The foxes are getting in at night and attacking the chickens . ? They have gotten very nervous .",
+    "pronoun": "They",
+    "choice1": "The foxes",
+    "choice2": "The chickens",
+    "ans": "The chickens",
+    "cand_ques": [
+      "The foxes are getting in at night and attacking the chickens . ? the foxes have gotten very nervous .",
+      "The foxes are getting in at night and attacking the chickens . ? the chickens have gotten very nervous ."
+    ]
+  },
+  {
+    "question": "Fred covered his eyes with his hands , because the wind was blowing sand around . ? He opened them when the wind stopped .",
+    "pronoun": "them",
+    "choice1": "His eyes",
+    "choice2": "His hands",
+    "ans": "His eyes",
+    "cand_ques": [
+      "Fred covered his eyes with his hands , because the wind was blowing sand around . ? He opened his eyes when the wind stopped .",
+      "Fred covered his eyes with his hands , because the wind was blowing sand around . ? He opened his hands when the wind stopped ."
+    ]
+  },
+  {
+    "question": "Fred covered his eyes with his hands , because the wind was blowing sand around . ? He lowered them when the wind stopped .",
+    "pronoun": "them",
+    "choice1": "His eyes",
+    "choice2": "His hands",
+    "ans": "His hands",
+    "cand_ques": [
+      "Fred covered his eyes with his hands , because the wind was blowing sand around . ? He lowered his eyes when the wind stopped .",
+      "Fred covered his eyes with his hands , because the wind was blowing sand around . ? He lowered his hands when the wind stopped ."
+    ]
+  },
+  {
+    "question": "The actress used to be named Terpsichore , but she changed it to Tina a few years ago ,. ? because she figured it was too hard to pronounce .",
+    "pronoun": "it",
+    "choice1": "Terpsichore",
+    "choice2": "Tina",
+    "ans": "Terpsichore",
+    "cand_ques": [
+      "The actress used to be named Terpsichore , but she changed terpsichore to Tina a few years ago ,. ? because she figured terpsichore was too hard to pronounce .",
+      "The actress used to be named Terpsichore , but she changed tina to Tina a few years ago ,. ? because she figured tina was too hard to pronounce ."
+    ]
+  },
+  {
+    "question": "The actress used to be named Terpsichore , but she changed it to Tina a few years ago ,. ? because she figured it was easier to pronounce .",
+    "pronoun": "it",
+    "choice1": "Terpsichore",
+    "choice2": "Tina",
+    "ans": "Tina",
+    "cand_ques": [
+      "The actress used to be named Terpsichore , but she changed terpsichore to Tina a few years ago ,. ? because she figured terpsichore was easier to pronounce .",
+      "The actress used to be named Terpsichore , but she changed tina to Tina a few years ago ,. ? because she figured tina was easier to pronounce ."
+    ]
+  },
+  {
+    "question": "Fred watched TV while George went out to buy groceries . ? After an hour he got up .",
+    "pronoun": "he",
+    "choice1": "Fred",
+    "choice2": "George",
+    "ans": "Fred",
+    "cand_ques": [
+      "Fred watched TV while George went out to buy groceries . ? After an hour fred got up .",
+      "Fred watched TV while George went out to buy groceries . ? After an hour george got up ."
+    ]
+  },
+  {
+    "question": "Fred watched TV while George went out to buy groceries . ? After an hour he got back .",
+    "pronoun": "he",
+    "choice1": "Fred",
+    "choice2": "George",
+    "ans": "George",
+    "cand_ques": [
+      "Fred watched TV while George went out to buy groceries . ? After an hour fred got back .",
+      "Fred watched TV while George went out to buy groceries . ? After an hour george got back ."
+    ]
+  },
+  {
+    "question": "Fred was supposed to run the dishwasher , but he put it off , because he wanted to watch TV . But the show turned out to be boring ,. ? so he changed his mind and turned it on .",
+    "pronoun": "it",
+    "choice1": "The dishwasher",
+    "choice2": "The TV",
+    "ans": "The dishwasher",
+    "cand_ques": [
+      "Fred was supposed to run the dishwasher , but he put the dishwasher off , because he wanted to watch TV . But the show turned out to be boring ,. ? so he changed his mind and turned the dishwasher on .",
+      "Fred was supposed to run the dishwasher , but he put the tv off , because he wanted to watch TV . But the show turned out to be boring ,. ? so he changed his mind and turned the tv on ."
+    ]
+  },
+  {
+    "question": "Fred was supposed to run the dishwasher , but he put it off , because he wanted to watch TV . But the show turned out to be boring ,. ? so he changed his mind and turned it off .",
+    "pronoun": "it",
+    "choice1": "The dishwasher",
+    "choice2": "The TV",
+    "ans": "The TV",
+    "cand_ques": [
+      "Fred was supposed to run the dishwasher , but he put the dishwasher off , because he wanted to watch TV . But the show turned out to be boring ,. ? so he changed his mind and turned the dishwasher off .",
+      "Fred was supposed to run the dishwasher , but he put the tv off , because he wanted to watch TV . But the show turned out to be boring ,. ? so he changed his mind and turned the tv off ."
+    ]
+  },
+  {
+    "question": "Fred is the only man still alive who remembers my great-grandfather . ? He is a remarkable man .",
+    "pronoun": "He",
+    "choice1": "Fred",
+    "choice2": "great-grandfather",
+    "ans": "Fred",
+    "cand_ques": [
+      "Fred is the only man still alive who remembers my great-grandfather . ? fred is a remarkable man .",
+      "Fred is the only man still alive who remembers my great-grandfather . ? great-grandfather is a remarkable man ."
+    ]
+  },
+  {
+    "question": "Fred is the only man still alive who remembers my great-grandfather . ? He was a remarkable man .",
+    "pronoun": "He",
+    "choice1": "Fred",
+    "choice2": "great-grandfather",
+    "ans": "great-grandfather",
+    "cand_ques": [
+      "Fred is the only man still alive who remembers my great-grandfather . ? fred was a remarkable man .",
+      "Fred is the only man still alive who remembers my great-grandfather . ? great-grandfather was a remarkable man ."
+    ]
+  },
+  {
+    "question": "Fred is the only man alive who still remembers my father as an infant . ? When Fred first saw my father , he was twelve years old .",
+    "pronoun": "he",
+    "choice1": "Fred",
+    "choice2": "My father",
+    "ans": "Fred",
+    "cand_ques": [
+      "Fred is the only man alive who still remembers my father as an infant . ? When Fred first saw my father , fred was twelve years old .",
+      "Fred is the only man alive who still remembers my father as an infant . ? When Fred first saw my father , my father was twelve years old ."
+    ]
+  },
+  {
+    "question": "Fred is the only man alive who still remembers my father as an infant . ? When Fred first saw my father , he was twelve months old .",
+    "pronoun": "he",
+    "choice1": "Fred",
+    "choice2": "My father",
+    "ans": "My father",
+    "cand_ques": [
+      "Fred is the only man alive who still remembers my father as an infant . ? When Fred first saw my father , fred was twelve months old .",
+      "Fred is the only man alive who still remembers my father as an infant . ? When Fred first saw my father , my father was twelve months old ."
+    ]
+  },
+  {
+    "question": "In July , Kamtchatka declared war on Yakutsk . ? Since Yakutsk's army was much better equipped and ten times larger , they were defeated within weeks .",
+    "pronoun": "they",
+    "choice1": "Kamchatka",
+    "choice2": "Yakutsk",
+    "ans": "Kamchatka",
+    "cand_ques": [
+      "In July , Kamtchatka declared war on Yakutsk . ? Since Yakutsk's army was much better equipped and ten times larger , kamchatka were defeated within weeks .",
+      "In July , Kamtchatka declared war on Yakutsk . ? Since Yakutsk's army was much better equipped and ten times larger , yakutsk were defeated within weeks ."
+    ]
+  },
+  {
+    "question": "In July , Kamtchatka declared war on Yakutsk . ? Since Yakutsk's army was much better equipped and ten times larger , they were victorious within weeks .",
+    "pronoun": "they",
+    "choice1": "Kamchatka",
+    "choice2": "Yakutsk",
+    "ans": "Yakutsk",
+    "cand_ques": [
+      "In July , Kamtchatka declared war on Yakutsk . ? Since Yakutsk's army was much better equipped and ten times larger , kamchatka were victorious within weeks .",
+      "In July , Kamtchatka declared war on Yakutsk . ? Since Yakutsk's army was much better equipped and ten times larger , yakutsk were victorious within weeks ."
+    ]
+  },
+  {
+    "question": "Look! There is a minnow swimming right below that duck!. ? It had better get away to safety fast! .",
+    "pronoun": "It",
+    "choice1": "The minnow",
+    "choice2": "The duck",
+    "ans": "The minnow",
+    "cand_ques": [
+      "Look! There is a minnow swimming right below that duck!. ? the minnow had better get away to safety fast! .",
+      "Look! There is a minnow swimming right below that duck!. ? the duck had better get away to safety fast! ."
+    ]
+  },
+  {
+    "question": "Look! There is a shark swimming right below that duck!. ? It had better get away to safety fast! .",
+    "pronoun": "It",
+    "choice1": "The shark",
+    "choice2": "The duck",
+    "ans": "The duck",
+    "cand_ques": [
+      "Look! There is a shark swimming right below that duck!. ? the shark had better get away to safety fast! .",
+      "Look! There is a shark swimming right below that duck!. ? the duck had better get away to safety fast! ."
+    ]
+  },
+  {
+    "question": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . ? They hunted for evidence on the river banks .",
+    "pronoun": "They",
+    "choice1": "Archaeologists",
+    "choice2": "humans",
+    "ans": "Archaeologists",
+    "cand_ques": [
+      "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . ? archaeologists hunted for evidence on the river banks .",
+      "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . ? humans hunted for evidence on the river banks ."
+    ]
+  },
+  {
+    "question": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . ? They hunted for deer on the river banks .",
+    "pronoun": "They",
+    "choice1": "Archaeologists",
+    "choice2": "humans",
+    "ans": "humans",
+    "cand_ques": [
+      "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . ? archaeologists hunted for deer on the river banks .",
+      "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . ? humans hunted for deer on the river banks ."
+    ]
+  },
+  {
+    "question": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . ? They began two years ago .",
+    "pronoun": "They",
+    "choice1": "The scientists",
+    "choice2": "The fish",
+    "ans": "The scientists",
+    "cand_ques": [
+      "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . ? the scientists began two years ago .",
+      "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . ? the fish began two years ago ."
+    ]
+  },
+  {
+    "question": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . ? They appeared two years ago .",
+    "pronoun": "They",
+    "choice1": "The scientists",
+    "choice2": "three species of fish",
+    "ans": "three species of fish",
+    "cand_ques": [
+      "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . ? the scientists appeared two years ago .",
+      "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . ? three species of fish appeared two years ago ."
+    ]
+  },
+  {
+    "question": "The journalists interviewed the stars of the new movie ? They were very persistent , so the interview lasted for a long time .",
+    "pronoun": "They",
+    "choice1": "The journalists",
+    "choice2": "The stars",
+    "ans": "The journalists",
+    "cand_ques": [
+      "The journalists interviewed the stars of the new movie ? the journalists were very persistent , so the interview lasted for a long time .",
+      "The journalists interviewed the stars of the new movie ? the stars were very persistent , so the interview lasted for a long time ."
+    ]
+  },
+  {
+    "question": "The journalists interviewed the stars of the new movie . ? They were very cooperative , so the interview lasted for a long time .",
+    "pronoun": "They",
+    "choice1": "The journalists",
+    "choice2": "The stars",
+    "ans": "The stars",
+    "cand_ques": [
+      "The journalists interviewed the stars of the new movie . ? the journalists were very cooperative , so the interview lasted for a long time .",
+      "The journalists interviewed the stars of the new movie . ? the stars were very cooperative , so the interview lasted for a long time ."
+    ]
+  },
+  {
+    "question": "The police arrested all of the gang members . ? They were trying to stop the drug trade in the neighborhood .",
+    "pronoun": "They",
+    "choice1": "The police",
+    "choice2": "all of the gang members",
+    "ans": "The police",
+    "cand_ques": [
+      "The police arrested all of the gang members . ? the police were trying to stop the drug trade in the neighborhood .",
+      "The police arrested all of the gang members . ? all of the gang members were trying to stop the drug trade in the neighborhood ."
+    ]
+  },
+  {
+    "question": "The police arrested all of the gang members . ? They were trying to run the drug trade in the neighborhood .",
+    "pronoun": "They",
+    "choice1": "The police",
+    "choice2": "all of the gang members",
+    "ans": "all of the gang members",
+    "cand_ques": [
+      "The police arrested all of the gang members . ? the police were trying to run the drug trade in the neighborhood .",
+      "The police arrested all of the gang members . ? all of the gang members were trying to run the drug trade in the neighborhood ."
+    ]
+  },
+  {
+    "question": "I put the cake away in the refrigerator . ? It has a lot of butter in it .",
+    "pronoun": "It",
+    "choice1": "The cake",
+    "choice2": "The refrigerator",
+    "ans": "The cake",
+    "cand_ques": [
+      "I put the cake away in the refrigerator . ? the cake has a lot of butter in it .",
+      "I put the cake away in the refrigerator . ? the refrigerator has a lot of butter in it ."
+    ]
+  },
+  {
+    "question": "I put the cake away in the refrigerator . ? It has a lot of leftovers in it .",
+    "pronoun": "It",
+    "choice1": "The cake",
+    "choice2": "The refrigerator",
+    "ans": "The refrigerator",
+    "cand_ques": [
+      "I put the cake away in the refrigerator . ? the cake has a lot of leftovers in it .",
+      "I put the cake away in the refrigerator . ? the refrigerator has a lot of leftovers in it ."
+    ]
+  },
+  {
+    "question": "Sam broke both his ankles and he is walking with crutches . ? But a month or so from now they should be better .",
+    "pronoun": "they",
+    "choice1": "The ankles",
+    "choice2": "The crutches",
+    "ans": "The ankles",
+    "cand_ques": [
+      "Sam broke both his ankles and he is walking with crutches . ? But a month or so from now the ankles should be better .",
+      "Sam broke both his ankles and he is walking with crutches . ? But a month or so from now the crutches should be better ."
+    ]
+  },
+  {
+    "question": "Sam broke both his ankles and he is walking with crutches . ? But a month or so from now they should be unnecessary .",
+    "pronoun": "they",
+    "choice1": "The ankles",
+    "choice2": "The crutches",
+    "ans": "The crutches",
+    "cand_ques": [
+      "Sam broke both his ankles and he is walking with crutches . ? But a month or so from now the ankles should be unnecessary .",
+      "Sam broke both his ankles and he is walking with crutches . ? But a month or so from now the crutches should be unnecessary ."
+    ]
+  },
+  {
+    "question": "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . ? They were very much in the minority .",
+    "pronoun": "They",
+    "choice1": "The sponsors",
+    "choice2": "The opponents",
+    "ans": "The sponsors",
+    "cand_ques": [
+      "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . ? the sponsors were very much in the minority .",
+      "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . ? the opponents were very much in the minority ."
+    ]
+  },
+  {
+    "question": "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . ? They were very much in the majority .",
+    "pronoun": "They",
+    "choice1": "The sponsors",
+    "choice2": "The opponents",
+    "ans": "The opponents",
+    "cand_ques": [
+      "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . ? the sponsors were very much in the majority .",
+      "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . ? the opponents were very much in the majority ."
+    ]
+  },
+  {
+    "question": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . ? Next time , we should make more of them  .",
+    "pronoun": "them",
+    "choice1": "The oatmeal cookies",
+    "choice2": "The chocolate chip cookies",
+    "ans": "The oatmeal cookies",
+    "cand_ques": [
+      "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . ? Next time , we should make more of the oatmeal cookies  .",
+      "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . ? Next time , we should make more of the chocolate chip cookies  ."
+    ]
+  },
+  {
+    "question": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . ? Next time , we should make fewer of them  .",
+    "pronoun": "them",
+    "choice1": "The oatmeal cookies",
+    "choice2": "The chocolate chip cookies",
+    "ans": "The chocolate chip cookies",
+    "cand_ques": [
+      "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . ? Next time , we should make fewer of the oatmeal cookies  .",
+      "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . ? Next time , we should make fewer of the chocolate chip cookies  ."
+    ]
+  },
+  {
+    "question": "We had hoped to place copies of our newsletter on all the chairs in the auditorium ,. ? but there were simply not enough of them  .",
+    "pronoun": "them",
+    "choice1": "copies of the newsletter",
+    "choice2": "chairs",
+    "ans": "copies of the newsletter",
+    "cand_ques": [
+      "We had hoped to place copies of our newsletter on all the chairs in the auditorium ,. ? but there were simply not enough of copies of the newsletter  .",
+      "We had hoped to place copies of our newsletter on all the chairs in the auditorium ,. ? but there were simply not enough of chairs  ."
+    ]
+  },
+  {
+    "question": "We had hoped to place copies of our newsletter on all the chairs in the auditorium ,. ? but there were simply too many of them  .",
+    "pronoun": "them",
+    "choice1": "copies of the newsletter",
+    "choice2": "chairs",
+    "ans": "chairs",
+    "cand_ques": [
+      "We had hoped to place copies of our newsletter on all the chairs in the auditorium ,. ? but there were simply too many of copies of the newsletter  .",
+      "We had hoped to place copies of our newsletter on all the chairs in the auditorium ,. ? but there were simply too many of chairs  ."
+    ]
+  },
+  {
+    "question": "I stuck a pin through a carrot . When I pulled the pin out ,. ? it left a hole .",
+    "pronoun": "it",
+    "choice1": "The pin",
+    "choice2": "The carrot",
+    "ans": "The pin",
+    "cand_ques": [
+      "I stuck a pin through a carrot . When I pulled the pin out ,. ? the pin left a hole .",
+      "I stuck a pin through a carrot . When I pulled the pin out ,. ? the carrot left a hole ."
+    ]
+  },
+  {
+    "question": "I stuck a pin through a carrot . When I pulled the pin out ,. ? it had a hole .",
+    "pronoun": "it",
+    "choice1": "The pin",
+    "choice2": "The carrot",
+    "ans": "The carrot",
+    "cand_ques": [
+      "I stuck a pin through a carrot . When I pulled the pin out ,. ? the pin had a hole .",
+      "I stuck a pin through a carrot . When I pulled the pin out ,. ? the carrot had a hole ."
+    ]
+  },
+  {
+    "question": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea ,. ? because it got full of coffee .",
+    "pronoun": "it",
+    "choice1": "The pen",
+    "choice2": "The coffee",
+    "ans": "The pen",
+    "cand_ques": [
+      "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea ,. ? because the pen got full of coffee .",
+      "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea ,. ? because the coffee got full of coffee ."
+    ]
+  },
+  {
+    "question": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea ,. ? because it got full of ink .",
+    "pronoun": "it",
+    "choice1": "The pen",
+    "choice2": "The coffee",
+    "ans": "The coffee",
+    "cand_ques": [
+      "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea ,. ? because the pen got full of ink .",
+      "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea ,. ? because the coffee got full of ink ."
+    ]
+  },
+  {
+    "question": "Steve follows Fred's example in everything . ? He admires him hugely .",
+    "pronoun": "him",
+    "choice1": "Steve",
+    "choice2": "Fred",
+    "ans": "Fred",
+    "cand_ques": [
+      "Steve follows Fred's example in everything . ? He admires steve hugely .",
+      "Steve follows Fred's example in everything . ? He admires fred hugely ."
+    ]
+  },
+  {
+    "question": "Steve follows Fred's example in everything . ? He influences him hugely .",
+    "pronoun": "him",
+    "choice1": "Steve",
+    "choice2": "Fred",
+    "ans": "Steve",
+    "cand_ques": [
+      "Steve follows Fred's example in everything . ? He influences steve hugely .",
+      "Steve follows Fred's example in everything . ? He influences fred hugely ."
+    ]
+  },
+  {
+    "question": "The table will not fit through the doorway . ? because it is too wide .",
+    "pronoun": "it",
+    "choice1": "The table",
+    "choice2": "The doorway",
+    "ans": "The table",
+    "cand_ques": [
+      "The table will not fit through the doorway . ? because the table is too wide .",
+      "The table will not fit through the doorway . ? because the doorway is too wide ."
+    ]
+  },
+  {
+    "question": "The table will not fit through the doorway . ? because it is too narrow .",
+    "pronoun": "it",
+    "choice1": "The table",
+    "choice2": "The doorway",
+    "ans": "The doorway",
+    "cand_ques": [
+      "The table will not fit through the doorway . ? because the table is too narrow .",
+      "The table will not fit through the doorway . ? because the doorway is too narrow ."
+    ]
+  },
+  {
+    "question": "Grace was happy to trade me her sweater for my jacket . ? She thinks it looks dowdy on her .",
+    "pronoun": "it",
+    "choice1": "The sweater",
+    "choice2": "The jacket",
+    "ans": "The sweater",
+    "cand_ques": [
+      "Grace was happy to trade me her sweater for my jacket ? She thinks the sweater looks dowdy on her .",
+      "Grace was happy to trade me her sweater for my jacket ? She thinks the jacket looks dowdy on her ."
+    ]
+  },
+  {
+    "question": "Grace was happy to trade me her sweater for my jacket . ? She thinks it looks great on her .",
+    "pronoun": "it",
+    "choice1": "The sweater",
+    "choice2": "The jacket",
+    "ans": "The jacket",
+    "cand_ques": [
+      "Grace was happy to trade me her sweater for my jacket ? She thinks the sweater looks great on her .",
+      "Grace was happy to trade me her sweater for my jacket ? She thinks the jacket looks great on her ."
+    ]
+  },
+  {
+    "question": "John hired Bill . ? to take care of him  .",
+    "pronoun": "him",
+    "choice1": "John",
+    "choice2": "Bill",
+    "ans": "John",
+    "cand_ques": [
+      "John hired Bill . ? to take care of john  .",
+      "John hired Bill . ? to take care of bill  ."
+    ]
+  },
+  {
+    "question": "John hired himself out to Bill . ? to take care of him  .",
+    "pronoun": "him",
+    "choice1": "John",
+    "choice2": "Bill",
+    "ans": "Bill",
+    "cand_ques": [
+      "John hired himself out to Bill . ? to take care of john  .",
+      "John hired himself out to Bill . ? to take care of bill  ."
+    ]
+  },
+  {
+    "question": "John promised Bill to leave ,. ? so an hour later he left .",
+    "pronoun": "he",
+    "choice1": "John",
+    "choice2": "Bill",
+    "ans": "John",
+    "cand_ques": [
+      "John promised Bill to leave ,. ? so an hour later john left .",
+      "John promised Bill to leave ,. ? so an hour later bill left ."
+    ]
+  },
+  {
+    "question": "John ordered Bill to leave ,. ? so an hour later he left .",
+    "pronoun": "he",
+    "choice1": "John",
+    "choice2": "Bill",
+    "ans": "Bill",
+    "cand_ques": [
+      "John ordered Bill to leave ,. ? so an hour later john left .",
+      "John ordered Bill to leave ,. ? so an hour later bill left ."
+    ]
+  },
+  {
+    "question": "Sam Goodman's biography of the Spartan general Xenophanes . ? conveys a vivid sense of the difficulties he faced in his research .",
+    "pronoun": "he",
+    "choice1": "Goodman",
+    "choice2": "Xenophanes",
+    "ans": "Goodman",
+    "cand_ques": [
+      "Sam Goodman's biography of the Spartan general Xenophanes . ? conveys a vivid sense of the difficulties goodman faced in his research .",
+      "Sam Goodman's biography of the Spartan general Xenophanes . ? conveys a vivid sense of the difficulties xenophanes faced in his research ."
+    ]
+  },
+  {
+    "question": "Sam Goodman's biography of the Spartan general Xenophanes . ? conveys a vivid sense of the difficulties he faced in his childhood .",
+    "pronoun": "he",
+    "choice1": "Goodman",
+    "choice2": "Xenophanes",
+    "ans": "Xenophanes",
+    "cand_ques": [
+      "Sam Goodman's biography of the Spartan general Xenophanes . ? conveys a vivid sense of the difficulties goodman faced in his childhood .",
+      "Sam Goodman's biography of the Spartan general Xenophanes . ? conveys a vivid sense of the difficulties xenophanes faced in his childhood ."
+    ]
+  },
+  {
+    "question": "Emma's mother had died long ago , . ? and her education had been managed by an excellent woman as governess .",
+    "pronoun": "her",
+    "choice1": "Emma",
+    "choice2": "Emma's mother",
+    "ans": "Emma",
+    "cand_ques": [
+      "Emma's mother had died long ago , . ? and emma education had been managed by an excellent woman as governess .",
+      "Emma's mother had died long ago , . ? and emma's mother education had been managed by an excellent woman as governess ."
+    ]
+  },
+  {
+    "question": "Emma's mother had died long ago , . ? and her place had been taken by an excellent woman as governess .",
+    "pronoun": "her",
+    "choice1": "Emma",
+    "choice2": "Emma's mother",
+    "ans": "Emma's mother",
+    "cand_ques": [
+      "Emma's mother had died long ago , . ? and emma place had been taken by an excellent woman as governess .",
+      "Emma's mother had died long ago , . ? and emma's mother place had been taken by an excellent woman as governess ."
+    ]
+  },
+  {
+    "question": "Jane knocked on Susan's door ? but she did not get an answer .",
+    "pronoun": "she",
+    "choice1": "Jane",
+    "choice2": "Susan",
+    "ans": "Jane",
+    "cand_ques": [
+      "Jane knocked on Susan's door ? but jane did not get an answer .",
+      "Jane knocked on Susan's door ? but susan did not get an answer ."
+    ]
+  },
+  {
+    "question": "Jane knocked on Susan's door ? but she did not answer .",
+    "pronoun": "she",
+    "choice1": "Jane",
+    "choice2": "Susan",
+    "ans": "Susan",
+    "cand_ques": [
+      "Jane knocked on Susan's door ? but jane did not answer .",
+      "Jane knocked on Susan's door ? but susan did not answer ."
+    ]
+  },
+  {
+    "question": "Joe paid the detective . ? after he received the final report on the case .",
+    "pronoun": "he",
+    "choice1": "Joe",
+    "choice2": "the detective",
+    "ans": "Joe",
+    "cand_ques": [
+      "Joe paid the detective, ? after joe received the final report on the case .",
+      "Joe paid the detective, ? after the detective received the final report on the case ."
+    ]
+  },
+  {
+    "question": "Joe paid the detective, ? after he delivered the final report on the case .",
+    "pronoun": "he",
+    "choice1": "Joe",
+    "choice2": "the detective",
+    "ans": "the detective",
+    "cand_ques": [
+      "Joe paid the detective, ? after joe delivered the final report on the case .",
+      "Joe paid the detective, ? after the detective delivered the final report on the case ."
+    ]
+  },
+  {
+    "question": "Beth did not get angry with Sally , who had cut her off . ? because she stopped and counted to ten .",
+    "pronoun": "she",
+    "choice1": "Beth",
+    "choice2": "Sally",
+    "ans": "Beth",
+    "cand_ques": [
+      "Beth did not get angry with Sally , who had cut her off because . ? beth stopped and counted to ten .",
+      "Beth did not get angry with Sally , who had cut her off because . ? sally stopped and counted to ten ."
+    ]
+  },
+  {
+    "question": "Beth did not get angry with Sally , who had cut her off . ? because she stopped and apologized .",
+    "pronoun": "she",
+    "choice1": "Beth",
+    "choice2": "Sally",
+    "ans": "Sally",
+    "cand_ques": [
+      "Beth did not get angry with Sally , who had cut her off because . ? beth stopped and apologized .",
+      "Beth did not get angry with Sally , who had cut her off because . ? sally stopped and apologized ."
+    ]
+  },
+  {
+    "question": "Jim signaled the barman and gestured . ? toward his empty glass .",
+    "pronoun": "his",
+    "choice1": "Jim",
+    "choice2": "The barman",
+    "ans": "Jim",
+    "cand_ques": [
+      "Jim signaled the barman and gestured . ? toward jim empty glass .",
+      "Jim signaled the barman and gestured . ? toward the barman empty glass ."
+    ]
+  },
+  {
+    "question": "Jim signaled the barman and gestured . ? toward his bathroom key .",
+    "pronoun": "his",
+    "choice1": "Jim",
+    "choice2": "The barman",
+    "ans": "The barman",
+    "cand_ques": [
+      "Jim signaled the barman and gestured . ? toward jim bathroom key .",
+      "Jim signaled the barman and gestured . ? toward the barman bathroom key ."
+    ]
+  },
+  {
+    "question": "Dan took the rear seat while Bill claimed the front . ? because his Dibs was slow .",
+    "pronoun": "his",
+    "choice1": "Dan",
+    "choice2": "Bill",
+    "ans": "Dan",
+    "cand_ques": [
+      "Dan took the rear seat while Bill claimed the front . ? because dan Dibs was slow .",
+      "Dan took the rear seat while Bill claimed the front . ? because bill Dibs was slow ."
+    ]
+  },
+  {
+    "question": "Dan took the rear seat while Bill claimed the front . ? because his Dibs was quicker .",
+    "pronoun": "his",
+    "choice1": "Dan",
+    "choice2": "Bill",
+    "ans": "Bill",
+    "cand_ques": [
+      "Dan took the rear seat while Bill claimed the front . ? because dan Dibs was quicker .",
+      "Dan took the rear seat while Bill claimed the front . ? because bill Dibs was quicker ."
+    ]
+  },
+  {
+    "question": "Tom said Check to Ralph . ? as he moved his bishop .",
+    "pronoun": "his",
+    "choice1": "Tom",
+    "choice2": "Ralph",
+    "ans": "Tom",
+    "cand_ques": [
+      "Tom said Check to Ralph . ? as he moved tom bishop .",
+      "Tom said Check to Ralph . ? as he moved ralph bishop ."
+    ]
+  },
+  {
+    "question": "Tom said Check to Ralph . ? as he took his bishop .",
+    "pronoun": "his",
+    "choice1": "Tom",
+    "choice2": "Ralph",
+    "ans": "Ralph",
+    "cand_ques": [
+      "Tom said Check to Ralph . ? as he took tom bishop .",
+      "Tom said Check to Ralph . ? as he took ralph bishop ."
+    ]
+  },
+  {
+    "question": "As Andrea in the crop duster passed over Susan ,. ? she could see the landing strip .",
+    "pronoun": "she",
+    "choice1": "Andrea",
+    "choice2": "Susan",
+    "ans": "Andrea",
+    "cand_ques": [
+      "As Andrea in the crop duster passed over Susan ,. ? andrea could see the landing strip .",
+      "As Andrea in the crop duster passed over Susan ,. ? susan could see the landing strip ."
+    ]
+  },
+  {
+    "question": "As Andrea in the crop duster passed over Susan ,. ? she could see the landing gear .",
+    "pronoun": "she",
+    "choice1": "Andrea",
+    "choice2": "Susan",
+    "ans": "Susan",
+    "cand_ques": [
+      "As Andrea in the crop duster passed over Susan ,. ? andrea could see the landing gear .",
+      "As Andrea in the crop duster passed over Susan ,. ? susan could see the landing gear ."
+    ]
+  },
+  {
+    "question": "Tom gave Ralph a lift to school . ? so he would not have to drive alone .",
+    "pronoun": "he",
+    "choice1": "Tom",
+    "choice2": "Ralph",
+    "ans": "Tom",
+    "cand_ques": [
+      "Tom gave Ralph a lift to school . ? so tom would not have to drive alone .",
+      "Tom gave Ralph a lift to school . ? so ralph would not have to drive alone ."
+    ]
+  },
+  {
+    "question": "Tom gave Ralph a lift to school . ? so he would not have to walk .",
+    "pronoun": "he",
+    "choice1": "Tom",
+    "choice2": "Ralph",
+    "ans": "Ralph",
+    "cand_ques": [
+      "Tom gave Ralph a lift to school . ? so tom would not have to walk .",
+      "Tom gave Ralph a lift to school . ? so ralph would not have to walk ."
+    ]
+  },
+  {
+    "question": "Bill passed the half-empty plate to John . ? because he was full .",
+    "pronoun": "he",
+    "choice1": "Bill",
+    "choice2": "John",
+    "ans": "Bill",
+    "cand_ques": [
+      "Bill passed the half-empty plate to ? John because bill was full .",
+      "Bill passed the half-empty plate to ? John because john was full ."
+    ]
+  },
+  {
+    "question": "Bill passed the half-empty plate to John . ? because he was hungry .",
+    "pronoun": "he",
+    "choice1": "Bill",
+    "choice2": "John",
+    "ans": "John",
+    "cand_ques": [
+      "Bill passed the half-empty plate to ? John because bill was hungry .",
+      "Bill passed the half-empty plate to ? John because john was hungry ."
+    ]
+  },
+  {
+    "question": "Bill passed the gameboy to John . ? because his turn was over .",
+    "pronoun": "his",
+    "choice1": "Bill",
+    "choice2": "John",
+    "ans": "Bill",
+    "cand_ques": [
+      "Bill passed the gameboy to John . ? because bill turn was over .",
+      "Bill passed the gameboy to John . ? because john turn was over ."
+    ]
+  },
+  {
+    "question": "Bill passed the gameboy to John . ? because his turn was next .",
+    "pronoun": "his",
+    "choice1": "Bill",
+    "choice2": "John",
+    "ans": "John",
+    "cand_ques": [
+      "Bill passed the gameboy to John . ? because bill turn was next .",
+      "Bill passed the gameboy to John . ? because john turn was next ."
+    ]
+  },
+  {
+    "question": "The man lifted the boy . ? onto his shoulders .",
+    "pronoun": "his",
+    "choice1": "The man",
+    "choice2": "The boy",
+    "ans": "The man",
+    "cand_ques": [
+      "The man lifted the boy . ? onto the man shoulders .",
+      "The man lifted the boy . ? onto the boy shoulders ."
+    ]
+  },
+  {
+    "question": "The man lifted the boy . ? onto his bunk bed .",
+    "pronoun": "his",
+    "choice1": "The man",
+    "choice2": "The boy",
+    "ans": "The boy",
+    "cand_ques": [
+      "The man lifted the boy . ? onto the man bunk bed .",
+      "The man lifted the boy . ? onto the boy bunk bed ."
+    ]
+  },
+  {
+    "question": "Stretching her back ,. ? the woman smiled at the girl .",
+    "pronoun": "her",
+    "choice1": "The woman",
+    "choice2": "The girl",
+    "ans": "The woman",
+    "cand_ques": [
+      "Stretching the woman back ,. ? the woman smiled at the girl .",
+      "Stretching the girl back ,. ? the woman smiled at the girl ."
+    ]
+  },
+  {
+    "question": "Patting her back ,. ? the woman smiled at the girl .",
+    "pronoun": "her",
+    "choice1": "The woman",
+    "choice2": "The girl",
+    "ans": "The girl",
+    "cand_ques": [
+      "Patting the woman back ,. ? the woman smiled at the girl .",
+      "Patting the girl back ,. ? the woman smiled at the girl ."
+    ]
+  },
+  {
+    "question": "Billy cried . ? because Toby would not accept his toy .",
+    "pronoun": "his",
+    "choice1": "Billy",
+    "choice2": "Toby",
+    "ans": "Billy",
+    "cand_ques": [
+      "Billy cried . ? because Toby would not accept billy toy .",
+      "Billy cried . ? because Toby would not accept toby toy ."
+    ]
+  },
+  {
+    "question": "Billy cried . ? because Toby would not share his toy .",
+    "pronoun": "his",
+    "choice1": "Billy",
+    "choice2": "Toby",
+    "ans": "Toby",
+    "cand_ques": [
+      "Billy cried . ? because Toby would not share billy toy .",
+      "Billy cried . ? because Toby would not share toby toy ."
+    ]
+  },
+  {
+    "question": "Lily spoke to Donna ,. ? breaking her silence .",
+    "pronoun": "her",
+    "choice1": "Lily",
+    "choice2": "Donna",
+    "ans": "Lily",
+    "cand_ques": [
+      "Lily spoke to ? Donna , breaking lily silence .",
+      "Lily spoke to ? Donna , breaking donna silence ."
+    ]
+  },
+  {
+    "question": "Lily spoke to Donna ,. ? breaking her concentration .",
+    "pronoun": "her",
+    "choice1": "Lily",
+    "choice2": "Donna",
+    "ans": "Donna",
+    "cand_ques": [
+      "Lily spoke to ? Donna , breaking lily concentration .",
+      "Lily spoke to ? Donna , breaking donna concentration ."
+    ]
+  },
+  {
+    "question": "When Tommy dropped his ice cream , Timmy giggled ,. ? so father gave him a sympathetic look .",
+    "pronoun": "him",
+    "choice1": "Tommy",
+    "choice2": "Timmy",
+    "ans": "Tommy",
+    "cand_ques": [
+      "When Tommy dropped his ice cream , Timmy giggled ,. ? so father gave tommy a sympathetic look .",
+      "When Tommy dropped his ice cream , Timmy giggled ,. ? so father gave timmy a sympathetic look ."
+    ]
+  },
+  {
+    "question": "When Tommy dropped his ice cream , Timmy giggled ,. ? so father gave him a stern look .",
+    "pronoun": "him",
+    "choice1": "Tommy",
+    "choice2": "Timmy",
+    "ans": "Timmy",
+    "cand_ques": [
+      "When Tommy dropped his ice cream , Timmy giggled ,. ? so father gave tommy a stern look .",
+      "When Tommy dropped his ice cream , Timmy giggled ,. ? so father gave timmy a stern look ."
+    ]
+  },
+  {
+    "question": "As Ollie carried Tommy up the long winding steps ,. ? his legs ached .",
+    "pronoun": "his",
+    "choice1": "Ollie",
+    "choice2": "Tommy",
+    "ans": "Ollie",
+    "cand_ques": [
+      "As Ollie carried Tommy up the long winding steps ,. ? ollie legs ached .",
+      "As Ollie carried Tommy up the long winding steps ,. ? tommy legs ached ."
+    ]
+  },
+  {
+    "question": "As Ollie carried Tommy up the long winding steps ,. ? his legs dangled .",
+    "pronoun": "his",
+    "choice1": "Ollie",
+    "choice2": "Tommy",
+    "ans": "Tommy",
+    "cand_ques": [
+      "As Ollie carried Tommy up the long winding steps ,. ? ollie legs dangled .",
+      "As Ollie carried Tommy up the long winding steps ,. ? tommy legs dangled ."
+    ]
+  },
+  {
+    "question": "The father carried the sleeping boy . ? in his arms .",
+    "pronoun": "his",
+    "choice1": "The father",
+    "choice2": "The boy",
+    "ans": "The father",
+    "cand_ques": [
+      "The father carried the sleeping boy . ? in the father arms .",
+      "The father carried the sleeping boy . ? in the boy arms ."
+    ]
+  },
+  {
+    "question": "The father carried the sleeping boy . ? in his bassinet .",
+    "pronoun": "his",
+    "choice1": "The father",
+    "choice2": "The boy",
+    "ans": "The boy",
+    "cand_ques": [
+      "The father carried the sleeping boy . ? in the father bassinet .",
+      "The father carried the sleeping boy . ? in the boy bassinet ."
+    ]
+  },
+  {
+    "question": "The woman held the girl . ? against her chest .",
+    "pronoun": "her",
+    "choice1": "The woman",
+    "choice2": "The girl",
+    "ans": "The woman",
+    "cand_ques": [
+      "The woman held the girl . ? against the woman chest .",
+      "The woman held the girl . ? against the girl chest ."
+    ]
+  },
+  {
+    "question": "The woman held the girl . ? against her will .",
+    "pronoun": "her",
+    "choice1": "The woman",
+    "choice2": "The girl",
+    "ans": "The girl",
+    "cand_ques": [
+      "The woman held the girl . ? against the woman will .",
+      "The woman held the girl . ? against the girl will ."
+    ]
+  },
+  {
+    "question": "Pam's parents came home and found her having sex with her boyfriend , Paul . ? They were furious about it .",
+    "pronoun": "They",
+    "choice1": "Pam's parents",
+    "choice2": "Pam and Paul",
+    "ans": "Pam's parents",
+    "cand_ques": [
+      "Pam's parents came home and found her having sex with her boyfriend , Paul . ? pam's parents were furious about it .",
+      "Pam's parents came home and found her having sex with her boyfriend , Paul . ? pam and paul were furious about it ."
+    ]
+  },
+  {
+    "question": "Pam's parents came home and found her having sex with her boyfriend , Paul . ? They were embarrassed about it .",
+    "pronoun": "They",
+    "choice1": "Pam's parents",
+    "choice2": "Pam and Paul",
+    "ans": "Pam and Paul",
+    "cand_ques": [
+      "Pam's parents came home and found her having sex with her boyfriend , Paul . ? pam's parents were embarrassed about it .",
+      "Pam's parents came home and found her having sex with her boyfriend , Paul . ? pam and paul were embarrassed about it ."
+    ]
+  },
+  {
+    "question": "Dr . Adams informed Kate that . ? she had retired and presented several options for future treatment .",
+    "pronoun": "she",
+    "choice1": "Dr. Adams",
+    "choice2": "Kate",
+    "ans": "Dr. Adams",
+    "cand_ques": [
+      "Dr . Adams informed Kate that . ? dr. adams had retired and presented several options for future treatment .",
+      "Dr . Adams informed Kate that . ? kate had retired and presented several options for future treatment ."
+    ]
+  },
+  {
+    "question": "Dr . Adams informed Kate that . ? she had cancer and presented several options for future treatment .",
+    "pronoun": "she",
+    "choice1": "Dr. Adams",
+    "choice2": "Kate",
+    "ans": "Kate",
+    "cand_ques": [
+      "Dr . Adams informed Kate that . ? dr. adams had cancer and presented several options for future treatment .",
+      "Dr . Adams informed Kate that . ? kate had cancer and presented several options for future treatment ."
+    ]
+  },
+  {
+    "question": "Dan had to stop Bill ? from toying with the injured bird. He is very compassionate .",
+    "pronoun": "He",
+    "choice1": "Dan",
+    "choice2": "Bill",
+    "ans": "Dan",
+    "cand_ques": [
+      "Dan had to stop Bill ? from toying with the injured bird dan is very compassionate .",
+      "Dan had to stop Bill ? from toying with the injured bird bill is very compassionate ."
+    ]
+  },
+  {
+    "question": "Dan had to stop Bill from toying with the injured bird. He is very cruel .",
+    "pronoun": "He",
+    "choice1": "Dan",
+    "choice2": "Bill",
+    "ans": "Bill",
+    "cand_ques": [
+      "Dan had to stop ? Bill from toying with the injured bird dan is very cruel .",
+      "Dan had to stop ? Bill from toying with the injured bird bill is very cruel ."
+    ]
+  },
+  {
+    "question": "George got free tickets to the play ,. ? but he gave them to Eric , even though he was not particularly eager to see it .",
+    "pronoun": "he",
+    "choice1": "George",
+    "choice2": "Eric",
+    "ans": "George",
+    "cand_ques": [
+      "George got free tickets to the play ,. ? but george gave them to Eric , even though george was not particularly eager to see it .",
+      "George got free tickets to the play ,. ? but eric gave them to Eric , even though eric was not particularly eager to see it ."
+    ]
+  },
+  {
+    "question": "George got free tickets to the play ,. ? but he gave them to Eric , because he was particularly eager to see it .",
+    "pronoun": "he",
+    "choice1": "George",
+    "choice2": "Eric",
+    "ans": "Eric",
+    "cand_ques": [
+      "George got free tickets to the play ,. ? but george gave them to Eric , because george was particularly eager to see it .",
+      "George got free tickets to the play ,. ? but eric gave them to Eric , because eric was particularly eager to see it ."
+    ]
+  },
+  {
+    "question": "George got free tickets to the play ,. ? but he gave them to Eric , because he was not particularly eager to see it .",
+    "pronoun": "he",
+    "choice1": "George",
+    "choice2": "Eric",
+    "ans": "George",
+    "cand_ques": [
+      "George got free tickets to the play ,. ? but george gave them to Eric , because george was not particularly eager to see it .",
+      "George got free tickets to the play ,. ? but eric gave them to Eric , because eric was not particularly eager to see it ."
+    ]
+  },
+  {
+    "question": "Jane gave Joan candy . ? because she was not hungry .",
+    "pronoun": "she",
+    "choice1": "Jane",
+    "choice2": "Joan",
+    "ans": "Jane",
+    "cand_ques": [
+      "Jane gave Joan candy . ? because jane was not hungry .",
+      "Jane gave Joan candy . ? because joan was not hungry ."
+    ]
+  },
+  {
+    "question": "Jane gave Joan candy . ? because she was hungry .",
+    "pronoun": "she",
+    "choice1": "Jane",
+    "choice2": "Joan",
+    "ans": "Joan",
+    "cand_ques": [
+      "Jane gave Joan candy . ? because jane was hungry .",
+      "Jane gave Joan candy . ? because joan was hungry ."
+    ]
+  },
+  {
+    "question": "I tried to paint a picture of an orchard , with lemons in the lemon trees ,. ? but they came out looking more like light bulbs .",
+    "pronoun": "they",
+    "choice1": "lemons",
+    "choice2": "lemon trees",
+    "ans": "lemons",
+    "cand_ques": [
+      "I tried to paint a picture of an orchard , with lemons in the lemon trees ,. ? but lemons came out looking more like light bulbs .",
+      "I tried to paint a picture of an orchard , with lemons in the lemon trees ,. ? but lemon trees came out looking more like light bulbs ."
+    ]
+  },
+  {
+    "question": "I tried to paint a picture of an orchard , with lemons in the lemon trees ,. ? but they came out looking more like telephone poles .",
+    "pronoun": "they",
+    "choice1": "lemons",
+    "choice2": "lemon trees",
+    "ans": "lemon trees",
+    "cand_ques": [
+      "I tried to paint a picture of an orchard , with lemons in the lemon trees ,. ? but lemons came out looking more like telephone poles .",
+      "I tried to paint a picture of an orchard , with lemons in the lemon trees ,. ? but lemon trees came out looking more like telephone poles ."
+    ]
+  },
+  {
+    "question": "James asked Robert for a favor. ? but he was refused .",
+    "pronoun": "he",
+    "choice1": "James",
+    "choice2": "Robert",
+    "ans": "James",
+    "cand_ques": [
+      "James asked Robert for a favor. ? but james was refused .",
+      "James asked Robert for a favor. ? but robert was refused ."
+    ]
+  },
+  {
+    "question": "James asked Robert for a favor. ? but he refused .",
+    "pronoun": "he",
+    "choice1": "James",
+    "choice2": "Robert",
+    "ans": "Robert",
+    "cand_ques": [
+      "James asked Robert for a favor. ? but james refused .",
+      "James asked Robert for a favor. ? but robert refused ."
+    ]
+  },
+  {
+    "question": "Kirilov ceded the presidency to Shatov. ? because he was less popular .",
+    "pronoun": "he",
+    "choice1": "Kirilov",
+    "choice2": "Shatov",
+    "ans": "Kirilov",
+    "cand_ques": [
+      "Kirilov ceded the presidency to Shatov. ? because kirilov was less popular .",
+      "Kirilov ceded the presidency to Shatov. ? because shatov was less popular ."
+    ]
+  },
+  {
+    "question": "Kirilov ceded the presidency to Shatov. ? because he was more popular .",
+    "pronoun": "he",
+    "choice1": "Kirilov",
+    "choice2": "Shatov",
+    "ans": "Shatov",
+    "cand_ques": [
+      "Kirilov ceded the presidency to Shatov. ? because kirilov was more popular .",
+      "Kirilov ceded the presidency to Shatov. ? because shatov was more popular ."
+    ]
+  },
+  {
+    "question": "Emma did not pass the ball to Janie. ? although she saw that she was open .",
+    "pronoun": "she",
+    "choice1": "Emma",
+    "choice2": "Janie",
+    "ans": "Emma",
+    "cand_ques": [
+      "Emma did not pass the ball to Janie. ? although emma saw that emma was open .",
+      "Emma did not pass the ball to Janie. ? although janie saw that janie was open ."
+    ]
+  },
+  {
+    "question": "Emma did not pass the ball to Janie. ? although she was open .",
+    "pronoun": "she",
+    "choice1": "Emma",
+    "choice2": "Janie",
+    "ans": "Janie",
+    "cand_ques": [
+      "Emma did not pass the ball to Janie. ? although emma was open .",
+      "Emma did not pass the ball to Janie. ? although janie was open ."
+    ]
+  },
+  {
+    "question": "I put the butterfly wing on the table. ? and it broke .",
+    "pronoun": "it",
+    "choice1": "The butterfly wing",
+    "choice2": "The table",
+    "ans": "The butterfly wing",
+    "cand_ques": [
+      "I put the butterfly wing on the table. ? and the butterfly wing broke .",
+      "I put the butterfly wing on the table. ? and the table broke ."
+    ]
+  },
+  {
+    "question": "I put the heavy book on the table. ? and it broke .",
+    "pronoun": "it",
+    "choice1": "The book",
+    "choice2": "The table",
+    "ans": "The table",
+    "cand_ques": [
+      "I put the heavy book on the table. ? and the book broke .",
+      "I put the heavy book on the table. ? and the table broke ."
+    ]
+  },
+  {
+    "question": "Madonna fired her trainer. ? because she could not stand her boyfriend .",
+    "pronoun": "she",
+    "choice1": "Madonna",
+    "choice2": "her trainer",
+    "ans": "Madonna",
+    "cand_ques": [
+      "Madonna fired her trainer. ? because madonna could not stand her boyfriend .",
+      "Madonna fired her trainer. ? because her trainer could not stand her boyfriend ."
+    ]
+  },
+  {
+    "question": "Madonna fired her trainer. ? because she slept with her boyfriend .",
+    "pronoun": "she",
+    "choice1": "Madonna",
+    "choice2": "her trainer",
+    "ans": "her trainer",
+    "cand_ques": [
+      "Madonna fired her trainer. ? because madonna slept with her boyfriend .",
+      "Madonna fired her trainer. ? because her trainer slept with her boyfriend ."
+    ]
+  },
+  {
+    "question": "Madonna fired her trainer. ? because she slept with her boyfriend .",
+    "pronoun": "her",
+    "choice1": "Madonna",
+    "choice2": "The trainer",
+    "ans": "Madonna",
+    "cand_ques": [
+      "Madonna fired madonna trainer. ? because she slept with madonna boyfriend .",
+      "Madonna fired the trainer trainer. ? because she slept with the trainer boyfriend ."
+    ]
+  },
+  {
+    "question": "Madonna fired her trainer. ? because she could not stand her boyfriend .",
+    "pronoun": "her",
+    "choice1": "Madonna",
+    "choice2": "her trainer",
+    "ans": "her trainer",
+    "cand_ques": [
+      "Madonna fired madonna trainer. ? because she could not stand madonna boyfriend .",
+      "Madonna fired her trainer trainer. ? because she could not stand her trainer boyfriend ."
+    ]
+  },
+  {
+    "question": "Carol believed that Rebecca suspected. ? that she had stolen the watch .",
+    "pronoun": "she",
+    "choice1": "Carol",
+    "choice2": "Rebecca",
+    "ans": "Carol",
+    "cand_ques": [
+      "Carol believed that Rebecca suspected. ? that carol had stolen the watch .",
+      "Carol believed that Rebecca suspected. ? that rebecca had stolen the watch ."
+    ]
+  },
+  {
+    "question": "Carol believed that Rebecca regretted. ? that she had stolen the watch .",
+    "pronoun": "she",
+    "choice1": "Carol",
+    "choice2": "Rebecca",
+    "ans": "Rebecca",
+    "cand_ques": [
+      "Carol believed that Rebecca regretted. ? that carol had stolen the watch .",
+      "Carol believed that Rebecca regretted. ? that rebecca had stolen the watch ."
+    ]
+  },
+  {
+    "question": "This book introduced Shakespeare to Ovid ;. ? it was a major influence on his writing .",
+    "pronoun": "his",
+    "choice1": "Shakespeare",
+    "choice2": "Ovid",
+    "ans": "Shakespeare",
+    "cand_ques": [
+      "This book introduced Shakespeare to Ovid ;. ? it was a major influence on shakespeare writing .",
+      "This book introduced Shakespeare to Ovid ;. ? it was a major influence on ovid writing ."
+    ]
+  },
+  {
+    "question": "This book introduced Shakespeare to Goethe ;. ? it was a major influence on his writing .",
+    "pronoun": "his",
+    "choice1": "Shakespeare",
+    "choice2": "Goethe",
+    "ans": "Goethe",
+    "cand_ques": [
+      "This book introduced Shakespeare to Goethe ;. ? it was a major influence on shakespeare writing .",
+      "This book introduced Shakespeare to Goethe ;. ? it was a major influence on goethe writing ."
+    ]
+  },
+  {
+    "question": "This book introduced Shakespeare to Ovid ;. ? it was a fine selection of his writing .",
+    "pronoun": "his",
+    "choice1": "Shakespeare",
+    "choice2": "Ovid",
+    "ans": "Ovid",
+    "cand_ques": [
+      "This book introduced Shakespeare to Ovid ;. ? it was a fine selection of shakespeare writing .",
+      "This book introduced Shakespeare to Ovid ;. ? it was a fine selection of ovid writing ."
+    ]
+  },
+  {
+    "question": "This book introduced Shakespeare to Goethe ;. ? it was a fine selection of his writing .",
+    "pronoun": "his",
+    "choice1": "Shakespeare",
+    "choice2": "Goethe",
+    "ans": "Shakespeare",
+    "cand_ques": [
+      "This book introduced Shakespeare to Goethe ;. ? it was a fine selection of shakespeare writing .",
+      "This book introduced Shakespeare to Goethe ;. ? it was a fine selection of goethe writing ."
+    ]
+  },
+  {
+    "question": "Alice looked for her friend Jade in the crowd . ? Since she always has good luck , Alice spotted her quickly .",
+    "pronoun": "she",
+    "choice1": "Alice",
+    "choice2": "Jade",
+    "ans": "Alice",
+    "cand_ques": [
+      "Alice looked for her friend Jade in the crowd . ? Since alice always has good luck , Alice spotted her quickly .",
+      "Alice looked for her friend Jade in the crowd . ? Since jade always has good luck , Alice spotted her quickly ."
+    ]
+  },
+  {
+    "question": "Alice looked for her friend Jade in the crowd . ? Since she always wears a red turban , Alice spotted her quickly .",
+    "pronoun": "she",
+    "choice1": "Alice",
+    "choice2": "Jade",
+    "ans": "Jade",
+    "cand_ques": [
+      "Alice looked for her friend Jade in the crowd . ? Since alice always wears a red turban , Alice spotted her quickly .",
+      "Alice looked for her friend Jade in the crowd . ? Since jade always wears a red turban , Alice spotted her quickly ."
+    ]
+  },
+  {
+    "question": "During a game of tag , Ethan chased Luke . ? because he was it .",
+    "pronoun": "he",
+    "choice1": "Ethan",
+    "choice2": "Luke",
+    "ans": "Ethan",
+    "cand_ques": [
+      "During a game of tag , Ethan chased Luke . ? because ethan was it .",
+      "During a game of tag , Ethan chased Luke . ? because luke was it ."
+    ]
+  },
+  {
+    "question": "During a game of tag , Ethan ran from Luke . ? because he was it .",
+    "pronoun": "he",
+    "choice1": "Ethan",
+    "choice2": "Luke",
+    "ans": "Luke",
+    "cand_ques": [
+      "During a game of tag , Ethan ran from Luke . ? because ethan was it .",
+      "During a game of tag , Ethan ran from Luke . ? because luke was it ."
+    ]
+  },
+  {
+    "question": "At the Loebner competition the judges could not figure out which respondents were the chatbots . ? because they were so stupid .",
+    "pronoun": "they",
+    "choice1": "the judges",
+    "choice2": "the chatbots",
+    "ans": "the judges",
+    "cand_ques": [
+      "At the Loebner competition the judges could not figure out which respondents were the chatbots . ? because the judges were so stupid .",
+      "At the Loebner competition the judges could not figure out which respondents were the chatbots . ? because the chatbots were so stupid ."
+    ]
+  },
+  {
+    "question": "At the Loebner competition the judges could not figure out which respondents were the chatbots . ? because they were so advanced .",
+    "pronoun": "they",
+    "choice1": "the judges",
+    "choice2": "the chatbots",
+    "ans": "the chatbots",
+    "cand_ques": [
+      "At the Loebner competition the judges could not figure out which respondents were the chatbots . ? because the judges were so advanced .",
+      "At the Loebner competition the judges could not figure out which respondents were the chatbots . ? because the chatbots were so advanced ."
+    ]
+  },
+  {
+    "question": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles . ? as it was easy to forget .",
+    "pronoun": "it",
+    "choice1": "GrWQWu8JyC",
+    "choice2": "willow-towered Canopy Huntertropic wrestles",
+    "ans": "GrWQWu8JyC",
+    "cand_ques": [
+      "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles . ? as grwqwu8jyc was easy to forget .",
+      "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles . ? as willow-towered canopy huntertropic wrestles was easy to forget ."
+    ]
+  },
+  {
+    "question": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles . ? as it was easy to remember .",
+    "pronoun": "it",
+    "choice1": "GrWQWu8JyC",
+    "choice2": "willow-towered Canopy Huntertropic wrestles",
+    "ans": "willow-towered Canopy Huntertropic wrestles",
+    "cand_ques": [
+      "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles . ? as grwqwu8jyc was easy to remember .",
+      "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles . ? as willow-towered canopy huntertropic wrestles was easy to remember ."
+    ]
+  }
+]
