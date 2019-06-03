@@ -45,6 +45,9 @@ you_pronouns = ["you","yourself","your"]
 list_of_sim_words = [("we","us")]
 list_of_dissim_words = [("there","i"),("them","you"),("i","it")]
 
+similar_file = open("similar_pair.json","r")
+similar_pair = json.load(similar_file)
+
 def are_same(phrase1,phrase2):
     if phrase1==phrase2:
         return True
@@ -57,7 +60,7 @@ def are_same(phrase1,phrase2):
     if phrase1 in he_pronouns and phrase2 in he_pronouns:
           return True
     if phrase1 in she_pronouns and phrase2 in she_pronouns:
-          return True
+          return True  
     if phrase1 in you_pronouns and phrase2 in you_pronouns:
           return True
 
@@ -124,39 +127,6 @@ def same_type_score(ques1, ques2):
         return 1.0
     else:
         return 0.0
-'''
-    else:
-        if ques1[-1]=="?":
-            ques1_without_qm = ques1[0:-1]
-        else:
-            ques1_without_qm = ques1
-
-        if ques2[-1]=="?":
-            ques2_without_qm = ques2[0:-1]
-        else:
-            ques2_without_qm = ques2
-
-        ques1_tokens = ques1_without_qm.split(" ")
-        ques2_tokens = ques2_without_qm.split(" ")
-        tokens_matched = 0
-        for i in range(0,len(ques1_tokens)):
-            if i < len(ques2_tokens):
-                if ques1_tokens[i]==ques2_tokens[i]:
-                    tokens_matched += 1
-                elif ques1_tokens[i]=="someone" and ques2_tokens[i]=="something":
-                    tokens_matched += 1
-                elif ques1_tokens[i]=="something" and ques2_tokens[i]=="someone":
-                    tokens_matched += 1
-        sim_score = tokens_matched/float(len(ques1_tokens))
-
-        #if sim_score > 0.8:
-        #    return True
-        return sim_score
-        #for ques_type_list in ques_type_lists:
-        #    if (ques1 in ques_type_list) and (ques2 in ques_type_list):
-        #        return True
-    return False
-'''
 
 def get_words_similarity(word1,word2):
     if word1==word2:
@@ -193,39 +163,24 @@ def is_similar(ws_qa_pair,know_qa_pair):
     all_ques.add(ws_ques)
     all_ques.add(know_ques)
 
-    #print(ws_qa_pair,know_qa_pair)
     total_sim_score = 0.0
-    #print("WS QUESTION",ws_ques)
-    #print("KNOW QUESTION",know_ques)
     total_sim_score += same_type_score(ws_ques,know_ques)
-    #print(total_sim_score)
-    #print(ws_verb, know_verb)
     ws_verb_lemma = get_lemma(ws_verb,'v')
     know_verb_lemma = get_lemma(know_verb,'v')
-    #print(ws_verb_lemma, know_verb_lemma)
+
     if ws_verb_lemma==know_verb_lemma:
         total_sim_score += 1.0
     else:
         verb_sim = get_words_similarity(ws_verb_lemma,know_verb_lemma)
         if verb_sim is not None:
             total_sim_score += verb_sim
-            #if verb_sim > 0.7:
-            #    return 1.0
-            #else:
-            #    return 0.0
         else:
             total_sim_score += 0.0
 
-    #print(total_sim_score)
     if total_sim_score > 1.4:
         return True
     else:
         return False
-'''
-    if ws_verb==know_verb:
-        if same_type():
-            return 1.0
-'''
 
 def get_similar_ques(ws_qa_pairs, know_qa_pairs):
     dict_of_similar_ques = {}
@@ -234,19 +189,11 @@ def get_similar_ques(ws_qa_pairs, know_qa_pairs):
         sim_ques = ""
         sim_ans = ""
         for know_qa_pair in know_qa_pairs:
-            #print("WS Pair: ",ws_qa_pair)
-            #print("KNOW Pair: ",know_qa_pair)
-            #print("Sim Score: ",sim_score)
             sim_score = is_similar(ws_qa_pair,know_qa_pair)
-            #print("WS Pair: ",ws_qa_pair)
-            #print("KNOW Pair: ",know_qa_pair)
-            #print("Sim Score: ",sim_score)
             if sim_score is True:
-                #print("WS_PAIR: ",ws_qa_pair)
-                #print("KNOW_PAIR: ",know_qa_pair)
                 sim_ques = know_qa_pair["ques"]
                 sim_ans = know_qa_pair["ans"]
-                dict_of_similar_ques[(ws_qa_pair["ques"],ws_qa_pair["verb"])] = (sim_ques,ws_qa_pair["verb"])
+                dict_of_similar_ques[(ws_qa_pair["ques"],ws_qa_pair["verb"])] = (sim_ques, ws_qa_pair["verb"])
                 if (ws_qa_pair["ans"],ws_qa_pair["verb"]) in dict_of_similar_ans:
                     set_of_sim_ans = dict_of_similar_ans[(ws_qa_pair["ans"],ws_qa_pair["verb"])]
                 else:
@@ -271,9 +218,6 @@ def get_max(ent_contr_scores):
         if ent > max_ent:
             max_ent = ent
             max_contr = contr
-        #if abs(ent-contr) > dist_bw_ent_and_contr:
-        #    (max_ent,max_contr) = (ent,contr)
-        #    dist_bw_ent_and_contr = abs(ent-contr)
     return (max_ent,max_contr,sec_max_ent,sec_max_contr)
 
 def words_are_similar(word1,word2):
@@ -320,12 +264,22 @@ def get_conf(bucket_ch1,bucket_ch2):
             choice2_conf += 1.0
     return choice1_conf,choice2_conf
 
-def main(problem,ws_qa_pairs,know_qa_pairs):
-    #print(ws_qa_pairs)
-    #print(know_qa_pairs)
+def get_similarity_score(choice_set, k_ans_set, psl, know_no):
+    for (e_ans, verb) in choice_set:
+        for (e1_ans, e1_verb) in k_ans_set:
+            if e_ans.lower() != e1_ans.lower():
+                key = e_ans+'$$'+e1_ans
+                pair_score = 0.0
+                if key not in similar_pair:
+                    score = predictor.predict(hypothesis = e_ans, premise = e1_ans)
+                    ent_score = score["label_probs"][0]
+                    pair_score = ent_score
+                    similar_pair[key] = pair_score
+                    
+                psl["similarity"].append(e_ans+'$$'+e1_ans+'$$'+'K'+know_no+'$$'+str(similar_pair[key]))
+                
 
-    choice1_count = 0
-    choice2_count = 0
+def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
 
     ws_sent = problem["ws_sent"]
     ws_pronoun = problem["pronoun"]
@@ -345,23 +299,23 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
     ans_is_choice1 = False
     if ws_ans.lower()==ws_choice1.lower():
         ans_is_choice1 = True
-
+    print("WS_PAIR "+str(ws_qa_pairs))
+    print("KNOW_PAIR "+str(know_qa_pairs))
     # Converting WSC and Knowledge question/answers into dictionaries for easy access
     ws_qa_dict = generate_qa_dict(ws_qa_pairs)
     know_qa_dict = generate_qa_dict(know_qa_pairs)
-    #if verbose_output:
-    #    print(ws_qa_dict)
-    #    print(know_qa_dict)
-
+    print("WS_DICT "+str(ws_qa_dict))
+    print("KNOW_DICT "+str(ws_qa_dict))
     # Getting similar (corresponding) questions and answers from WSC sentence and Knowledge sentence
-    dict_of_similar_ques,dict_of_sim_ans = get_similar_ques(ws_qa_pairs,know_qa_pairs)
+    dict_of_similar_ques, dict_of_sim_ans = get_similar_ques(ws_qa_pairs, know_qa_pairs)
+    print("Sim questions "+str(dict_of_similar_ques))
+    print("Sim ans "+str(dict_of_sim_ans))
     if verbose_output:
         print(dict_of_similar_ques)
         print(dict_of_sim_ans)
 
     # Getting WSC question/answers which contain the concerned pronoun in the answers
-    ws_qas_with_pronoun_in_ans = get_ques_with_ans(ws_pronoun,ws_qa_pairs)
-    #print(ws_qas_with_pronoun_in_ans)
+    ws_qas_with_pronoun_in_ans = get_ques_with_ans(ws_pronoun, ws_qa_pairs)
 
     # Finding if an answer exists in the WSC question/answers with just the concerned pronoun as the answer
     one_word_pronoun_ans_exists = False
@@ -372,8 +326,8 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
     # Finding the questions/answers such that the answer(s) correspond to the choice 1 of the given problem
     choice1_set_of_sim_ans = set()
     sim_ans_keys = dict_of_sim_ans.keys()
-    for (ans1,verb1) in sim_ans_keys:
-        if ans1.lower()==ws_choice1.lower():
+    for (ans1, verb1) in sim_ans_keys:
+        if ans1.lower()== ws_choice1.lower():
             choice1_set_of_sim_ans = choice1_set_of_sim_ans | dict_of_sim_ans[(ans1,verb1)]
         else:
             ans1_tokens = ans1.split(" ")
@@ -411,11 +365,11 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
 
         if len(k_ans_list)==0:
             # If q1=F, q2=F, q3=F
-            if len(choice1_set_of_sim_ans)==0 and len(choice2_set_of_sim_ans)==0:
+            if len(choice1_set_of_sim_ans) == 0 and len(choice2_set_of_sim_ans) == 0:
 
                 #replace each occurrence of the concerned pronoun with answer choice 1 and answer choice 2 in WS sentence and
                 sent_tokens = ws_sent.split(" ")
-                sent_tokens = [ws_choice1 if token.lower()==ws_pronoun.lower() else token for token in sent_tokens]
+                sent_tokens = [ws_choice1 if token.lower()== ws_pronoun.lower() else token for token in sent_tokens]
                 new_sent = " ".join(sent_tokens)
 
                 know_sent_tokens = know_sent.split(" ")
@@ -425,16 +379,16 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                 know_sent_tokens = [you_pronouns[0] if token.lower() in you_pronouns else token for token in know_sent_tokens]
 
                 know_sent = " ".join(know_sent_tokens)
-                ent_comparisons_for_choice1.add(("FFF",new_sent,know_sent))
+                ent_comparisons_for_choice1.add(("FFF", new_sent, know_sent))
 
                 sent_tokens = ws_sent.split(" ")
                 sent_tokens = [ws_choice2 if token.lower()==ws_pronoun.lower() else token for token in sent_tokens]
                 new_sent = " ".join(sent_tokens)
 
-                ent_comparisons_for_choice2.add(("FFF",new_sent,know_sent))
+                ent_comparisons_for_choice2.add(("FFF",new_sent, know_sent))
 
             # If q1=T, q2=T, q3=F
-            if len(choice1_set_of_sim_ans)>0 and len(choice2_set_of_sim_ans)>0:
+            if len(choice1_set_of_sim_ans) > 0 and len(choice2_set_of_sim_ans) > 0:
                 sent_tokens = ws_sent.split(" ")
                 sent_tokens = [ws_choice1 if token.lower()==ws_pronoun.lower() else token for token in sent_tokens]
                 new_sent = " ".join(sent_tokens)
@@ -449,6 +403,8 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                     know_sent_tokens = [ws_choice1 if token.lower()==choice1_sim_ans.lower() else token for token in know_sent_tokens]
                     know_sent = " ".join(know_sent_tokens)
                     ent_comparisons_for_choice1.add(("TTF",new_sent,know_sent))
+                    psl["context"].append(prob['choice1']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
+                    psl["context"].append(prob['pronoun']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
 
                 sent_tokens = ws_sent.split(" ")
                 sent_tokens = [ws_choice2 if token.lower()==ws_pronoun.lower() else token for token in sent_tokens]
@@ -464,14 +420,16 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                     know_sent_tokens = [ws_choice2 if token.lower()==choice2_sim_ans.lower() else token for token in know_sent_tokens]
                     know_sent = " ".join(know_sent_tokens)
                     ent_comparisons_for_choice2.add(("TTF",new_sent,know_sent))
-
+                    psl["context"].append(prob['choice2']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
+                    psl["context"].append(prob['pronoun']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
+                psl["case"].append("TTF"+'$$'+'K'+know_no)
             # If q1=F, q2=T, q3=F
-            elif len(choice1_set_of_sim_ans)==0 and len(choice2_set_of_sim_ans)>0:
+            elif len(choice1_set_of_sim_ans) == 0 and len(choice2_set_of_sim_ans) > 0:
                 sent_tokens = ws_sent.split(" ")
                 sent_tokens = [ws_choice2 if token.lower()==ws_pronoun.lower() else token for token in sent_tokens]
                 new_sent = " ".join(sent_tokens)
 
-                know_sent_tokens = know_sent.split(" ")
+                know_sent_tokens = know_sent.split(" ") 
                 know_sent_tokens = [i_pronouns[0] if token.lower() in i_pronouns else token for token in know_sent_tokens]
                 know_sent_tokens = [he_pronouns[0] if token.lower() in he_pronouns else token for token in know_sent_tokens]
                 know_sent_tokens = [she_pronouns[0] if token.lower() in she_pronouns else token for token in know_sent_tokens]
@@ -481,9 +439,11 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                     know_sent_tokens = [ws_choice2 if token.lower()==choice2_sim_ans.lower() else token for token in know_sent_tokens]
                     know_sent = " ".join(know_sent_tokens)
                     ent_comparisons_for_choice2.add(("FTF",new_sent,know_sent))
-
+                    psl["context"].append(prob['choice2']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
+                    psl["context"].append(prob['pronoun']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
+                psl["case"].append("FTF"+'$$'+'K'+know_no)
             # If q1=T, q2=F, q3=F
-            elif len(choice1_set_of_sim_ans)>0 and len(choice2_set_of_sim_ans)==0:
+            elif len(choice1_set_of_sim_ans) > 0 and len(choice2_set_of_sim_ans) == 0:
                 sent_tokens = ws_sent.split(" ")
                 sent_tokens = [ws_choice1 if token.lower()==ws_pronoun.lower() else token for token in sent_tokens]
                 new_sent = " ".join(sent_tokens)
@@ -498,7 +458,9 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                     know_sent_tokens = [ws_choice1 if token.lower()==choice1_sim_ans.lower() else token for token in know_sent_tokens]
                     know_sent = " ".join(know_sent_tokens)
                     ent_comparisons_for_choice1.add(("TFF",new_sent,know_sent))
-
+                    psl["context"].append(prob['choice1']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
+                    psl["context"].append(prob['pronoun']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
+                psl["case"].append("TFF"+'$$'+'K'+know_no)
         else:
             # If q1=F, q2=F, q3=T
             if len(choice1_set_of_sim_ans)==0 and len(choice2_set_of_sim_ans)==0:
@@ -519,9 +481,9 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                 sent_tokens = [ws_choice2 if token.lower()==ws_pronoun.lower() else token for token in sent_tokens]
                 new_sent = " ".join(sent_tokens)
                 ent_comparisons_for_choice2.add(("FFT",new_sent,know_sent))
-
+                psl["case"].append("FFT"+'$$'+'K'+know_no)
             # If q1=F, q2=T, q3=T
-            if len(choice1_set_of_sim_ans)==0 and len(choice2_set_of_sim_ans)>0:
+            if len(choice1_set_of_sim_ans) == 0 and len(choice2_set_of_sim_ans)>0:
                 sent_tokens = ws_sent.split(" ")
                 sent_tokens = [ws_choice2 if token.lower()==ws_pronoun.lower() else token for token in sent_tokens]
                 new_sent = " ".join(sent_tokens)
@@ -536,11 +498,15 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                     know_sent_tokens = [ws_choice2 if token.lower()==choice2_sim_ans.lower() else token for token in know_sent_tokens]
                     know_sent = " ".join(know_sent_tokens)
                     ent_comparisons_for_choice2.add(("FTT",new_sent,know_sent))
-
+                    psl["context"].append(prob['choice2']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
+                    psl["context"].append(prob['pronoun']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
+                     
+                get_similarity_score(choice2_set_of_sim_ans, k_ans_list, psl, know_no)
+                psl["case"].append("FTT"+'$$'+'K'+know_no)
             # If q1=T, q2=F, q3=T
-            elif len(choice1_set_of_sim_ans)>0 and len(choice2_set_of_sim_ans)==0:
+            elif len(choice1_set_of_sim_ans) > 0 and len(choice2_set_of_sim_ans)== 0:
                 sent_tokens = ws_sent.split(" ")
-                sent_tokens = [ws_choice1 if token.lower()==ws_pronoun.lower() else token for token in sent_tokens]
+                sent_tokens = [ws_choice1 if token.lower() == ws_pronoun.lower() else token for token in sent_tokens]
                 new_sent = " ".join(sent_tokens)
 
                 know_sent_tokens = know_sent.split(" ")
@@ -549,17 +515,24 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                 know_sent_tokens = [she_pronouns[0] if token.lower() in she_pronouns else token for token in know_sent_tokens]
                 know_sent_tokens = [you_pronouns[0] if token.lower() in you_pronouns else token for token in know_sent_tokens]
 
-                for (choice1_sim_ans,choice1_sim_verb) in choice1_set_of_sim_ans:
+                for (choice1_sim_ans, choice1_sim_verb) in choice1_set_of_sim_ans:
                     know_sent_tokens = [ws_choice1 if token.lower()==choice1_sim_ans.lower() else token for token in know_sent_tokens]
                     know_sent = " ".join(know_sent_tokens)
                     ent_comparisons_for_choice1.add(("TFT",new_sent,know_sent))
-
-            # If q1=T, q2=T, q3=T
-            elif len(choice1_set_of_sim_ans)>0 and len(choice2_set_of_sim_ans)>0:
+                    psl["context"].append(prob['choice1']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
+                    psl["context"].append(prob['pronoun']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
+                
+                get_similarity_score(choice1_set_of_sim_ans, k_ans_list, psl, know_no)
+                
+                psl["case"].append("TFT"+'$$'+'K'+know_no)
+            # If q1=T, q2=T, q3=Ts
+            elif len(choice1_set_of_sim_ans) > 0 and len(choice2_set_of_sim_ans) > 0:
                 ans_tokens = ans.split(" ")
+                psl["case"].append("TTT"+'$$'+'K'+know_no)
                 anss_wrt_choice1 = []
                 for (know_choice,verb2) in choice1_set_of_sim_ans:
                     new_ans = ""
+                    psl["context"].append(prob['choice1']+'$$'+know_choice+'$$'+'K'+know_no)
                     for ans_token in ans_tokens:
                         if ans_token==ws_pronoun:
                             new_ans += " " + know_choice
@@ -569,6 +542,7 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
 
                 anss_wrt_choice2 = []
                 for (know_choice,verb2) in choice2_set_of_sim_ans:
+                    psl["context"].append(prob['choice2']+'$$'+know_choice+'$$'+'K'+know_no)
                     if know_choice == "":
                         continue
                     new_ans = ""
@@ -578,8 +552,12 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                         else:
                             new_ans += " " + ans_token
                     anss_wrt_choice2.append(new_ans.strip())
-
+                
+                get_similarity_score(choice1_set_of_sim_ans, k_ans_list, psl, know_no)
+                get_similarity_score(choice2_set_of_sim_ans, k_ans_list, psl, know_no)
+                 
                 for (k_ans,k_verb) in k_ans_list:
+                    psl["context"].append(prob['pronoun']+'$$'+k_ans+'$$'+'K'+know_no)
                     if k_ans=="":
                         continue
                     for ans_wrt_choice1 in anss_wrt_choice1:
@@ -603,6 +581,10 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                 score = predictor.predict(hypothesis=h,premise=p)
                 ent_score = score["label_probs"][0]
                 cntr_score = score["label_probs"][1]
+                if len(psl["context"]) == 0:
+                    psl["entailment"].append(prob['choice1']+'$$'+prob['pronoun']+'$$'+'K'+know_no+'$$'+str(ent_score))
+                else:
+                    psl["similarity"].append(prob['choice1']+'$$'+prob['pronoun']+'$$'+'K'+know_no+'$$'+str(ent_score))
             else:
                 ent_score = 0.0
                 cntr_score = 0.0
@@ -638,6 +620,10 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                 score = predictor.predict(hypothesis=h,premise=p)
                 ent_score = score["label_probs"][0]
                 cntr_score = score["label_probs"][1]
+                if len(psl["context"]) == 0:
+                    psl["entailment"].append(prob['choice2']+'$$'+prob['pronoun']+'$$'+'K'+know_no+'$$'+str(ent_score))
+                else:
+                    psl["similarity"].append(prob['choice1']+'$$'+prob['pronoun']+'$$'+'K'+know_no+'$$'+str(ent_score))
             else:
                 ent_score = 0.0
                 cntr_score = 0.0
@@ -657,18 +643,6 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
 
         choice2_ent_contr_scores.append((ent_score,cntr_score))
 
-    #print("SCORES----: ",choice1_ent_contr_scores)
-    #print("SCORES----: ",choice2_ent_contr_scores)
-    #(choice1_max_ent,choice1_max_contr,choice1_sec_max_ent,choice1_sec_max_contr) = get_max(choice1_ent_contr_scores)
-    #if verbose_output:
-    #    print("CHOICE1 MAX SCORE: ",(choice1_max_ent,choice1_max_contr))
-    #    print("CHOICE1 SECOND MAX SCORE: ",(choice1_sec_max_ent,choice1_sec_max_contr))
-
-    #(choice2_max_ent,choice2_max_contr,choice2_sec_max_ent,choice2_sec_max_contr) = get_max(choice2_ent_contr_scores)
-    #if verbose_output:
-    #    print("CHOICE2 MAX SCORE: (",choice2_max_ent,",",choice2_max_contr,")")
-    #    print("CHOICE2 SECOND MAX SCORE: ",(choice2_sec_max_ent,choice2_sec_max_contr))
-
     print("FOR TTT BUCKET: ")
     choice1_conf,choice2_conf = get_conf(ttt_bucket_ch1,ttt_bucket_ch2)
     #print("HIII: ",(ttt_bucket_ch1,ttt_bucket_ch2))
@@ -684,49 +658,6 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
     if choice1_conf==choice2_conf:
         print("FOR FFF BUCKET: ")
         choice1_conf,choice2_conf = get_conf(fff_bucket_ch1,fff_bucket_ch2)
-
-    '''
-    if choice1_max_ent==1.0 and choice2_max_ent==1.0:
-        if choice1_sec_max_ent > choice2_sec_max_ent:
-            choice1_count += 1
-        else:
-            choice2_count += 1
-    else:
-        choice1_max_contr = 0.0#max(choice1_contr_scores)
-        choice2_max_contr = 0.0#max(choice2_contr_scores)
-        if (choice1_max_ent-choice1_max_contr) > (choice2_max_ent-choice2_max_contr):
-            choice1_count += 1
-
-        if (choice1_max_ent-choice1_max_contr) < (choice2_max_ent-choice2_max_contr):
-            choice2_count += 1
-
-        if len(choice1_ent_contr_scores)==0:
-            for (ques,ans,verb) in ws_qas_with_pronoun_in_ans:
-                if (ans,verb) in dict_of_sim_ans.keys():
-                    know_ans = dict_of_sim_ans[(ans,verb)]
-                else:
-                    know_ans = []
-                for (k_a,k_v) in know_ans:
-                    for (a,v) in dict_of_sim_ans.keys():
-                        aas = dict_of_sim_ans[(a,v)]
-                        for (a1,v1) in aas:
-                            if a1==k_a and ans!=a:
-                                if a.lower()==ws_choice1.lower():
-                                    choice1_count += 1
-                                elif a.lower()==ws_choice2.lower():
-                                    choice2_count += 1
-    result = "unknown"
-    if ans_is_choice1:
-        if choice1_count > choice2_count:
-            result = "correct"
-        elif choice2_count > choice1_count:
-            result = "incorrect"
-    else:
-        if choice2_count > choice1_count:
-            result = "correct"
-        elif choice1_count > choice2_count:
-            result = "incorrect"
-    '''
 
     result = "unknown"
     if ans_is_choice1:
@@ -784,87 +715,194 @@ def process_qasrl_output(qasrl_output, pronoun):
 
     return qa_pairs_array
 
+def choose_max_entailment(psl):
+    ent = {}
+    for each in psl["entailment"]:
+        tokens = each.split("$$")
+        cur = tokens[0]+"$$"+tokens[1]+'$$'+tokens[2]
+        if cur not in ent:
+            max = 0.0
+        else:
+            max = ent[cur]
+        if max < float(tokens[3]):
+            max = float(tokens[3])
+        ent[cur] = max
+    psl["entailment"] = []
+    
+    for (key, value) in ent.items():
+        psl["entailment"].append(key+"$$"+str(value))
+        
+
+def choose_max_similarity(psl):
+    ent = {}
+    for each in psl["similarity"]:
+        tokens = each.split("$$")
+        cur = tokens[0]+"$$"+tokens[1]+'$$'+tokens[2]
+        if cur not in ent:
+            max = 0.0
+        else:
+            max = ent[cur]
+        if max < float(tokens[3]):
+            max = float(tokens[3])
+        ent[cur] = max
+    psl["similarity"] = []
+    
+    for (key, value) in ent.items():
+        psl["similarity"].append(key+"$$"+str(value))
+
+def process(psl):
+    #if "case" in psl and len(psl["case"]) == 1 and psl["case"][0] == "TTF":
+    #    context = []
+    #    for each in psl["case"]:
+    #        if each != "TTF":
+    #            return     
+    if len(psl["entailment"]) < 2:
+        return
+    context = []
+    
+    for each in psl["context"]:
+        
+        choice1 = psl["entailment"][0].split("$$")
+        choice2 = psl["entailment"][1].split("$$")
+        if float(choice1[-1]) < float(choice2[-1]):
+            if prob['choice1']+'$$' not in each:
+                context.append(each)
+        else:
+            if prob['choice2']+'$$' not in each:
+                context.append(each)
+    psl["context"] = context
+
 if __name__=="__main__":
     populate_ques_type_list()
-
-    #all_probs_file = "inputs/test_problems_file.json"
-    all_probs_file = "inputs/wsc_problems_final.json"
-    #all_probs_file = "inputs/group24/wsc_problems_final.json"
+    
+    #load all the wsc problems
+    all_probs_file = "inputs/test_problems_file.json"
+    #all_probs_file = "final_problems.json"
+    
     f = open(all_probs_file,"r")
     all_probs = f.read()
-    probs = ast.literal_eval(all_probs)#json.loads(all_probs)
+    probs = json.loads(all_probs)
 
-    qasrl_output_dict = {}
+    #load QASRL output for all WSC problems
+    qasrl_wsc_output_dict = {}
     qasrl_ws_sent_file = "inputs/ws_sents_and_qasrl_out.txt"
-    #qasrl_ws_sent_file = "inputs/group24/ws_sents_and_qasrl_out.txt"
+    bert_wsc_json = "inputs/ws_sents_and_qasrl_out.txt"
+    
     f = open(qasrl_ws_sent_file,"r")
     for line in f:
-        sent_and_qasrl = line.rstrip().strip().split("$$$$")
+        sent_and_qasrl = line.rstrip().strip().split("$$$$") 
         json_obj = json.loads(sent_and_qasrl[1].strip())
         sentence = sent_and_qasrl[0].strip()
-        qasrl_output_dict[sentence] = json_obj
+        qasrl_wsc_output_dict[sentence] = json_obj
 
-    qasrl_know_sent_file = "inputs/know_sents_and_qasrl_out.txt"
-    #qasrl_know_sent_file = "inputs/group24/know_sents_and_qasrl_out.txt"
+    
+    qasrl_know_sent_file = "inputs/auto/combined_qasrl_final.json"
     f = open(qasrl_know_sent_file,"r")
-    for line in f:
-        line = line.strip()
-        line = line.rstrip()
-        sent_and_qasrl = line.split("$$$$")
-        json_obj = json.loads(sent_and_qasrl[1].strip())
-        sentence = sent_and_qasrl[0].strip()
-        qasrl_output_dict[sentence] = json_obj
-
+    qasrl_know_output_dict = json.loads(f.read())
+   
+    wsc_know_sent_file = "inputs/auto/sorted_filtered_ksents_10.json"
+    f = open(wsc_know_sent_file,"r")
+    temp_list = json.loads(f.read());
+    wsc_know_sent_dict = {}
+    
+    for each in temp_list:
+        wsc_know_sent_dict[each["ws_sent"]] = each
+    
+    
     know_not_parsed = 0
     wssent_not_parsed = 0
     correct = 0
     incorrect = 0
     unknown = 0
     know_unk_list = []
+    psl_output = []
+    
     for i in range(0,len(probs)):
         prob = probs[i]
+        psl = {}
         ws_sent = prob["ws_sent"]
         ws_sent = ws_sent.strip()
-        if ws_sent in qasrl_output_dict.keys():
-            ws_sent_qasrl_pairs = qasrl_output_dict[ws_sent]
-            if "know_sent" in prob:
-                know_s = prob["know_sent"]
-                know_s = know_s.rstrip()
-                know_s = know_s.strip()
-                if know_s in qasrl_output_dict.keys():
-
-                    know_sent_qasrl_pairs = qasrl_output_dict[know_s]
-                    pronoun = prob["pronoun"]
-
-                    ws_sent_qa_pairs = process_qasrl_output(ws_sent_qasrl_pairs,pronoun)
-                    know_sent_qa_pairs = process_qasrl_output(know_sent_qasrl_pairs,None)
-                    if verbose_output:
-                        print("************************************************************")
-                    result = main(prob,ws_sent_qa_pairs,know_sent_qa_pairs)
-                    if result=="correct":
-                        correct += 1
-                    elif result=="incorrect":
-                        incorrect += 1
-                    else:
-                        unknown += 1
-                    if verbose_output:
-                        print("************************************************************")
-
-                else:
-                    #if know_s=="NA":
-                    #    print("NA: ",ws_sent)
-                    #else:
-                    #    print("NOT NA: ",ws_sent)
-                    if know_s!="NA":
-                        print("KNOW SENT NOT FOUND: ",know_s)
-                    know_not_parsed += 1
-                    know_unk_list.append(prob)
-            else:
-                print("NO KNOW_SENT IN PROB")
+        psl["ws_sent"]= ws_sent;
+        psl["ans"]= prob['ans'];
+        psl["pronoun"] = prob["pronoun"]
+        psl["domain"] = [prob["choice1"], prob["choice2"], prob["pronoun"]]
+        psl["coref_target"] = [prob["choice1"]+'$$'+prob["pronoun"], prob["choice2"]+'$$'+prob["pronoun"],
+                                prob["pronoun"]+'$$'+prob["choice1"], prob["pronoun"]+'$$'+prob["choice2"]]
+    
+        value1 = 0
+        value2 = 0
+        if prob["ans"].lower() == prob["choice1"].lower():
+            value1 = 1
+        else:
+            value2 = 1
+        psl["coref_target_truth"] = [prob["choice1"]+'$$'+prob["pronoun"]+'$$'+str(value1), 
+                                    prob["choice2"]+'$$'+prob["pronoun"]+'$$'+str(value2),
+                                    prob["pronoun"]+'$$'+prob["choice1"]+'$$'+str(value1), 
+                                    prob["pronoun"]+'$$'+prob["choice2"]+'$$'+str(value2)] 
+        #scr_choice1 = prob["scr_score"]["choice1"] / (prob["scr_score"]["choice1"] + prob["scr_score"]["choice2"])
+        #scr_choice2 = prob["scr_score"]["choice2"] / (prob["scr_score"]["choice1"] + prob["scr_score"]["choice2"])
+        psl["scr_score"] = [prob["choice1"]+'$$'+prob['pronoun']+'$$'+str(prob["scr_score"]["choice1"]), 
+                            prob["choice2"]+'$$'+prob['pronoun']+'$$'+str(prob["scr_score"]["choice2"])] 
+        if ws_sent in qasrl_wsc_output_dict:
+            ws_sent_qasrl_pairs = qasrl_wsc_output_dict[ws_sent]
+            if ws_sent in wsc_know_sent_dict:
+                knowledge_sent = wsc_know_sent_dict[ws_sent]["k_sents"]
+                know_no = 1
+                psl["context"] = []
+                psl["case"] = []
+                psl["entailment"] = []
+                psl["similarity"] = []
+                for know in knowledge_sent:
+                    know_s = know['k_sent'].rstrip()
+                    know_s = know_s.strip()
+                    
+                    if know_s in qasrl_know_output_dict:
+    
+                        know_sent_qasrl_pairs = qasrl_know_output_dict[know_s]
+                        pronoun = prob["pronoun"]
+                        
+                        
+                        ws_sent_qa_pairs = process_qasrl_output(ws_sent_qasrl_pairs,pronoun)
+                        know_sent_qa_pairs = process_qasrl_output(know_sent_qasrl_pairs, None)
+                       
+                        if verbose_output:
+                            print("************************************************************")
+                        
+                        result = main(prob, ws_sent_qa_pairs, know_sent_qa_pairs, psl, str(know_no))
+                        psl["context"] = list(set(psl["context"]))
+                        choose_max_entailment(psl)
+                        choose_max_similarity(psl)
+                        #process(psl)
+                        if result=="correct":
+                            correct += 1
+                        elif result=="incorrect":
+                            incorrect += 1
+                        else:
+                            unknown += 1
+                        if verbose_output:
+                            print("************************************************************")
+    
+                    else: 
+                        #if know_s=="NA":
+                        #    print("NA: ",ws_sent)
+                        #else:
+                        #    print("NOT NA: ",ws_sent)
+                        if know_s!="NA":
+                            print("KNOW SENT NOT FOUND: ",know_s)
+                        know_not_parsed += 1
+                        know_unk_list.append(prob)
+                        
+                    know_no = know_no + 1
         else:
             print("WS SENT NOT FOUND: ",ws_sent)
             wssent_not_parsed+=1
-
+        psl_output.append(psl)
+    with open('new_psl_context.json', 'w') as outfile:
+        json.dump(psl_output, outfile)
+    
+    with open('similar_pair.json', 'w') as outfile:
+        json.dump(similar_pair, outfile)
+        
     print("CORRECT: ",correct)
     print("INCORRECT: ",incorrect)
     print("UNKNOWN: ",unknown)
